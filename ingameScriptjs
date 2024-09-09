@@ -16,7 +16,13 @@ maxSat = 15; //           Max amount of Saturation
 
 headArmorOn = false;
 
-
+var armorTypes = [
+  ["bare", "0"],
+  ["Leater", "1"],
+  ["Steal", "3"],
+  ["Gold", "4"],
+  ["Magic", "5"]
+];
 
 //Bun Berries
 var totalBunBerries = 0; //      Total Number of Bun Berries
