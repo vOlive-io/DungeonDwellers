@@ -15,8 +15,17 @@ maxWater = 15; //         Max amount of Water
 maxSat = 15; //           Max amount of Saturation
 
 headArmorOn = false;
+chestArmorOn = false;
+legrmorOn = false;
+feetArmorOn = false;
 
-var armorTypes = [
+neckAccessoryOn = false;
+handAccessoryOn = false;
+backOrBeltAccessoryOn = false;
+AccessoryOn = false;
+
+
+var chestArmorTypes = [
   ["bare", "0"],
   ["Leater", "1"],
   ["Steal", "3"],
