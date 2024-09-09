@@ -3,13 +3,16 @@
 ////////////////////////////
 ////   VARS AND RULES    ///
 ////////////////////////////
+//stats
+totalHeath = 10; //
+maxHeath = 10; //  
 
 //Bun Berries
 var totalBunBerries = 0; //      Total Number of Bun Berries
-var strenthBunBerries = 0; //  
-var saturationBunBerries = 0; //
-var waterBunBerries = 0; // 
-var jesterBunBerries = 0; // + 10 Luck
+var strenthBunBerries = 0; //        +10 Strenth
+var saturationBunBerries = 0; //     +10 Saturation
+var waterBunBerries = 0; //          +10 water
+var jesterBunBerries = 0; //         +10 Luck
 var lv1HeathHealBunBerries = 0; //   restores 5% of Heath
 var lv2HeathHealBunBerries = 0; //   restores 10% of Heath
 var lv3HeatHealhBunBerries = 0; //   restores 25% of Heath
