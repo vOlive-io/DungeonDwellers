@@ -3,9 +3,17 @@
 ////////////////////////////
 ////   VARS AND RULES    ///
 ////////////////////////////
-//stats
-totalHeath = 10; //
-maxHeath = 10; //  
+//stats 
+currentHeath = 10; //     Current amount of Heath
+currentStrenth = 10; //   Current amount of Strenth
+currentWater = 10; //     Current amount of Water
+currentSat = 10; //       Current amount of Saturation
+
+maxHeath = 10; //         Max amount of Heath
+maxStrenth = 15; //       Max amount of Strenth
+maxWater = 15; //         Max amount of Water
+maxSat = 15; //           Max amount of Saturation
+
 
 //Bun Berries
 var totalBunBerries = 0; //      Total Number of Bun Berries
