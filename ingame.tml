@@ -1,0 +1,22 @@
+<head>
+    <title> In Game » DungeonDwellers </title>
+</head>
+<body>
+    <h1 id="headerText"> ------ </h1>
+    <p id="storyBody"></p>
+    <button id="invetoryToggle" onclick="toggleInv()"><button>
+    <div id="inventory">
+        <div id="stats">
+            <ul>
+                <li> ---- </li>
+                <li> ---- </li>
+            </ul>
+        </div>
+        <div id="slots">
+            <ul>
+                <li> ---- </li>
+                <li> ---- </li>
+            </ul>
+        </div>
+    </div>
+</body>
