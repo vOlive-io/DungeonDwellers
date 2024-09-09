@@ -2,7 +2,7 @@
     <title> In Game » DungeonDwellers </title>
     <link rel="shortcut icon" href="assets/headIcon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
+    <script src="ingameScript.js"></script>
 </head>
 <body>
     <h1 id="headerText"> ------ </h1>
