@@ -28,18 +28,47 @@ AccessoryOn = false;
 var chestArmorTypes = [
 //Common
   ["Id (0)", "Name (1)", "Protection (2)", "Rarity (3)", "Description (4)"]
-  ["1", "bare", "0", "common", "Just you plain skin or breastplate, it's up to your imagination. Common, +0 Protection."],
-  ["2", "Leather", "1", "common", "Some leather from cows, horses and bunnies its patchy old and smells funky but its better than nothing. Common +0 Protection"],
+  ["1", "T-shirt", "0", "common", "A cute t-shirt made from cotton. Common, +0 Protection."],
+  ["2", "Fig Leaf Breastplate", "1", common, " ----- "]
+  ["3", "WoodPlate", "1", "common", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
+  ["4", "Leather", "2", "common", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
+  ["5", "Painted on Armor", "2", ""],
 //Uncommon
+  ["6", "Copper", "4", ""],
+  ["7", "Mud", "3", ""],
+  ["8", "Stone", "4", ""],
+  ["9", "Nickle", "5", ""],
+  ["10", "Tin", "4", ""],
+  ["11", "Cincken Costum", "6", ""],
+  ["12", "Unicorn Blowup Suit", "4", ""],
+  ["13", "CoconutShell", "4", ""],
+  ["14", "Glass", "4", ""],
+  ["15", "CoconutShell", "4", ""],
+  ["16", "Rubber", "4", ""],
+  ["17", "Chain Mail", "4", ""],
 //Rare
-  ["3", "Steal", "3"],
-  ["4", "Gold", "4"],
+  ["18", "Steal", "3"],
+  ["19", "Bronze", "4", ""],
+  ["20", "Gold", "4"],
+  ["21", "Silver", "4", ""],
+  ["22", "Iron", "4", ""],
+  ["23", "Fetherer", "4", ""],
+  ["24", "Blessed Mud", "4", ""],
+  ["25", "Jungle Vines", "4", ""],
 //Epic
-  ["5", "Magic", "5"]
-//Legendary
+  ["26", "Midevil Armor", "5"]
+  ["27", "", "4", ""],
+  ["28", "Snake Skin", "4", ""],
+  ["29", "Cooled magma", "4", ""],
+  ["30", "Holy Bamboo", "4", ""],
+  ["31", "Diamond", "4", ""],
 //Mythic
+  ["32", "Silk encrusted Gold", "4", ""],
+  ["33", "Dragon Skin", "4", ""],
+  ["34", "CoconutShell", "4", ""],
+  ["35", "CoconutShell", "4", ""],
 
-//Exclusive
+//Relic
 
 ];
 
