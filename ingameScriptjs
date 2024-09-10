@@ -74,7 +74,7 @@ var chestArmorTypes = [
 //Dungeon Loot
   ["5", "Red Explorers", "2", ""], // from red Basilisc (d1)
   ["5", "Blue Explorers", "2", ""], // from roaming shark
-  ["5", "Green Explorers", "2", ""], // from speedy blur
+  ["5", "Black Explorers", "2", ""], // from speedy blur
   ["5", "Green Explorers", "2", ""],  // from overly angry troll
   ["5", "Yellow Explorers", "2", ""],  // from the skydiver
 ];
