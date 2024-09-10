@@ -33,6 +33,7 @@ var chestArmorTypes = [
   ["3", "WoodPlate", "1", "common", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
   ["4", "Leather", "2", "common", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
   ["5", "Painted on Armor", "2", ""],
+  ["5", "Basic Explorers", "2", ""],
 //Uncommon
   ["6", "Copper", "4", ""],
   ["7", "Mud", "3", ""],
@@ -65,11 +66,17 @@ var chestArmorTypes = [
 //Mythic
   ["32", "Silk encrusted Gold", "4", ""],
   ["33", "Dragon Skin", "4", ""],
-  ["34", "CoconutShell", "4", ""],
+  ["34", "Mythrill", "4", ""],
   ["35", "CoconutShell", "4", ""],
 
 //Relic
 
+//Dungeon Loot
+  ["5", "Red Explorers", "2", ""], // from red Basilisc (d1)
+  ["5", "Blue Explorers", "2", ""], // from roaming shark
+  ["5", "Green Explorers", "2", ""], // from speedy blur
+  ["5", "Green Explorers", "2", ""],  // from overly angry troll
+  ["5", "Yellow Explorers", "2", ""],  // from the skydiver
 ];
 
 //Bun Berries
