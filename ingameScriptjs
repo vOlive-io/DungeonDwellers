@@ -26,16 +26,26 @@ AccessoryOn = false;
 
 
 var chestArmorTypes = [
-  ["bare", "0"],
-  ["Leater", "1"],
-  ["Steal", "3"],
-  ["Gold", "4"],
-  ["Magic", "5"]
+//Common
+  ["Id", "Name", "Protection", "Rarity"]
+  ["1", "bare", "0", "common"],
+  ["2", "Leather", "1", "common"],
+//Uncommon
+//Rare
+  ["3", "Steal", "3"],
+  ["4", "Gold", "4"],
+//Epic
+  ["5", "Magic", "5"]
+//Legendary
+//Mythic
+
+//Exclusive
+
 ];
 
 //Bun Berries
 var totalBunBerries = 0; //      Total Number of Bun Berries
-var strenthBunBerries = 0; //        +10 Strenth
+var strenthBunBerries = 0; //        +10 Strength
 var maxStrenthBunBerries = 0; //     +10 Max Strenth
 var saturationBunBerries = 0; //     +10 Saturation
 var maxSaturationBunBerries = 0; //  +10 Max Saturation
