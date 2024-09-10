@@ -27,9 +27,9 @@ AccessoryOn = false;
 
 var chestArmorTypes = [
 //Common
-  ["Id", "Name", "Protection", "Rarity", "Description"]
-  ["1", "bare", "0", "common", "Just you plain skin or breastplate, it's up to you imagination, common, +0 protection."],
-  ["2", "Leather", "1", "common", "Some leather from cows, horses and bunnys its patchy old and smells funcky but its better than nothing"],
+  ["Id (0)", "Name (1)", "Protection (2)", "Rarity (3)", "Description (4)"]
+  ["1", "bare", "0", "common", "Just you plain skin or breastplate, it's up to your imagination. Common, +0 Protection."],
+  ["2", "Leather", "1", "common", "Some leather from cows, horses and bunnies its patchy old and smells funky but its better than nothing. Common +0 Protection"],
 //Uncommon
 //Rare
   ["3", "Steal", "3"],
