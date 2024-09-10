@@ -77,6 +77,8 @@ var chestArmorTypes = [
   ["5", "Black Explorers", "2", ""], // from speedy blur
   ["5", "Green Explorers", "2", ""],  // from overly angry troll
   ["5", "Yellow Explorers", "2", ""],  // from the skydiver
+  ["5", "Clan Style", "2", ""],  // from warrior squad
+  ["5", " ----- ----- ", "2", ""],  // ----- driver
 ];
 
 //Bun Berries
