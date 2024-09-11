@@ -24,6 +24,9 @@ handAccessoryOn = false;
 backOrBeltAccessoryOn = false;
 AccessoryOn = false;
 
+////////////////////////////
+////        ARMORS       ///
+////////////////////////////
 
 var CommonHeadArmorTypes = [
   ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection."],
