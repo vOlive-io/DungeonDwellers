@@ -2,20 +2,16 @@
 ///    VARS AND RULES    ///
 ////////////////////////////
 //stats 
-currentHeath = 10; //     Current amount of Heath
-currentStrenth = 10; //   Current amount of Strenth
-currentWater = 10; //     Current amount of Water
-currentSat = 10; //       Current amount of Saturation
-currentLuck = 0; //       Current amount of Luck
+currentHeath = 10; //       Current amount of Heath
+currentStrenth = 10; //     Current amount of Strenth
+currentWater = 10; //       Current amount of Water
+currentSat = 10; //         Current amount of Saturation
+currentLuck = 0; //         Current amount of Luck
+currentProtection = 0; //   Current amount of Protection
 
-maxHeath = 10; //         Max amount of Heath
-maxWater = 15; //         Max amount of Water
-maxSat = 15; //           Max amount of Saturation
-
-headArmorOn = false;
-chestArmorOn = false;
-legrmorOn = false;
-feetArmorOn = false;
+maxHeath = 10; //           Max amount of Heath
+maxWater = 15; //           Max amount of Water
+maxSat = 15; //             Max amount of Saturation
 
 ////////////////////////////
 ///        ARMORS        ///
@@ -25,20 +21,31 @@ feetArmorOn = false;
 var CommonHeadArmorTypes = [
   ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection."],
   ["2", "Fig Leaf Wreath", "1", "A fig wreath place atop your head. Common, +1 Protection "]
-  ["3", "WoodHelmet", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
-  ["4", "LeatherBandana", "2", "Some leather from cows, horses, and bunnies, it has some dried snot on it but hey, it works. Common +2 Protection"],
+  ["3", "Wood-helmet", "1", "A poorly crafted helmet of wood that will protect you from minimal damage. Common, +1 Protection."],
+  ["4", "Leather Bandana", "2", "Some leather from cows, horses, and bunnies, it has some dried snot on it but hey, it works. Common +2 Protection"],
   ["5", "Painted on Helmet", "2", "It's not real, but they don't have to know that. Common +2 Protection"],
   ["5", "Explorers Helmet", "2", "A helmet made to prove that you are an explorer. Common +2 Protection"]
 ];
 
 var CommonChestArmorTypes = [
   ["1", "T-shirt", "0", "A cute t-shirt made from cotton. Common, +0 Protection."],
-  ["2", "Fig Leaf Breastplate", "1", " ----- "]
-  ["3", "WoodPlate", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
-  ["4", "Leather", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
-  ["5", "Painted on Armor", "2", ""],
-
+  ["2", "Fig Leaf Breastplate", "1", "A brestplate made of fig leafs, to protect your from harm. Common, +1 Protection "]
+  ["3", "Woodplate", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
+  ["4", "Leather Chestplate", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
+  ["5", "Painted on Armor", "2", "It's not real, but they don't have to know that. Common +2 Protection"],
+  ["5", "Basic Explorers Chestplate", "2", "A chest plate made to prove that you are an explorer. Common +2 Protection"]
 ];
+
+var CommonLegArmorTypes = [
+  ["1", "T-Jeans", "0", "Jeans from your house, their not comfy but its better than being naked. Common, +0 Protection."],
+  ["2", "The Fig Leaf", "1", "A fig leaf picked from the high selection of fig leaves. Common, +1 Protection "]
+  ["3", "Wooden Leg Padding", "1", "A curved sheet of wood that you can put on your legs to help keep yourself safe. Common, +1 Protection."],
+  ["4", "Leather Leggings", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
+  ["5", "Painted on Leggings", "2", "It's not real, but they don't have to know that. Common +2 Protection"],
+  ["5", "Basic Explorers Leggings", "2", "A pair of leggings made to prove that you are an explorer. Common +2 Protection"]
+];
+
+
 
 
 
@@ -106,7 +113,6 @@ var RelicChestArmorTypes = [
 
 /////////DUNGEON/////////
 var DungeonChestArmorTypes = [
-  ["5", "Basic Explorers Chestplate", "2", "A chest plate made to prove that you are an explorer. Common +2 Protection"]
   ["36", "Red Explorers", "2", ""], // from red Basilisc (d1)
   ["37", "Blue Explorers", "2", ""], // from roaming shark
   ["38", "Black Explorers", "2", ""], // from speedy blur
