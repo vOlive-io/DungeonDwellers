@@ -17,11 +17,6 @@ chestArmorOn = false;
 legrmorOn = false;
 feetArmorOn = false;
 
-neckAccessoryOn = false;
-handAccessoryOn = false;
-backOrBeltAccessoryOn = false;
-AccessoryOn = false;
-
 ////////////////////////////
 ///        ARMORS        ///
 ////////////////////////////
@@ -29,10 +24,10 @@ AccessoryOn = false;
 /////////COMMON/////////
 var CommonHeadArmorTypes = [
   ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection."],
-  ["2", "Fig Leaf Wreath", "1", "AA fig wreath place atop your head. Common, +1 Protection "]
+  ["2", "Fig Leaf Wreath", "1", "A fig wreath place atop your head. Common, +1 Protection "]
   ["3", "WoodHelmet", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
   ["4", "LeatherBandana", "2", "Some leather from cows, horses, and bunnies, it has some dried snot on it but hey, it works. Common +2 Protection"],
-  ["5", "Painted on Helmet", "2", "Its not real, but they don't have to know that. Common +2 Protection"],
+  ["5", "Painted on Helmet", "2", "It's not real, but they don't have to know that. Common +2 Protection"],
   ["5", "Explorers Helmet", "2", "A helmet made to prove that you are an explorer. Common +2 Protection"]
 ];
 
@@ -42,13 +37,14 @@ var CommonChestArmorTypes = [
   ["3", "WoodPlate", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
   ["4", "Leather", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
   ["5", "Painted on Armor", "2", ""],
-  ["5", "Basic Explorers Chestplate", "2", ""]
+
 ];
 
 
 
 /////////UNCOMMON/////////
 var UncommonChestArmorTypes = [
+  ["6", "Safari Vest", "4", ""],
   ["6", "Copper", "4", ""],
   ["7", "Mud", "3", ""],
   ["8", "Stone", "4", ""],
@@ -110,6 +106,7 @@ var RelicChestArmorTypes = [
 
 /////////DUNGEON/////////
 var DungeonChestArmorTypes = [
+  ["5", "Basic Explorers Chestplate", "2", "A chest plate made to prove that you are an explorer. Common +2 Protection"]
   ["36", "Red Explorers", "2", ""], // from red Basilisc (d1)
   ["37", "Blue Explorers", "2", ""], // from roaming shark
   ["38", "Black Explorers", "2", ""], // from speedy blur
