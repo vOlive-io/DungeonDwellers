@@ -22,29 +22,37 @@ var CommonHeadArmorTypes = [
   ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection."],
   ["2", "Fig Leaf Wreath", "1", "A fig wreath place atop your head. Common, +1 Protection "]
   ["3", "Wood-helmet", "1", "A poorly crafted helmet of wood that will protect you from minimal damage. Common, +1 Protection."],
-  ["4", "Leather Bandana", "2", "Some leather from cows, horses, and bunnies, it has some dried snot on it but hey, it works. Common +2 Protection"],
+  ["4", "Leather Bandana", "2", "Some leather from bunnies, it has some dried snot on it but hey, it works. Common +2 Protection"],
   ["5", "Painted on Helmet", "2", "It's not real, but they don't have to know that. Common +2 Protection"],
   ["5", "Explorers Helmet", "2", "A helmet made to prove that you are an explorer. Common +2 Protection"]
 ];
 
 var CommonChestArmorTypes = [
   ["1", "T-shirt", "0", "A cute t-shirt made from cotton. Common, +0 Protection."],
-  ["2", "Fig Leaf Breastplate", "1", "A brestplate made of fig leafs, to protect your from harm. Common, +1 Protection "]
+  ["2", "Fig Leaf Breastplate", "1", "A breastplate made of fig leaves, to protect you from harm. Common, +1 Protection "]
   ["3", "Woodplate", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
-  ["4", "Leather Chestplate", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
+  ["4", "Leather Chestplate", "2", "Some leather from cows, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
   ["5", "Painted on Armor", "2", "It's not real, but they don't have to know that. Common +2 Protection"],
   ["5", "Basic Explorers Chestplate", "2", "A chest plate made to prove that you are an explorer. Common +2 Protection"]
 ];
 
 var CommonLegArmorTypes = [
-  ["1", "T-Jeans", "0", "Jeans from your house, their not comfy but its better than being naked. Common, +0 Protection."],
+  ["1", "T-Jeans", "0", "Jeans from your house, they're not comfy but its better than being naked. Common, +0 Protection."],
   ["2", "The Fig Leaf", "1", "A fig leaf picked from the high selection of fig leaves. Common, +1 Protection "]
   ["3", "Wooden Leg Padding", "1", "A curved sheet of wood that you can put on your legs to help keep yourself safe. Common, +1 Protection."],
-  ["4", "Leather Leggings", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
+  ["4", "Leather Leggings", "2", "Some leather from horses formed into a nice set of leather jeans. Common +2 Protection"],
   ["5", "Painted on Leggings", "2", "It's not real, but they don't have to know that. Common +2 Protection"],
   ["5", "Basic Explorers Leggings", "2", "A pair of leggings made to prove that you are an explorer. Common +2 Protection"]
 ];
 
+var CommonBootArmorTypes = [
+  ["1", "Shoes", "0", "A pair of black shoes, without lases. Common, +0 Protection."],
+  ["2", "Fig Leaf Feet Covers", "1", "Large fig leaves wrapped around your feet. Common, +1 Protection "]
+  ["3", "Wood Sandals", "1", "A flat sheet of wood tied to the bottoms of your feet to keep your feet safe. Common, +1 Protection."],
+  ["4", "Leather Boots", "2", "Some leather from sheep made into a boot just for you. Common +2 Protection"],
+  ["5", "Painted on Boots", "2", "It's not real, but they don't have to know that. Common +2 Protection"],
+  ["5", "Basic Explorers Boots", "2", "A set of boots made to prove that you are an explorer. Common +2 Protection"]
+];
 
 
 
