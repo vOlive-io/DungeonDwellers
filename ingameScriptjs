@@ -28,6 +28,7 @@ AccessoryOn = false;
 ////        ARMORS       ///
 ////////////////////////////
 
+/////////COMMON/////////
 var CommonHeadArmorTypes = [
   ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection."],
   ["2", "Fig Leaf Wreath", "1", " ----- "]
@@ -46,6 +47,9 @@ var CommonChestArmorTypes = [
   ["5", "Basic Explorers Chestplate", "2", ""]
 ];
 
+
+
+/////////UNCOMMON/////////
 var UncommonChestArmorTypes = [
   ["6", "Copper", "4", ""],
   ["7", "Mud", "3", ""],
@@ -61,6 +65,10 @@ var UncommonChestArmorTypes = [
   ["17", "Chain Mail", "4", ""]
 ];
 
+
+
+
+/////////RARE/////////
 var RareChestArmorTypes = [
   ["18", "Steal", "3"],
   ["19", "Bronze", "4", ""],
@@ -72,6 +80,9 @@ var RareChestArmorTypes = [
   ["25", "Jungle Vines", "4", ""]
 ];
 
+
+
+/////////EPIC/////////
 var EpicChestArmorTypes = [
   ["26", "Midevil Armor", "5"]
   ["27", "Gold encrusted Blackstone", "4", ""],
@@ -81,6 +92,9 @@ var EpicChestArmorTypes = [
   ["31", "Diamond", "4", ""]
 ];
 
+
+
+/////////MYTHIC/////////
 var MythicChestArmorTypes = [
   ["32", "Gold encrusted Silk", "4", ""],
   ["33", "Dragon Skin", "4", ""],
@@ -88,9 +102,15 @@ var MythicChestArmorTypes = [
   ["35", "CoconutShell", "4", ""]
 ];
 
+
+
+/////////RELIC/////////
 var RelicChestArmorTypes = [
 ];
 
+
+
+/////////DUNGEON/////////
 var DungeonChestArmorTypes = [
   ["36", "Red Explorers", "2", ""], // from red Basilisc (d1)
   ["37", "Blue Explorers", "2", ""], // from roaming shark
