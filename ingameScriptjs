@@ -57,18 +57,15 @@ var CommonBootArmorTypes = [
 
 /////////UNCOMMON/////////
 var UncommonChestArmorTypes = [
-  ["6", "Safari Vest", "4", ""],
-  ["6", "Copper", "4", ""],
+  ["13", "CoconutShell", "3", ""],
+  ["6", "Safari Vest", "3", ""],
+  ["16", "Rubber", "3", ""],
   ["7", "Mud", "3", ""],
-  ["8", "Stone", "4", ""],
-  ["9", "Nickle", "5", ""],
   ["10", "Tin", "4", ""],
-  ["11", "Cincken Costum", "6", ""],
-  ["12", "Unicorn Blowup Suit", "4", ""],
-  ["13", "CoconutShell", "4", ""],
+  ["8", "Stone", "4", ""],
   ["14", "Glass", "4", ""],
-  ["15", "CoconutShell", "4", ""],
-  ["16", "Rubber", "4", ""],
+  ["9", "Nickle", "4", ""],
+  ["6", "Copper", "5", ""],
   ["17", "Chain Mail", "4", ""]
 ];
 
@@ -94,8 +91,8 @@ var UncommonChestArmorTypes = [
 var RareChestArmorTypes = [
   ["18", "Steal", "3"],
   ["19", "Bronze", "4", ""],
-  ["20", "Gold", "4"],
   ["21", "Silver", "4", ""],
+  ["20", "Gold", "4"],
   ["22", "Iron", "4", ""],
   ["23", "Fetherer", "4", ""],
   ["24", "Blessed Mud", "4", ""],
@@ -107,11 +104,12 @@ var RareChestArmorTypes = [
 /////////EPIC/////////
 var EpicChestArmorTypes = [
   ["26", "Midevil Armor", "5"]
-  ["27", "Gold encrusted Blackstone", "4", ""],
+  ["27", "", "4", ""],
   ["28", "Snake Skin", "4", ""],
   ["29", "Cooled magma", "4", ""],
   ["30", "Holy Bamboo", "4", ""],
   ["31", "Diamond", "4", ""]
+  ["31", "Emerald", "4", ""]
 ];
 
 
@@ -120,8 +118,8 @@ var EpicChestArmorTypes = [
 var MythicChestArmorTypes = [
   ["32", "Gold encrusted Silk", "4", ""],
   ["33", "Dragon Skin", "4", ""],
+  ["27", "Rhodochrosite", "4", ""],
   ["34", "Mythrill", "4", ""],
-  ["35", "CoconutShell", "4", ""]
 ];
 
 
