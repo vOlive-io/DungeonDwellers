@@ -29,11 +29,11 @@ AccessoryOn = false;
 /////////COMMON/////////
 var CommonHeadArmorTypes = [
   ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection."],
-  ["2", "Fig Leaf Wreath", "1", " ----- "]
+  ["2", "Fig Leaf Wreath", "1", "AA fig wreath place atop your head. Common, +1 Protection "]
   ["3", "WoodHelmet", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
-  ["4", "LeatherBandana", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
-  ["5", "Painted on Helmet", "2", ""],
-  ["5", "Basic Explorers Helmet", "2", ""]
+  ["4", "LeatherBandana", "2", "Some leather from cows, horses, and bunnies, it has some dried snot on it but hey, it works. Common +2 Protection"],
+  ["5", "Painted on Helmet", "2", "Its not real, but they don't have to know that. Common +2 Protection"],
+  ["5", "Explorers Helmet", "2", "A helmet made to prove that you are an explorer. Common +2 Protection"]
 ];
 
 var CommonChestArmorTypes = [
