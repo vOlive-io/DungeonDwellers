@@ -63,7 +63,7 @@ var RareChestArmorTypes = [
 
 var EpicChestArmorTypes = [
   ["26", "Midevil Armor", "5"]
-  ["27", "", "4", ""],
+  ["27", "Gold encrusted Blackstone", "4", ""],
   ["28", "Snake Skin", "4", ""],
   ["29", "Cooled magma", "4", ""],
   ["30", "Holy Bamboo", "4", ""],
@@ -71,7 +71,7 @@ var EpicChestArmorTypes = [
 ];
 
 var MythicChestArmorTypes = [
-  ["32", "Silk encrusted Gold", "4", ""],
+  ["32", "Gold encrusted Silk", "4", ""],
   ["33", "Dragon Skin", "4", ""],
   ["34", "Mythrill", "4", ""],
   ["35", "CoconutShell", "4", ""]
@@ -81,13 +81,13 @@ var RelicChestArmorTypes = [
 ];
 
 var DungeonChestArmorTypes = [
-  ["5", "Red Explorers", "2", ""], // from red Basilisc (d1)
-  ["5", "Blue Explorers", "2", ""], // from roaming shark
-  ["5", "Black Explorers", "2", ""], // from speedy blur
-  ["5", "Green Explorers", "2", ""],  // from overly angry troll
-  ["5", "Yellow Explorers", "2", ""],  // from the skydiver
-  ["5", "Clan Style", "2", ""],  // from warrior squad
-  ["5", " ----- ----- ", "2", ""]  // ----- driver
+  ["36", "Red Explorers", "2", ""], // from red Basilisc (d1)
+  ["37", "Blue Explorers", "2", ""], // from roaming shark
+  ["38", "Black Explorers", "2", ""], // from speedy blur
+  ["39", "Green Explorers", "2", ""],  // from overly angry troll
+  ["40", "Yellow Explorers", "2", ""],  // from the skydiver
+  ["41", "Clan Style", "2", ""],  // from warrior squad
+  ["42", " ----- ----- ", "2", ""]  // ----- driver
 ];
 
 //Bun Berries
