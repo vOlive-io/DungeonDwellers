@@ -25,8 +25,16 @@ backOrBeltAccessoryOn = false;
 AccessoryOn = false;
 
 
+var CommonHEadArmorTypes = [
+  ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection."],
+  ["2", "Fig Leaf Wreath", "1", " ----- "]
+  ["3", "WoodHelmet", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
+  ["4", "Leather", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
+  ["5", "Painted on Armor", "2", ""],
+  ["5", "Basic Explorers", "2", ""]
+];
+
 var CommonChestArmorTypes = [
-  ["Id (0)", "Name (1)", "Protection (2)", "Description (3)"]
   ["1", "T-shirt", "0", "A cute t-shirt made from cotton. Common, +0 Protection."],
   ["2", "Fig Leaf Breastplate", "1", " ----- "]
   ["3", "WoodPlate", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
