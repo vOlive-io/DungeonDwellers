@@ -1,7 +1,5 @@
-
-
 ////////////////////////////
-////   VARS AND RULES    ///
+///    VARS AND RULES    ///
 ////////////////////////////
 //stats 
 currentHeath = 10; //     Current amount of Heath
@@ -25,7 +23,7 @@ backOrBeltAccessoryOn = false;
 AccessoryOn = false;
 
 ////////////////////////////
-////        ARMORS       ///
+///        ARMORS        ///
 ////////////////////////////
 
 /////////COMMON/////////
