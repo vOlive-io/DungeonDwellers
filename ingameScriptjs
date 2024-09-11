@@ -25,16 +25,17 @@ backOrBeltAccessoryOn = false;
 AccessoryOn = false;
 
 
-var chestArmorTypes = [
-//Common
-  ["Id (0)", "Name (1)", "Protection (2)", "Rarity (3)", "Description (4)"]
-  ["1", "T-shirt", "0", "common", "A cute t-shirt made from cotton. Common, +0 Protection."],
-  ["2", "Fig Leaf Breastplate", "1", common, " ----- "]
-  ["3", "WoodPlate", "1", "common", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
-  ["4", "Leather", "2", "common", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
+var CommonChestArmorTypes = [
+  ["Id (0)", "Name (1)", "Protection (2)", "Description (3)"]
+  ["1", "T-shirt", "0", "A cute t-shirt made from cotton. Common, +0 Protection."],
+  ["2", "Fig Leaf Breastplate", "1", " ----- "]
+  ["3", "WoodPlate", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection."],
+  ["4", "Leather", "2", "Some leather from cows, horses, and bunnies, its patchy, old and smells funky but its better than nothing. Common +2 Protection"],
   ["5", "Painted on Armor", "2", ""],
-  ["5", "Basic Explorers", "2", ""],
-//Uncommon
+  ["5", "Basic Explorers", "2", ""]
+];
+
+var UncommonChestArmorTypes = [
   ["6", "Copper", "4", ""],
   ["7", "Mud", "3", ""],
   ["8", "Stone", "4", ""],
@@ -46,8 +47,10 @@ var chestArmorTypes = [
   ["14", "Glass", "4", ""],
   ["15", "CoconutShell", "4", ""],
   ["16", "Rubber", "4", ""],
-  ["17", "Chain Mail", "4", ""],
-//Rare
+  ["17", "Chain Mail", "4", ""]
+];
+
+var RareChestArmorTypes = [
   ["18", "Steal", "3"],
   ["19", "Bronze", "4", ""],
   ["20", "Gold", "4"],
@@ -55,30 +58,36 @@ var chestArmorTypes = [
   ["22", "Iron", "4", ""],
   ["23", "Fetherer", "4", ""],
   ["24", "Blessed Mud", "4", ""],
-  ["25", "Jungle Vines", "4", ""],
-//Epic
+  ["25", "Jungle Vines", "4", ""]
+];
+
+var EpicChestArmorTypes = [
   ["26", "Midevil Armor", "5"]
   ["27", "", "4", ""],
   ["28", "Snake Skin", "4", ""],
   ["29", "Cooled magma", "4", ""],
   ["30", "Holy Bamboo", "4", ""],
-  ["31", "Diamond", "4", ""],
-//Mythic
+  ["31", "Diamond", "4", ""]
+];
+
+var MythicChestArmorTypes = [
   ["32", "Silk encrusted Gold", "4", ""],
   ["33", "Dragon Skin", "4", ""],
   ["34", "Mythrill", "4", ""],
-  ["35", "CoconutShell", "4", ""],
+  ["35", "CoconutShell", "4", ""]
+];
 
-//Relic
+var RelicChestArmorTypes = [
+];
 
-//Dungeon Loot
+var DungeonChestArmorTypes = [
   ["5", "Red Explorers", "2", ""], // from red Basilisc (d1)
   ["5", "Blue Explorers", "2", ""], // from roaming shark
   ["5", "Black Explorers", "2", ""], // from speedy blur
   ["5", "Green Explorers", "2", ""],  // from overly angry troll
   ["5", "Yellow Explorers", "2", ""],  // from the skydiver
   ["5", "Clan Style", "2", ""],  // from warrior squad
-  ["5", " ----- ----- ", "2", ""],  // ----- driver
+  ["5", " ----- ----- ", "2", ""]  // ----- driver
 ];
 
 //Bun Berries
