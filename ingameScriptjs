@@ -63,9 +63,9 @@ var UncommonChestArmorTypes = [
   ["7", "Mud", "3", "\"Armor made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\" Uncommon +3 Protection"],
   ["10", "Tin", "4", "A chest plate made of time with great acoustics. Uncommon +4 Protection"],
   ["8", "Stone", "4", "Armor made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection"],
-  ["14", "Glass", "4", "You can see you close under neth, how cool! Uncommon +4 Protection"],
+  ["14", "Glass", "4", "You can see you close under underneath, how cool! Uncommon +4 Protection"],
   ["9", "Nickle", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection"],
-  ["17", "Chain Mail", "5", "Tones of small iron rings \"Woven\" together to make this master piece. Uncommon +5 Protection"]
+  ["17", "Chain Mail", "5", "Tones of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection"]
   ["6", "Copper", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection"],
   ["6", "Brass", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection"],
 ];
