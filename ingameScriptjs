@@ -57,31 +57,31 @@ var CommonBootArmorTypes = [
 
 /////////UNCOMMON/////////
 var UncommonHeadArmorTypes = [
-  ["13", "Fruit Hat", "3", "A tasty hat made from all types of fruits. Uncommon +3 Protection"],
-  ["6", "Safari Hat", "3", "Keep the sun out of your face now with the new safari hat. Uncommon +3 Protection"],
-  ["16", "Rubber Mask", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection"],
-  ["7", "Mud Mask", "3", "\"A facemask made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\" Uncommon +3 Protection"],
-  ["10", "Tin Head", "4", "A new head made of tin with great acoustics. Uncommon +4 Protection"],
-  ["8", "Stone Helment", "4", "Armor made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection"],
-  ["14", "Glass Helmet", "4", "You can see you close under underneath, how cool! Uncommon +4 Protection"],
-  ["9", "Nickle Helmet", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection"],
-  ["17", "Chain Mail Helmet", "5", "Tones of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection"]
-  ["6", "Copper Helmet", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection"],
-  ["6", "Brass Helmet", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection"],
+  ["25", "Fruit Hat", "3", "A tasty hat made from all types of fruits. Uncommon +3 Protection"],
+  ["26", "Safari Hat", "3", "Keep the sun out of your face now with the new safari hat. Uncommon +3 Protection"],
+  ["27", "Rubber Mask", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection"],
+  ["28", "Mud Mask", "3", "\"A facemask made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\" Uncommon +3 Protection"],
+  ["29", "Tin Head", "4", "A new head made of tin with great acoustics. Uncommon +4 Protection"],
+  ["30", "Stone Helmet", "4", "Armor made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection"],
+  ["31", "Glass Helmet", "4", "You can see you close under underneath, how cool! Uncommon +4 Protection"],
+  ["32", "Nickle Helmet", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection"],
+  ["33", "Chain Mail Helmet", "5", "Tones of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection"]
+  ["34", "Copper Helmet", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection"],
+  ["35", "Brass Helmet", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection"],
 ];
 
 var UncommonChestArmorTypes = [
-  ["13", "CoconutShell Breast Plate", "3", "A cute breastplate made from fresh coconuts (Coconut juice not provided). Uncommon +3 Protection"],
-  ["6", "Safari Vest", "3", "Dress up like your favorite safari heroes now with the new vest. Uncommon +3 Protection"],
-  ["16", "Rubber", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection"],
-  ["7", "Mud", "3", "\"Armor made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\" Uncommon +3 Protection"],
-  ["10", "Tin", "4", "A chest plate made of tin with great acoustics. Uncommon +4 Protection"],
-  ["8", "Stone", "4", "Armor made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection"],
-  ["14", "Glass", "4", "You can see you close under underneath, how cool! Uncommon +4 Protection"],
-  ["9", "Nickle", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection"],
-  ["17", "Chain Mail", "5", "Tones of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection"]
-  ["6", "Copper", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection"],
-  ["6", "Brass", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection"],
+  ["36", "CoconutShell Breast Plate", "3", "A cute breastplate made from fresh coconuts (Coconut juice not provided). Uncommon +3 Protection"],
+  ["37", "Safari Vest", "3", "Dress up like your favorite safari heroes now with the new vest. Uncommon +3 Protection"],
+  ["38", "Rubber", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection"],
+  ["39", "Mud", "3", "\"Armor made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\" Uncommon +3 Protection"],
+  ["40", "Tin", "4", "A chest plate made of tin with great acoustics. Uncommon +4 Protection"],
+  ["41", "Stone", "4", "Armor made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection"],
+  ["42", "Glass", "4", "You can see you close under underneath, how cool! Uncommon +4 Protection"],
+  ["43", "Nickle", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection"],
+  ["44", "Chain Mail", "5", "Tones of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection"]
+  ["45", "Copper", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection"],
+  ["46", "Brass", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection"],
 ];
 
 
