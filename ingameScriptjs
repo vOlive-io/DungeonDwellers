@@ -37,7 +37,7 @@ var CommonChestArmorTypes = [
 ];
 
 var CommonLegArmorTypes = [
-  ["13", "T-Jeans", "0", "Jeans from your house, they're not comfy but its better than being naked. Common, +0 Protection."],
+  ["13", "Jeans", "0", "Jeans from your house, they're not comfy but its better than being naked. Common, +0 Protection."],
   ["14", "The Fig Leaf", "1", "A fig leaf picked from the high selection of fig leaves. Common, +1 Protection "]
   ["15", "Wooden Leg Padding", "1", "A curved sheet of wood that you can put on your legs to help keep yourself safe. Common, +1 Protection."],
   ["16", "Leather Leggings", "2", "Some leather from horses formed into a nice set of leather jeans. Common +2 Protection"],
