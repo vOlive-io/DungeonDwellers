@@ -24,6 +24,12 @@ maxHeath = 10; //           Max amount of Heath
 maxWater = 15; //           Max amount of Water
 maxSat = 15; //             Max amount of Saturation
 
+
+
+var id;
+var name;
+var description;
+var protection;
 ////////////////////////////
 ///      2) ARMORS       ///
 ////////////////////////////
