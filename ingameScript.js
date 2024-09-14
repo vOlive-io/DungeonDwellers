@@ -247,7 +247,7 @@ function commonLootBox() {
   var name = CommonHeadArmorTypes[drop] [1];
   var protection = CommonHeadArmorTypes[drop] [2];
   var description = CommonHeadArmorTypes[drop] [3];
-  console.log("You got " + name + " + description + " ID: " + id);
+  console.log("You got " + name + ", " + description + " ID: " + id);
 }
 
 ////////////////////////////
