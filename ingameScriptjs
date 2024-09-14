@@ -235,7 +235,14 @@ var lv2macHeathBunBerries = 0; //    +100 max Heath
 ////////////////////////////
 ///   6) LOOT BOXS       ///
 ////////////////////////////
-
+function commonLootBox() {
+  drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
+  var id = CommonHeadArmorTypes[drop] [0];
+  var name = CommonHeadArmorTypes[drop] [1];
+  var protection = CommonHeadArmorTypes[drop] [2];
+  var description = CommonHeadArmorTypes[drop] [3];
+  console.log("You got " + name + " + description + " ID: " + id);
+}
 
 ////////////////////////////
 ///      FUNCTIONS       ///
