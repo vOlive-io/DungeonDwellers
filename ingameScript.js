@@ -245,7 +245,7 @@ function commonLootBox() {
   drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
   var owned = CommonHeadArmorTypes[drop] [4];
   if (owned = true) {
-    consle.log("Retring for new armor....")
+    console.log("Retring for new armor....")
     commonLootBox();
   }
   else {
