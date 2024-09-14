@@ -85,7 +85,7 @@ var UncommonChestArmorTypes = [
 ];
 
 var UncommonLegArmorTypes = [
-  ["36", "Banana Leaves Skert", "3", "A nice skirt made from fresh banana leaves (Bananas). Uncommon +3 Protection"],
+  ["36", "Banana Leaves Skirt", "3", "A nice skirt made from fresh banana leaves (Bananas). Uncommon +3 Protection"],
   ["37", "Safari Pants", "3", "Dress up as your favorite safari explores now with the new legging. Uncommon +3 Protection"],
   ["38", "Rubber Leggings", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection"],
   ["39", "Mud Chestplate", "3", "\"Armor made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\" Uncommon +3 Protection"],
@@ -136,7 +136,7 @@ var RareChestArmorTypes = [
 
 /////////EPIC/////////
 var EpicChestArmorTypes = [
-  ["26", "Midevil Armor", "5"]
+  ["26", "Medevil Armor", "5"]
   ["27", "", "4", ""],
   ["28", "Snake Skin", "4", ""],
   ["29", "Cooled magma", "4", ""],
@@ -161,6 +161,7 @@ var MythicChestArmorTypes = [
 var RelicChestArmorTypes = [
 ];
 
+//SEASONAL
 
 
 /////////DUNGEON/////////
