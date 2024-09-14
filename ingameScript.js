@@ -30,6 +30,7 @@ var id;
 var name;
 var description;
 var protection;
+var owned;
 ////////////////////////////
 ///      2) ARMORS       ///
 ////////////////////////////
@@ -243,7 +244,7 @@ var lv2macHeathBunBerries = 0; //    +100 max Heath
 ////////////////////////////
 function commonLootBox() {
   drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
-  var owned = CommonHeadArmorTypes[drop] [4];
+  owned = CommonHeadArmorTypes[drop] [4];
   if (owned = true) {
     console.log("Retring for new armor....")
     commonLootBox();
