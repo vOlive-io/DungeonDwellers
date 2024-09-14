@@ -27,7 +27,7 @@ maxSat = 15; //             Max amount of Saturation
 ///      2) ARMORS       ///
 ////////////////////////////
 
-/////////COMMON/////////
+/////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
   ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection."],
   ["2", "Fig Leaf Wreath", "1", "A fig wreath place atop your head. Common, +1 Protection "]
@@ -65,7 +65,7 @@ var CommonBootArmorTypes = [
 ];
 
 
-/////////UNCOMMON/////////
+/////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", "3", "A tasty hat made from all types of fruits. Uncommon +3 Protection"],
   ["26", "Safari Hat", "3", "Keep the sun out of your face now with the new safari hat. Uncommon +3 Protection"],
@@ -143,7 +143,7 @@ var UncommonBootArmorTypes = [
 
 
 
-/////////RARE/////////
+/////////////////////////////////////////////RARE/////////////////////////////////////////////
 var RareChestArmorTypes = [
   ["18", "Steal", "3"],
   ["19", "Bronze", "4", ""],
@@ -157,7 +157,7 @@ var RareChestArmorTypes = [
 
 
 
-/////////EPIC/////////
+/////////////////////////////////////////////EPIC/////////////////////////////////////////////
 var EpicChestArmorTypes = [
   ["26", "Medevil Armor", "5"]
   ["27", "Costal", "4", ""],
@@ -170,7 +170,7 @@ var EpicChestArmorTypes = [
 
 
 
-/////////MYTHIC/////////
+/////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
 var MythicChestArmorTypes = [
   ["32", "Gold encrusted Silk", "4", ""],
   ["33", "Dragon Skin", "4", ""],
@@ -180,14 +180,15 @@ var MythicChestArmorTypes = [
 
 
 
-/////////RELIC/////////
+/////////////////////////////////////////////RELIC/////////////////////////////////////////////
 var RelicChestArmorTypes = [
 ];
 
-//SEASONAL
+/////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
+var SeasonalChestArmorTypes = [
+];
 
-
-/////////DUNGEON/////////
+/////////////////////////////////////////////DUNGEON/////////////////////////////////////////////
 var DungeonChestArmorTypes = [
   ["36", "Red Explorers", "2", ""], // from red Basilisc (d1)
   ["37", "Blue Explorers", "2", ""], // from roaming shark
