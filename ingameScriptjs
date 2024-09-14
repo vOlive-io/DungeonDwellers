@@ -77,7 +77,7 @@ var UncommonHeadArmorTypes = [
   ["32", "Nickle Helmet", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection", "false"],
   ["33", "Chain Mail Helmet", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection", "false"]
   ["34", "Copper Helmet", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection", "false"],
-  ["35", "Brass Helmet", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"],
+  ["35", "Brass Helmet", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"]
 ];
 
 var UncommonChestArmorTypes = [
@@ -91,7 +91,7 @@ var UncommonChestArmorTypes = [
   ["43", "Nickle Chestplate", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection", "false"],
   ["44", "Chain Mail Chestplate", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection", "false"]
   ["45", "Copper Chestplate", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection", "false"],
-  ["46", "Brass Chestplate", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"],
+  ["46", "Brass Chestplate", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"]
 ];
 
 var UncommonLegArmorTypes = [
@@ -105,7 +105,7 @@ var UncommonLegArmorTypes = [
   ["43", "Nickle Leggings", "5", "Nickle leggings, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection", "false"],
   ["44", "Chain Mail Leggings", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection", "false"]
   ["45", "Copper Leggings", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection", "false"],
-  ["46", "Brass Leggings", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"],
+  ["46", "Brass Leggings", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"]
 ];
 
 
@@ -120,7 +120,7 @@ var UncommonBootArmorTypes = [
   ["43", "Nickle Boots", "5", "Nickle boots, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection", "false"],
   ["44", "Chain Mail Boots", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection", "false"]
   ["45", "Copper Boots", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection", "false"],
-  ["46", "Brass Boots", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"],
+  ["46", "Brass Boots", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"]
 ];
 
 /////////////////////////////////////////////////////////////////////////////
