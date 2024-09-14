@@ -36,7 +36,7 @@ var protection;
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
-  ["1", "Bed Head", "0", "The hair you woke up in. Common, +0 Protection.", "false"],
+  ["1", "Bead Head", "0", "The hair you woke up in. Common, +0 Protection.", "true"],
   ["2", "Fig Leaf Wreath", "1", "A fig wreath place atop your head. Common, +1 Protection.", "false"]
   ["3", "Wood-helmet", "1", "A poorly crafted helmet of wood that will protect you from minimal damage. Common, +1 Protection.", "false"],
   ["4", "Leather Bandana", "2", "Some leather from bunnies, it has some dried snot on it but hey, it works. Common +2 Protection.", "false"],
@@ -46,7 +46,7 @@ var CommonHeadArmorTypes = [
 
 var CommonChestArmorTypes = [
   ["7", "T-shirt", "0", "A cute t-shirt made from cotton. Common, +0 Protection.", "false"],
-  ["8", "Fig Leaf Breastplate", "1", "A breastplate made of fig leaves, to protect you from harm. Common, +1 Protection.", "false"]
+  ["8", "Fig Leaf Breastplate", "1", "A breastplate made of fig leaves, to protect you from harm. Common, +1 Protection.", "true"]
   ["9", "Woodplate", "1", "A flat sheet of wood that will protect you from minimal damage. Common, +1 Protection.", "false"],
   ["10", "Leather Chestplate", "2", "Some leather from cows, its patchy, old and smells funky but its better than nothing. Common +2 Protection.", "false"],
   ["11", "Painted on Armor", "2", "It's not real, but they don't have to know that. Common +2 Protection.", "false"],
@@ -54,7 +54,7 @@ var CommonChestArmorTypes = [
 ];
 
 var CommonLegArmorTypes = [
-  ["13", "Jeans", "0", "Jeans from your house, they're not comfy but its better than being naked. Common, +0 Protection.", "false"],
+  ["13", "Jeans", "0", "Jeans from your house, they're not comfy but its better than being naked. Common, +0 Protection.", "true"],
   ["14", "The Fig Leaf", "1", "A fig leaf picked from the high selection of fig leaves. Common, +1 Protection.", "false"]
   ["15", "Wooden Leg Padding", "1", "A curved sheet of wood that you can put on your legs to help keep yourself safe. Common, +1 Protection.", "false"],
   ["16", "Leather Leggings", "2", "Some leather from horses formed into a nice set of leather jeans. Common +2 Protection.", "false"],
@@ -63,7 +63,7 @@ var CommonLegArmorTypes = [
 ];
 
 var CommonBootArmorTypes = [
-  ["19", "Shoes", "0", "A pair of black shoes, without lases. Common, +0 Protection.", "false"],
+  ["19", "Shoes", "0", "A pair of black shoes, without lases. Common, +0 Protection.", "true"],
   ["20", "Fig Leaf Feet Covers", "1", "Large fig leaves wrapped around your feet. Common, +1 Protection.", "false"]
   ["21", "Wood Sandals", "1", "A flat sheet of wood tied to the bottoms of your feet to keep your feet safe. Common, +1 Protection.", "false"],
   ["22", "Leather Boots", "2", "Some leather from sheep made into a boot just for you. Common +2 Protection.", "false"],
