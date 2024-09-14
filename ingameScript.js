@@ -250,10 +250,10 @@ function commonLootBox() {
     commonLootBox();
   }
   else {
-    var id = CommonHeadArmorTypes[drop] [0];
-    var name = CommonHeadArmorTypes[drop] [1];
-    var protection = CommonHeadArmorTypes[drop] [2];
-    var description = CommonHeadArmorTypes[drop] [3];
+    id = CommonHeadArmorTypes[drop] [0];
+    name = CommonHeadArmorTypes[drop] [1];
+    protection = CommonHeadArmorTypes[drop] [2];
+    description = CommonHeadArmorTypes[drop] [3];
     CommonHeadArmorTypes[drop] [4] = true;
     console.log("You got " + name + ", " + description + " ID: " + id);
   }  
