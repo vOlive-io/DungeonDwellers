@@ -3,7 +3,7 @@
 ///        1) Stats                     ///
 ///        2) BunBerries                ///
 ///        3) Armor                     ///
-///        4) Weapons                    ///
+///        4) Weapons                   ///
 ///        5) Items                     ///        
 ///        6) LootChest/Boxes           ///
 ///                                     ///
