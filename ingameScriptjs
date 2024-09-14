@@ -3,8 +3,9 @@
 ///        1) Stats                     ///
 ///        2) BunBerries                ///
 ///        3) Armor                     ///
-///        4) Items                     ///
-///        5) LootChest/Boxes           ///
+///        4) Weapons                    ///
+///        5) Items                     ///        
+///        6) LootChest/Boxes           ///
 ///                                     ///
 ///////////////////////////////////////////
 
@@ -65,6 +66,10 @@ var CommonBootArmorTypes = [
 ];
 
 
+
+
+
+
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", "3", "A tasty hat made from all types of fruits. Uncommon +3 Protection", "false"],
@@ -122,6 +127,11 @@ var UncommonBootArmorTypes = [
   ["45", "Copper Boots", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection", "false"],
   ["46", "Brass Boots", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection", "false"]
 ];
+
+
+
+
+
 
 /////////////////////////////////////////////////////////////////////////////
 //////////////   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ DONE ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  //////////////
@@ -222,12 +232,13 @@ var lv2macHeathBunBerries = 0; //    +100 max Heath
 
 
 
-
-
+////////////////////////////
+///   6) LOOT BOXS       ///
+////////////////////////////
 
 
 ////////////////////////////
-////     FUNCTIONS       ///
+///      FUNCTIONS       ///
 ////////////////////////////
 
 function StartGame() {
