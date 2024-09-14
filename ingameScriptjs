@@ -185,7 +185,10 @@ var DungeonChestArmorTypes = [
   ["42", " ----- ----- ", "2", ""]  // ----- driver
 ];
 
-//Bun Berries
+
+////////////////////////////
+////  3) BUN BERRIES     ///
+////////////////////////////
 var totalBunBerries = 0; //      Total Number of Bun Berries
 var strenthBunBerries = 0; //        +10 Strength
 var maxStrenthBunBerries = 0; //     +10 Max Strenth
@@ -201,6 +204,12 @@ var lv4HeathHealBunBerries = 0; //   restores 50% of Heath
 var lv5HeathHealBunBerries = 0; //   restores 100% of Heath
 var lv1maxHeathBunBerries = 0; //    +10 max Heath 
 var lv2macHeathBunBerries = 0; //    +100 max Heath
+
+
+
+
+
+
 
 
 ////////////////////////////
