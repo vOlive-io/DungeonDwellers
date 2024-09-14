@@ -1,5 +1,15 @@
+///////////////////////////////////////////
+///              VARIABLES              ///
+///        1) Stats                     ///
+///        2) BunBerries                ///
+///        3) Armor                     ///
+///        4) Items                     ///
+///        5) LootChest/Boxes           ///
+///                                     ///
+///////////////////////////////////////////
+
 ////////////////////////////
-///    VARS AND RULES    ///
+///       1) STATS       ///
 ////////////////////////////
 //stats 
 currentHeath = 10; //       Current amount of Heath
@@ -14,7 +24,7 @@ maxWater = 15; //           Max amount of Water
 maxSat = 15; //             Max amount of Saturation
 
 ////////////////////////////
-///        ARMORS        ///
+///      2) ARMORS       ///
 ////////////////////////////
 
 /////////COMMON/////////
