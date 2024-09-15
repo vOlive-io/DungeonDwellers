@@ -244,17 +244,18 @@ var lv2macHeathBunBerries = 0; //    +100 max Heath
 ////////////////////////////
 function commonLootBox() {
   drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
-  if (CommonHeadArmorTypes[drop] [4] = false) {
+  owned = CommonHeadArmorTypes[drop] [4];
+  if (owned = true) {
+    console.log("Retring for new armor....")
+    commonLootBox();
+  }
+  else {
     id = CommonHeadArmorTypes[drop] [0];
     name = CommonHeadArmorTypes[drop] [1];
     protection = CommonHeadArmorTypes[drop] [2];
     description = CommonHeadArmorTypes[drop] [3];
-    CommonHeadArmorTypes[drop] [4] = 1;
+    CommonHeadArmorTypes[drop] [4] = true;
     console.log("You got " + name + ", " + description + " ID: " + id);
-  }
-  else {
-    console.log("Retring for new armor....")
-    commonLootBox();
   }  
 }
 
