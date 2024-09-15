@@ -249,7 +249,7 @@ function commonLootBox() {
   protection = CommonHeadArmorTypes[drop] [2];
   description = CommonHeadArmorTypes[drop] [3];
   owned = CommonHeadArmorTypes[drop] [4];
-  if (owned = true) {
+  if (owned = 1) {
     console.log("Retring for new armor....")
     commonLootBox();
   }
@@ -258,7 +258,7 @@ function commonLootBox() {
     name = CommonHeadArmorTypes[drop] [1];
     protection = CommonHeadArmorTypes[drop] [2];
     description = CommonHeadArmorTypes[drop] [3];
-    CommonHeadArmorTypes[drop] [4] = true;
+    CommonHeadArmorTypes[drop] [4] = 1;
     console.log("You got " + name + ", " + description + " ID: " + id);
   }  
 }
