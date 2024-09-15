@@ -37,12 +37,12 @@ var owned;
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
-  ["1", "Bead Head", "0", "The hair you woke up in. Common, +0 Protection.", "true"],
-  ["2", "Fig Leaf Wreath", "1", "A fig wreath place atop your head. Common, +1 Protection.", "false"]
-  ["3", "Wood-helmet", "1", "A poorly crafted helmet of wood that will protect you from minimal damage. Common, +1 Protection.", "false"],
-  ["4", "Leather Bandana", "2", "Some leather from bunnies, it has some dried snot on it but hey, it works. Common +2 Protection.", "false"],
-  ["5", "Painted on Helmet", "2", "It's not real, but they don't have to know that. Common +2 Protection.", "false"],
-  ["6", "Explorers Helmet", "3", "A helmet made to prove that you are an explorer. Common +3 Protection.", "false"]
+  ["1", "Bead Head", "0", "The hair you woke up in. Common, +0 Protection.", true],
+  ["2", "Fig Leaf Wreath", "1", "A fig wreath place atop your head. Common, +1 Protection.", false]
+  ["3", "Wood-helmet", "1", "A poorly crafted helmet of wood that will protect you from minimal damage. Common, +1 Protection.", false],
+  ["4", "Leather Bandana", "2", "Some leather from bunnies, it has some dried snot on it but hey, it works. Common +2 Protection.", false],
+  ["5", "Painted on Helmet", "2", "It's not real, but they don't have to know that. Common +2 Protection.", false],
+  ["6", "Explorers Helmet", "3", "A helmet made to prove that you are an explorer. Common +3 Protection.", false]
 ];
 
 var CommonChestArmorTypes = [
