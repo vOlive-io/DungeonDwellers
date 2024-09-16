@@ -243,6 +243,24 @@ var lv2macHeathBunBerries = 0; //    +100 max Heath
 ////////////////////////////
 ///   6) LOOT BOXS       ///
 ////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////
+///                           FUNCTIONS                       ///
+///              1) Gear Prizes and Loot Boxes                ///
+///              2) Variable Management                       ///
+///              3) Story Management                          ///
+///              4) Story Dungeon Management                  ///
+///              5) Story Dungeons Playout                    ///
+///              5) Story Progress                            ///        
+///              6) Cookies                                   ///
+///                                                           ///
+/////////////////////////////////////////////////////////////////
+////////////////////////////
+///      FUNCTIONS       ///
+////////////////////////////
+
+
 function commonLootBox() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Insted you will get a gear prize.")
@@ -272,20 +290,6 @@ function commonGearPrize() {
 
 }
 
-/////////////////////////////////////////////////////////////////
-///                           FUNCTIONS                       ///
-///              1) Gear Prizes and Loot Boxes                ///
-///              2) Variable Management                       ///
-///              3) Story Management                          ///
-///              4) Story Dungeon Management                  ///
-///              5) Story Dungeons Playout                    ///
-///              5) Story Progress                            ///        
-///              6) Cookies                                   ///
-///                                                           ///
-/////////////////////////////////////////////////////////////////
-////////////////////////////
-///      FUNCTIONS       ///
-////////////////////////////
 
 function StartGame() {
 }
