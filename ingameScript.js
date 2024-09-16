@@ -246,6 +246,7 @@ var lv2macHeathBunBerries = 0; //    +100 max Heath
 function commonLootBox() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Insted you will get a gear prize.")
+    commonGearPrize();
   }
   else {
     drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
@@ -267,6 +268,9 @@ function commonLootBox() {
   }  
 }
 
+commonGearPrize() {
+
+}
 ////////////////////////////
 ///      FUNCTIONS       ///
 ////////////////////////////
