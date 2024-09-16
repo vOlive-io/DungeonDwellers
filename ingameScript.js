@@ -291,8 +291,11 @@ function StartGame() {
 }
 
 
-function adminLogin() {
-
+function secrittest() {
+  input = promt("Wasup")
+  if (input == TESTSECRET) {
+    alert("yay")
+  }
 }
 
 
