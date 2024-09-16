@@ -268,7 +268,7 @@ function commonLootBox() {
   }  
 }
 
-commonGearPrize() {
+function commonGearPrize() {
 
 }
 
