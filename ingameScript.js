@@ -31,6 +31,7 @@ var name;
 var description;
 var protection;
 var owned;
+var trys = 0;
 ////////////////////////////
 ///      2) ARMORS       ///
 ////////////////////////////
@@ -243,19 +244,26 @@ var lv2macHeathBunBerries = 0; //    +100 max Heath
 ///   6) LOOT BOXS       ///
 ////////////////////////////
 function commonLootBox() {
-  drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
-  owned = CommonHeadArmorTypes[drop] [4];
-  if (owned == true) {
-    console.log("Retring for new armor....")
-    commonLootBox();
+  if (try > 100) {
+    console.log("Cannot find armor for you... You will get a leveled up box")
   }
   else {
-    id = CommonHeadArmorTypes[drop] [0];
-    name = CommonHeadArmorTypes[drop] [1];
-    protection = CommonHeadArmorTypes[drop] [2];
-    description = CommonHeadArmorTypes[drop] [3];
-    CommonHeadArmorTypes[drop] [4] = true;
-    console.log("You got " + name + ", " + description + " ID: " + id);
+    drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
+    owned = CommonHeadArmorTypes[drop] [4];
+    if (owned == true) {
+      console.log("Retring for new armor....")
+      trys++;
+      commonLootBox();
+    }
+    else {
+      id = CommonHeadArmorTypes[drop] [0];
+      name = CommonHeadArmorTypes[drop] [1];
+      protection = CommonHeadArmorTypes[drop] [2];
+      description = CommonHeadArmorTypes[drop] [3];
+      CommonHeadArmorTypes[drop] [4] = true;
+      trys = 0;
+      console.log("You got " + name + ", " + description + " ID: " + id);
+    }
   }  
 }
 
