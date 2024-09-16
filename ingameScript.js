@@ -271,6 +271,18 @@ function commonLootBox() {
 commonGearPrize() {
 
 }
+
+/////////////////////////////////////////////////////////////////
+///                           FUNCTIONS                       ///
+///              1) Gear Prizes and Loot Boxes                ///
+///              2) Variable Management                       ///
+///              3) Story Management                          ///
+///              4) Story Dungeon Management                  ///
+///              5) Story Dungeons Playout                    ///
+///              5) Story Progress                            ///        
+///              6) Cookies                                   ///
+///                                                           ///
+/////////////////////////////////////////////////////////////////
 ////////////////////////////
 ///      FUNCTIONS       ///
 ////////////////////////////
