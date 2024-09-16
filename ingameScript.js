@@ -292,7 +292,7 @@ function StartGame() {
 
 
 function secrittest() {
-  input = promt("Wasup")
+  input = prompt("Wasup")
   if (input == TESTSECRET) {
     alert("yay")
   }
