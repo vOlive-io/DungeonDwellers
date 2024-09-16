@@ -293,7 +293,7 @@ function StartGame() {
 
 function secrittest() {
   input = prompt("Wasup")
-  if (input == secret.TESTSECRET) {
+  if (input == {{ secrets.TESTSECRET }}) {
     alert("yay")
   }
 }
