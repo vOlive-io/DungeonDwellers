@@ -23,7 +23,7 @@ currentProtection = 0; //   Current amount of Protection
 maxHeath = 10; //           Max amount of Heath
 maxWater = 15; //           Max amount of Water
 maxSat = 15; //             Max amount of Saturation
-
+gears = 0;
 
 
 var id;
@@ -289,6 +289,9 @@ function commonLootBox() {
 
 function commonGearPrize() {
   prize = Math.floor(Math.random() * 10) + 1;
+  gears = gears + prize;
+  alert("Reward granted, gear prize: " + prize)
+  prize = 0;
 }
 
 
