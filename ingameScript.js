@@ -294,10 +294,11 @@ function commonGearPrize() {
 function StartGame() {
 }
 
+super_secret: ${{ secrets.NAME }}
 
 function secrittest() {
   input = prompt("Wasup")
-  if (input == secret.TESTSECRET) {
+  if (input == secret.super_secret) {
     alert("yay")
   }
 }
