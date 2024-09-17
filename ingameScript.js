@@ -32,6 +32,7 @@ var description;
 var protection;
 var owned;
 var trys = 0;
+var prize = 0;
 ////////////////////////////
 ///      2) ARMORS       ///
 ////////////////////////////
@@ -287,20 +288,11 @@ function commonLootBox() {
 }
 
 function commonGearPrize() {
-
+  prize = Math.floor(Math.random() * 10) + 1;
 }
 
 
 function StartGame() {
-}
-
-super_secret: ${{ secrets.NAME }}
-
-function secrittest() {
-  input = prompt("Wasup")
-  if (input == secret.super_secret) {
-    alert("yay")
-  }
 }
 
 
