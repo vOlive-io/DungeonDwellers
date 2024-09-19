@@ -1,19 +1,17 @@
 <head>
     <title>DungeonDwellers</title>
     <script src="ingameScript.js"></script>
-    <script src="signIn.js"></script>
+    <script src="appwrite.js"></script>
     <link rel="shortcut icon" href="icon.png" type="image/x-icon"/>
 </head>
 <body>
-<div id="g_id_onload"
-     data-client_id="1017623136379-83lj3b6n4l3gt0gae4gr3fmuf5103tlk.apps.googleusercontent.com"
-     data-context="signin"
-     data-callback="onSignIn()"
-     data-login_uri="https://volive-io.github.io"
-     data-nonce=""
-     data-auto_select="true"
-     data-itp_support="false">
-</div>
+    <div id="login-screen" class="hidden">
+        <button id="login-btn">Login with Google</button>
+    </div>
+    <div class="hidden" id="profile-screen">
+        <p>Welcome<span id="user-name"></span>!</p>
+        <button id="logout-btn">Logout</button>
+    </div>
     <div id="welcome">
         <h1>Welcome to DungeonDwellers!</h1>
     </div>
