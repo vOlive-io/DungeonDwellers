@@ -299,6 +299,20 @@ function StartGame() {
 }
 
 
+import { account} from './appwrite'
+
+const loginBtn = document.getElementById('login-btn')
+
+
+
+
+
+
+
+
+
+
+
 
 
 
