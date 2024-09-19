@@ -290,7 +290,7 @@ function commonLootBox() {
 function commonGearPrize() {
   prize = Math.floor(Math.random() * 50) + 1;
   gears = gears + prize;
-  alert("Reward granted, gear prize: " + prize)
+  console.log("Reward granted, gear prize: " + prize)
   prize = 0;
 }
 
