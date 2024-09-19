@@ -13,7 +13,12 @@
     <div id="options">
         <button id="Start_Game" onclick="StartGame()">Start Game</button>
         <br><br>
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <div id="g_id_onload"
+     data-client_id="YOUR_GOOGLE_CLIENT_ID"
+     data-login_uri="https://your.domain/your_login_endpoint"
+     data-your_own_param_1_to_login="any_value"
+     data-your_own_param_2_to_login="any_value">
+</div>
         <br><br>
         <a href="#" onclick="signOut();">Sign out</a>
     </div>
