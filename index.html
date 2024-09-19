@@ -1,15 +1,20 @@
 <head>
     <title>DungeonDwellers</title>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
     <script src="ingameScript.js"></script>
+    <script src="signIn.js"></script>
     <link rel="shortcut icon" href="icon.png" type="image/x-icon"/>
 </head>
 <body>
     <div id="welcome">
         <h1>Welcome to DungeonDwellers!</h1>
     </div>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
     <div id="options">
         <button id="Start_Game" onclick="StartGame()">Start Game</button>
         <br>
         <button id="admin_Login" onclick="adminLogin()">Login (Admins Only)</button>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </div>
 </body>
