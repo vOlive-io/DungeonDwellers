@@ -302,6 +302,9 @@ function StartGame() {
 import { account} from './appwrite'
 
 const loginBtn = document.getElementById('login-btn')
+const logoutBtn = document.getElementById('logout-btn')
+const srofileScreen = document.getElementById('profile-screen')
+const loginScreen = document.getElementById('login-screen')
 
 
 
