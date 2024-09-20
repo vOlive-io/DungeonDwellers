@@ -307,7 +307,11 @@ const srofileScreen = document.getElementById('profile-screen')
 const loginScreen = document.getElementById('login-screen')
 
 async function handleLogin (){
-  
+  account.createOAuth2Session(
+    'google', //app
+    'https://volive-io.github.io/DungeonDwellers/',    //succses
+    'https://volive-io.github.io/DungeonDwellers/fail',    //fail
+  )
 }
 
 
