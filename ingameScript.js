@@ -321,6 +321,21 @@ async function getUser (){
   }
 }
 
+function renderLogingScreen (){
+  profileScreen.classList.remove('hidden')
+}
+
+function renderProfileScreen (user){
+  document.getElementById('user-name').textContent = user.name
+  profileScreen.classList.remove('hidden')
+}
+
+async function handleLogout (){
+  accont.deleteSession('current')
+  profileScreen.classList.add('hidden')
+  renderLoginScreen()
+}
+  
 
 
 
