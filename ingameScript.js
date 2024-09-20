@@ -306,8 +306,20 @@ const logoutBtn = document.getElementById('logout-btn')
 const srofileScreen = document.getElementById('profile-screen')
 const loginScreen = document.getElementById('login-screen')
 
+async function handleLogin (){
+  
+}
 
 
+async function getUser (){
+  try {
+
+    const user = await account.get()
+    renderProfileScreen(user)
+  }catch(error) {
+    renderLoginScreen()
+  }
+}
 
 
 
