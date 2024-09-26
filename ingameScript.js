@@ -299,7 +299,7 @@ function StartGame() {
 }
 
 
-import { account} from './appwrite'
+import { account} from "./appwrite.mjs"
 
 const loginBtn = document.getElementById('login-btn')
 const logoutBtn = document.getElementById('logout-btn')
