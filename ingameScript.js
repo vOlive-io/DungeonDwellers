@@ -222,21 +222,30 @@ var DungeonChestArmorTypes = [
 ////////////////////////////
 ////  3) BUN BERRIES     ///
 ////////////////////////////
+//TOTALS
 var totalBunBerries = 0; //      Total Number of Bun Berries
+var totalEaten = 0; //           Total Number of Bun Berries Eaten
+//BASIC BUN BERRIES
 var strenthBunBerries = 0; //        +10 Strength
 var maxStrenthBunBerries = 0; //     +10 Max Strenth
 var saturationBunBerries = 0; //     +10 Saturation
+var stelthBunBerrie = 0 //           +10 Steath
 var maxSaturationBunBerries = 0; //  +10 Max Saturation
 var waterBunBerries = 0; //          +10 Water
 var maxWaterBunBerries = 0; //       +10 Max Water
-var jesterBunBerries = 0; //         +10 Luck
+var luckBunBerries = 0; //           +10 Luck
+//HEATH BUN BERRIES
 var lv1HeathHealBunBerries = 0; //   restores 5% of Heath
 var lv2HeathHealBunBerries = 0; //   restores 10% of Heath
 var lv3HeatHealhBunBerries = 0; //   restores 25% of Heath
 var lv4HeathHealBunBerries = 0; //   restores 50% of Heath
 var lv5HeathHealBunBerries = 0; //   restores 100% of Heath
+//MAX HEATH BUN BERRIES
 var lv1maxHeathBunBerries = 0; //    +10 max Heath 
 var lv2macHeathBunBerries = 0; //    +100 max Heath
+//SPECIAL BUN BERRIES
+var aquaBunBerries = 0; //           +10 water, +5 Strength, +3 Heath
+var jesterBunBerries = 0; //         +10 Luck, +5 Strength, +3 Heath
 
 
 
