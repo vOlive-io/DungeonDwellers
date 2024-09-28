@@ -294,7 +294,7 @@ function commonGearPrize() {
   prize = 0;
 }
 
-
+/*
 function StartGame() {
 }
 
@@ -340,7 +340,7 @@ async function handleLogout (){
   renderLoginScreen()
 }
   
-
+*/
 
 
 
