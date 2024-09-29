@@ -4,7 +4,7 @@
 ///        2) BunBerries                ///
 ///        3) Armor                     ///
 ///        4) Weapons                   ///
-///        5) Items                     ///        
+///        5) Items                     ///
 ///        6) LootChest/Boxes           ///
 ///                                     ///
 ///////////////////////////////////////////
@@ -13,11 +13,12 @@
 ///       1) STATS       ///
 ////////////////////////////
 //stats 
+
 currentHeath = 10; //       Current amount of Heath
-currentStrenth = 10; //     Current amount of Strenth
-currentStealth = 10; //     Current amount of Stealth
 currentWater = 10; //       Current amount of Water
 currentSat = 10; //         Current amount of Saturation
+currentStrenth = 10; //     Current amount of Strenth
+currentStealth = 10; //     Current amount of Stealth
 currentLuck = 0; //         Current amount of Luck
 currentProtection = 0; //   Current amount of Protection
 
@@ -262,18 +263,29 @@ var DungeonChestArmorTypes = [
 
 /////////////////////////////////////////////////////////////////
 ///                           FUNCTIONS                       ///
-///              1) Gear Prizes and Loot Boxes                ///
-///              2) Variable Management                       ///
-///              3) Story Management                          ///
-///              4) Story Dungeon Management                  ///
-///              5) Story Dungeons Playout                    ///
-///              5) Story Progress                            ///        
-///              6) Cookies                                   ///
+///              1) Updates                                   ///
+///              2) Gear Prizes & Loot Boxes                  ///
+///              3) Variable Management                       ///
+///              4) Story Management                          ///
+///              5) Story Dungeon Management                  ///
+///              6) Story Dungeons Playout                    ///
+///              7) Story Progress                            ///        
+///              8) Cookies                                   ///
 ///                                                           ///
 /////////////////////////////////////////////////////////////////
-////////////////////////////
-///      FUNCTIONS       ///
-////////////////////////////
+
+///////////////////////////////////////////
+///             1) UPDATES              ///
+///////////////////////////////////////////
+
+function updateAll() {
+  updateStats();
+}
+
+
+///////////////////////////////////////////
+///     2) GEAR PRIZES & LOOT BOXES     ///
+///////////////////////////////////////////
 
 
 function commonLootBox() {
