@@ -1,3 +1,7 @@
 /*
 Il make this soon
 */
+
+#bedHead, #FigWreath, #WoodHelmet {
+  display: hidden;
+}
