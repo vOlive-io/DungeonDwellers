@@ -1,7 +1,9 @@
-/*
-Il make this soon
-*/
-
+/* common */
 #FigWreath, #WoodHelmet, #WoodHelmet, #LeatherBandana, #PaintHelmet, #ExplorersHelmet {
+  display: none;
+}
+
+/* uncommon */
+#uncommon, #FruitHat, #SafariHat, #RubberMask, #MudMask, #TinHead, #StoneHelmet, #GlassHelmet, #NickleHelmet, #ChainHelmet, #CopperHelmet, #BrassHelmet {
   display: none;
 }
