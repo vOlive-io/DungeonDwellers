@@ -278,10 +278,13 @@ var DungeonChestArmorTypes = [
 ///             1) UPDATES              ///
 ///////////////////////////////////////////
 
-function updateAll() {
+function updateAllScreens() {
   updateStats();
 }
 
+function updateStats() {
+  hpt.innerText = heath + "/" + maxHeath;
+}
 
 ///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
