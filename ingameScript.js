@@ -227,7 +227,7 @@ var totalBunBerries = 0; //      Total Number of Bun Berries
 var totalEaten = 0; //           Total Number of Bun Berries Eaten
 //BASIC BUN BERRIES
 var strenthBunBerries = 0; //        +10 Strength
-var maxStrenthBunBerries = 0; //     +10 Max Strenth
+var maxStrenthBunBerries = 0; //     +10 Max Strength
 var saturationBunBerries = 0; //     +10 Saturation
 var stelthBunBerrie = 0 //           +10 Steath
 var maxSaturationBunBerries = 0; //  +10 Max Saturation
@@ -244,8 +244,10 @@ var lv5HeathHealBunBerries = 0; //   restores 100% of Heath
 var lv1maxHeathBunBerries = 0; //    +10 max Heath 
 var lv2macHeathBunBerries = 0; //    +100 max Heath
 //SPECIAL BUN BERRIES
-var aquaBunBerries = 0; //           +10 water, +5 Strength, +3 Heath
-var jesterBunBerries = 0; //         +10 Luck, +5 Strength, +3 Heath
+var shadowBunBerries = 0; //         +10 Stealth, +5 Heath, +3 Luck
+var lavaBunBerries = 0; //           +10 Strength, +5 Stealth, +3 Heath
+var aquaBunBerries = 0; //           +10 Water, +5 Strength, +3 Heath
+var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 
 
 
