@@ -283,7 +283,13 @@ function updateAllScreens() {
 }
 
 function updateStats() {
-  hpt.innerText = heath + "/" + maxHeath;
+  hpt.innerText = currentHeath + "/" + maxHeath;
+  wtr.innerText = currentWater + "/" + maxWater;
+  sat.innerText = currentSat + "/" + maxSat;
+  str.innerText = currentStrenth;
+  stl.innerText = currentStealth;
+  pro.innerText = currentProtection;
+  lck.innerText = currentLuck;
 }
 
 ///////////////////////////////////////////
