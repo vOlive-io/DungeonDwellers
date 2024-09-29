@@ -36,6 +36,17 @@ var owned;
 var trys = 0;
 var prize = 0;
 
+var commonOwned = true;
+var uncommonOwned = false;
+var rareOwned = false;
+var epicOwned = false;
+var mythicOwned = false;
+var dungeonOwned = false;
+var seasonOneOwned = false;
+var relicOwned = false;
+
+
+ 
 
 
 ////////////////////////////
