@@ -279,10 +279,11 @@ var DungeonChestArmorTypes = [
 ///////////////////////////////////////////
 
 function updateAllScreens() {
-  updateStats();
+  updateVitals();
+  updateMain();
 }
 
-function updateStats() {
+function updateVitals() {
   hpt.innerText = currentHeath + "/" + maxHeath;
   wtr.innerText = currentWater + "/" + maxWater;
   sat.innerText = currentSat + "/" + maxSat;
@@ -292,6 +293,9 @@ function updateStats() {
   lck.innerText = currentLuck;
 }
 
+function updateMAin() {
+  //il do this soon
+}
 ///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
