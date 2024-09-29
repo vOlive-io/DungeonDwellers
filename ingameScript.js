@@ -15,6 +15,7 @@
 //stats 
 currentHeath = 10; //       Current amount of Heath
 currentStrenth = 10; //     Current amount of Strenth
+currentStealth = 10; //     Current amount of Stealth
 currentWater = 10; //       Current amount of Water
 currentSat = 10; //         Current amount of Saturation
 currentLuck = 0; //         Current amount of Luck
@@ -33,8 +34,43 @@ var protection;
 var owned;
 var trys = 0;
 var prize = 0;
+
+
+
 ////////////////////////////
-///      2) ARMORS       ///
+////  2) BUN BERRIES     ///
+////////////////////////////
+//TOTALS
+var totalBunBerries = 0; //      Total Number of Bun Berries
+var totalEaten = 0; //           Total Number of Bun Berries Eaten
+//BASIC BUN BERRIES
+var luckBunBerries = 0; //           +3 Luck
+var strenthBunBerries = 0; //        +5 Strength
+var stealthBunBerries  = 0; //       +5 Stealth
+var waterBunBerries = 0; //          +5 Water
+var stelthBunBerrie = 0 //           +5 Steath
+var maxSaturationBunBerries = 0; //  +10 Max Saturation
+var saturationBunBerries = 0; //     +10 Saturation
+var maxWaterBunBerries = 0; //       +10 Max Water
+//HEATH BUN BERRIES
+var lv1HeathHealBunBerries = 0; //   restores 5% of Heath
+var lv2HeathHealBunBerries = 0; //   restores 10% of Heath
+var lv3HeatHealhBunBerries = 0; //   restores 25% of Heath
+var lv4HeathHealBunBerries = 0; //   restores 50% of Heath
+var lv5HeathHealBunBerries = 0; //   restores 100% of Heath
+//MAX HEATH BUN BERRIES
+var lv1maxHeathBunBerries = 0; //    +10 max Heath 
+var lv2macHeathBunBerries = 0; //    +100 max Heath
+//SPECIAL BUN BERRIES
+var shadowBunBerries = 0; //         +10 Stealth, +5 Heath, +3 Luck
+var lavaBunBerries = 0; //           +10 Strength, +5 Stealth, +3 Heath
+var aquaBunBerries = 0; //           +10 Water, +5 Strength, +3 Heath
+var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
+
+
+
+////////////////////////////
+///      3) ARMORS       ///
 ////////////////////////////
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
@@ -217,39 +253,6 @@ var DungeonChestArmorTypes = [
   ["41", "Clan Style", "2", ""],  // from warrior squad
   ["42", " ----- ----- ", "2", ""]  // ----- driver
 ];
-
-
-////////////////////////////
-////  3) BUN BERRIES     ///
-////////////////////////////
-//TOTALS
-var totalBunBerries = 0; //      Total Number of Bun Berries
-var totalEaten = 0; //           Total Number of Bun Berries Eaten
-//BASIC BUN BERRIES
-var strenthBunBerries = 0; //        +10 Strength
-var maxStrenthBunBerries = 0; //     +10 Max Strength
-var saturationBunBerries = 0; //     +10 Saturation
-var stelthBunBerrie = 0 //           +10 Steath
-var maxSaturationBunBerries = 0; //  +10 Max Saturation
-var waterBunBerries = 0; //          +10 Water
-var maxWaterBunBerries = 0; //       +10 Max Water
-var luckBunBerries = 0; //           +10 Luck
-//HEATH BUN BERRIES
-var lv1HeathHealBunBerries = 0; //   restores 5% of Heath
-var lv2HeathHealBunBerries = 0; //   restores 10% of Heath
-var lv3HeatHealhBunBerries = 0; //   restores 25% of Heath
-var lv4HeathHealBunBerries = 0; //   restores 50% of Heath
-var lv5HeathHealBunBerries = 0; //   restores 100% of Heath
-//MAX HEATH BUN BERRIES
-var lv1maxHeathBunBerries = 0; //    +10 max Heath 
-var lv2macHeathBunBerries = 0; //    +100 max Heath
-//SPECIAL BUN BERRIES
-var shadowBunBerries = 0; //         +10 Stealth, +5 Heath, +3 Luck
-var lavaBunBerries = 0; //           +10 Strength, +5 Stealth, +3 Heath
-var aquaBunBerries = 0; //           +10 Water, +5 Strength, +3 Heath
-var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
-
-
 
 
 ////////////////////////////
