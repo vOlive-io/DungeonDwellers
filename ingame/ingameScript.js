@@ -293,7 +293,7 @@ function updateVitals() {
   lck.innerText = currentLuck;
 }
 
-function updateMAin() {
+function updateMain() {
   //il do this soon
 }
 ///////////////////////////////////////////
