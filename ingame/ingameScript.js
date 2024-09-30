@@ -307,6 +307,26 @@ function updateVitals() {
 function updateMain() {
   //il do this soon
 }
+
+function updateArmors() {
+  if (CommonHeadArmorTypes[1][4] == true) {
+    FigWreath = document.getElementById("FigWreath")
+    FigWreath.style.visibility = "visible";
+  } else if (CommonHeadArmorTypes[2][4] == true) {
+    WoodHelmet = document.getElementById("WoodHelmet")
+    WoodHelmet.style.visibility = "visible";
+  } else if (CommonHeadArmorTypes[3][4] == true) {
+    LeatherBandana = document.getElementById("LeatherBandana")
+    LeatherBandana.style.visibility = "visible";
+  } else if (CommonHeadArmorTypes[4][4] == true) {
+    PaintHelmet = document.getElementById("PaintHelmet")
+    PaintHelmet.style.visibility = "visible";
+  } else if (CommonHeadArmorTypes[5][4] == true) {
+    ExplorersHelmet = document.getElementById("ExplorersHelmet")
+    ExplorersHelmet.style.visibility = "visible";
+  }
+}
+
 ///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
@@ -359,13 +379,7 @@ function uncommonLootBox() {
   }  
 }
 
-function showArmors() {
-  if (CommonHeadArmorTypes[1][4] == true) {
-    alert("true")
-    FigWreath = document.getElementById("FigWreath")
-    FigWreath.style.visibility = "visible";
-  }
-}
+
 
 function commonGearPrize() {
   prize = Math.floor(Math.random() * 50) + 1;
