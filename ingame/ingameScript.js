@@ -311,19 +311,19 @@ function updateMain() {
 function updateArmors() {
   if (CommonHeadArmorTypes[1][4] == true) {
     FigWreath = document.getElementById("FigWreath")
-    FigWreath.style.visibility = "visible";
+    FigWreath.style.display = "block";
   } else if (CommonHeadArmorTypes[2][4] == true) {
     WoodHelmet = document.getElementById("WoodHelmet")
-    WoodHelmet.style.visibility = "visible";
+    WoodHelmet.style.display = "block";
   } else if (CommonHeadArmorTypes[3][4] == true) {
     LeatherBandana = document.getElementById("LeatherBandana")
-    LeatherBandana.style.visibility = "visible";
+    LeatherBandana.style.display = "block";
   } else if (CommonHeadArmorTypes[4][4] == true) {
     PaintHelmet = document.getElementById("PaintHelmet")
-    PaintHelmet.style.visibility = "visible";
+    PaintHelmet.style.display = "block";
   } else if (CommonHeadArmorTypes[5][4] == true) {
     ExplorersHelmet = document.getElementById("ExplorersHelmet")
-    ExplorersHelmet.style.visibility = "visible";
+    ExplorersHelmet.style.display = "block";
   }
 }
 
