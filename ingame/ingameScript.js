@@ -360,8 +360,10 @@ function uncommonLootBox() {
 }
 
 function showArmors() {
-  if (CommonHeadArmorTypes[0][4] == true) {
+  if (CommonHeadArmorTypes[1][4] == true) {
     alert("true")
+    FigWreath = document.getElementById("FigWreath")
+    FigWreath.style.visibility = "visible";
   }
 }
 
