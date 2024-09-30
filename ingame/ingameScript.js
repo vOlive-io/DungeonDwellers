@@ -360,7 +360,7 @@ function uncommonLootBox() {
 }
 
 function showArmors() {
-  if CommonHeadArmorTypes[0][4] == true {
+  if (CommonHeadArmorTypes[0][4] == true) {
     alert("true")
   }
 }
