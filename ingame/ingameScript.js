@@ -359,6 +359,12 @@ function uncommonLootBox() {
   }  
 }
 
+function showArmors() {
+  if CommonHeadArmorTypes[0][4] == true {
+    alert("true")
+  }
+}
+
 function commonGearPrize() {
   prize = Math.floor(Math.random() * 50) + 1;
   gears = gears + prize;
