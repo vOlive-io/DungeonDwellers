@@ -292,6 +292,7 @@ var DungeonChestArmorTypes = [
 function updateAllScreens() {
   updateVitals();
   updateMain();
+  updateHEadArmors();
 }
 
 function updateVitals() {
@@ -308,7 +309,7 @@ function updateMain() {
   //il do this soon
 }
 
-function updateArmors() {
+function updateHeadArmors() {
   if (CommonHeadArmorTypes[1][4] == true) {
     FigWreath.style.display = "block";
   } else if (CommonHeadArmorTypes[2][4] == true) {
@@ -319,6 +320,26 @@ function updateArmors() {
     PaintHelmet.style.display = "block";
   } else if (CommonHeadArmorTypes[5][4] == true) {
     ExplorersHelmet.style.display = "block";
+    /////////////UNCOMMON/////////////
+  } else if (UncmmonHeadArmorTypes[0][4] == true) {
+    FruitHat.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[1][4] == true) {
+    SafariHat.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[2][4] == true) {
+    RubberMask.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[3][4] == true) {
+    MudMask.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[4][4] == true) {
+    TinHead.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[5][4] == true) {
+    StoneHelmet.style.display = "block";
+    uncommonOwned = true;
+    //more to come
   }
 }
 
