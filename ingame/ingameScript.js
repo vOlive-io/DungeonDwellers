@@ -46,7 +46,7 @@ var seasonOneOwned = false;
 var relicOwned = false;
 
 
- 
+
 
 
 ////////////////////////////
@@ -314,18 +314,16 @@ function updateMain() {
 
 function commonLootBox() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Insted you will get a gear prize.")
+    console.log("Sorry armor could not be found... Insted you will get a gear prize. (1-50)")
     commonGearPrize();
-  }
-  else {
+  } else {
     drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
     owned = CommonHeadArmorTypes[drop] [4];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
       commonLootBox();
-    }
-    else {
+    } else {
       id = CommonHeadArmorTypes[drop] [0];
       name = CommonHeadArmorTypes[drop] [1];
       protection = CommonHeadArmorTypes[drop] [2];
@@ -337,8 +335,39 @@ function commonLootBox() {
   }  
 }
 
+function uncommonLootBox() {
+ if (trys > 100) {
+  console.log("Sorry armor could not be found... Insted you will get a gear prize.(50-100)")
+  uncommonGearPrize();
+ } else {
+  drop = Math.floor(Math.random() * UncommonHeadArmorTypes.length);
+  owned = UncommonHeadArmorTypes[drop] [4];
+  if (owned == true) {
+   console.log("Retring for new armor....")
+   trys++;
+   uncommonLootBox();
+  } else {
+   id = UncommonHeadArmorTypes[drop] [0];
+   name = UncommonHeadArmorTypes[drop] [1];
+   protection = UncommonHeadArmorTypes[drop] [2];
+   description = UncommonHeadArmorTypes[drop] [3];
+   UncommonHeadArmorTypes[drop] [4] = true;
+   trys = 0;
+   uncommonOwned = true;
+   console.log("You got " + name + ", " + description + " ID: " + id);
+    }
+  }  
+}
+
 function commonGearPrize() {
   prize = Math.floor(Math.random() * 50) + 1;
+  gears = gears + prize;
+  console.log("Reward granted, gear prize: " + prize)
+  prize = 0;
+}
+
+function uncommonGearPrize() {
+  prize = Math.floor(Math.random() * 50) + 50;
   gears = gears + prize;
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
