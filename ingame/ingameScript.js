@@ -137,7 +137,7 @@ var UncommonHeadArmorTypes = [
   ["30", "Stone Helmet", "4", "Try not to move your head it hurts less that way. Uncommon, +4 Protection.", "false"], 
   ["31", "Glass Helmet", "4", "YOu can see your hair! Uncommon +4 Protection.", "false"],
   ["32", "Nickle Helmet", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection.", "false"],
-  ["33", "Chain Mail Helmet", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"]
+  ["33", "Chain Mail Helmet", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"],
   ["34", "Copper Helmet", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection.", "false"],
   ["35", "Brass Helmet", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection.", "false"]
 ];
