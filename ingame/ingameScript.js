@@ -321,37 +321,37 @@ function updateHeadArmors() {
   } else if (CommonHeadArmorTypes[5][4] == true) {
     ExplorersHelmet.style.display = "block";
     /////////////UNCOMMON/////////////
-  } else if (UncmmonHeadArmorTypes[0][4] == true) {
+  } else if (UncommonHeadArmorTypes[0][4] == true) {
     FruitHat.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[1][4] == true) {
+  } else if (UncommonHeadArmorTypes[1][4] == true) {
     SafariHat.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[2][4] == true) {
+  } else if (UncommonHeadArmorTypes[2][4] == true) {
     RubberMask.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[3][4] == true) {
+  } else if (UncommonHeadArmorTypes[3][4] == true) {
     MudMask.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[4][4] == true) {
+  } else if (UncommonHeadArmorTypes[4][4] == true) {
     TinHead.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[5][4] == true) {
+  } else if (UncommonHeadArmorTypes[5][4] == true) {
     StoneHelmet.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[6][4] == true) {
+  } else if (UncommonHeadArmorTypes[6][4] == true) {
     GlassHelmet.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[7][4] == true) {
+  } else if (UncommonHeadArmorTypes[7][4] == true) {
     NickleHelmet.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[8][4] == true) {
+  } else if (UncommonHeadArmorTypes[8][4] == true) {
     ChainHelmet.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[9][4] == true) {
+  } else if (UncommonHeadArmorTypes[9][4] == true) {
     CopperHelmet.style.display = "block";
     uncommonOwned = true;
-  } else if (UncmmonHeadArmorTypes[10][4] == true) {
+  } else if (UncommonHeadArmorTypes[10][4] == true) {
     BrassHelmet.style.display = "block";
     uncommonOwned = true;
   }
