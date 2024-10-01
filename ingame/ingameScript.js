@@ -339,7 +339,21 @@ function updateHeadArmors() {
   } else if (UncmmonHeadArmorTypes[5][4] == true) {
     StoneHelmet.style.display = "block";
     uncommonOwned = true;
-    //more to come
+  } else if (UncmmonHeadArmorTypes[6][4] == true) {
+    GlassHelmet.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[7][4] == true) {
+    NickleHelmet.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[8][4] == true) {
+    ChainHelmet.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[9][4] == true) {
+    CopperHelmet.style.display = "block";
+    uncommonOwned = true;
+  } else if (UncmmonHeadArmorTypes[10][4] == true) {
+    BrassHelmet.style.display = "block";
+    uncommonOwned = true;
   }
 }
 
