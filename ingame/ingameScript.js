@@ -292,7 +292,7 @@ var DungeonChestArmorTypes = [
 function updateAllScreens() {
   updateVitals();
   updateMain();
-  updateHEadArmors();
+  updateHeadArmors();
 }
 
 function updateVitals() {
