@@ -129,7 +129,7 @@ var CommonBootArmorTypes = [
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
 var UncommonHeadArmorTypes = [
-  ["25", "Fruit Hat", "3", "A tasty hat made from all types of fruits. Uncommon +3 Protection.", "false"],
+  ["25", "Fruit Hat", "3", "Hungry? Don't eat it. Uncommon +3 Protection.", "false"],
   ["26", "Safari Hat", "3", "Keep the sun out of your face now with the new safari hat. Uncommon +3 Protection.", "false"],
   ["27", "Rubber Mask", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection.", "false"],
   ["28", "Mud Mask", "3", "\"A facemask made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\". Uncommon +3 Protection.", "false"],
