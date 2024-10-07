@@ -88,10 +88,10 @@ var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
   ["1", "Bead Head", "0", "Get a Comb lunkhead, +0 Protection.", true],
-  ["2", "Fig Leaf Wreath", "1", "Wow a leaf you look very cool (sarcasm). Common, +1 Protection.", false],
+  ["2", "Fig Leaf Wreath", "1", "Wow a leaf you look very cool*sarcasm*). Common, +1 Protection.", false],
   ["3", "Wood Helmet", "1", "Knock on wood. Common, +1 Protection.", false],
-  ["4", "Leather Bandana", "2", "you look like someone trick or treating with a braclet around their five head. Common +2 Protection.", false],
-  ["5", "Painted on Helmet", "2", "Did vincent van goh paint it on it looks so pretty (sarcastic). Common +2 Protection.", false],
+  ["4", "Leather Bandana", "2", "You look like someone trick or treating with a bracelet around their head. Common +2 Protection.", false],
+  ["5", "Painted on Helmet", "2", "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common +2 Protection.", false],
   ["6", "Explorers Helmet", "3", "dum dum dum du dum dum dum da dum dum dum du dum. Common +3 Protection.", false]
 ];
 
@@ -101,7 +101,7 @@ var CommonChestArmorTypes = [
   ["9", "Woodplate", "1", "Again Knock on wood . Common, +1 Protection.", "false"],
   ["10", "Leather Chestplate", "2", "Found some cow patties I see . Common +2 Protection.", "false"],
   ["11", "Painted on Armor", "2", "Wow look at you Picasso. Common +2 Protection.", "false"],
-  ["12", "Basic Explorers Chestplate", "3", "Indiana jones is nothing compared to you (sarcastic). Common +3 Protection.", "false"]
+  ["12", "Basic Explorers Chestplate", "3", "Indiana Jones is nothing compared to you *sarcasm*. Common +3 Protection.", "false"]
 ];
 
 var CommonLegArmorTypes = [
@@ -115,11 +115,11 @@ var CommonLegArmorTypes = [
 
 var CommonBootArmorTypes = [
   ["19", "Shoes", "0", "Why are they untied?. Common, +0 Protection.", "true"],
-  ["20", "Fig Leaf Feet Covers", "1", "rocks can easily poke throuch and cause you pain. Common, +1 Protection.", "false"]
+  ["20", "Fig Leaf Feet Covers", "1", "rocks can easily poke through and cause you pain. Common, +1 Protection.", "false"]
   ["21", "Wood Sandals", "1", "Forget to bring tweezers?. Common, +1 Protection.", "false"],
-  ["22", "Leather Boots", "2", "Like minecraft I assume. Common +2 Protection.", "false"],
-  ["23", "Painted on Boots", "2", "Da vinci who are you painting?. Common +2 Protection.", "false"],
-  ["24", "Basic Explorers Boots", "3", "No they are'nt air jordans. Common +3 Protection.", "false"]
+  ["22", "Leather Boots", "2", "Like Minecraft I assume. Common +2 Protection.", "false"],
+  ["23", "Painted on Boots", "2", "Da Vinci who are you painting?. Common +2 Protection.", "false"],
+  ["24", "Basic Explorers Boots", "3", "No they aren't air Jordans. Common +3 Protection.", "false"]
 ];
 
 
