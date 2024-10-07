@@ -128,6 +128,8 @@ var CommonBootArmorTypes = [
 
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
+
+//Needs new descriptions
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", "3", "Hungry? Don't eat it. Uncommon +3 Protection.", "false"],
   ["26", "Safari Hat", "3", "Keep the sun out of your face now with the new safari hat. Uncommon +3 Protection.", "false"],
