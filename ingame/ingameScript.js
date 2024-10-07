@@ -132,16 +132,16 @@ var CommonBootArmorTypes = [
 //Needs new descriptions
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", "3", "Hungry? Don't eat it. Uncommon +3 Protection.", "false"],
-  ["26", "Safari Hat", "3", "Keep the sun out of your face now with the new safari hat. Uncommon +3 Protection.", "false"],
-  ["27", "Rubber Mask", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection.", "false"],
-  ["28", "Mud Mask", "3", "\"A facemask made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\". Uncommon +3 Protection.", "false"],
-  ["29", "Tin Head", "4", "A new head made of tin with great acoustics. Uncommon +4 Protection.", "false"],
-  ["30", "Stone Helmet", "4", "Try not to move your head it hurts less that way. Uncommon, +4 Protection.", "false"], 
-  ["31", "Glass Helmet", "4", "YOu can see your hair! Uncommon +4 Protection.", "false"],
-  ["32", "Nickle Helmet", "5", "Nickle armor, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection.", "false"],
-  ["33", "Chain Mail Helmet", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"],
-  ["34", "Copper Helmet", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection.", "false"],
-  ["35", "Brass Helmet", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection.", "false"]
+  ["26", "Safari Hat", "3", "You look like a cheetah . Uncommon +3 Protection.", "false"],
+  ["27", "Rubber Mask", "3", "I AM THOR STRIKE ME LIGHTNING YOU DO NO HARM. Uncommon +3 Protection.", "false"],
+  ["28", "Mud Mask", "3", "\"It looks so much like poop i mean thats' what fertilizer is made of right I got it from the ground....\". Uncommon +3 Protection.", "false"],
+  ["29", "Tin Head", "4", "Be the Tin Man from the Wizard of OZ Uncommon +4 Protection.", "false"],
+  ["30", "Stone Helmet", "4", "Rocks Stone and stuff don't move you're head It eill roll like a stone. Uncommon, +4 Protection.", "false"], 
+  ["31", "Glass Helmet", "4", "Dang you can see you're hair get a friggin comb lunkhead! Uncommon +4 Protection.", "false"],
+  ["32", "Nickle Helmet", "5", "You can be sold for 999.00! Uncommon +5 Protection.", "false"],
+  ["33", "Chain Mail Helmet", "5", "You look so ancient. Uncommon +5 Protection.", "false"],
+  ["34", "Copper Helmet", "5", "Don a torch and book and you can be the Statue of Liberty. Uncommon +5 Protection.", "false"],
+  ["35", "Brass Helmet", "5", "You look so Ugly . Uncommon +5 Protection.", "false"]
 ];
 
 var UncommonChestArmorTypes = [
