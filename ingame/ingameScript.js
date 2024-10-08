@@ -116,8 +116,8 @@ var CommonChestArmorTypes = [
 //Does not new descriptions
 var CommonLegArmorTypes = [
   ["13", "Jeans", "0", "You You You You'r burning my eyes please someone help!!. Common, +0 Protection.", "true"],
-  ["14", "The Fig Leaf", "1", "You look very very very stupid. Common, +1 Protection.", "false"]
-  ["15", "Wooden Leg Padding", "1", "you lunkhead know you can't move!!. Common, +1 Protection.", "false"],
+  ["14", "The Fig Leaf", "1", "You look very, very, very, stupid. Common, +1 Protection.", "false"]
+  ["15", "Wooden Leg Padding", "1", "you lunkhead now you can't move!!. Common, +1 Protection.", "false"],
   ["16", "Leather Leggings", "2", "cool very very cool you MURDERER OF HORSES!!!!. Common +2 Protection.", "false"],
   ["17", "Painted on Leggings", "2", " Look Michelangelo what are you painting?. Common +2 Protection", "false"],
   ["18", "Basic Explorers Leggings", "3", "How Many pockets Does it have?. Common +3 Protection.", "false"]
