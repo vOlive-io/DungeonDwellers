@@ -360,7 +360,7 @@ function updateCommonHeadArmors() {
     BrassHelmet.style.display = "block";
     uncommonOwned = true;
   } if (uncommonOwned == true) {
-    uncommon.style.display = "block";
+    uncommonHead.style.display = "block";
   }
 }
 
