@@ -304,7 +304,9 @@ var DungeonChestArmorTypes = [
 function updateAllScreens() {
   updateVitals();
   updateMain();
-  updateHeadArmors();
+  //Armors
+  updateCommonHeadArmors();
+  updateUncommonHeadArmors();
 }
 
 function updateVitals() {
