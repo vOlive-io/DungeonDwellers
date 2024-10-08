@@ -133,14 +133,14 @@ var CommonBootArmorTypes = [
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", "3", "Hungry? Don't eat it. Uncommon +3 Protection.", "false"],
   ["26", "Safari Hat", "3", "You look like a cheetah . Uncommon +3 Protection.", "false"],
-  ["27", "Rubber Mask", "3", "I AM THOR STRIKE ME LIGHTNING YOU DO NO HARM. Uncommon +3 Protection.", "false"],
-  ["28", "Mud Mask", "3", "\"It looks so much like poop i mean thats' what fertilizer is made of right I got it from the ground....\". Uncommon +3 Protection.", "false"],
+  ["27", "Rubber Mask", "3", "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM. Uncommon +3 Protection.", "false"],
+  ["28", "Mud Mask", "3", "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\". Uncommon +3 Protection.", "false"],
   ["29", "Tin Head", "4", "Be the Tin Man from the Wizard of OZ Uncommon +4 Protection.", "false"],
-  ["30", "Stone Helmet", "4", "Rocks Stone and stuff don't move you're head It eill roll like a stone. Uncommon, +4 Protection.", "false"], 
-  ["31", "Glass Helmet", "4", "Dang you can see you're hair get a friggin comb lunkhead! Uncommon +4 Protection.", "false"],
-  ["32", "Nickle Helmet", "5", "You can be sold for 999.00! Uncommon +5 Protection.", "false"],
+  ["30", "Stone Helmet", "4", "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :\). Uncommon, +4 Protection.", "false"], 
+  ["31", "Glass Helmet", "4", "Dang! you can see you're hair..... GET A FEIGGIN COMB LUNKHEAD! Uncommon +4 Protection.", "false"],
+  ["32", "Nickle Helmet", "5", "Get the new nickel armor now being sold for 999.99! Uncommon +5 Protection.", "false"],
   ["33", "Chain Mail Helmet", "5", "You look so ancient. Uncommon +5 Protection.", "false"],
-  ["34", "Copper Helmet", "5", "Don a torch and book and you can be the Statue of Liberty. Uncommon +5 Protection.", "false"],
+  ["34", "Copper Helmet", "5", "Don a torch and book and you can be the Statue of Liberty! Uncommon +5 Protection.", "false"],
   ["35", "Brass Helmet", "5", "You look so Ugly . Uncommon +5 Protection.", "false"]
 ];
 
