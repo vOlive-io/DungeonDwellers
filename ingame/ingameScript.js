@@ -359,6 +359,8 @@ function updateCommonHeadArmors() {
   } if (UncommonHeadArmorTypes[10][4] == true) {
     BrassHelmet.style.display = "block";
     uncommonOwned = true;
+  } if (uncommonOwned == true) {
+    uncommon.style.display = "block";
   }
 }
 
