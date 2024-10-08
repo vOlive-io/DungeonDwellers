@@ -311,7 +311,7 @@ function updateMain() {
   //il do this soon
 }
 
-function updateHeadArmors() {
+function updateUncommonHeadArmors() {
   if (CommonHeadArmorTypes[1][4] == true) {
     FigWreath.style.display = "block";
   } if (CommonHeadArmorTypes[2][4] == true) {
@@ -322,8 +322,9 @@ function updateHeadArmors() {
     PaintHelmet.style.display = "block";
   } if (CommonHeadArmorTypes[5][4] == true) {
     ExplorersHelmet.style.display = "block";
-    /////////////UNCOMMON/////////////
-  } if (UncommonHeadArmorTypes[0][4] == true) {
+  }
+function updateCommonHeadArmors() {
+  if (UncommonHeadArmorTypes[0][4] == true) {
     FruitHat.style.display = "block";
     uncommonOwned = true;
   } if (UncommonHeadArmorTypes[1][4] == true) {
