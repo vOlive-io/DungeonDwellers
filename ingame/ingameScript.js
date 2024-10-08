@@ -36,14 +36,23 @@ var owned;
 var trys = 0;
 var prize = 0;
 
-var commonOwned = true;
-var uncommonOwned = false;
-var rareOwned = false;
-var epicOwned = false;
-var mythicOwned = false;
-var dungeonOwned = false;
-var seasonOneOwned = false;
-var relicOwned = false;
+var commonHeadOwned = true;
+var uncommonHeadOwned = false;
+var rareHeadOwned = false;
+var epicHeadOwned = false;
+var mythicHeadOwned = false;
+var dungeonHeadOwned = false;
+var seasonOneHeadOwned = false;
+var relicHeadOwned = false;
+
+var commonChestOwned = true;
+var uncommonChestOwned = false;
+var rareChestOwned = false;
+var epicChestOwned = false;
+var mythicChestOwned = false;
+var dungeonChestOwned = false;
+var seasonOneChestOwned = false;
+var relicChestOwned = false;
 
 
 
