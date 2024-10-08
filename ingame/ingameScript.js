@@ -86,6 +86,7 @@ var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 ////////////////////////////
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
+//Does not new descriptions
 var CommonHeadArmorTypes = [
   ["1", "Bead Head", "0", "Get a Comb lunkhead, +0 Protection.", true],
   ["2", "Fig Leaf Wreath", "1", "Wow a leaf you look very cool*sarcasm*). Common, +1 Protection.", false],
@@ -94,7 +95,7 @@ var CommonHeadArmorTypes = [
   ["5", "Painted on Helmet", "2", "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common +2 Protection.", false],
   ["6", "Explorers Helmet", "3", "dum dum dum du dum dum dum da dum dum dum du dum. Common +3 Protection.", false]
 ];
-
+//Does not new descriptions
 var CommonChestArmorTypes = [
   ["7", "T-shirt", "0", "stop taking sheep wool please you look so ugly. Common, +0 Protection.", "false"],
   ["8", "Fig Leaf Breastplate", "1", "Stop murdering the trees you sicko . Common, +1 Protection.", "true"]
@@ -103,7 +104,7 @@ var CommonChestArmorTypes = [
   ["11", "Painted on Armor", "2", "Wow look at you Picasso. Common +2 Protection.", "false"],
   ["12", "Basic Explorers Chestplate", "3", "Indiana Jones is nothing compared to you *sarcasm*. Common +3 Protection.", "false"]
 ];
-
+//Does not new descriptions
 var CommonLegArmorTypes = [
   ["13", "Jeans", "0", "You You You You'r burning my eyes please someone help!!. Common, +0 Protection.", "true"],
   ["14", "The Fig Leaf", "1", "You look very very very stupid. Common, +1 Protection.", "false"]
@@ -112,7 +113,7 @@ var CommonLegArmorTypes = [
   ["17", "Painted on Leggings", "2", " Look Michelangelo what are you painting?. Common +2 Protection", "false"],
   ["18", "Basic Explorers Leggings", "3", "How Many pockets Does it have?. Common +3 Protection.", "false"]
 ];
-
+//Does not new descriptions
 var CommonBootArmorTypes = [
   ["19", "Shoes", "0", "Why are they untied?. Common, +0 Protection.", "true"],
   ["20", "Fig Leaf Feet Covers", "1", "rocks can easily poke through and cause you pain. Common, +1 Protection.", "false"]
@@ -129,7 +130,7 @@ var CommonBootArmorTypes = [
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
 
-//Needs new descriptions
+//Does not new descriptions
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", "3", "Hungry? Don't eat it. Uncommon +3 Protection.", "false"],
   ["26", "Safari Hat", "3", "You look like a cheetah . Uncommon +3 Protection.", "false"],
@@ -143,7 +144,7 @@ var UncommonHeadArmorTypes = [
   ["34", "Copper Helmet", "5", "Don a torch and book and you can be the Statue of Liberty! Uncommon +5 Protection.", "false"],
   ["35", "Brass Helmet", "5", "You look so Ugly . Uncommon +5 Protection.", "false"]
 ];
-
+//Needs new descriptions
 var UncommonChestArmorTypes = [
   ["36", "CoconutShell Breast Plate", "3", "A cute breastplate made from fresh coconuts (Coconut juice not provided). Uncommon +3 Protection.", "false"],
   ["37", "Safari Vest", "3", "Dress up like your favorite safari heroes now with the new vest. Uncommon +3 Protection.", "false"],
@@ -157,7 +158,7 @@ var UncommonChestArmorTypes = [
   ["45", "Copper Chestplate", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection.", "false"],
   ["46", "Brass Chestplate", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection.", "false"]
 ];
-
+//Needs new descriptions
 var UncommonLegArmorTypes = [
   ["36", "Banana Leaves Skirt", "3", "A nice skirt made from fresh banana leaves (Bananas). Uncommon +3 Protection.", "false"],
   ["37", "Safari Pants", "3", "Dress up as your favorite safari explores now with the new legging. Uncommon +3 Protection.", "false"],
@@ -172,7 +173,7 @@ var UncommonLegArmorTypes = [
   ["46", "Brass Leggings", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection.", "false"]
 ];
 
-
+//Does not new descriptions
 var UncommonBootArmorTypes = [
   ["36", "Fruit Peel Shoes", "3", "\"Try not to slip\". Uncommon +3 Protection", "false"],
   ["37", "Safari Boots", "3", "Dress up as your favorite safari explores now with the new legging. Uncommon +3 Protection.", "false"],
@@ -323,6 +324,7 @@ function updateUncommonHeadArmors() {
   } if (CommonHeadArmorTypes[5][4] == true) {
     ExplorersHelmet.style.display = "block";
   }
+  
 function updateCommonHeadArmors() {
   if (UncommonHeadArmorTypes[0][4] == true) {
     FruitHat.style.display = "block";
