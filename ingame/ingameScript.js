@@ -432,7 +432,7 @@ function updateUncommonChestArmors() {
 ///////////////////////////////////////////
 
 
-function commonLootBox() {
+function RandomPullCommonHeadArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Insted you will get a gear prize. (1-50)")
     commonGearPrize();
@@ -455,7 +455,7 @@ function commonLootBox() {
   }  
 }
 
-function uncommonLootBox() {
+function RandomPullUncommonHeadArmor() {
  if (trys > 100) {
   console.log("Sorry armor could not be found... Insted you will get a gear prize.(50-100)")
   uncommonGearPrize();
@@ -480,20 +480,63 @@ function uncommonLootBox() {
 }
 
 
-
+//1-50
 function commonGearPrize() {
   prize = Math.floor(Math.random() * 50) + 1;
   gears = gears + prize;
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
 }
-
+//50-100
 function uncommonGearPrize() {
   prize = Math.floor(Math.random() * 50) + 50;
   gears = gears + prize;
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
 }
+//100-300
+function rareGearPrize() {
+  prize = Math.floor(Math.random() * 200) + 100;
+  gears = gears + prize;
+  console.log("Reward granted, gear prize: " + prize)
+  prize = 0;
+}
+//300-1000
+function epicGearPrize() {
+  prize = Math.floor(Math.random() * 700) + 300;
+  gears = gears + prize;
+  console.log("Reward granted, gear prize: " + prize)
+  prize = 0;
+}
+//1000-5000
+function mythicGearPrize() {
+  prize = Math.floor(Math.random() * 4000) + 1000;
+  gears = gears + prize;
+  console.log("Reward granted, gear prize: " + prize)
+  prize = 0;
+}
+//5000-20000
+function relicGearPrize() {
+  prize = Math.floor(Math.random() * 15000) + 5000;
+  gears = gears + prize;
+  console.log("Reward granted, gear prize: " + prize)
+  prize = 0;
+}
+//1000-2500
+function dungeonGearPrize() {
+  prize = Math.floor(Math.random() * 1500) + 1000;
+  gears = gears + prize;
+  console.log("Reward granted, gear prize: " + prize)
+  prize = 0;
+}
+//1000-2500
+function seasonOneGearPrize() {
+  prize = Math.floor(Math.random() * 1500) + 1000;
+  gears = gears + prize;
+  console.log("Reward granted, gear prize: " + prize)
+  prize = 0;
+}
+  
 
 
 
