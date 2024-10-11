@@ -303,9 +303,14 @@ var DungeonChestArmorTypes = [
 function updateAllScreens() {
   updateVitals();
   updateMain();
+  updateSlots();
   //Armors
   updateCommonHeadArmors();
+  updateCommonChestArmors();
   updateUncommonHeadArmors();
+  updateUncommonChestArmors()'
+  //
+  
 }
 
 function updateVitals() {
@@ -319,6 +324,10 @@ function updateVitals() {
 }
 
 function updateMain() {
+  //il do this soon
+}
+
+function updateSlots() {
   //il do this soon
 }
 
