@@ -332,7 +332,7 @@ function updateCommonHeadArmors() {
   } if (CommonHeadArmorTypes[4][4] == true) {
     PaintHelmet.style.display = "block";
   } if (CommonHeadArmorTypes[5][4] == true) {
-    ExplorersHelmet.style.display = "block";
+    BasicExplorersHelmet.style.display = "block";
   }
 
 function updateCommonChestArmors() {
