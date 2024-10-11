@@ -98,7 +98,7 @@ var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 
 var CommonHeadArmorTypes = [
   ["1", "Bead Head", "0", "Get a Comb lunkhead, +0 Protection.", true],
-  ["2", "Fig Leaf Wreath", "1", "Wow a leaf you look very cool*sarcasm*). Common, +1 Protection.", false],
+  ["2", "Fig Leaf Wreath", "1", "Wow a leaf you look very cool *sarcasm*. Common, +1 Protection.", false],
   ["3", "Wood Helmet", "1", "Knock on wood. Common, +1 Protection.", false],
   ["4", "Leather Bandana", "2", "You look like someone trick or treating with a bracelet around their head. Common +2 Protection.", false],
   ["5", "Painted on Helmet", "2", "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common +2 Protection.", false],
@@ -108,14 +108,14 @@ var CommonHeadArmorTypes = [
 var CommonChestArmorTypes = [
   ["7", "T-shirt", "0", "stop taking sheep wool please you look so ugly. Common, +0 Protection.", "false"],
   ["8", "Fig Leaf Breastplate", "1", "Stop murdering the trees you sicko . Common, +1 Protection.", "true"]
-  ["9", "Woodplate", "1", "Again Knock on wood . Common, +1 Protection.", "false"],
+  ["9", "Woodplate", "1", "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!, Common, +1 Protection.", "false"],
   ["10", "Leather Chestplate", "2", "Found some cow patties I see . Common +2 Protection.", "false"],
   ["11", "Painted on Armor", "2", "Wow look at you Picasso. Common +2 Protection.", "false"],
   ["12", "Basic Explorers Chestplate", "3", "Indiana Jones is nothing compared to you *sarcasm*. Common +3 Protection.", "false"]
 ];
 
 var CommonLegArmorTypes = [
-  ["13", "Jeans", "0", "You You You You'r burning my eyes please someone help!!. Common, +0 Protection.", "true"],
+  ["13", "Jeans", "0", "You-- You-- You- --You\'r burning my eyes please someone help!!. Common, +0 Protection.", "true"],
   ["14", "The Fig Leaf", "1", "You look very, very, very, stupid. Common, +1 Protection.", "false"]
   ["15", "Wooden Leg Padding", "1", "you lunkhead now you can't move!!. Common, +1 Protection.", "false"],
   ["16", "Leather Leggings", "2", "cool very very cool you MURDERER OF HORSES!!!!. Common +2 Protection.", "false"],
@@ -164,14 +164,14 @@ var UncommonChestArmorTypes = [
   ["43", "Nickle Chestplate", "5", "Buy the new and more expensive chestpeice for 1233.99! Uncommon +5 Protection.", "false"],
   ["44", "Chain Mail Chestplate", "5", "Are you so old you think chainmail is for armor (eye roll). Uncommon +5 Protection.", "false"]
   ["45", "Copper Chestplate", "5", "Turn it green to make you look even more like the statue of liberty. Uncommon +5 Protection.", "false"],
-  ["46", "Brass Chestplate", "5", "Turn it into a tuba please please please . Uncommon +5 Protection.", "false"]
+  ["46", "Brass Chestplate", "5", "Turn it into a tuba please, please, please!! Uncommon +5 Protection.", "false"]
 ];
 //Needs new descriptions
 var UncommonLegArmorTypes = [
-  ["36", "Banana Leaves Skirt", "3", "STOP MURDERING THE TREES IT ISN"T GOOD FOR THEIR HEALTH!!!!!!!!!!!!!!. Uncommon +3 Protection.", "false"],
-  ["37", "Safari Pants", "3", "Bro you don't need 43 pens. Uncommon +3 Protection.", "false"],
+  ["36", "Banana Leaves Skirt", "3", "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", "false"],
+  ["37", "Safari Pants", "3", "Bro you don't need 43 pants. Uncommon +3 Protection.", "false"],
   ["38", "Rubber Leggings", "3", "俺は海賊の王になるんだ. Uncommon +3 Protection.", "false"],
-  ["39", "Mud Leggings", "3", "\"You really need more Fertilizer \". Uncommon +3 Protection.", "false"],
+  ["39", "Mud Leggings", "3", "You really need more Fertilizer . Uncommon +3 Protection.", "false"],
   ["40", "Tin Leggings", "4", "A pair of stiff pants made of tin. Uncommon +4 Protection.", "false"],
   ["41", "Stone Leggings", "4", "Leggings made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection.", "false"],
   ["42", "Glass Leggings", "4", "You can see you clothing under underneath, how cool! Uncommon +4 Protection.", "false"],
@@ -183,7 +183,7 @@ var UncommonLegArmorTypes = [
 
 //Does not new descriptions
 var UncommonBootArmorTypes = [
-  ["36", "Fruit Peel Shoes", "3", "\"Try not to slip\". Uncommon +3 Protection", "false"],
+  ["36", "Fruit Peel Shoes", "3", "Try not to slip. Uncommon +3 Protection", "false"],
   ["37", "Safari Boots", "3", "Dress up as your favorite safari explores now with the new legging. Uncommon +3 Protection.", "false"],
   ["38", "Rubber Boots", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection.", "false"],
   ["39", "Mud Boots", "3", "\"Armor made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\". Uncommon +3 Protection.", "false"],
