@@ -154,7 +154,7 @@ var UncommonHeadArmorTypes = [
 ];
 
 var UncommonChestArmorTypes = [
-  ["36", "CoconutShell Chest Plate", "3", "How many trees have you killed today..... Uncommon +3 Protection.", "false"],
+  ["36", "CoconutShell Brest Plate", "3", "Wow, you look ready for the beach, just not the dungeons! Uncommon +3 Protection.", "false"],
   ["37", "Safari Vest", "3", "You look so dorky . Uncommon +3 Protection.", "false"],
   ["38", "Rubber Chestplate", "3", "I am Inevidable!! (Marvel fans please don't airstrike me). Uncommon +3 Protection.", "false"],
   ["39", "Mud Chestplate", "3", "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\". Uncommon +3 Protection.", "false"],
