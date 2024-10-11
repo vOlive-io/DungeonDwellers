@@ -1,9 +1,19 @@
-/* common */
-#FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #ExplorersHelmet {
+/* commonHead */
+#FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet {
   display: none;
 }
 
-/* uncommon */
-#uncommon, #FruitHat, #SafariHat, #RubberMask, #MudMask, #TinHead, #StoneHelmet, #GlassHelmet, #NickleHelmet, #ChainHelmet, #CopperHelmet, #BrassHelmet {
+/* uncommonHead */
+#uncommonHead, #FruitHat, #SafariHat, #RubberMask, #MudMask, #TinHead, #StoneHelmet, #GlassHelmet, #NickleHelmet, #ChainHelmet, #CopperHelmet, #BrassHelmet {
+  display: none;
+}
+
+/* commonChest */
+#FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate {
+  display: none;
+}
+
+/* uncommonChest */
+#uncommonChest, #CoconutShellBrestPlate, #SafariVest, #RubberChestplate, #MudChestplate, #TinChestplate, #StoneChestplate, #GlassChestplate, #NickleChestplate, #ChainChestplate, #CopperChestplate, #BrassChestplate {
   display: none;
 }
