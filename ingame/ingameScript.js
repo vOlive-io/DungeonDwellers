@@ -343,6 +343,7 @@ function updateCommonHeadArmors() {
   } if (CommonHeadArmorTypes[5][4] == true) {
     BasicExplorersHelmet.style.display = "block";
   }
+}
 
 function updateCommonChestArmors() {
   if (CommonChestArmorTypes[1][4] == true) {
@@ -356,7 +357,7 @@ function updateCommonChestArmors() {
   } if (CommonChestArmorTypes[5][4] == true) {
     BasicExplorersChestplate.style.display = "block";
   }
-  
+}
   
 function updateUncommonHeadArmors() {
   if (UncommonHeadArmorTypes[0][4] == true) {
@@ -546,10 +547,6 @@ function seasonOneGearPrize() {
   prize = 0;
 }
   
-
-
-
-
 
 
 
