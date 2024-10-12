@@ -308,7 +308,7 @@ function updateAllScreens() {
   updateCommonHeadArmors();
   updateCommonChestArmors();
   updateUncommonHeadArmors();
-  updateUncommonChestArmors()'
+  updateUncommonChestArmors();
   //
   
 }
