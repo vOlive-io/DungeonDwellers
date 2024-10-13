@@ -156,12 +156,12 @@ var UncommonHeadArmorTypes = [
 var UncommonChestArmorTypes = [
   ["36", "CoconutShell Brest Plate", "3", "Wow, you look ready for the beach, just not the dungeons! Uncommon +3 Protection.", "false"],
   ["37", "Safari Vest", "3", "You look so dorky . Uncommon +3 Protection.", "false"],
-  ["38", "Rubber Chestplate", "3", "I am Inevidable!! (Marvel fans please don't airstrike me). Uncommon +3 Protection.", "false"],
+  ["38", "Rubber Chestplate", "3", "I am Inevitable!! (Marvel fans please don't airstrike me). Uncommon +3 Protection.", "false"],
   ["39", "Mud Chestplate", "3", "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\". Uncommon +3 Protection.", "false"],
   ["40", "Tin Chestplate", "4", "You look like one of those coke ads. Uncommon +4 Protection.", "false"],
   ["41", "Stone Chestplate", "4", "Try not to run too much, broken backs aren't fun . Uncommon, +4 Protection.", "false"],
   ["42", "Glass Chestplate", "4", "Why did you keep the same shirt on! Uncommon +4 Protection.", "false"],
-  ["43", "Nickle Chestplate", "5", "Buy the new and more expensive chestpeice for 1233.99! Uncommon +5 Protection.", "false"],
+  ["43", "Nickle Chestplate", "5", "Buy the new and more expensive chest piece for 1233.99! Uncommon +5 Protection.", "false"],
   ["44", "Chain Mail Chestplate", "5", "Are you so old you think chainmail is for armor (eye roll). Uncommon +5 Protection.", "false"],
   ["45", "Copper Chestplate", "5", "Turn it green to make you look even more like the statue of liberty. Uncommon +5 Protection.", "false"],
   ["46", "Brass Chestplate", "5", "Turn it into a tuba please, please, please!! Uncommon +5 Protection.", "false"]
@@ -170,11 +170,11 @@ var UncommonChestArmorTypes = [
 var UncommonLegArmorTypes = [
   ["36", "Banana Leaves Skirt", "3", "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", "false"],
   ["37", "Safari Pants", "3", "Bro you don't need 43 pants. Uncommon +3 Protection.", "false"],
-  ["38", "Rubber Leggings", "3", "俺は海賊の王になるんだ. Uncommon +3 Protection.", "false"],
+  ["38", "Rubber Leggings", "3", "ゴムの王様に俺はなる. Uncommon +3 Protection.", "false"],
   ["39", "Mud Leggings", "3", "You really need more Fertilizer . Uncommon +3 Protection.", "false"],
   ["40", "Tin Leggings", "4", "A pair of stiff pants made of tin. Uncommon +4 Protection.", "false"],
   ["41", "Stone Leggings", "4", "Leggings made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection.", "false"],
-  ["42", "Glass Leggings", "4", "You can see you clothing under underneath, how cool! Uncommon +4 Protection.", "false"],
+  ["42", "Glass Leggings", "4", "You can see your clothing under underneath, how cool! Uncommon +4 Protection.", "false"],
   ["43", "Nickle Leggings", "5", "Nickle leggings, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection.", "false"],
   ["44", "Chain Mail Leggings", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"],
   ["45", "Copper Leggings", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection.", "false"],
