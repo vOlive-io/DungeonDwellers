@@ -107,7 +107,7 @@ var CommonHeadArmorTypes = [
 
 var CommonChestArmorTypes = [
   ["7", "T-shirt", "0", "stop taking sheep wool please you look so ugly. Common, +0 Protection.", "false"],
-  ["8", "Fig Leaf Breastplate", "1", "Stop murdering the trees you sicko . Common, +1 Protection.", "true"]
+  ["8", "Fig Leaf Breastplate", "1", "Stop murdering the trees you sicko . Common, +1 Protection.", "true"],
   ["9", "Woodplate", "1", "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!, Common, +1 Protection.", "false"],
   ["10", "Leather Chestplate", "2", "Found some cow patties I see . Common +2 Protection.", "false"],
   ["11", "Painted on Armor", "2", "Wow look at you Picasso. Common +2 Protection.", "false"],
@@ -116,7 +116,7 @@ var CommonChestArmorTypes = [
 
 var CommonLegArmorTypes = [
   ["13", "Jeans", "0", "You-- You-- You- --You\'r burning my eyes please someone help!!. Common, +0 Protection.", "true"],
-  ["14", "The Fig Leaf", "1", "You look very, very, very, stupid. Common, +1 Protection.", "false"]
+  ["14", "The Fig Leaf", "1", "You look very, very, very, stupid. Common, +1 Protection.", "false"],
   ["15", "Wooden Leg Padding", "1", "you lunkhead now you can't move!!. Common, +1 Protection.", "false"],
   ["16", "Leather Leggings", "2", "cool very very cool you MURDERER OF HORSES!!!!. Common +2 Protection.", "false"],
   ["17", "Painted on Leggings", "2", " Look Michelangelo what are you painting?. Common +2 Protection", "false"],
