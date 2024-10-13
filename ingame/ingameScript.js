@@ -445,7 +445,7 @@ var HeadProtection = 0;
 function updateDiscription() {
   if (document.getElementById("bedHead").selected == true) {
     HeadProtection = CommonHeadArmorTypes[0][2]
-    HeadDescription.innerHTML = CommonHeadArmorTypes[1][3];
+    HeadDescription.innerHTML = CommonHeadArmorTypes[0][3];
   } if (document.getElementById("FigWreath").selected == true) {
     HeadProtection = CommonHeadArmorTypes[1][2]
     HeadDescription.innerHTML = CommonHeadArmorTypes[1][3];
