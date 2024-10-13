@@ -455,6 +455,18 @@ function updateDiscription() {
     HeadProtection = UncommonChestArmorTypes[2][2]
     HeadDescription.innerHTML = UncommonChestArmorTypes[2][3];
   }
+  if (document.getElementById("LeatherBandana").selected == true) {
+    HeadProtection = UncommonChestArmorTypes[3][2]
+    HeadDescription.innerHTML = UncommonChestArmorTypes[3][3];
+  }
+  if (document.getElementById("PaintHelmet").selected == true) {
+    HeadProtection = UncommonChestArmorTypes[4][2]
+    HeadDescription.innerHTML = UncommonChestArmorTypes[4][3];
+  }
+  if (document.getElementById("BasicExplorersHelmet").selected == true) {
+    HeadProtection = UncommonChestArmorTypes[5][2]
+    HeadDescription.innerHTML = UncommonChestArmorTypes[5][3];
+  }
 }
 
 ///////////////////////////////////////////
