@@ -452,7 +452,7 @@ function RandomPullCommonHeadArmor() {
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
-      RandomPullCommonHeadArmor();
+      RandomPullCommonChestArmor();
     } else { 
       id = CommonHeadArmorTypes[drop] [0];
       name = CommonHeadArmorTypes[drop] [1];
@@ -475,7 +475,7 @@ function RandomPullCommonChestArmor() {
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
-      RandomPullCommonHeadArmor();
+      RandomPullCommonChestArmor();
     } else {
       id = CommonChestArmorTypes[drop] [0];
       name = CommonChestArmorTypes[drop] [1];
@@ -521,7 +521,7 @@ function RandomPullCommonBootArmor() {
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
-      RandomPullCommonLegArmor();
+      RandomPullCommonBootArmor();
     } else {
       id = CommonBootArmorTypes[drop] [0];
       name = CommonBootArmorTypes[drop] [1];
