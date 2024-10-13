@@ -17,3 +17,13 @@
 #uncommonChest, #CoconutShellBrestPlate, #SafariVest, #RubberChestplate, #MudChestplate, #TinChestplate, #StoneChestplate, #GlassChestplate, #NickleChestplate, #ChainChestplate, #CopperChestplate, #BrassChestplate {
   display: none;
 }
+
+/* commonLeg */
+#TheFigLeaf, #WoodenLegPadding, #LeatherLeggings, #PaintedOnLeggings, #BasicExplorersLeggings {
+  display: none;
+}
+
+/* uncommonLeg */
+#uncommonLeg, #BananaLeaves, #SafariPants, #RubberLeggings, #MudLeggings, #TinLeggings, #StoneLeggings, #GlassLeggings, #NickleLeggings, #ChainLeggings, #CopperLeggings, #BrassLeggings {
+  display: none;
+}
