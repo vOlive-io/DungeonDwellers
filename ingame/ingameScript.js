@@ -311,6 +311,8 @@ function updateAllScreens() {
   updateCommonChestArmors();
   updateUncommonHeadArmors();
   updateUncommonChestArmors();
+  //Armor Discriptions
+  updateHeadDiscription();
   //
   
 }
@@ -444,7 +446,7 @@ function updateUncommonChestArmors() {
 ///////////////////////////////////////////
 var HeadProtection = 0;
 
-function updateDiscription() {
+function updateHeadDiscription() {
   if (document.getElementById("bedHead").selected == true) {
     HeadProtection = CommonHeadArmorTypes[0][2]
     HeadDescription.innerHTML = CommonHeadArmorTypes[0][3];
