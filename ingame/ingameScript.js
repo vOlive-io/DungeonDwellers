@@ -452,7 +452,7 @@ function RandomPullCommonHeadArmor() {
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
-      commonLootBox();
+      RandomPullCommonHeadArmor();
     } else {
       id = CommonHeadArmorTypes[drop] [0];
       name = CommonHeadArmorTypes[drop] [1];
@@ -475,7 +475,7 @@ function RandomPullUncommonHeadArmor() {
   if (owned == true) {
    console.log("Retring for new armor....")
    trys++;
-   uncommonLootBox();
+   RandomPullUncommonHeadArmor();
   } else {
    id = UncommonHeadArmorTypes[drop] [0];
    name = UncommonHeadArmorTypes[drop] [1];
