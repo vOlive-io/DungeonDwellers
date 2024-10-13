@@ -444,7 +444,7 @@ function updateUncommonChestArmors() {
 
 function RandomPullCommonHeadArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Insted you will get a gear prize. (1-50)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
     commonGearPrize();
   } else {
     drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
@@ -465,9 +465,32 @@ function RandomPullCommonHeadArmor() {
   }  
 }
 
+function RandomPullCommonChestArmor() {
+  if (trys > 100) {
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
+    commonGearPrize();
+  } else {
+    drop = Math.floor(Math.random() * CommonChestArmorTypes.length);
+    owned = CommonChestArmorTypes[drop] [4];
+    if (owned == true) {
+      console.log("Retring for new armor....")
+      trys++;
+      RandomPullCommonHeadArmor();
+    } else {
+      id = CommonChestArmorTypes[drop] [0];
+      name = CommonChestArmorTypes[drop] [1];
+      protection = CommonChestArmorTypes[drop] [2];
+      description = CommonChestArmorTypes[drop] [3];
+      CommonChestArmorTypes[drop] [4] = true;
+      trys = 0;
+      console.log("You got " + name + ", " + description + " ID: " + id);
+    }
+  }  
+}
+
 function RandomPullUncommonHeadArmor() {
  if (trys > 100) {
-  console.log("Sorry armor could not be found... Insted you will get a gear prize.(50-100)")
+  console.log("Sorry armor could not be found... Instead you will get a gear prize.(50-100)")
   uncommonGearPrize();
  } else {
   drop = Math.floor(Math.random() * UncommonHeadArmorTypes.length);
