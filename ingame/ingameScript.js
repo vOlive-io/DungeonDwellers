@@ -162,7 +162,7 @@ var UncommonChestArmorTypes = [
   ["41", "Stone Chestplate", "4", "Try not to run too much, broken backs aren't fun . Uncommon, +4 Protection.", "false"],
   ["42", "Glass Chestplate", "4", "Why did you keep the same shirt on! Uncommon +4 Protection.", "false"],
   ["43", "Nickle Chestplate", "5", "Buy the new and more expensive chestpeice for 1233.99! Uncommon +5 Protection.", "false"],
-  ["44", "Chain Mail Chestplate", "5", "Are you so old you think chainmail is for armor (eye roll). Uncommon +5 Protection.", "false"]
+  ["44", "Chain Mail Chestplate", "5", "Are you so old you think chainmail is for armor (eye roll). Uncommon +5 Protection.", "false"],
   ["45", "Copper Chestplate", "5", "Turn it green to make you look even more like the statue of liberty. Uncommon +5 Protection.", "false"],
   ["46", "Brass Chestplate", "5", "Turn it into a tuba please, please, please!! Uncommon +5 Protection.", "false"]
 ];
@@ -176,7 +176,7 @@ var UncommonLegArmorTypes = [
   ["41", "Stone Leggings", "4", "Leggings made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection.", "false"],
   ["42", "Glass Leggings", "4", "You can see you clothing under underneath, how cool! Uncommon +4 Protection.", "false"],
   ["43", "Nickle Leggings", "5", "Nickle leggings, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection.", "false"],
-  ["44", "Chain Mail Leggings", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"]
+  ["44", "Chain Mail Leggings", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"],
   ["45", "Copper Leggings", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection.", "false"],
   ["46", "Brass Leggings", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection.", "false"]
 ];
@@ -191,7 +191,7 @@ var UncommonBootArmorTypes = [
   ["41", "Stone Boots", "4", "Boots made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection.", "false"],
   ["42", "Glass Boots", "4", "You can see your feet under underneath, how cool! Uncommon +4 Protection.", "false"],
   ["43", "Nickle Boots", "5", "Nickle boots, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection.", "false"],
-  ["44", "Chain Mail Boots", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"]
+  ["44", "Chain Mail Boots", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"],
   ["45", "Copper Boots", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection.", "false"],
   ["46", "Brass Boots", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection.", "false"]
 ];
@@ -242,7 +242,7 @@ var EpicChestArmorTypes = [
   ["28", "Snake Skin", "4", ""],
   ["29", "Cooled magma", "4", ""],
   ["30", "Holy Bamboo", "4", ""],
-  ["31", "Diamond", "4", ""]
+  ["31", "Diamond", "4", ""],
   ["31", "Emerald", "4", ""]
 ];
 
