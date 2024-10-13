@@ -1,4 +1,4 @@
-setInterval(updateAllScreens, 25)
+setInterval(updateAllScreens, 250)
 
 ///////////////////////////////////////////
 ///              VARIABLES              ///
