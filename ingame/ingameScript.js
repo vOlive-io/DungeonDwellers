@@ -161,7 +161,7 @@ var UncommonChestArmorTypes = [
   ["40", "Tin Chestplate", "4", "You look like one of those coke ads. Uncommon +4 Protection.", "false"],
   ["41", "Stone Chestplate", "4", "Try not to run too much, broken backs aren't fun . Uncommon, +4 Protection.", "false"],
   ["42", "Glass Chestplate", "4", "Why did you keep the same shirt on! Uncommon +4 Protection.", "false"],
-  ["43", "Nickle Chestplate", "5", "Buy the new and more expensive chest piece for 1233.99! Uncommon +5 Protection.", "false"],
+  ["43", "Nickle Chestplate", "5", "Buy the new and more expensive chest piece for 1,233.99! Uncommon +5 Protection.", "false"],
   ["44", "Chain Mail Chestplate", "5", "Are you so old you think chainmail is for armor (eye roll). Uncommon +5 Protection.", "false"],
   ["45", "Copper Chestplate", "5", "Turn it green to make you look even more like the statue of liberty. Uncommon +5 Protection.", "false"],
   ["46", "Brass Chestplate", "5", "Turn it into a tuba please, please, please!! Uncommon +5 Protection.", "false"]
@@ -170,22 +170,22 @@ var UncommonChestArmorTypes = [
 var UncommonLegArmorTypes = [
   ["36", "Banana Leaves Skirt", "3", "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", "false"],
   ["37", "Safari Pants", "3", "Bro you don't need 43 pants. Uncommon +3 Protection.", "false"],
-  ["38", "Rubber Leggings", "3", "ゴムの王様に俺はなる. Uncommon +3 Protection.", "false"],
+  ["38", "Rubber Leggings", "3", "歌詞の意味: 私は海賊の王になるつもりだ. Uncommon +3 Protection.", "false"],
   ["39", "Mud Leggings", "3", "You really need more Fertilizer . Uncommon +3 Protection.", "false"],
-  ["40", "Tin Leggings", "4", "A pair of stiff pants made of tin. Uncommon +4 Protection.", "false"],
-  ["41", "Stone Leggings", "4", "Leggings made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection.", "false"],
-  ["42", "Glass Leggings", "4", "You can see your clothing under underneath, how cool! Uncommon +4 Protection.", "false"],
-  ["43", "Nickle Leggings", "5", "Nickle leggings, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection.", "false"],
-  ["44", "Chain Mail Leggings", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", "false"],
-  ["45", "Copper Leggings", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection.", "false"],
-  ["46", "Brass Leggings", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection.", "false"]
+  ["40", "Tin Leggings", "4", ". Uncommon +4 Protection.", "false"],
+  ["41", "Stone Leggings", "4", "You have the one thing different from Minecraft. Uncommon, +4 Protection.", "false"],
+  ["42", "Glass Leggings", "4", "Try not to fall or you are paying me like $1,252 for your medical bill. Uncommon +4 Protection.", "false"],
+  ["43", "Nickle Leggings", "5", "Buy the even more costly nickel leggings for $13,232! Uncommon +5 Protection.", "false"],
+  ["44", "Chain Mail Leggings", "5", "Chainmail Won't protect against my trash talk . Uncommon +5 Protection.", "false"],
+  ["45", "Copper Leggings", "5", "Apologise to youre knees please . Uncommon +5 Protection.", "false"],
+  ["46", "Brass Leggings", "5", "Make a clarinet to play to the monsters that try to kill you!! Uncommon +5 Protection.", "false"]
 ];
 
 //Does not new descriptions
 var UncommonBootArmorTypes = [
   ["36", "Fruit Peel Shoes", "3", "Try not to slip. Uncommon +3 Protection", "false"],
   ["37", "Safari Boots", "3", "Dress up as your favorite safari explores now with the new legging. Uncommon +3 Protection.", "false"],
-  ["38", "Rubber Boots", "3", "I'm rubber you're glue whatever you swing onto me bounces off of me and hits you. Uncommon +3 Protection.", "false"],
+  ["38", "Rubber Boots", "3", "Gomu Gomu No Gatling. Uncommon +3 Protection.", "false"],
   ["39", "Mud Boots", "3", "\"Armor made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\". Uncommon +3 Protection.", "false"],
   ["40", "Tin Boots", "4", "Some boots made of tin. Uncommon +4 Protection", "false"],
   ["41", "Stone Boots", "4", "Boots made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection.", "false"],
