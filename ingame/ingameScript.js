@@ -440,10 +440,21 @@ function updateUncommonChestArmors() {
 ///////////////////////////////////////////
 ///      1.5) Description updates       ///
 ///////////////////////////////////////////
+var HeadProtection = 0;
+
 function updateDiscription() {
-  if (document.getElementById("test").selected == true) {
-  	alert("ahaha")
-    }
+  if (document.getElementById("bedHead").selected == true) {
+    HeadProtection = UncommonChestArmorTypes[0][2]
+    HeadDescription.innerHTML = UncommonChestArmorTypes[1][3];
+  }
+  if (document.getElementById("FigWreath").selected == true) {
+    HeadProtection = UncommonChestArmorTypes[1][2]
+    HeadDescription.innerHTML = UncommonChestArmorTypes[1][3];
+  }
+  if (document.getElementById("WoodHelmet").selected == true) {
+    HeadProtection = UncommonChestArmorTypes[2][2]
+    HeadDescription.innerHTML = UncommonChestArmorTypes[2][3];
+  }
 }
 
 ///////////////////////////////////////////
