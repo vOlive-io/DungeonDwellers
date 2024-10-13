@@ -465,16 +465,37 @@ function updateDiscription() {
   // UNCOMMON
   if (document.getElementById("FruitHat").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[0][2]
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[0][3];
   } if (document.getElementById("SafariHat").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[1][2]
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[1][3];
   } if (document.getElementById("SafariHat").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[2][2]
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[2][3];
   } if (document.getElementById("MudMask").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[3][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[3][3];
+  } if (document.getElementById("TinHead").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[4][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[4][3];
+  } if (document.getElementById("StoneHelmet").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[5][2]
     HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
+  } if (document.getElementById("GlassHelmet").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[6][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[6][3];
+  } if (document.getElementById("NickleHelmet").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[7][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[7][3];
+  } if (document.getElementById("ChainHelmet").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[8][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[8][3];
+  } if (document.getElementById("CopperHelmet").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[9][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[9][3];
+  } if (document.getElementById("BrassHelmet").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[10][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[10][3];
   }
 }
 
