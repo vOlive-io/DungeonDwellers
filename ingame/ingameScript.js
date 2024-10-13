@@ -1,3 +1,5 @@
+setInterval(updateAllScreens, 25)
+
 ///////////////////////////////////////////
 ///              VARIABLES              ///
 ///        1) Stats                     ///
