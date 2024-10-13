@@ -438,6 +438,15 @@ function updateUncommonChestArmors() {
 }
 
 ///////////////////////////////////////////
+///      1.5) Description updates       ///
+///////////////////////////////////////////
+function updateDiscription() {
+  if (document.getElementById("test").selected == true) {
+  	alert("ahaha")
+    }
+}
+
+///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
 
