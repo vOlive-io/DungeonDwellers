@@ -444,28 +444,37 @@ var HeadProtection = 0;
 
 function updateDiscription() {
   if (document.getElementById("bedHead").selected == true) {
-    HeadProtection = UncommonChestArmorTypes[0][2]
-    HeadDescription.innerHTML = UncommonChestArmorTypes[1][3];
-  }
-  if (document.getElementById("FigWreath").selected == true) {
-    HeadProtection = UncommonChestArmorTypes[1][2]
-    HeadDescription.innerHTML = UncommonChestArmorTypes[1][3];
-  }
-  if (document.getElementById("WoodHelmet").selected == true) {
-    HeadProtection = UncommonChestArmorTypes[2][2]
-    HeadDescription.innerHTML = UncommonChestArmorTypes[2][3];
-  }
-  if (document.getElementById("LeatherBandana").selected == true) {
-    HeadProtection = UncommonChestArmorTypes[3][2]
-    HeadDescription.innerHTML = UncommonChestArmorTypes[3][3];
-  }
-  if (document.getElementById("PaintHelmet").selected == true) {
-    HeadProtection = UncommonChestArmorTypes[4][2]
-    HeadDescription.innerHTML = UncommonChestArmorTypes[4][3];
-  }
-  if (document.getElementById("BasicExplorersHelmet").selected == true) {
-    HeadProtection = UncommonChestArmorTypes[5][2]
-    HeadDescription.innerHTML = UncommonChestArmorTypes[5][3];
+    HeadProtection = CommonHeadArmorTypes[0][2]
+    HeadDescription.innerHTML = CommonHeadArmorTypes[1][3];
+  } if (document.getElementById("FigWreath").selected == true) {
+    HeadProtection = CommonHeadArmorTypes[1][2]
+    HeadDescription.innerHTML = CommonHeadArmorTypes[1][3];
+  } if (document.getElementById("WoodHelmet").selected == true) {
+    HeadProtection = CommonHeadArmorTypes[2][2]
+    HeadDescription.innerHTML = CommonHeadArmorTypes[2][3];
+  } if (document.getElementById("LeatherBandana").selected == true) {
+    HeadProtection = CommonHeadArmorTypes[3][2]
+    HeadDescription.innerHTML = CommonHeadArmorTypes[3][3];
+  } if (document.getElementById("PaintHelmet").selected == true) {
+    HeadProtection = CommonHeadArmorTypes[4][2]
+    HeadDescription.innerHTML = CommonHeadArmorTypes[4][3];
+  } if (document.getElementById("BasicExplorersHelmet").selected == true) {
+    HeadProtection = CommonHeadArmorTypes[5][2]
+    HeadDescription.innerHTML = CommonHeadArmorTypes[5][3];
+  } 
+  // UNCOMMON
+  if (document.getElementById("FruitHat").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[0][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
+  } if (document.getElementById("SafariHat").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[1][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
+  } if (document.getElementById("SafariHat").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[2][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
+  } if (document.getElementById("MudMask").selected == true) {
+    HeadProtection = UncommonHeadArmorTypes[3][2]
+    HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
   }
 }
 
