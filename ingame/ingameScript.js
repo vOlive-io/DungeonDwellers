@@ -122,7 +122,7 @@ var CommonLegArmorTypes = [
   ["15", "Wooden Leg Padding", "1", "you lunkhead now you can't move!!. Common, +1 Protection.", false],
   ["16", "Leather Leggings", "2", "cool very very cool you MURDERER OF HORSES!!!!. Common +2 Protection.", false],
   ["17", "Painted on Leggings", "2", " Look Michelangelo what are you painting?. Common +2 Protection", false],
-  ["18", "Basic Explorers Leggings", "3", "How Many pockets Does it have?. Common +3 Protection.", false"]
+  ["18", "Basic Explorers Leggings", "3", "How Many pockets Does it have?. Common +3 Protection.", false]
 ];
 var CommonBootArmorTypes = [
   ["19", "Shoes", "0", "Why are they untied?. Common, +0 Protection.", "true"],
