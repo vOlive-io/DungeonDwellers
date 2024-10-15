@@ -742,7 +742,74 @@ function RandomPullUncommonHeadArmor() {
   }  
 }
 
+function RandomPullUnommonChestArmor() {
+  if (trys > 100) {
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
+    commonGearPrize();
+  } else {
+    drop = Math.floor(Math.random() * UnommonChestArmorTypes.length);
+    owned = UnommonChestArmorTypes[drop] [4];
+    if (owned == true) {
+      console.log("Retring for new armor....")
+      trys++;
+      RandomPullUnommonChestArmor();
+    } else {
+      id = UnommonChestArmorTypes[drop] [0];
+      name = UnommonChestArmorTypes[drop] [1];
+      protection = UnommonChestArmorTypes[drop] [2];
+      description = CommonChestArmorTypes[drop] [3];
+      UnommonChestArmorTypes[drop] [4] = true;
+      trys = 0;
+      console.log("You got " + name + ", " + description + " ID: " + id);
+    }
+  }  
+}
 
+function RandomPullUncommonLegArmor() {
+  if (trys > 100) {
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
+    commonGearPrize();
+  } else {
+    drop = Math.floor(Math.random() * UnommonLegArmorTypes.length);
+    owned = UnommonLegArmorTypes[drop] [4];
+    if (owned == true) {
+      console.log("Retring for new armor....")
+      trys++;
+      RandomPullUncommonLegArmor();
+    } else {
+      id = UnommonLegArmorTypes[drop] [0];
+      name = UnommonLegArmorTypes[drop] [1];
+      protection = UnommonLegArmorTypes[drop] [2];
+      description = UnommonLegArmorTypes[drop] [3];
+      UnommonLegArmorTypes[drop] [4] = true;
+      trys = 0;
+      console.log("You got " + name + ", " + description + " ID: " + id);
+    }
+  }  
+}
+
+function RandomPullUnommonBootArmor() {
+  if (trys > 100) {
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
+    commonGearPrize();
+  } else {
+    drop = Math.floor(Math.random() * UncmmonBootArmorTypes.length);
+    owned = UncmmonBootArmorTypes[drop] [4];
+    if (owned == true) {
+      console.log("Retring for new armor....")
+      trys++;
+      RandomPullUnommonBootArmor();
+    } else {
+      id = UncmmonBootArmorTypes[drop] [0];
+      name = UncmmonBootArmorTypes[drop] [1];
+      protection = UncmmonBootArmorTypes[drop] [2];
+      description = UncmmonBootArmorTypes[drop] [3];
+      UncmmonBootArmorTypes[drop] [4] = true;
+      trys = 0;
+      console.log("You got " + name + ", " + description + " ID: " + id);
+    }
+  }  
+}
 
 //1-50
 function commonGearPrize() {
