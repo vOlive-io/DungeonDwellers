@@ -314,6 +314,7 @@ function updateAllScreens() {
   //Armor Discriptions
   updateHeadDiscription();
   updateChestDiscription();
+  updateLegDiscription();
   //
   
 }
