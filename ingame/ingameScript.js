@@ -747,18 +747,18 @@ function RandomPullUnommonChestArmor() {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
     commonGearPrize();
   } else {
-    drop = Math.floor(Math.random() * UnommonChestArmorTypes.length);
-    owned = UnommonChestArmorTypes[drop] [4];
+    drop = Math.floor(Math.random() * UncommonChestArmorTypes.length);
+    owned = UncommonChestArmorTypes[drop] [4];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
       RandomPullUnommonChestArmor();
     } else {
-      id = UnommonChestArmorTypes[drop] [0];
-      name = UnommonChestArmorTypes[drop] [1];
-      protection = UnommonChestArmorTypes[drop] [2];
-      description = CommonChestArmorTypes[drop] [3];
-      UnommonChestArmorTypes[drop] [4] = true;
+      id = UncommonChestArmorTypes[drop] [0];
+      name = UncommonChestArmorTypes[drop] [1];
+      protection = UncommonChestArmorTypes[drop] [2];
+      description = UncommonChestArmorTypes[drop] [3];
+      UncommonChestArmorTypes[drop] [4] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
