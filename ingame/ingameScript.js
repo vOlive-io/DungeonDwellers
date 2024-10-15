@@ -473,12 +473,9 @@ function updateHeadDiscription() {
   } if (document.getElementById("SafariHat").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[1][2]
     HeadDescription.innerHTML = UncommonHeadArmorTypes[1][3];
-  } if (document.getElementById("SafariHat").selected == true) {
+  } if (document.getElementById("RubberMask").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[2][2]
     HeadDescription.innerHTML = UncommonHeadArmorTypes[2][3];
-  } if (document.getElementById("RubberMask").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[3][2]
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[3][3];
   } if (document.getElementById("MudMask").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[3][2]
     HeadDescription.innerHTML = UncommonHeadArmorTypes[3][3];
