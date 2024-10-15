@@ -125,7 +125,7 @@ var CommonLegArmorTypes = [
   ["18", "Basic Explorers Leggings", "3", "How Many pockets Does it have?. Common +3 Protection.", false]
 ];
 var CommonBootArmorTypes = [
-  ["19", "Shoes", "0", "Why are they untied?. Common, +0 Protection.", "true"],
+  ["19", "Shoes", "0", "Why are they untied?. Common, +0 Protection.", true],
   ["20", "Fig Leaf Feet Covers", "1", "rocks can easily poke through and cause you pain. Common, +1 Protection.", false]
   ["21", "Wood Sandals", "1", "Forget to bring tweezers?. Common, +1 Protection.", false],
   ["22", "Leather Boots", "2", "Like Minecraft I assume. Common +2 Protection.", false],
