@@ -447,6 +447,7 @@ function updateUncommonChestArmors() {
 ///////////////////////////////////////////
 var HeadProtection = 0;
 var ChestProtection = 0;
+var LegProtection = 0;
 
 function updateHeadDiscription() {
   if (document.getElementById("bedHead").selected == true) {
@@ -562,6 +563,62 @@ function updateChestDiscription() {
   }
 }
 
+function updateLegDiscription() {
+  if (document.getElementById("Jeans").selected == true) {
+    LegProtection = CommonLegArmorTypes[0][2]
+    LegDescription.innerHTML = CommonLegArmorTypes[0][3];
+  } if (document.getElementById("TheFigLeaf").selected == true) {
+    LegProtection = CommonLegArmorTypes[1][2]
+    LegDescription.innerHTML = CommonLegArmorTypes[1][3];
+  } if (document.getElementById("WoodenLegPadding").selected == true) {
+    LegProtection = CommonLegArmorTypes[2][2]
+    LegDescription.innerHTML = CommonLegArmorTypes[2][3];
+  } if (document.getElementById("LeatherLeggings").selected == true) {
+    LegProtection = CommonLegArmorTypes[3][2]
+    LegDescription.innerHTML = CommonLegArmorTypes[3][3];
+  } if (document.getElementById("PaintedOnLeggings").selected == true) {
+    LegProtection = CommonLegArmorTypes[4][2]
+    LegDescription.innerHTML = CommonLegArmorTypes[4][3];
+  } if (document.getElementById("BasicExplorersLeggings").selected == true) {
+    LegProtection = CommonLegArmorTypes[5][2]
+    LegDescription.innerHTML = CommonLegArmorTypes[5][3];
+  } 
+  // UNCOMMON
+  if (document.getElementById("BananaLeavesSkirt").selected == true) {
+    LegProtection = UncommonLegArmorTypes[0][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[0][3];
+  } if (document.getElementById("SafariPants").selected == true) {
+    LegProtection = UncommonLegArmorTypes[1][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[1][3];
+  } if (document.getElementById("RubberLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[2][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[2][3];
+  } if (document.getElementById("MudLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[3][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[3][3];
+  } if (document.getElementById("TinLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[4][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[4][3];
+  } if (document.getElementById("StoneLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[5][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[5][3];
+  } if (document.getElementById("GlassLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[6][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[6][3];
+  } if (document.getElementById("NickleLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[7][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[7][3];
+  } if (document.getElementById("ChainLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[8][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[8][3];
+  } if (document.getElementById("CopperLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[9][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[9][3];
+  } if (document.getElementById("BrassLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[10][2]
+    LegDescription.innerHTML = UncommonLegArmorTypes[10][3];
+  }
+}
 
 ///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
