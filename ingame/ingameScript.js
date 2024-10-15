@@ -313,6 +313,7 @@ function updateAllScreens() {
   updateUncommonChestArmors();
   //Armor Discriptions
   updateHeadDiscription();
+  updateChestDiscription();
   //
   
 }
