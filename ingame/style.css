@@ -3,18 +3,8 @@
   display: none;
 }
 
-/* uncommonHead */
-#uncommonHead, #FruitHat, #SafariHat, #RubberMask, #MudMask, #TinHead, #StoneHelmet, #GlassHelmet, #NickleHelmet, #ChainHelmet, #CopperHelmet, #BrassHelmet {
-  display: none;
-}
-
 /* commonChest */
 #FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate {
-  display: none;
-}
-
-/* uncommonChest */
-#uncommonChest, #CoconutShellBrestPlate, #SafariVest, #RubberChestplate, #MudChestplate, #TinChestplate, #StoneChestplate, #GlassChestplate, #NickleChestplate, #ChainChestplate, #CopperChestplate, #BrassChestplate {
   display: none;
 }
 
@@ -23,7 +13,21 @@
   display: none;
 }
 
+
+
+
+/* uncommonHead */
+#uncommonHead, #FruitHat, #SafariHat, #RubberMask, #MudMask, #TinHead, #StoneHelmet, #GlassHelmet, #NickleHelmet, #ChainHelmet, #CopperHelmet, #BrassHelmet {
+  display: none;
+}
+
+/* uncommonChest */
+#uncommonChest, #CoconutShellBrestPlate, #SafariVest, #RubberChestplate, #MudChestplate, #TinChestplate, #StoneChestplate, #GlassChestplate, #NickleChestplate, #ChainChestplate, #CopperChestplate, #BrassChestplate {
+  display: none;
+}
+
 /* uncommonLeg */
 #uncommonLeg, #BananaLeavesSkirt, #SafariPants, #RubberLeggings, #MudLeggings, #TinLeggings, #StoneLeggings, #GlassLeggings, #NickleLeggings, #ChainLeggings, #CopperLeggings, #BrassLeggings {
   display: none;
 }
+
