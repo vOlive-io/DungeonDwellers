@@ -510,22 +510,22 @@ function updateHeadDiscription() {
 function updateChestDiscription() {
   if (document.getElementById("Shirt").selected == true) {
     ChestProtection = CommonChestArmorTypes[0][2]
-    HeadDescription.innerHTML = CommonChestArmorTypes[0][3];
+    ChestDescription.innerHTML = CommonChestArmorTypes[0][3];
   } if (document.getElementById("FigLeafBreastplate").selected == true) {
     ChestProtection = CommonChestArmorTypes[1][2]
-    HeadDescription.innerHTML = CommonChestArmorTypes[1][3];
+    ChestDescription.innerHTML = CommonChestArmorTypes[1][3];
   } if (document.getElementById("Woodplate").selected == true) {
     ChestProtection = CommonChestArmorTypes[2][2]
-    HeadDescription.innerHTML = CommonChestArmorTypes[2][3];
+    ChestDescription.innerHTML = CommonChestArmorTypes[2][3];
   } if (document.getElementById("LeatherChestplate").selected == true) {
     ChestProtection = CommonChestArmorTypes[3][2]
-    HeadDescription.innerHTML = CommonChestArmorTypes[3][3];
+    ChestDescription.innerHTML = CommonChestArmorTypes[3][3];
   } if (document.getElementById("PaintedArmor").selected == true) {
     ChestProtection = CommonChestArmorTypes[4][2]
-    HeadDescription.innerHTML = CommonChestArmorTypes[4][3];
+    ChestDescription.innerHTML = CommonChestArmorTypes[4][3];
   } if (document.getElementById("BasicExplorersChestplate").selected == true) {
     ChestProtection = CommonChestArmorTypes[5][2]
-    HeadDescription.innerHTML = CommonChestArmorTypes[5][3];
+    ChestDescription.innerHTML = CommonChestArmorTypes[5][3];
   } 
   // UNCOMMON
   if (document.getElementById("CoconutShellBrestPlate").selected == true) {
