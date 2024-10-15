@@ -770,18 +770,18 @@ function RandomPullUncommonLegArmor() {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
     commonGearPrize();
   } else {
-    drop = Math.floor(Math.random() * UnommonLegArmorTypes.length);
-    owned = UnommonLegArmorTypes[drop] [4];
+    drop = Math.floor(Math.random() * UncommonLegArmorTypes.length);
+    owned = UncommonLegArmorTypes[drop] [4];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
       RandomPullUncommonLegArmor();
     } else {
-      id = UnommonLegArmorTypes[drop] [0];
-      name = UnommonLegArmorTypes[drop] [1];
-      protection = UnommonLegArmorTypes[drop] [2];
-      description = UnommonLegArmorTypes[drop] [3];
-      UnommonLegArmorTypes[drop] [4] = true;
+      id = UncommonLegArmorTypes[drop] [0];
+      name = UncommonLegArmorTypes[drop] [1];
+      protection = UncommonLegArmorTypes[drop] [2];
+      description = UncommonLegArmorTypes[drop] [3];
+      UncommonLegArmorTypes[drop] [4] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -793,18 +793,18 @@ function RandomPullUnommonBootArmor() {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
     commonGearPrize();
   } else {
-    drop = Math.floor(Math.random() * UncmmonBootArmorTypes.length);
-    owned = UncmmonBootArmorTypes[drop] [4];
+    drop = Math.floor(Math.random() * UncommonBootArmorTypes.length);
+    owned = UncommonBootArmorTypes[drop] [4];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
       RandomPullUnommonBootArmor();
     } else {
-      id = UncmmonBootArmorTypes[drop] [0];
-      name = UncmmonBootArmorTypes[drop] [1];
-      protection = UncmmonBootArmorTypes[drop] [2];
-      description = UncmmonBootArmorTypes[drop] [3];
-      UncmmonBootArmorTypes[drop] [4] = true;
+      id = UncommonBootArmorTypes[drop] [0];
+      name = UncommonBootArmorTypes[drop] [1];
+      protection = UncommonBootArmorTypes[drop] [2];
+      description = UncommonBootArmorTypes[drop] [3];
+      UncommonBootArmorTypes[drop] [4] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
