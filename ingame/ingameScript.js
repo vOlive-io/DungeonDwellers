@@ -152,7 +152,7 @@ var UncommonHeadArmorTypes = [
   ["32", "Nickle Helmet", "5", "Get the new nickel helmet  now being sold for 999.99! Uncommon +5 Protection.", "false"],
   ["33", "Chain Mail Helmet", "5", "You look so ancient. Uncommon +5 Protection.", "false"],
   ["34", "Copper Helmet", "5", "Don a torch and book and you can be the Statue of Liberty! Uncommon +5 Protection.", "false"],
-  ["35", "Brass Helmet", "5", "You look so Ugly . Uncommon +5 Protection.", "false"]
+  ["35", "Brass Helmet", "5", "You look so shiny . Uncommon +5 Protection.", "false"]
 ];
 
 var UncommonChestArmorTypes = [
@@ -172,7 +172,7 @@ var UncommonChestArmorTypes = [
 var UncommonLegArmorTypes = [
   ["36", "Banana Leaves Skirt", "3", "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", "false"],
   ["37", "Safari Pants", "3", "Bro you don't need 43 pants. Uncommon +3 Protection.", "false"],
-  ["38", "Rubber Leggings", "3", "歌詞の意味: 私は海賊の王になるつもりだ. Uncommon +3 Protection.", "false"],
+  ["38", "Rubber Leggings", "3", "私は海賊の王になるつもりだ. Uncommon +3 Protection.", "false"],
   ["39", "Mud Leggings", "3", "You really need more Fertilizer . Uncommon +3 Protection.", "false"],
   ["40", "Tin Leggings", "4", ". Uncommon +4 Protection.", "false"],
   ["41", "Stone Leggings", "4", "You have the one thing different from Minecraft. Uncommon, +4 Protection.", "false"],
