@@ -798,7 +798,7 @@ function RandomPullUncommonBootArmor() {
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
-      RandomPullUnommonBootArmor();
+      RandomPullUncommonBootArmor();
     } else {
       id = UncommonBootArmorTypes[drop] [0];
       name = UncommonBootArmorTypes[drop] [1];
