@@ -174,7 +174,7 @@ var UncommonLegArmorTypes = [
   ["37", "Safari Pants", "3", "Bro you don't need 43 pants. Uncommon +3 Protection.", false],
   ["38", "Rubber Leggings", "3", "私は海賊の王になるつもりだ. Uncommon +3 Protection.", false],
   ["39", "Mud Leggings", "3", "You really need more Fertilizer . Uncommon +3 Protection.", false],
-  ["40", "Tin Leggings", "4", ". Uncommon +4 Protection.", false],
+  ["40", "Tin Leggings", "4", "dang you're knees are poking out. Uncommon +4 Protection.", false],
   ["41", "Stone Leggings", "4", "You have the one thing different from Minecraft. Uncommon, +4 Protection.", false],
   ["42", "Glass Leggings", "4", "Try not to fall or you are paying me like $1,252 for your medical bill. Uncommon +4 Protection.", false],
   ["43", "Nickle Leggings", "5", "Buy the even more costly nickel leggings for $13,232! Uncommon +5 Protection.", false],
@@ -186,16 +186,16 @@ var UncommonLegArmorTypes = [
 //Does not new descriptions
 var UncommonBootArmorTypes = [
   ["36", "Fruit Peel Shoes", "3", "Try not to slip. Uncommon +3 Protection", false],
-  ["37", "Safari Boots", "3", "Dress up as your favorite safari explores now with the new legging. Uncommon +3 Protection.", false],
+  ["37", "Safari Boots", "3", "those are caked with crap from wandering next to you're cow. Uncommon +3 Protection.", false],
   ["38", "Rubber Boots", "3", "Gomu Gomu No Gatling. Uncommon +3 Protection.", false],
-  ["39", "Mud Boots", "3", "\"Armor made from dried mud from the mudbaths of the inner su--- you know what, I don't think you like to know...\". Uncommon +3 Protection.", false],
-  ["40", "Tin Boots", "4", "Some boots made of tin. Uncommon +4 Protection", false],
-  ["41", "Stone Boots", "4", "Boots made entirely of stone, it's heavy but it keeps you safe. Uncommon, +4 Protection.", false],
+  ["39", "Mud Boots", "3", "\"now these are real crappy boots literally!!". Uncommon +3 Protection.", false],
+  ["40", "Tin Boots", "4", "youre toes are bleeding.... Uncommon +4 Protection", false],
+  ["41", "Stone Boots", "4", "fi fi fo fum i can hear you from like 2 miles away. Uncommon, +4 Protection.", false],
   ["42", "Glass Boots", "4", "You can see your feet under underneath, how cool! Uncommon +4 Protection.", false],
-  ["43", "Nickle Boots", "5", "Nickle boots, maybe when you are done with it you can turn it into nickles! Uncommon +5 Protection.", false],
-  ["44", "Chain Mail Boots", "5", "Tons of small iron rings \"Woven\" together to make this masterpiece. Uncommon +5 Protection.", false],
-  ["45", "Copper Boots", "5", "Not to be confused with its alloys forms Bronze and Brass. Uncommon +5 Protection.", false],
-  ["46", "Brass Boots", "5", "They also make Tobas out of thee very metal you are looking at. Uncommon +5 Protection.", false]
+  ["43", "Nickle Boots", "5", "Buy NOW! Uncommon +5 Protection.", false],
+  ["44", "Chain Mail Boots", "5", "why are you doing this to you're poor feet. Uncommon +5 Protection.", false],
+  ["45", "Copper Boots", "5", "No more moving youre ankle... Uncommon +5 Protection.", false],
+  ["46", "Brass Boots", "5", "Play the clarinet  Uncommon +5 Protection.", false]
 ];
 
 
