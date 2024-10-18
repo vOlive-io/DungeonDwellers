@@ -225,22 +225,22 @@ var UncommonBootArmorTypes = [
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 var RareChestArmorTypes = [
-  ["18", "Steal", "3"],
-  ["19", "Bronze", "4", ""],
-  ["21", "Silver", "4", ""],
-  ["20", "Gold", "4"],
-  ["22", "Iron", "4", ""],
-  ["23", "Fetherer", "4", ""],
-  ["24", "Blessed Mud", "4", ""],
-  ["25", "Jungle Vines", "4", ""]
+  ["18", "Steal", "3", "Description", false],
+  ["19", "Bronze", "4", "Description", false],
+  ["21", "Silver", "4", "Description", false],
+  ["20", "Gold", "4", "Description", false],
+  ["22", "Iron", "4", "Description", false],
+  ["23", "Fetherer", "4", "Description", false],
+  ["24", "Blessed Mud", "4", "Description", false],
+  ["25", "Jungle Vines", "4", "Description", false]
 ];
 
 
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 var EpicChestArmorTypes = [
-  ["26", "Medevil Armor", "5"]
-  ["27", "Costal", "4", ""],
+  ["26", "Medevil Armor", "5", "Description", false]
+  ["27", "CoralArmor", "4", "Description", false],
   ["28", "Snake Skin", "4", ""],
   ["29", "Cooled magma", "4", ""],
   ["30", "Holy Bamboo", "4", ""],
