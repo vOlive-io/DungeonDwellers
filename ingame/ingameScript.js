@@ -173,29 +173,29 @@ var UncommonLegArmorTypes = [
   ["36", "Banana Leaves Skirt", "3", "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", false],
   ["37", "Safari Pants", "3", "Bro you don't need 43 pants. Uncommon +3 Protection.", false],
   ["38", "Rubber Leggings", "3", "私は海賊の王になるつもりだ. Uncommon +3 Protection.", false],
-  ["39", "Mud Leggings", "3", "You really need more Fertilizer . Uncommon +3 Protection.", false],
+  ["39", "Mud Leggings", "3", "You need more Fertilizer . Uncommon +3 Protection.", false],
   ["40", "Tin Leggings", "4", "dang you're knees are poking out. Uncommon +4 Protection.", false],
   ["41", "Stone Leggings", "4", "You have the one thing different from Minecraft. Uncommon, +4 Protection.", false],
   ["42", "Glass Leggings", "4", "Try not to fall or you are paying me like $1,252 for your medical bill. Uncommon +4 Protection.", false],
   ["43", "Nickle Leggings", "5", "Buy the even more costly nickel leggings for $13,232! Uncommon +5 Protection.", false],
   ["44", "Chain Mail Leggings", "5", "Chainmail Won't protect against my trash talk . Uncommon +5 Protection.", false],
-  ["45", "Copper Leggings", "5", "Apologise to youre knees please . Uncommon +5 Protection.", false],
+  ["45", "Copper Leggings", "5", "Apologise to your knees please . Uncommon +5 Protection.", false],
   ["46", "Brass Leggings", "5", "Make a clarinet to play to the monsters that try to kill you!! Uncommon +5 Protection.", false]
 ];
 
 //Does not new descriptions
 var UncommonBootArmorTypes = [
   ["36", "Fruit Peel Shoes", "3", "Try not to slip. Uncommon +3 Protection", false],
-  ["37", "Safari Boots", "3", "those are caked with crap from wandering next to you're cow. Uncommon +3 Protection.", false],
+  ["37", "Safari Boots", "3", "Caked with dirt and sand from wandering in the safari. Uncommon +3 Protection.", false],
   ["38", "Rubber Boots", "3", "Gomu Gomu No Gatling. Uncommon +3 Protection.", false],
-  ["39", "Mud Boots", "3", "\"now these are real crappy boots literally!!". Uncommon +3 Protection.", false],
-  ["40", "Tin Boots", "4", "youre toes are bleeding.... Uncommon +4 Protection", false],
-  ["41", "Stone Boots", "4", "fi fi fo fum i can hear you from like 2 miles away. Uncommon, +4 Protection.", false],
+  ["39", "Mud Boots", "3", "Now these are real crappy boots literally!! Uncommon +3 Protection.", false],
+  ["40", "Tin Boots", "4", "Your toes are bleeding.... Uncommon +4 Protection", false],
+  ["41", "Stone Boots", "4", "fee fie foe fum, I can hear you from like 2 miles away. Uncommon, +4 Protection.", false],
   ["42", "Glass Boots", "4", "You can see your feet under underneath, how cool! Uncommon +4 Protection.", false],
-  ["43", "Nickle Boots", "5", "Buy NOW! Uncommon +5 Protection.", false],
-  ["44", "Chain Mail Boots", "5", "why are you doing this to you're poor feet. Uncommon +5 Protection.", false],
-  ["45", "Copper Boots", "5", "No more moving youre ankle... Uncommon +5 Protection.", false],
-  ["46", "Brass Boots", "5", "Play the clarinet  Uncommon +5 Protection.", false]
+  ["43", "Nickle Boots", "5", "Buy NOW! Please, I'm poor! Uncommon +5 Protection.", false],
+  ["44", "Chain Mail Boots", "5", "Why are you doing this to you're poor feet. Uncommon +5 Protection.", false],
+  ["45", "Copper Boots", "5", "No more moving your ankle... Uncommon +5 Protection.", false],
+  ["46", "Brass Boots", "5", "Play the clarinet, not the brass boot!  Uncommon +5 Protection.", false]
 ];
 
 
