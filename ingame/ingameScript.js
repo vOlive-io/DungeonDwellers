@@ -752,7 +752,7 @@ function RandomPullUncommonChestArmor() {
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
-      RandomPullUnommonChestArmor();
+      RandomPullUncommonChestArmor();
     } else {
       id = UncommonChestArmorTypes[drop] [0];
       name = UncommonChestArmorTypes[drop] [1];
