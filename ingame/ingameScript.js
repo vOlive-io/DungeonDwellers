@@ -21,15 +21,22 @@ window.onload = startup() {
 const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
 const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
 
-adj = adjectives[Math.floor(Math.random() * adjectives.length)];
-ani = animals[Math.floor(Math.random() * animals.length)];
-num = Math.floor(Math.random() * 999) + 1;
 
 var user = false
-var username = "guest";
+var username;
 var atTag = "@guest";
+
 function setRandomName() {
-  //il do this soon
+  if (user == false) {
+    adj = adjectives[Math.floor(Math.random() * adjectives.length)];
+    ani = animals[Math.floor(Math.random() * animals.length)];
+    num = Math.floor(Math.random() * 999) + 1;
+    username = (adj + ani + num)
+    console.log(username)
+    alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this yu will be known as " + username + "!")
+    user = true;
+    }    
+  }
 }
 
 function testNew() {
