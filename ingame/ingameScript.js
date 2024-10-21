@@ -316,8 +316,7 @@ function updateAllScreens() {
   updateHeadDiscription();
   updateChestDiscription();
   updateLegDiscription();
-  //
-  
+  //  
 }
 
 function updateVitals() {
@@ -352,7 +351,7 @@ function updateCommonHeadArmors() {
   }
 }
 
-function updateCommonChestArmors() {
+function updateCommonLegArmors() {
   if (CommonChestArmorTypes[1][4] == true) {
     FigLeafBreastplate.style.display = "block";
   } if (CommonChestArmorTypes[2][4] == true) {
@@ -365,7 +364,21 @@ function updateCommonChestArmors() {
     BasicExplorersChestplate.style.display = "block";
   }
 }
-  
+
+function updateCommonLegArmors() {
+  if (CommonLegArmorTypes[1][4] == true) {
+    TheFigLeaf.style.display = "block";
+  } if (CommonLegArmorTypes[2][4] == true) {
+    WoodenLegPadding.style.display = "block";
+  } if (CommonLegArmorTypes[3][4] == true) {
+    LeatherLeggings.style.display = "block";
+  } if (CommonLegArmorTypes[4][4] == true) {
+    PaintedOnLeggings.style.display = "block";
+  } if (CommonLegArmorTypes[5][4] == true) {
+    BasicExplorersLeggings.style.display = "block";
+  }
+}
+
 function updateUncommonHeadArmors() {
   if (UncommonHeadArmorTypes[0][4] == true) {
     FruitHat.style.display = "block";
@@ -482,6 +495,8 @@ function updateUncommonLegArmors() {
     uncommonLEg.style.display = "block";
   }
 }
+
+
 ///////////////////////////////////////////
 ///      1.5) Description updates       ///
 ///////////////////////////////////////////
