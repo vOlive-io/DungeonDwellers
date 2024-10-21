@@ -6,7 +6,7 @@ Contributor ==== (Not done)
 Exterminator ==== (Not done)
 Alpha Tester ==== (Not done)
 Beta Tester ==== (Not done)
-Locked ==== (Not done)
+Locked ==== Ach_Locked.png
 
 
 
