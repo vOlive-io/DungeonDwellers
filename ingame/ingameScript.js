@@ -1,5 +1,22 @@
-setInterval(updateAllScreens, 250)
-
+window.onload = startup() {
+  setInterval(updateVitals, 250)
+  setInterval(updateMain, 250)
+  setInterval(updateSlots, 250)
+  //Armors
+  setInterval(updateCommonHeadArmors, 250)
+  setInterval(updateCommonChestArmors, 250)
+  setInterval(updateCommonLegArmors, 250)
+  //needs boots
+  setInterval(updateUncommonHeadArmors, 250)
+  setInterval(updateUncommonChestArmors, 250)
+  setInterval(updateUncommonLegArmors, 250)
+  //needs boots
+  //Armor Descriptions
+  setInterval(updateHeadDiscription, 250)
+  setInterval(updateChestDiscription, 250)
+  setInterval(updateLegDiscription, 250)
+  setInterval(updateHeadDiscription, 250)
+}
 ///////////////////////////////////////////
 ///              VARIABLES              ///
 ///        1) Stats                     ///
@@ -302,23 +319,6 @@ var DungeonChestArmorTypes = [
 ///             1) UPDATES              ///
 ///////////////////////////////////////////
 
-function updateAllScreens() {
-  updateVitals();
-  updateMain();
-  updateSlots();
-  //Armors
-  updateCommonHeadArmors();
-  updateCommonChestArmors();
-  updateCommonLegArmors();
-  updateUncommonHeadArmors();
-  updateUncommonChestArmors();
-  updateUncommonLegArmors();
-  //Armor Discriptions
-  updateHeadDiscription();
-  updateChestDiscription();
-  updateLegDiscription();
-  //  
-}
 
 function updateVitals() {
   hpt.innerText = currentHeath + "/" + maxHeath;
