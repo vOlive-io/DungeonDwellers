@@ -19,8 +19,15 @@ window.onload = startup() {
   setInterval(updateHeadDiscription, 250)
 }
 
+var user = false
+var username = "guest";
+var atTag = "@guest";
+function setRandomName() {
+  //il do this soon
+}
+
 function testNew() {
-//il do this soon
+  //il do this soon
 }
 ///////////////////////////////////////////
 ///              VARIABLES              ///
