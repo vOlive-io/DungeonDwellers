@@ -18,6 +18,10 @@ window.onload = startup() {
   setInterval(updateLegDiscription, 250)
   setInterval(updateHeadDiscription, 250)
 }
+
+function testNew() {
+//il do this soon
+}
 ///////////////////////////////////////////
 ///              VARIABLES              ///
 ///        1) Stats                     ///
