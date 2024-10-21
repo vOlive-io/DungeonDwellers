@@ -21,7 +21,6 @@ window.onload = startup() {
 const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
 const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
 
-
 var user = false
 var username;
 var atTag = "@guest";
@@ -950,6 +949,10 @@ function seasonOneGearPrize() {
   
 
 
+///////////////////////////////////////////
+///             ?) COOKIES              ///
+///////////////////////////////////////////
 
+//il do this soon
 
 
