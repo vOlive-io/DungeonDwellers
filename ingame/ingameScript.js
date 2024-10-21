@@ -309,6 +309,7 @@ function updateAllScreens() {
   //Armors
   updateCommonHeadArmors();
   updateCommonChestArmors();
+  updateCommonLegArmors();
   updateUncommonHeadArmors();
   updateUncommonChestArmors();
   updateUncommonLegArmors();
