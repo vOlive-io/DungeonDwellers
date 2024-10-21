@@ -1,4 +1,5 @@
 window.onload = startup() {
+  //basic inv
   setInterval(updateVitals, 250)
   setInterval(updateMain, 250)
   setInterval(updateSlots, 250)
