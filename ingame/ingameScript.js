@@ -1,4 +1,5 @@
 window.onload = startup() {
+  callSavedData_cookies();
   //basic inv
   setInterval(updateVitals, 250)
   setInterval(updateMain, 250)
@@ -18,6 +19,24 @@ window.onload = startup() {
   setInterval(updateLegDiscription, 250)
   setInterval(updateHeadDiscription, 250)
 }
+setInterval(function () {
+  const data = {
+    user: user,
+    username: username,
+    atTag: atTag,
+  };
+  localStorage.setItem('savedData', JSON.stringify(data));
+}, 1000);
+
+callSavedData_cookies() {
+  const savedData = JSON.parse(localStorage.getItem('savedData'));
+  if (savedData) {
+    user = savedData.user || false;
+    username = savedData.username || "guest";
+    atTag = savedData.atTag || "@guest";
+  }
+};
+
 const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
 const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
 
@@ -41,6 +60,11 @@ function setRandomName() {
 function testNew() {
   //il do this soon
 }
+
+
+
+
+
 ///////////////////////////////////////////
 ///              VARIABLES              ///
 ///        1) Stats                     ///
@@ -952,6 +976,9 @@ function seasonOneGearPrize() {
 ///////////////////////////////////////////
 ///             ?) COOKIES              ///
 ///////////////////////////////////////////
+
+
+
 
 //il do this soon
 
