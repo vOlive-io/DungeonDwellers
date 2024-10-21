@@ -18,6 +18,12 @@ window.onload = startup() {
   setInterval(updateLegDiscription, 250)
   setInterval(updateHeadDiscription, 250)
 }
+const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
+const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
+
+adj = adjectives[Math.floor(Math.random() * adjectives.length)];
+ani = animals[Math.floor(Math.random() * animals.length)];
+num = Math.floor(Math.random() * 999) + 1;
 
 var user = false
 var username = "guest";
