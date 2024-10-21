@@ -1,7 +1,22 @@
+-=-=-=-DATES-=-=-=-
+10/21/2024 -- First Batch Of Achievements Icons
+
+-=-=-=-MECHANIC ACHIEVEMENTS-=-=-=-
+Contributor ==== (Not done)
+Exterminator ==== (Not done)
+Alpha Tester ==== (Not done)
+Beta Tester ==== (Not done)
+Locked ==== (Not done)
+
+
+
+-=-=-=-PLAYING ACHIEVEMENTS-=-=-=-
 Started game ==== (Not done)
 
--=-=-=-ARMORS-=-=-=-
-Unlocked All Common Armors ==== Ach_Unlocked_All_Common.png
+
+
+-=-=-=-ARMOR ACHIEVEMENTS-=-=-=-
+Unlocked All Common Armors ==== Ach_Unlocked_All_Common_Armors.png
 Unlocked All Uncommon Armors == Ach_Unlocked_All_Uncommon.png
 Unlocked All Rare Armors ====== Ach_Unlocked_All_Rare.png
 Unlocked All Epic Armors ====== Ach_Unlocked_All_Epic.png
