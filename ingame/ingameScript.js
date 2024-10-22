@@ -1,5 +1,6 @@
 window.onload = startup() {
   callSavedData_cookies();
+  setInterval(makeSavedData_cookies, 250)
   //basic inv
   setInterval(updateVitals, 250)
   setInterval(updateMain, 250)
@@ -19,14 +20,15 @@ window.onload = startup() {
   setInterval(updateLegDiscription, 250)
   setInterval(updateHeadDiscription, 250)
 }
-setInterval(function () {
+
+function makeSavedData_cookies() {
   const data = {
     user: user,
     username: username,
     atTag: atTag,
   };
   localStorage.setItem('savedData', JSON.stringify(data));
-}, 1000);
+}
 
 callSavedData_cookies() {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
