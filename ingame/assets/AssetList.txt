@@ -22,6 +22,7 @@ Level 1 Max Heath Bun Berrie  ======= (Not done)
 Level 2 Max Heath Bun Berrie  ======= (Not done)
 
 -=-=-=-MECHANIC ACHIEVEMENTS-=-=-=-
+Started game === (Not done)
 Contributor ==== (Not done)
 Exterminator === (Not done)
 Alpha Tester === (Not done)
@@ -31,7 +32,6 @@ Locked ========= Ach_Locked.png
 
 
 -=-=-=-PLAYING ACHIEVEMENTS-=-=-=-
-Started game ==== (Not done)
 Level 5 ========= (Not done)
 Level 10 ======== (Not done)
 Level 25 ======== (Not done)
