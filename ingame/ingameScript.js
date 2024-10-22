@@ -1,3 +1,6 @@
+////////////////////////////////
+///       BOOT-UP GAME       ///
+////////////////////////////////
 window.onload = startup() {
   callSavedData_cookies();
   if allowCookies = true {
@@ -25,6 +28,16 @@ window.onload = startup() {
   setInterval(updateHeadDiscription, 250);
 }
 
+
+////////////////////////////////
+///     NEW USER SET UP      ///
+////////////////////////////////
+function testNew() {
+  if (user == false) {
+    setRandomName()
+  }
+}
+
 const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
 const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
 
@@ -38,11 +51,6 @@ function setRandomName() {
   user = true;    
 }
 
-function testNew() {
-  if (user == false) {
-    setRandomName()
-  }
-}
 
 
 
@@ -66,7 +74,7 @@ function testNew() {
 var xp = 0
 var level = 0
 
-var user = false
+var user = false;
 var username;
 var atTag = "@guest";
 var allowCookies = false;
