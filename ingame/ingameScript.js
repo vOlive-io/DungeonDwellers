@@ -83,18 +83,18 @@ var user = false
 var username;
 var atTag = "@guest";
 
-currentHeath = 10; //       Current amount of Heath
-currentWater = 10; //       Current amount of Water
-currentSat = 10; //         Current amount of Saturation
-currentStrenth = 10; //     Current amount of Strenth
-currentStealth = 10; //     Current amount of Stealth
-currentLuck = 0; //         Current amount of Luck
-currentProtection = 0; //   Current amount of Protection
+var currentHeath = 10; //       Current amount of Heath
+var currentWater = 10; //       Current amount of Water
+var currentSat = 10; //         Current amount of Saturation
+var currentStrenth = 10; //     Current amount of Strenth
+var currentStealth = 10; //     Current amount of Stealth
+var currentLuck = 0; //         Current amount of Luck
+var currentProtection = 0; //   Current amount of Protection
 
-maxHeath = 10; //           Max amount of Heath
-maxWater = 15; //           Max amount of Water
-maxSat = 15; //             Max amount of Saturation
-gears = 0;
+var maxHeath = 10; //           Max amount of Heath
+var maxWater = 15; //           Max amount of Water
+var maxSat = 15; //             Max amount of Saturation
+var gears = 0;
 
 
 var id;
