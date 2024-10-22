@@ -177,14 +177,16 @@ var ach_lvl_TwoFiveHun = false; //     Got to level 250
 var ach_lvl_FiveHun = false; //        Got to level 500
 var ach_lvl_OneT = false; //           Got to level 1000
 //ARMOR ACHIEVEMENTS
-var ach_Armors_CommonAll = false //    Unlocked all common armors
-var ach_Armors_UnommonAll = false //   Unlocked all uncommon armors
-var ach_Armors_RareAll = false //      Unlocked all rare armors
-var ach_Armors_EpicAll = false //      Unlocked all epic armors
-var ach_Armors_MythicAll = false //    Unlocked all mythic armors
-var ach_Armors_RelicFirst = false //   Unlocked all relic armors
-var ach_SeasonOne_AllArmor = false //  Unlocked all season one armors
-
+var ach_armors_CommonAll = false //    Unlocked all common armors
+var ach_armors_UnommonAll = false //   Unlocked all uncommon armors
+var ach_armors_RareAll = false //      Unlocked all rare armors
+var ach_armors_EpicAll = false //      Unlocked all epic armors
+var ach_armors_MythicAll = false //    Unlocked all mythic armors
+var ach_armors_RelicFirst = false //   Unlocked all relic armors
+//DUMB ACHIEVEMENTS
+var ach_dumb_plusFifty = false //      Has more unlocked achievements then locked ones
+//SEASON ONE ACHIEVEMENTS
+var ach_seasonOne_AllArmor = false //  Unlocked all season one armors
 
 
 
