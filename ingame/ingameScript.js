@@ -162,6 +162,11 @@ var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 var ach_total = 0; //                  Total Number of Achievements
 //MECHANIC ACHIEVEMENTS
 var ach_mech_strtGame = false; //      Started game 
+var ach_mech_donor = false; //         The player has given the devs money
+var ach_mech_giver = false; //         The player has given the devs feedback that has been put in the game 
+var ach_mech_exterm = false; //        The player has reported a bug in the game
+var ach_mech_alpha = false; //         The player was a Alpha tester
+var ach_mech_beta = false; //          The player was a Beta tester
 //PLAYING ACHIEVEMENTS
 var ach_lvl_Five = false; //           Got to level 5
 var ach_lvl_Ten = false; //            Got to level 10
