@@ -60,10 +60,11 @@ function setRandomName() {
 ///              VARIABLES              ///
 ///        1) Stats                     ///
 ///        2) BunBerries                ///
-///        3) Armor                     ///
-///        4) Weapons                   ///
-///        5) Items                     ///
-///        6) LootChest/Boxes           ///
+///        3) Achievements              ///
+///        4) Armor                     ///
+///        5) Weapons                   ///
+///        6) Items                     ///
+///        7) LootChest/Boxes           ///
 ///                                     ///
 ///////////////////////////////////////////
 
@@ -155,7 +156,7 @@ var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 
 
 ////////////////////////////
-///      3) ARMORS       ///
+///      4) ARMORS       ///
 ////////////////////////////
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
