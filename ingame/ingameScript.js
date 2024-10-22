@@ -1,7 +1,7 @@
 window.onload = startup() {
+  callSavedData_cookies();
   if allowCookies = true {
     setInterval(makeSavedData_cookies, 250);
-    callSavedData_cookies();
   } else {
     askCookies();
   }
@@ -26,18 +26,6 @@ window.onload = startup() {
 }
 
 var allowCookies = false;
-
-function askCookies() {
-  awn = promt("Do you want cookies (il type more here later). type no for no, anything else is yes");
-  if awn == "no" {
-    alert("Bummer");
-    allowCookies = false;
-  } else {
-    allowCookies = true;
-    setInterval(makeSavedData_cookies, 250);
-    alert("Good for you");
-  }
-}
 
 const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
 const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
@@ -979,9 +967,23 @@ function seasonOneGearPrize() {
 ///             8) COOKIES              ///
 ///////////////////////////////////////////
 
+
+function askCookies() {
+  awn = promt("Do you want cookies (il type more here later). type no for no, anything else is yes");
+  if awn == "no" {
+    alert("Bummer");
+    allowCookies = false;
+  } else {
+    allowCookies = true;
+    setInterval(makeSavedData_cookies, 250);
+    alert("Good for you");
+  }
+}
+
 function makeSavedData_cookies() {
   if allowCookies == true {
     const data = {
+      allowCookies: allowCookies,
       user: user,
       username: username,
       atTag: atTag,
@@ -992,6 +994,7 @@ function makeSavedData_cookies() {
 callSavedData_cookies() {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
+    allowCookies = saveData.allowCookies || false;
     user = savedData.user || false;
     username = savedData.username || "guest";
     atTag = savedData.atTag || "@guest";
