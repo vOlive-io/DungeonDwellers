@@ -959,7 +959,7 @@ function seasonOneGearPrize() {
 
 
 ///////////////////////////////////////////
-///             ?) COOKIES              ///
+///             8) COOKIES              ///
 ///////////////////////////////////////////
 
 function makeSavedData_cookies() {
