@@ -16,9 +16,9 @@ Started game ==== (Not done)
 
 
 -=-=-=-ARMOR ACHIEVEMENTS-=-=-=-
-Unlocked All Common Armors ==== Ach_Unlocked_All_Common_Armors.png
-Unlocked All Uncommon Armors == Ach_Unlocked_All_Uncommon.png
-Unlocked All Rare Armors ====== Ach_Unlocked_All_Rare.png
-Unlocked All Epic Armors ====== Ach_Unlocked_All_Epic.png
-Unlocked All Mythic Armors === Ach_Unlocked_All_Mythic.png
+Unlocked All Common Armors ==== Ach/Ach_Unlocked_All_Common_Armors.png
+Unlocked All Uncommon Armors == Ach/Ach_Unlocked_All_Uncommon.png
+Unlocked All Rare Armors ====== Ach/Ach_Unlocked_All_Rare.png
+Unlocked All Epic Armors ====== Ach/Ach_Unlocked_All_Epic.png
+Unlocked All Mythic Armors === Ach/Ach_Unlocked_All_Mythic.png
 Unlocked All Relic Armors ===== (Not done)
