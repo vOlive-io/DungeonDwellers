@@ -3,15 +3,22 @@
 
 
 -=-=-=-BUN BERRIES-=-=-=-
+Luck Bun Berrie ====== (Not done)
+Strenth Bun Berrie === (Not done)
+Steath Bun Berrie ==== (Not done)
+Water Bun Berrie ===== (Not done)
+MaxWater Bun Berrie == (Not done)
+Sat Bun Berrie ======= (Not done)
+MaxSat Bun Berrie ==== (Not done)
 
 
 
 -=-=-=-MECHANIC ACHIEVEMENTS-=-=-=-
 Contributor ==== (Not done)
-Exterminator ==== (Not done)
-Alpha Tester ==== (Not done)
+Exterminator === (Not done)
+Alpha Tester === (Not done)
 Beta Tester ==== (Not done)
-Locked ==== Ach_Locked.png
+Locked ========= Ach_Locked.png
 
 
 
