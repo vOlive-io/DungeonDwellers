@@ -24,7 +24,14 @@ Locked ========= Ach_Locked.png
 
 -=-=-=-PLAYING ACHIEVEMENTS-=-=-=-
 Started game ==== (Not done)
-
+Level 5 ========= (Not done)
+Level 10 ======== (Not done)
+Level 20 ======== (Not done)
+Level 50 ======== (Not done)
+Level 100 ======= (Not done)
+Level 250 ======= (Not done)
+Level 500 ======= (Not done)
+Level 1000 ====== (Not done)
 
 
 -=-=-=-ARMOR ACHIEVEMENTS-=-=-=-
