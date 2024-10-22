@@ -154,6 +154,12 @@ var aquaBunBerries = 0; //           +10 Water, +5 Strength, +3 Heath
 var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 
 
+///////////////////////////////// 
+///      3) ACHIEVEMENTS      ///
+/////////////////////////////////
+var ach_strtGame = false; //   Started game 
+var ach_lvlFive = false; //    Got to level 5
+var ach_lvlTen = false; //     Got to level 10
 
 ////////////////////////////
 ///      4) ARMORS       ///
