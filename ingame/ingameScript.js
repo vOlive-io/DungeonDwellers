@@ -40,10 +40,6 @@ callSavedData_cookies() {
 const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
 const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
 
-var user = false
-var username;
-var atTag = "@guest";
-
 function setRandomName() {
   if (user == false) {
     adj = adjectives[Math.floor(Math.random() * adjectives.length)];
@@ -80,6 +76,12 @@ function testNew() {
 ///       1) STATS       ///
 ////////////////////////////
 //stats 
+var xp = 0
+var level = 0
+
+var user = false
+var username;
+var atTag = "@guest";
 
 currentHeath = 10; //       Current amount of Heath
 currentWater = 10; //       Current amount of Water
