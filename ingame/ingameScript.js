@@ -128,7 +128,8 @@ var relicChestOwned = false;
 ////  2) BUN BERRIES     ///
 ////////////////////////////
 //TOTALS
-var totalBunBerries = 0; //      Total Number of Bun Berries
+var totalBunBerriesEver = 0; //  Total Number of Bun Berries Even Owned (Owned + Eaten)
+var totalBunBerries = 0; //      Total Number of Bun Berries Owned
 var totalEaten = 0; //           Total Number of Bun Berries Eaten
 //BASIC BUN BERRIES
 var luckBunBerries = 0; //           +3 Luck
