@@ -34,7 +34,7 @@ Locked ========= Ach_Locked.png
 Started game ==== (Not done)
 Level 5 ========= (Not done)
 Level 10 ======== (Not done)
-Level 20 ======== (Not done)
+Level 25 ======== (Not done)
 Level 50 ======== (Not done)
 Level 100 ======= (Not done)
 Level 250 ======= (Not done)
