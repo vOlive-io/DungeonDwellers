@@ -136,7 +136,6 @@ var luckBunBerries = 0; //           +3 Luck
 var strenthBunBerries = 0; //        +5 Strength
 var stealthBunBerries  = 0; //       +5 Stealth
 var waterBunBerries = 0; //          +5 Water
-var stelthBunBerrie = 0 //           +5 Steath
 var maxSaturationBunBerries = 0; //  +10 Max Saturation
 var saturationBunBerries = 0; //     +10 Saturation
 var maxWaterBunBerries = 0; //       +10 Max Water
