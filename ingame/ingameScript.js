@@ -1,26 +1,43 @@
 window.onload = startup() {
-  callSavedData_cookies();
-  setInterval(makeSavedData_cookies, 250)
+  if allowCookies = true {
+    setInterval(makeSavedData_cookies, 250);
+    callSavedData_cookies();
+  } else {
+    askCookies();
+  }
   //basic inv
-  setInterval(updateVitals, 250)
-  setInterval(updateMain, 250)
-  setInterval(updateSlots, 250)
+  setInterval(updateVitals, 250);
+  setInterval(updateMain, 250);
+  setInterval(updateSlots, 250);
   //Armors
-  setInterval(updateCommonHeadArmors, 250)
-  setInterval(updateCommonChestArmors, 250)
-  setInterval(updateCommonLegArmors, 250)
+  setInterval(updateCommonHeadArmors, 250);
+  setInterval(updateCommonChestArmors, 250);
+  setInterval(updateCommonLegArmors, 250);
   //needs boots
-  setInterval(updateUncommonHeadArmors, 250)
-  setInterval(updateUncommonChestArmors, 250)
-  setInterval(updateUncommonLegArmors, 250)
+  setInterval(updateUncommonHeadArmors, 250);
+  setInterval(updateUncommonChestArmors, 250);
+  setInterval(updateUncommonLegArmors, 250);
   //needs boots
   //Armor Descriptions
-  setInterval(updateHeadDiscription, 250)
-  setInterval(updateChestDiscription, 250)
-  setInterval(updateLegDiscription, 250)
-  setInterval(updateHeadDiscription, 250)
+  setInterval(updateHeadDiscription, 250);
+  setInterval(updateChestDiscription, 250);
+  setInterval(updateLegDiscription, 250);
+  setInterval(updateHeadDiscription, 250);
 }
 
+var allowCookies = false;
+
+function askCookies() {
+  awn = promt("Do you want cookies (il type more here later). type no for no, anything else is yes");
+  if awn == "no" {
+    alert("Bummer");
+    allowCookies = false;
+  } else {
+    allowCookies = true;
+    setInterval(makeSavedData_cookies, 250);
+    alert("Good for you");
+  }
+}
 
 const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
 const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
@@ -963,12 +980,13 @@ function seasonOneGearPrize() {
 ///////////////////////////////////////////
 
 function makeSavedData_cookies() {
-  const data = {
-    user: user,
-    username: username,
-    atTag: atTag,
-  };
-  localStorage.setItem('savedData', JSON.stringify(data));
+  if allowCookies == true {
+    const data = {
+      user: user,
+      username: username,
+      atTag: atTag,
+    };
+    localStorage.setItem('savedData', JSON.stringify(data));
 }
 
 callSavedData_cookies() {
