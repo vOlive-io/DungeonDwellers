@@ -26,20 +26,19 @@ const adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Du
 const animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
 
 function setRandomName() {
-  if (user == false) {
-    adj = adjectives[Math.floor(Math.random() * adjectives.length)];
-    ani = animals[Math.floor(Math.random() * animals.length)];
-    num = Math.floor(Math.random() * 999) + 1;
-    username = (adj + ani + num)
-    console.log(username)
-    alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this yu will be known as " + username + "!")
-    user = true;
-    }    
-  }
+  adj = adjectives[Math.floor(Math.random() * adjectives.length)];
+  ani = animals[Math.floor(Math.random() * animals.length)];
+  num = Math.floor(Math.random() * 999) + 1;
+  username = (adj + ani + num)
+  console.log(username)
+  alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this yu will be known as " + username + "!")
+  user = true;    
 }
 
 function testNew() {
-  //il do this soon
+  if (user == false) {
+    setRandomName()
+  }
 }
 
 
