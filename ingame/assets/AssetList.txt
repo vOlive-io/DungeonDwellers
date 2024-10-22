@@ -2,7 +2,7 @@
 10/21/2024 (to 10/22/2024) -- First Batch Of Icons!
 
 
--=-=-=-BUN BERRIES-=-=-=-
+-=-=-=-BASIC BUN BERRIES-=-=-=-
 Luck Bun Berrie ====== (Not done)
 Strenth Bun Berrie === (Not done)
 Steath Bun Berrie ==== (Not done)
@@ -11,7 +11,15 @@ MaxWater Bun Berrie == (Not done)
 Sat Bun Berrie ======= (Not done)
 MaxSat Bun Berrie ==== (Not done)
 
-
+-=-=-=-HEATH BUN BERRIES-=-=-=-
+Level 1 Heath Heal Bun Berrie ======= (Not done)
+Level 2 Heath Heal Bun Berrie  ====== (Not done)
+Level 3 Heath Heal Bun Berrie  ====== (Not done)
+Level 4 Heath Heal Bun Berrie  ====== (Not done)
+Level 5 Heath Heal Bun Berrie  ====== (Not done)
+--Max Heath
+Level 1 Max Heath Bun Berrie  ======= (Not done)
+Level 2 Max Heath Bun Berrie  ======= (Not done)
 
 -=-=-=-MECHANIC ACHIEVEMENTS-=-=-=-
 Contributor ==== (Not done)
