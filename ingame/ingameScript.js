@@ -157,22 +157,23 @@ var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 ///////////////////////////////// 
 ///      3) ACHIEVEMENTS      ///
 /////////////////////////////////
-var ach_total = 0; //                Total Number of Achievements
-var ach_mech_strtGame = false; //    Started game 
-var ach_lvl_Five = false; //         Got to level 5
-var ach_lvl_Ten = false; //          Got to level 10
-var ach_lvl_TwoFive = false; //      Got to level 25
-var ach_lvl_Fifty = false; //        Got to level 50
-var ach_lvl_OneHun = false; //       Got to level 100
-var ach_lvl_TwoFiveHun = false; //   Got to level 250
-var ach_lvl_FiveHun = false; //      Got to level 500
-var ach_lvl_OneT = false; //         Got to level 1000
-var ach_Armors_CommonAll = false //  Unlocked all common armors
-var ach_Armors_UnommonAll = false // Unlocked all uncommon armors
-var ach_Armors_RareAll = false //    Unlocked all rare armors
-var ach_Armors_EpicAll = false //    Unlocked all epic armors
-var ach_Armors_MythicAll = false //  Unlocked all mythic armors
-var ach_Armors_RelicFirst = false // Unlocked all relic armors
+var ach_total = 0; //                  Total Number of Achievements
+var ach_mech_strtGame = false; //      Started game 
+var ach_lvl_Five = false; //           Got to level 5
+var ach_lvl_Ten = false; //            Got to level 10
+var ach_lvl_TwoFive = false; //        Got to level 25
+var ach_lvl_Fifty = false; //          Got to level 50
+var ach_lvl_OneHun = false; //         Got to level 100
+var ach_lvl_TwoFiveHun = false; //     Got to level 250
+var ach_lvl_FiveHun = false; //        Got to level 500
+var ach_lvl_OneT = false; //           Got to level 1000
+var ach_Armors_CommonAll = false //    Unlocked all common armors
+var ach_Armors_UnommonAll = false //   Unlocked all uncommon armors
+var ach_Armors_RareAll = false //      Unlocked all rare armors
+var ach_Armors_EpicAll = false //      Unlocked all epic armors
+var ach_Armors_MythicAll = false //    Unlocked all mythic armors
+var ach_Armors_RelicFirst = false //   Unlocked all relic armors
+var ach_SeasonOne_AllArmor = false //  Unlocked all season one armors
 
 
 
