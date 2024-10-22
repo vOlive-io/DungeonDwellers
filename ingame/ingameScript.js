@@ -157,15 +157,25 @@ var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
 ///////////////////////////////// 
 ///      3) ACHIEVEMENTS      ///
 /////////////////////////////////
-var ach_strtGame = false; //       Started game 
-var ach_lvlFive = false; //        Got to level 5
-var ach_lvlTen = false; //         Got to level 10
-var ach_lvlTwoFive = false; //     Got to level 25
-var ach_lvlFifty = false; //       Got to level 50
-var ach_lvlOneHun = false; //      Got to level 100
-var ach_lvlTwoFiveHun = false; //  Got to level 250
-var ach_lvlFiveHun = false; //     Got to level 500
-var ach_lvlOneT = false; //        Got to level 1000
+var ach_total = 0; //               Total Number of Achievements
+var ach_strtGame = false; //        Started game 
+var ach_lvlFive = false; //         Got to level 5
+var ach_lvlTen = false; //          Got to level 10
+var ach_lvlTwoFive = false; //      Got to level 25
+var ach_lvlFifty = false; //        Got to level 50
+var ach_lvlOneHun = false; //       Got to level 100
+var ach_lvlTwoFiveHun = false; //   Got to level 250
+var ach_lvlFiveHun = false; //      Got to level 500
+var ach_lvlOneT = false; //         Got to level 1000
+var ach_ArmorsCommonAll = false //  Unlocked all common armors
+var ach_ArmorsUnommonAll = false // Unlocked all uncommon armors
+var ach_ArmorsRareAll = false //    Unlocked all rare armors
+var ach_ArmorsEpicAll = false //    Unlocked all epic armors
+var ach_ArmorsMythicAll = false //  Unlocked all mythic armors
+var ach_ArmorsRelicFirst = false // Unlocked all relic armors
+
+
+
 
 ////////////////////////////
 ///      4) ARMORS       ///
