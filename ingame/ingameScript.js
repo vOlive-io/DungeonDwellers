@@ -145,9 +145,9 @@ var lv2HeathHealBunBerries = 0; //   restores 10% of Heath
 var lv3HeatHealhBunBerries = 0; //   restores 25% of Heath
 var lv4HeathHealBunBerries = 0; //   restores 50% of Heath
 var lv5HeathHealBunBerries = 0; //   restores 100% of Heath
-//MAX HEATH BUN BERRIES
-var lv1maxHeathBunBerries = 0; //    +10 max Heath 
-var lv2macHeathBunBerries = 0; //    +100 max Heath
+//XP BUN BERRIES
+var lv1XpHeathBunBerries = 0; //    +100 Xp  
+var lv2XpHeathBunBerries = 0; //    +500 Xp Heath
 //SPECIAL BUN BERRIES
 var shadowBunBerries = 0; //         +10 Stealth, +5 Heath, +3 Luck
 var lavaBunBerries = 0; //           +10 Strength, +5 Stealth, +3 Heath
