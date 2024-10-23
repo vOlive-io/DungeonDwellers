@@ -1,14 +1,14 @@
 -=-=-=-DATES-=-=-=-
 10/21/2024 (to 10/22/2024) -- First Batch Of Icons!
-
+10/23/2024 (to 10/22/2024) -- First Batch Of Icons!
 
 -=-=-=-BASIC BUN BERRIES-=-=-=-
-Luck Bun Berrie ====== (Not done)
-Strenth Bun Berrie === (Not done)
-Steath Bun Berrie ==== (Not done)
-Water Bun Berrie ===== (Not done)
+Luck Bun Berrie ====== bunBerrie_Luck.png
+Strenth Bun Berrie === bunBerrie_Strenth.png
+Steath Bun Berrie ==== bunBerrie_Stealth.png
+Water Bun Berrie ===== bunBerrie_Water.png
+Sat Bun Berrie ======= bunBerrie_Sat.png
 MaxWater Bun Berrie == (Not done)
-Sat Bun Berrie ======= (Not done)
 MaxSat Bun Berrie ==== (Not done)
 
 -=-=-=-HEATH BUN BERRIES-=-=-=-
