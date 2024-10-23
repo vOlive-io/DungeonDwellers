@@ -91,8 +91,11 @@ var currentProtection = 0; //   Current amount of Protection
 var maxHeath = 10; //           Max amount of Heath
 var maxWater = 15; //           Max amount of Water
 var maxSat = 15; //             Max amount of Saturation
-var level = 0; //               The level of the player
 var gears = 0; //               The number of gears owned
+
+var level = 0; //               The level of the player
+var xp = 0 //                   The amount of XP the player has
+var xpTop = 100 //              The about of XP needed for the player to level up
 
 
 var id;
