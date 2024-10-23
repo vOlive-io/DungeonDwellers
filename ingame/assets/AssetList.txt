@@ -17,9 +17,9 @@ Level 2 Heath Heal Bun Berrie  ====== (Not done)
 Level 3 Heath Heal Bun Berrie  ====== (Not done)
 Level 4 Heath Heal Bun Berrie  ====== (Not done)
 Level 5 Heath Heal Bun Berrie  ====== (Not done)
---Max Heath
-Level 1 Max Heath Bun Berrie  ======= (Not done)
-Level 2 Max Heath Bun Berrie  ======= (Not done)
+--XP
+Level 1 Xp Bun Berrie  ======= (Not done)
+Level 2 Xp Bun Berrie  ======= (Not done)
 
 -=-=-=-MECHANIC ACHIEVEMENTS-=-=-=-
 Started game === (Not done)
