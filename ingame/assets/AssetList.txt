@@ -8,8 +8,6 @@ Strenth Bun Berrie === bunBerrie_Strenth.png
 Steath Bun Berrie ==== bunBerrie_Stealth.png
 Water Bun Berrie ===== bunBerrie_Water.png
 Sat Bun Berrie ======= bunBerrie_Sat.png
-MaxWater Bun Berrie == (Not done)
-MaxSat Bun Berrie ==== (Not done)
 
 -=-=-=-HEATH BUN BERRIES-=-=-=-
 Level 1 Heath Heal Bun Berrie ======= (Not done)
