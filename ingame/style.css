@@ -1,6 +1,16 @@
+/* ----------------
+     BUN BERRIES
+*/-----------------
+
 #heathHealOneTag, #waterTag, #satTag, #strenthTag, #stealthTag, #luckTag {
   display: none;
 }
+
+
+
+/* ------------
+    ARMORS
+*/-------------
 
 /* commonHead */
 #FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet {
@@ -16,8 +26,6 @@
 #TheFigLeaf, #WoodenLegPadding, #LeatherLeggings, #PaintedOnLeggings, #BasicExplorersLeggings {
   display: none;
 }
-
-
 
 
 /* uncommonHead */
