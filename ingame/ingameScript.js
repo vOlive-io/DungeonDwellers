@@ -91,7 +91,8 @@ var currentProtection = 0; //   Current amount of Protection
 var maxHeath = 10; //           Max amount of Heath
 var maxWater = 15; //           Max amount of Water
 var maxSat = 15; //             Max amount of Saturation
-var gears = 0;
+var level = 0; //               The level of the player
+var gears = 0; //               The number of gears owned
 
 
 var id;
@@ -136,9 +137,7 @@ var luckBunBerries = 0; //           +3 Luck
 var strenthBunBerries = 0; //        +5 Strength
 var stealthBunBerries  = 0; //       +5 Stealth
 var waterBunBerries = 0; //          +5 Water
-var maxSaturationBunBerries = 0; //  +10 Max Saturation
 var saturationBunBerries = 0; //     +10 Saturation
-var maxWaterBunBerries = 0; //       +10 Max Water
 //HEATH BUN BERRIES
 var lv1HeathHealBunBerries = 0; //   restores 5% of Heath
 var lv2HeathHealBunBerries = 0; //   restores 10% of Heath
