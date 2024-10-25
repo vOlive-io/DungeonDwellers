@@ -72,8 +72,11 @@ function setRandomName() {
 ///       1) STATS       ///
 ////////////////////////////
 //stats 
-var xp = 0
-var level = 0
+var level = 0; //               The level of the player
+var xp = 0; //                  The amount of XP the player has
+var xpTop = 100; //             The about of XP needed for the player to level up
+var xpBoost = 1; //             The about of XP you get from raw XP
+var xpBoostOn = false; //       If the player has an XP booster on
 
 var user = false;
 var username;
@@ -92,12 +95,6 @@ var maxHeath = 10; //           Max amount of Heath
 var maxWater = 15; //           Max amount of Water
 var maxSat = 15; //             Max amount of Saturation
 var gears = 0; //               The number of gears owned
-
-var level = 0; //               The level of the player
-var xp = 0; //                  The amount of XP the player has
-var xpTop = 100; //             The about of XP needed for the player to level up
-var xpBoost = 1; //             The about of XP you get from raw XP
-var xpBoostOn = false; //       If the player has an XP booster on
 
 var id;
 var name;
