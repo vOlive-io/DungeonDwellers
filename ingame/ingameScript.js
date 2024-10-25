@@ -71,6 +71,14 @@ function setRandomName() {
 //////////////////////////// 
 ///       1) STATS       ///
 ////////////////////////////
+function levelup() {
+  if (xp == xpTop) {
+    xp = 0
+    xpTop = Math.round(xpTop * 1.2);
+    level++
+  }
+}
+  
 //stats 
 var level = 0; //               The level of the player
 var xp = 0; //                  The amount of XP the player has
