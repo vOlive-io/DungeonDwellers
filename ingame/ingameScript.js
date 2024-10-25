@@ -1046,6 +1046,3 @@ callSavedData_cookies() {
     atTag = savedData.atTag || "@guest";
   }
 };
-
-
-
