@@ -1031,10 +1031,43 @@ function askCookies() {
 function makeSavedData_cookies() {
   if allowCookies == true {
     const data = {
+      //Cookies Cookies
       allowCookies: allowCookies,
+      //User Cookies
       user: user,
       username: username,
       atTag: atTag,
+      //Ach cookies
+      //Total Ach
+      ach_total: ach_total,
+      //Mech Ach
+      ach_mech_strtGame: ach_mech_strtGame,
+      ach_mech_donor: ach_mech_donor,
+      ach_mech_giver: ach_mech_giver,
+      ach_mech_exterm: ach_mech_exterm,
+      ach_mech_alpha: ach_mech_alpha,
+      ach_mech_beta: ach_mech_beta,
+      //Playing Ach
+      ach_lvl_Five: ach_lvl_Five,
+      ach_lvl_Ten: ach_lvl_Ten,
+      ach_lvl_TwoFive: ach_lvl_TwoFive,
+      ach_lvl_Fifty: ach_lvl_Fifty,
+      ach_lvl_OneHun: ach_lvl_OneHun,
+      ach_lvl_TwoFiveHun: ach_lvl_TwoFiveHun,
+      ach_lvl_FiveHun: ach_lvl_FiveHun,
+      ach_lvl_OneT: ach_lvl_OneT,
+      //Armor Ach
+      ach_armors_CommonAll: ach_armors_CommonAll,
+      ach_armors_UnommonAll: ach_armors_UnommonAll,
+      ach_armors_RareAll: ach_armors_RareAll,
+      ach_armors_EpicAll: ach_armors_EpicAll,
+      ach_armors_MythicAll: ach_armors_MythicAll,
+      ach_armors_RelicFirst: ach_armors_RelicFirst,
+      //Dumb Ach
+      ach_dumb_youAsked: ach_dumb_youAsked,
+      ach_dumb_plusFifty: ach_dumb_plusFifty,
+      //Season 1 Ach
+      ach_seasonOne_AllArmor: ach_seasonOne_AllArmor,
     };
     localStorage.setItem('savedData', JSON.stringify(data));
 }
@@ -1042,9 +1075,44 @@ function makeSavedData_cookies() {
 callSavedData_cookies() {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
+    //Cookies Cookies
     allowCookies = saveData.allowCookies || false;
+    //User Cookies
     user = savedData.user || false;
     username = savedData.username || "guest";
     atTag = savedData.atTag || "@guest";
+    //Ach Cookies
+    //Total Ach
+    ach_total = savedData.ach_total || "false";
+    //Mech Ach
+    ach_mech_strtGame = savedData.ach_mech_strtGame || false;
+    ach_mech_donor = savedData.ach_mech_donor || false;
+    ach_mech_giver = savedData.ach_mech_giver || false;
+    ach_mech_exterm = savedData.ach_mech_exterm || false;
+    ach_mech_alpha = savedData.ach_mech_alpha || false;
+    ach_mech_beta = savedData.ach_mech_beta || false;
+    //PLaying Ach
+    ach_lvl_Five = savedData.ach_lvl_Five || false;
+    ach_lvl_Ten = savedData.ach_lvl_Ten || false;
+    ach_lvl_TwoFive = savedData.ach_lvl_TwoFive || false;
+    ach_lvl_Fifty = savedData.ach_lvl_Fifty || false;
+    ach_lvl_OneHun = savedData.ach_lvl_OneHun || false;
+    ach_lvl_TwoFiveHun = savedData.ach_lvl_TwoFiveHun || false;
+    ach_lvl_FiveHun = savedData.ach_lvl_FiveHun || false;
+    ach_lvl_OneT = savedData.ach_lvl_OneT || false;
+    //Armors Ach
+    ach_armors_CommonAll = savedData.ach_armors_CommonAll || false;
+    ach_armors_UnommonAll = savedData.ach_armors_UnommonAll || false;
+    ach_armors_RareAll = savedData.ach_armors_RareAll || false;
+    ach_armors_EpicAll = savedData.ach_armors_EpicAll || false;
+    ach_armors_MythicAll = savedData.ach_armors_MythicAll || false;
+    ach_armors_RelicFirst = savedData.ach_armors_RelicFirst || false;
+    //Dumb Ach
+    ach_dumb_youAsked = savedData.ach_dumb_youAsked || false;
+    ach_dumb_plusFifty = savedData.ach_dumb_plusFifty || false;
+    //Season 1 Ach
+    ach_seasonOne_AllArmor = savedData.ach_seasonOne_AllArmor || false;
+
+
   }
 };
