@@ -83,6 +83,9 @@ function checkLevelUp() {
   }
 }
 
+function levelUpRewards() {
+  //il do this soon
+}
   
 //stats 
 var level = 0; //               The level of the player
