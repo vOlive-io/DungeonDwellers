@@ -187,7 +187,9 @@ var ach_armors_EpicAll = false //      Unlocked all epic armors
 var ach_armors_MythicAll = false //    Unlocked all mythic armors
 var ach_armors_RelicFirst = false //   Unlocked all relic armors
 //DUMB ACHIEVEMENTS
+var ach_dumb_youAsked = false //       Clicked on that achivement
 var ach_dumb_plusFifty = false //      Has more unlocked achievements then locked ones
+
 //SEASON ONE ACHIEVEMENTS
 var ach_seasonOne_AllArmor = false //  Unlocked all season one armors
 
