@@ -72,13 +72,14 @@ function setRandomName() {
 ///       1) STATS       ///
 ////////////////////////////
 
-function levelup() {
+function checkLevelUp() {
   if (xp >= xpTop) {
-    xp = xp - xpTop
+    xp = xp - xpTop;
     xpTop = Math.round(xpTop * 1.2);
     level++;
     levelSlot.innerHTML = "Level: " + level + ", Xp: " + xp + "/" + xpTop;
     xpSlot.innerHTML = xp + "/" + xpTop;
+    levelUpRewards();
   }
 }
 
