@@ -71,13 +71,17 @@ function setRandomName() {
 //////////////////////////// 
 ///       1) STATS       ///
 ////////////////////////////
+
 function levelup() {
-  if (xp == xpTop) {
-    xp = 0
+  if (xp >= xpTop) {
+    xp = xp - xpTop
     xpTop = Math.round(xpTop * 1.2);
-    level++
+    level++;
+    levelSlot.innerHTML = "Level: " + level + ", Xp: " + xp + "/" + xpTop;
+    xpSlot.innerHTML = xp + "/" + xpTop;
   }
 }
+
   
 //stats 
 var level = 0; //               The level of the player
