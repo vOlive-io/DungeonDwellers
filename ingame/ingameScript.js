@@ -26,7 +26,7 @@ window.onload = startup() {
   setInterval(updateChestDiscription, 250);
   setInterval(updateLegDiscription, 250);
   setInterval(updateHeadDiscription, 250);
-}
+};
 
 
 ////////////////////////////////
