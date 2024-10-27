@@ -1031,7 +1031,7 @@ function seasonOneGearPrize() {
 
 function askCookies() {
   awn = promt("Do you want cookies (il type more here later). type no for no, anything else is yes");
-  if awn == "no" {
+  if (awn == "no") {
     alert("Bummer");
     allowCookies = false;
   } else {
