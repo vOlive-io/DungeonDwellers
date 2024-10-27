@@ -1,7 +1,7 @@
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
-startUp() {
+function startUp() {
   callSavedData_cookies();
   if allowCookies = true {
     setInterval(makeSavedData_cookies, 250);
