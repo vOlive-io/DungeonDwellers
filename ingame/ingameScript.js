@@ -1086,7 +1086,7 @@ function makeSavedData_cookies() {
     localStorage.setItem('savedData', JSON.stringify(data));
 }
 
-callSavedData_cookies() {
+function callSavedData_cookies() {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
     //Cookies Cookies
