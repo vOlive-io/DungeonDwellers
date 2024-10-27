@@ -1028,7 +1028,7 @@ function seasonOneGearPrize() {
 ///////////////////////////////////////////
 ///             8) COOKIES              ///
 ///////////////////////////////////////////
-
+var awn;
 
 function askCookies() {
   awn = promt("Do you want cookies (il type more here later). type no for no, anything else is yes");
