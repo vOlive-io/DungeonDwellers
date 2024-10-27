@@ -1084,6 +1084,7 @@ function makeSavedData_cookies() {
       ach_seasonOne_AllArmor: ach_seasonOne_AllArmor,
     };
     localStorage.setItem('savedData', JSON.stringify(data));
+  }
 }
 
 function callSavedData_cookies() {
@@ -1126,7 +1127,5 @@ function callSavedData_cookies() {
     ach_dumb_plusFifty = savedData.ach_dumb_plusFifty || false;
     //Season 1 Ach
     ach_seasonOne_AllArmor = savedData.ach_seasonOne_AllArmor || false;
-
-
   }
-};
+}
