@@ -3,7 +3,7 @@
 ////////////////////////////////
 function startUp() {
   callSavedData_cookies();
-  if allowCookies = true {
+  if (allowCookies == true) {
     setInterval(makeSavedData_cookies, 250);
   } else {
     askCookies();
