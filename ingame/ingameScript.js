@@ -1043,7 +1043,7 @@ function askCookies() {
 }
 
 function makeSavedData_cookies() {
-  if allowCookies == true {
+  if (allowCookies == true) {
     const data = {
       //Cookies Cookies
       allowCookies: allowCookies,
