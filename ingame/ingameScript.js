@@ -1,7 +1,7 @@
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
-window.onload = startup() {
+startUp() {
   callSavedData_cookies();
   if allowCookies = true {
     setInterval(makeSavedData_cookies, 250);
@@ -26,7 +26,7 @@ window.onload = startup() {
   setInterval(updateChestDiscription, 250);
   setInterval(updateLegDiscription, 250);
   setInterval(updateHeadDiscription, 250);
-};
+}
 
 
 ////////////////////////////////
