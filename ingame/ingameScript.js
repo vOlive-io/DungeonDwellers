@@ -1,7 +1,7 @@
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
-document.getElementById("fullBody").addEventListener("load", startUp);
+body.addEventListener("load", myScript);
 function startUp() {
   callSavedData_cookies();
   if (allowCookies == true) {
