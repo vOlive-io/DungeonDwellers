@@ -9,6 +9,7 @@ function startUp() {
   } else {
     askCookies();
   }
+  testNew()
   //basic inv
   setInterval(updateVitals, 250);
   setInterval(updateMain, 250);
@@ -36,6 +37,8 @@ function startUp() {
 function testNew() {
   if (user == false) {
     setRandomName()
+  } else {
+    alert("Welcome back " + username + "!");
   }
 }
 
