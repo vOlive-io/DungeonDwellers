@@ -86,7 +86,10 @@ function checkLevelUp() {
 }
 
 function levelUpRewards() {
-  //il do this soon
+  //prize = Math.floor(Math.random() * 1500) + 1000;
+  //maxWater
+  //maxSat
+  //maxHealth
 }
   
 //stats 
