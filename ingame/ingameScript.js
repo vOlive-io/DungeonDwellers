@@ -1044,7 +1044,7 @@ function askCookies() {
   }
 }
 
-function makeSavedData_cookies() {
+setInterval(function () {
   if (allowCookies == true) {
     const data = {
       //Cookies Cookies
@@ -1087,7 +1087,7 @@ function makeSavedData_cookies() {
     };
     localStorage.setItem('savedData', JSON.stringify(data));
   }
-}
+}, 1000);
 
 function callSavedData_cookies() {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
@@ -1130,4 +1130,4 @@ function callSavedData_cookies() {
     //Season 1 Ach
     ach_seasonOne_AllArmor = savedData.ach_seasonOne_AllArmor || false;
   }
-}
+};
