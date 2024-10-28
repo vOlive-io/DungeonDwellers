@@ -1088,7 +1088,8 @@ setInterval(function () {
 }, 1000);
 
 function callSavedData_cookies() {
-  const savedData = JSON.parse(localStorage.getItem('savedData'));
+  //const
+  savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
     //Cookies Cookies
     allowCookies = saveData.allowCookies || false;
