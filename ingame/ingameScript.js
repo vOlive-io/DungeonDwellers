@@ -1,7 +1,7 @@
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
 ////////////////////////////////
-document.getElementById("myFrame").onload = function() {startUp()};
+startUp();
 function startUp() {
   callSavedData_cookies();
   if (allowCookies == true) {
