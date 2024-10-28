@@ -213,7 +213,6 @@ var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
 ////////////////////////////
 ///      4) ARMORS       ///
 ////////////////////////////
-
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 
 var CommonHeadArmorTypes = [
@@ -397,6 +396,13 @@ var DungeonChestArmorTypes = [
   ["42", " ----- ----- ", "2", ""]  // ----- driver
 ];
 
+////////////////////////////
+///     5) WEAPONS       ///
+////////////////////////////
+var CommonHeadWeaponTypes = [
+  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Protection.", false],
+  ["1", "FISTS", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", true]
+];
 
 ////////////////////////////
 ///   6) LOOT BOXS       ///
