@@ -1093,83 +1093,49 @@ function seasonOneGearPrize() {
 ///////////////////////////////////////////
 ///             8) COOKIES              ///
 ///////////////////////////////////////////
-
-function askCookies() {
-  let awn = prompt("Do you want cookies (il type more here later). type no for no, anything else is yes", "Yes");
-  if (awn == "no") {
-    alert("Bummer");
-    allowCookies = false;
-  } else {
-    allowCookies = true;
-    setInterval(makeSavedData_cookies, 250);
-    alert("Good for you");
-  }
-}
-
 function makeSavedData_cookies() {
-  if (allowCookies == true) {
-    const data = {
-      //Cookies Cookies
-      allowCookies: allowCookies,
-      //User Cookies
-      user: user,
-      username: username,
-      atTag: atTag,
-      //Ach cookies
-      //Total Ach
-      ach_total: ach_total,
-      //Mech Ach
-      ach_mech_strtGame: ach_mech_strtGame,
-      ach_mech_donor: ach_mech_donor,
-      ach_mech_giver: ach_mech_giver,
-      ach_mech_exterm: ach_mech_exterm,
-      ach_mech_alpha: ach_mech_alpha,
-      ach_mech_beta: ach_mech_beta,
-      //Playing Ach
-      ach_lvl_Five: ach_lvl_Five,
-      ach_lvl_Ten: ach_lvl_Ten,
-      ach_lvl_TwoFive: ach_lvl_TwoFive,
-      ach_lvl_Fifty: ach_lvl_Fifty,
-      ach_lvl_OneHun: ach_lvl_OneHun,
-      ach_lvl_TwoFiveHun: ach_lvl_TwoFiveHun,
-      ach_lvl_FiveHun: ach_lvl_FiveHun,
-      ach_lvl_OneT: ach_lvl_OneT,
-      //Armor Ach
-      ach_armors_CommonAll: ach_armors_CommonAll,
-      ach_armors_UnommonAll: ach_armors_UnommonAll,
-      ach_armors_RareAll: ach_armors_RareAll,
-      ach_armors_EpicAll: ach_armors_EpicAll,
-      ach_armors_MythicAll: ach_armors_MythicAll,
-      ach_armors_RelicFirst: ach_armors_RelicFirst,
-      //Dumb Ach
-      ach_dumb_youAsked: ach_dumb_youAsked,
-      ach_dumb_plusFifty: ach_dumb_plusFifty,
-      //Season 1 Ach
-      ach_seasonOne_AllArmor: ach_seasonOne_AllArmor,
-    };
-    localStorage.setItem('savedData', JSON.stringify(data));
-  }
-}
-
-function makeSavedData_askCookies() {
   const data = {
     //Cookies Cookies
     allowCookies: allowCookies,
     //User Cookies
     user: user,
     username: username,
-  }
+    atTag: atTag,
+    //Ach cookies
+    //Total Ach
+    ach_total: ach_total,
+    //Mech Ach
+    ach_mech_strtGame: ach_mech_strtGame,
+    ach_mech_donor: ach_mech_donor,
+    ach_mech_giver: ach_mech_giver,
+    ach_mech_exterm: ach_mech_exterm,
+    ach_mech_alpha: ach_mech_alpha,
+    ach_mech_beta: ach_mech_beta,
+    //Playing Ach
+    ach_lvl_Five: ach_lvl_Five,
+    ach_lvl_Ten: ach_lvl_Ten,
+    ach_lvl_TwoFive: ach_lvl_TwoFive,
+    ach_lvl_Fifty: ach_lvl_Fifty,
+    ach_lvl_OneHun: ach_lvl_OneHun,
+    ach_lvl_TwoFiveHun: ach_lvl_TwoFiveHun,
+    ach_lvl_FiveHun: ach_lvl_FiveHun,
+    ach_lvl_OneT: ach_lvl_OneT,
+    //Armor Ach
+    ach_armors_CommonAll: ach_armors_CommonAll,
+    ach_armors_UnommonAll: ach_armors_UnommonAll,
+    ach_armors_RareAll: ach_armors_RareAll,
+    ach_armors_EpicAll: ach_armors_EpicAll,
+    ach_armors_MythicAll: ach_armors_MythicAll,
+    ach_armors_RelicFirst: ach_armors_RelicFirst,
+     //Dumb Ach
+    ach_dumb_youAsked: ach_dumb_youAsked,
+    ach_dumb_plusFifty: ach_dumb_plusFifty,
+    //Season 1 Ach
+    ach_seasonOne_AllArmor: ach_seasonOne_AllArmor,
+  };
+  localStorage.setItem('savedData', JSON.stringify(data));
 }
 
-function callSavedData_askCookies() {
-  //const
-  savedData = JSON.parse(localStorage.getItem('savedData'));
-  if (savedData) {
-    //Cookies Cookies
-    allowCookies = savedData.allowCookies || true;
-    user = savedData.user || false;
-  }
-}
 
 function callSavedData_cookies() {
   //const
