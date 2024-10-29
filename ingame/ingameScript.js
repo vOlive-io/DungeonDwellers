@@ -150,7 +150,7 @@ var seasonOneChestOwned = false;
 var relicChestOwned = false;
 
 
-
+var uncommonLegOwned = false;
 
 
 ////////////////////////////
