@@ -6,10 +6,11 @@ function startUp() {
   callSavedData_askCookies();
   if (allowCookies != true) {
     askCookies();
+    testNew();
   } else {
   callSavedData_cookies();
   }
-  testNew();
+  
   //basic inv
   setInterval(updateVitals, 250);
   setInterval(updateMain, 250);
@@ -35,7 +36,7 @@ function startUp() {
 ///     NEW USER SET UP      ///
 ////////////////////////////////
 function testNew() {
-  if (user == false) {
+  if (user != true) {
     setRandomName()
   } else {
     alert("Welcome back " + username + "!");
