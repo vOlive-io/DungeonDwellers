@@ -5,7 +5,7 @@ startUp();
 function startUp() {
   callSavedData_cookies();
   testNew();
-  setInterval(makeSavedData_cookies, 250);
+  setInterval(makeSavedData_cookies, 1);
   //basic inv
   setInterval(updateVitals, 250);
   setInterval(updateMain, 250);
