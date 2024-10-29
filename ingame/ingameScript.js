@@ -3,10 +3,10 @@
 ////////////////////////////////
 startUp();
 function startUp() {
+  callSavedData_cookies();
   if (allowCookies != true) {
     askCookies();
   }
-  callSavedData_cookies();
   testNew();
   //basic inv
   setInterval(updateVitals, 250);
