@@ -3,10 +3,11 @@
 ////////////////////////////////
 startUp();
 function startUp() {
-  callSavedData_cookies();
+  callSavedData_askCookies();
   if (allowCookies != true) {
     askCookies();
   }
+  callSavedData_cookies();
   testNew();
   //basic inv
   setInterval(updateVitals, 250);
@@ -1095,12 +1096,19 @@ function makeSavedData_cookies() {
   }
 }
 
-function callSavedData_cookies() {
+function callSavedData_askCookies() {
   //const
   savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
     //Cookies Cookies
     allowCookies = savedData.allowCookies || false;
+  }
+}
+
+function callSavedData_cookies() {
+  //const
+  savedData = JSON.parse(localStorage.getItem('savedData'));
+  if (savedData) {
     //User Cookies
     user = savedData.user || false;
     username = savedData.username || "guest";
