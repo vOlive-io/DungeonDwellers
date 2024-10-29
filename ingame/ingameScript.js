@@ -882,7 +882,7 @@ function RandomPullCommonBootArmor() {
     }
   }  
 }
-
+ 
 function RandomPullUncommonHeadArmor() {
  if (trys > 100) {
   console.log("Sorry armor could not be found... Instead you will get a gear prize.(50-100)")
