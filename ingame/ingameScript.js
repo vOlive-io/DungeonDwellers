@@ -11,11 +11,12 @@ function startUp() {
   callSavedData_cookies();
   testNew();
   }
-  /*
+  
   //basic inv
   setInterval(updateVitals, 250);
   setInterval(updateMain, 250);
   setInterval(updateSlots, 250);
+  /*
   //Armors
   setInterval(updateCommonHeadArmors, 250);
   setInterval(updateCommonChestArmors, 2500);
