@@ -349,6 +349,17 @@ var UncommonBootArmorTypes = [
 
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
+var RareHeadArmorTypes = [
+  ["18", "Steal Helmet", "5", "Description. Rare + 5 Protection", false],
+  ["19", "Bronze Helmet", "5", "Description. Rare + 5 Protection", false],
+  ["21", "Silver Helmet", "5", "Description. Rare + 5 Protection", false],
+  ["20", "Gold Helmet", "6", "Description. Rare + 6 Protection", false],
+  ["22", "Iron Helmet", "6", "Description. Rare + 6 Protection", false],
+  ["23", "Fethered Mask", "6", "Description. Rare + 6 Protection", false],
+  ["24", "Blessed Mud Helmet", "6", "Description. Rare + 6 Protection", false],
+  ["25", "Jungle Vine Helmet", "6", "Description. Rare + 6 Protection", false]
+];
+
 var RareChestArmorTypes = [
   ["18", "Steal Chestplate", "5", "Description. Rare + 5 Protection", false],
   ["19", "Bronze Chestplate", "5", "Description. Rare + 5 Protection", false],
