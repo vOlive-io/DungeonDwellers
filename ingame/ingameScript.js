@@ -371,6 +371,17 @@ var RareChestArmorTypes = [
   ["25", "Jungle Vine Chestplate", "6", "Description. Rare + 6 Protection", false]
 ];
 
+var RareLegArmorTypes = [
+  ["18", "Steal Leggings", "5", "Description. Rare + 5 Protection", false],
+  ["19", "Bronze Leggings", "5", "Description. Rare + 5 Protection", false],
+  ["21", "Silver Leggings", "5", "Description. Rare + 5 Protection", false],
+  ["20", "Gold Leggings", "6", "Description. Rare + 6 Protection", false],
+  ["22", "Iron Leggings", "6", "Description. Rare + 6 Protection", false],
+  ["23", "Fethered Leggings", "6", "Description. Rare + 6 Protection", false],
+  ["24", "Blessed Mud Leggings", "6", "Description. Rare + 6 Protection", false],
+  ["25", "Jungle Vine Leggings", "6", "Description. Rare + 6 Protection", false]
+];
+
 
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
