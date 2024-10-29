@@ -465,7 +465,7 @@ function updateCommonHeadArmors() {
   }
 }
 
-function updateCommonLegArmors() {
+function updateCommonChestArmors() {
   if (CommonChestArmorTypes[1][4] == true) {
     FigLeafBreastplate.style.display = "block";
   } if (CommonChestArmorTypes[2][4] == true) {
