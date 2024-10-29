@@ -6,8 +6,9 @@ function startUp() {
   callSavedData_askCookies();
   if (allowCookies != true) {
     askCookies();
-  }
+  } else {
   callSavedData_cookies();
+  }
   testNew();
   //basic inv
   setInterval(updateVitals, 250);
@@ -1111,7 +1112,7 @@ function callSavedData_cookies() {
   if (savedData) {
     //User Cookies
     user = savedData.user || false;
-    username = savedData.username || "guest";
+    username = savedData.username || "false";
     atTag = savedData.atTag || "@guest";
     //Ach Cookies
     //Total Ach
