@@ -40,6 +40,7 @@ function startUp() {
 ////////////////////////////////
 function testNew() {
   if (user != true) {
+    setRandomName();
   } else {
     alert("Welcome back " + username + "!");
   }
