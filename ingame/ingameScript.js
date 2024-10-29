@@ -1158,7 +1158,6 @@ function makeSavedData_cookies() {
     //User Cookies
     user: user,
     username: username,
-    }
   }
 }
 
