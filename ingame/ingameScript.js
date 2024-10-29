@@ -228,7 +228,7 @@ var CommonHeadArmorTypes = [
 
 var CommonChestArmorTypes = [
   ["7", "T-shirt", "0", "stop taking sheep wool please you look so ugly. Common, +0 Protection.", true],
-  ["8", "Fig Leaf Breastplate", "1", "Stop murdering the trees you sicko . Common, +1 Protection.", true],
+  ["8", "Fig Leaf Breastplate", "1", "Stop murdering the trees you sicko. Common, +1 Protection.", false],
   ["9", "Woodplate", "1", "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!, Common, +1 Protection.", false],
   ["10", "Leather Chestplate", "2", "Found some cow patties I see . Common +2 Protection.", false],
   ["11", "Painted on Armor", "2", "Wow look at you Picasso. Common +2 Protection.", false],
