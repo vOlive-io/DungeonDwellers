@@ -57,7 +57,9 @@ function setRandomName() {
   username = (adj + ani + num)
   console.log(username)
   alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this yu will be known as " + username + "!")
-  user = true;    
+  user = true;   
+  makeSavedData_cookies();
+  
 }
 
 
@@ -1146,6 +1148,17 @@ function makeSavedData_cookies() {
       ach_seasonOne_AllArmor: ach_seasonOne_AllArmor,
     };
     localStorage.setItem('savedData', JSON.stringify(data));
+  }
+}
+
+function makeSavedData_cookies() {
+  const data = {
+    //Cookies Cookies
+    allowCookies: allowCookies,
+    //User Cookies
+    user: user,
+    username: username,
+    }
   }
 }
 
