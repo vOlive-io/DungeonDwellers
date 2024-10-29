@@ -672,7 +672,7 @@ function updateHeadDiscription() {
   }
 }
 
-function updateChestDiscription() {
+function updateCommonChestDiscription() {
   if (document.getElementById("Shirt").selected == true) {
     ChestProtection = CommonChestArmorTypes[0][2]
     ChestDescription.innerHTML = CommonChestArmorTypes[0][3];
