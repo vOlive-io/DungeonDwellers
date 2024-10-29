@@ -52,8 +52,6 @@ function setRandomName() {
   console.log(username)
   alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this yu will be known as " + username + "!")
   user = true;   
-  makeSavedData_askCookies();
-  
 }
 
 
