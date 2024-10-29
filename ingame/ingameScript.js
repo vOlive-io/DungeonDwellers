@@ -217,14 +217,13 @@ var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
 ///      4) ARMORS       ///
 ////////////////////////////
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
-
 var CommonHeadArmorTypes = [
   ["1", "Bead Head", "0", "Get a Comb lunkhead, +0 Protection.", true],
   ["2", "Fig Leaf Wreath", "1", "Wow a leaf you look very cool *sarcasm*. Common, +1 Protection.", false],
   ["3", "Wood Helmet", "1", "Knock on wood. Common, +1 Protection.", false],
-  ["4", "Leather Bandana", "2", "You look like someone trick or treating with a bracelet around their head. Common +2 Protection.", false],
-  ["5", "Painted on Helmet", "2", "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common +2 Protection.", false],
-  ["6", "Explorers Helmet", "3", "dum dum dum du dum dum dum da dum dum dum du dum. Common +3 Protection.", false]
+  ["4", "Leather Bandana", "2", "You look like someone trick or treating with a bracelet around their head. Common, +2 Protection.", false],
+  ["5", "Painted on Helmet", "2", "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common, +2 Protection.", false],
+  ["6", "Explorers Helmet", "3", "dum dum dum du dum dum dum da dum dum dum du dum. Common, +3 Protection.", false]
 ];
 
 var CommonChestArmorTypes = [
