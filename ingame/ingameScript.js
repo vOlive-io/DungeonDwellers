@@ -1132,7 +1132,7 @@ function callSavedData_cookies() {
   savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
     //User Cookies
-    user = savedData.user || "reset";
+    user = savedData.user || false;
     username = savedData.username || "guest";
     atTag = savedData.atTag || "@guest";
     //Ach Cookies
