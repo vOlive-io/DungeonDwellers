@@ -381,12 +381,19 @@ var MythicChestArmorTypes = [
   ["33", "Dragon Skin", "4", ""],
   ["27", "Rhodochrosite", "4", ""],
   ["34", "Mythrill", "4", ""],
+  ["34", "Ghoul Skin", "4", ""],
+  ["34", "Spacic", "4", ""],
 ];
 
 
 
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
-var RelicChestArmorTypes = [
+var FullRelicChestArmorTypes = [
+  ["32", "Rosax Robes", "50", ""],                  //Ancient: The Nightmear ------- Color: Rose (Leach)
+  ["32", "Midas Garments", "50", ""],               //Ancient: The Prosporer ------- Color: Gold (Money)
+  ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emereald (Boost)
+  ["32", "Voistiene Entity", "50", ""],             //Ancient: The Void ------------ Color: Purple (Negaite)
+  ["32", "HollowGhast Armor", "50", ""],            //Ancient: The Hollow Ghast  --- Color: Black (Damage)
 ];
 
 /////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
@@ -409,7 +416,10 @@ var DungeonChestArmorTypes = [
 ////////////////////////////
 var CommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Protection.", false],
-  ["1", "FISTS", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", true]
+  ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
+  ["-", "Basic Sword", "2", "The suff of legends! . Common, +2 Power.", false],
+  ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", false],
+  ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", false]
 ];
 
 ////////////////////////////
