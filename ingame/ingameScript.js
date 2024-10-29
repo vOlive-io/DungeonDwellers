@@ -350,14 +350,14 @@ var UncommonBootArmorTypes = [
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 var RareChestArmorTypes = [
-  ["18", "Steal", "3", "Description", false],
-  ["19", "Bronze", "4", "Description", false],
-  ["21", "Silver", "4", "Description", false],
-  ["20", "Gold", "4", "Description", false],
-  ["22", "Iron", "4", "Description", false],
-  ["23", "Fetherer", "4", "Description", false],
-  ["24", "Blessed Mud", "4", "Description", false],
-  ["25", "Jungle Vines", "4", "Description", false]
+  ["18", "Steal Chestplate", "5", "Description. Rare + 5 Protection", false],
+  ["19", "Bronze Chestplate", "5", "Description. Rare + 5 Protection", false],
+  ["21", "Silver Chestplate", "5", "Description. Rare + 5 Protection", false],
+  ["20", "Gold Chestplate", "6", "Description. Rare + 6 Protection", false],
+  ["22", "Iron Chestplate", "6", "Description. Rare + 6 Protection", false],
+  ["23", "Fethered Chestplate", "6", "Description. Rare + 6 Protection", false],
+  ["24", "Blessed Mud Chestplate", "6", "Description. Rare + 6 Protection", false],
+  ["25", "Jungle Vine Chestplate", "6", "Description. Rare + 6 Protection", false]
 ];
 
 
