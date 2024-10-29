@@ -9,6 +9,7 @@ function startUp() {
     testNew();
   } else {
   callSavedData_cookies();
+  testNew();
   }
   
   //basic inv
