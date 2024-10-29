@@ -100,7 +100,7 @@ var xpTop = 100; //             The about of XP needed for the player to level u
 var xpBoost = 1; //             The about of XP you get from raw XP
 var xpBoostOn = false; //       If the player has an XP booster on
 
-var user = false;
+var user;
 var username;
 var atTag = "@guest";
 var allowCookies = false;
