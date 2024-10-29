@@ -382,6 +382,17 @@ var RareLegArmorTypes = [
   ["25", "Jungle Vine Leggings", "6", "Description. Rare + 6 Protection", false]
 ];
 
+var RareBootArmorTypes = [
+  ["18", "Steal Boots", "5", "Description. Rare + 5 Protection", false],
+  ["19", "Bronze Boots", "5", "Description. Rare + 5 Protection", false],
+  ["21", "Silver Boots", "5", "Description. Rare + 5 Protection", false],
+  ["20", "Gold Boots", "6", "Description. Rare + 6 Protection", false],
+  ["22", "Iron Boots", "6", "Description. Rare + 6 Protection", false],
+  ["23", "Fethered Boots", "6", "Description. Rare + 6 Protection", false],
+  ["24", "Blessed Mud Boots", "6", "Description. Rare + 6 Protection", false],
+  ["25", "Jungle Vine Boots", "6", "Description. Rare + 6 Protection", false]
+];
+
 
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
