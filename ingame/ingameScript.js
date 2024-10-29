@@ -1051,7 +1051,7 @@ function askCookies() {
   }
 }
 
-setInterval(function () {
+function makeSavedData_cookies() {
   if (allowCookies == true) {
     const data = {
       //Cookies Cookies
@@ -1094,7 +1094,7 @@ setInterval(function () {
     };
     localStorage.setItem('savedData', JSON.stringify(data));
   }
-}, 1000);
+}
 
 function callSavedData_cookies() {
   //const
