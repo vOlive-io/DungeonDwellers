@@ -3,11 +3,6 @@
 ////////////////////////////////
 startUp();
 function startUp() {
-  callSavedData_askCookies();
-  if (allowCookies != true) {
-    askCookies();
-    testNew();
-  } else {
   callSavedData_cookies();
   testNew();
   }
