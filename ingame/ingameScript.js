@@ -1101,7 +1101,7 @@ function callSavedData_cookies() {
   savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
     //Cookies Cookies
-    allowCookies = saveData.allowCookies || false;
+    allowCookies = savedData.allowCookies || false;
     //User Cookies
     user = savedData.user || false;
     username = savedData.username || "guest";
