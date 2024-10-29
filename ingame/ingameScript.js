@@ -1152,7 +1152,8 @@ function callSavedData_askCookies() {
   savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
     //Cookies Cookies
-    allowCookies = savedData.allowCookies || false;
+    allowCookies = savedData.allowCookies || true;
+    user = savedData.user || false;
   }
 }
 
