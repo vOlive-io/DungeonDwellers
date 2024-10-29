@@ -51,6 +51,7 @@ function setRandomName() {
   console.log(username)
   alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this yu will be known as " + username + "!")
   user = true;   
+  makeSavedData_cookies();
 }
 
 
@@ -1086,8 +1087,6 @@ function seasonOneGearPrize() {
 ///////////////////////////////////////////
 function makeSavedData_cookies() {
   const data = {
-    //Cookies Cookies
-    allowCookies: allowCookies,
     //User Cookies
     user: user,
     username: username,
@@ -1133,8 +1132,8 @@ function callSavedData_cookies() {
   savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
     //User Cookies
-    user = savedData.user || false;
-    username = savedData.username || "false";
+    user = savedData.user || "reset";
+    username = savedData.username || "guest";
     atTag = savedData.atTag || "@guest";
     //Ach Cookies
     //Total Ach
