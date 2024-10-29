@@ -1138,4 +1138,4 @@ function callSavedData_cookies() {
     //Season 1 Ach
     ach_seasonOne_AllArmor = savedData.ach_seasonOne_AllArmor || false;
   }
-};
+}
