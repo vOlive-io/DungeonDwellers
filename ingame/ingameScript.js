@@ -123,6 +123,12 @@ var maxWater = 15; //           Max amount of Water
 var maxSat = 15; //             Max amount of Saturation
 var gears = 0; //               The number of gears owned
 
+var HeadProtection = 0;
+var ChestProtection = 0;
+var LegProtection = 0;
+var BootProtection = 0;
+
+
 var id;
 var name;
 var description;
@@ -478,6 +484,7 @@ var CommonHeadWeaponTypes = [
 
 
 function updateVitals() {
+  currentProtection = HeadProtection + ChestProtection + LegProtection + BootProtection;
   hpt.innerText = currentHeath + "/" + maxHeath;
   wtr.innerText = currentWater + "/" + maxWater;
   sat.innerText = currentSat + "/" + maxSat;
@@ -658,9 +665,7 @@ function updateUncommonLegArmors() {
 ///////////////////////////////////////////
 ///      1.5) Description updates       ///
 ///////////////////////////////////////////
-var HeadProtection = 0;
-var ChestProtection = 0;
-var LegProtection = 0;
+
 
 function updateHeadDiscription() {
   if (document.getElementById("bedHead").selected == true) {
