@@ -52,12 +52,12 @@ function setRandomName() {
 var invOn = false;
 
 function toggleInv() {
-  if (invON = false) {
+  if (invON = true) {
     inventory.style.display = "block";
     invetoryToggle.innerHTML = "Hide Invetory";
     invOn = true;
   }
-  if (invON = true) {
+  if (invON = false) {
     inventory.style.display = "none";
     invetoryToggle.innerHTML = " Show Invetory";
     invOn = false;
