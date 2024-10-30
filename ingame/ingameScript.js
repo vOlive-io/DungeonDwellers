@@ -641,7 +641,7 @@ function updateUncommonLegArmors() {
     BrassLeggings.style.display = "block";
     uncommonLegOwned = true;
   } if (uncommonLegOwned == true) {
-    uncommonLEg.style.display = "block";
+    uncommonLeg.style.display = "block";
   }
 }
 
