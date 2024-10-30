@@ -55,12 +55,12 @@ function toggleInv() {
   if (invON = true) {
     inventory.style.display = "block";
     invetoryToggle.innerHTML = "Hide Invetory";
-    invOn = true;
+    invOn = false;
   }
   if (invON = false) {
     inventory.style.display = "none";
     invetoryToggle.innerHTML = " Show Invetory";
-    invOn = false;
+    invOn = true;
   } 
 }
 
