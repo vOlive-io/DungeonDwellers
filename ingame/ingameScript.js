@@ -49,7 +49,7 @@ function setRandomName() {
   makeSavedData_cookies();
 }
 
-var invOn = false;
+var invOn = true;
 
 function toggleInv() {
   if (invON = true) {
