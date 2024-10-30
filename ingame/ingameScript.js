@@ -50,6 +50,20 @@ function setRandomName() {
   makeSavedData_cookies();
 }
 
+var invOn = false;
+
+function toggleInv() {
+  if (invON = false) {
+    invetoryToggle.style.display = "block";
+    invOn = true;
+  }
+  if (invON = true) {
+    invetoryToggle.style.display = "none";
+    invOn = false;
+  }
+  
+}
+
 ///////////////////////////////////////////
 ///              VARIABLES              ///
 ///        1) Stats                     ///
