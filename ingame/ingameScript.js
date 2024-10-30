@@ -49,7 +49,7 @@ function setRandomName() {
   makeSavedData_cookies();
 }
 
-var invOn = true;
+var invOn;
 
 function toggleInv() {
   if (invON = true) {
@@ -57,7 +57,7 @@ function toggleInv() {
     invetoryToggle.innerHTML = "Hide Invetory";
     invOn = false;
   }
-  if (invON = false) {
+  else {
     inventory.style.display = "none";
     invetoryToggle.innerHTML = " Show Invetory";
     invOn = true;
