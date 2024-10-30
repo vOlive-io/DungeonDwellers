@@ -258,11 +258,6 @@ var CommonBootArmorTypes = [
   ["24", "Basic Explorers Boots", "3", "No they aren't air Jordans. Common +3 Protection.", false]
 ];
 
-
-
-
-
-
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
 
 
@@ -325,8 +320,6 @@ var UncommonBootArmorTypes = [
 
 
 
-
-
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 var RareHeadArmorTypes = [
   ["47", "Steal Helmet", "5", "Description. Rare + 5 Protection", false],
@@ -371,9 +364,6 @@ var RareBootArmorTypes = [
   ["77", "Blessed Mud Boots", "6", "Description. Rare + 6 Protection", false],
   ["78", "Jungle Vine Boots", "6", "Description. Rare + 6 Protection", false]
 ];
-
-
-
 
 
 
