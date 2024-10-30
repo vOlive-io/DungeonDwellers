@@ -51,17 +51,16 @@ function setRandomName() {
 
 var invOn = true;
 
-function toggleInv() {
-  if (invOn == true) {
+function toggleInvOn() {
     inventory.style.display = "none";
-    invetoryToggle.innerHTML = "Show Invetory";
-    invOn = false;
-  }
-  if (invOn == false) {
+    invetoryToggleOff.style.display = "block";
+    invetoryToggleOn.style.display = "none";
+}
+
+function toggleInvOff() {
     inventory.style.display = "block";
-    invetoryToggle.innerHTML = "Hide Invetory";
-    invOn = true;
-  } 
+    invetoryToggleOn.style.display = "block";
+    invetoryToggleOff.style.display = "none";
 }
 
 ///////////////////////////////////////////
