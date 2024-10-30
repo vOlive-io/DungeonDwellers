@@ -219,7 +219,7 @@ var ach_armors_RelicFirst = false; //   Unlocked all relic armors
 var ach_dumb_youAsked = false; //       Clicked on that achivement
 var ach_dumb_plusFifty = false; //      Has more unlocked achievements then locked ones
 var ach_dumb_takingAfterZ = false; //   Has Zharria's ideal setup (PepperSpray + Holy Bamboo + Panda)
-var ach_dumb_takingAfterZ = false; //   Has Olive's ideal setup (Rosax Sickels + Rosax Armor + Rosax Lucky)
+var ach_dumb_takingAfterO = false; //   Has Olive's ideal setup (Rosax Sickels + Rosax Armor + Rosax Lucky)
 
 //SEASON ONE ACHIEVEMENTS
 var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
