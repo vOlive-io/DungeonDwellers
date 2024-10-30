@@ -54,12 +54,12 @@ var invOn;
 function toggleInv() {
   if (invON = true) {
     inventory.style.display = "none";
-    invetoryToggle.innerHTML = "Hide Invetory";
+    invetoryToggle.innerHTML = "Show Invetory";
     invOn = false;
   }
   else {
     inventory.style.display = "block";
-    invetoryToggle.innerHTML = " Show Invetory";
+    invetoryToggle.innerHTML = "Hide Invetory";
     invOn = true;
   } 
 }
