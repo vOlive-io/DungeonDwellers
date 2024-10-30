@@ -445,8 +445,7 @@ var CommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Protection.", false],
   ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "Basic Sword", "2", "The suff of legends! . Common, +2 Power.", false],
-  ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", false],
-  ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", false]
+  ["-", "Pepper Spray", "2", "Your taking after Zharria! . Common, +2 Power.", false]
 ];
 
 ////////////////////////////
