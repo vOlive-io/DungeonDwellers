@@ -3,7 +3,7 @@
 ////////////////////////////////
 startUp();
 function startUp() {
-  invetoryToggleOn.style.display = "none";
+  toggleInvOff();
   callSavedData_cookies();
   testNew();
   setInterval(makeSavedData_cookies, 1);
