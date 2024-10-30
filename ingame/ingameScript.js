@@ -16,12 +16,13 @@ function startUp() {
   setInterval(updateCommonChestArmors, 2500);
   setInterval(updateCommonLegArmors, 2500);
   //needs boots
+  */
   setInterval(updateUncommonHeadArmors, 2500);
   setInterval(updateUncommonChestArmors, 2500);
   setInterval(updateUncommonLegArmors, 2500);
   //needs boots
   //Armor Descriptions
-  */
+
   setInterval(updateHeadDiscription, 2500);
   setInterval(updateChestDiscription, 2500);
   setInterval(updateLegDiscription, 2500);
