@@ -3,7 +3,6 @@
 ////////////////////////////////
 startUp();
 function startUp() {
-  toggleInvOff();
   callSavedData_cookies();
   testNew();
   setInterval(makeSavedData_cookies, 1);
