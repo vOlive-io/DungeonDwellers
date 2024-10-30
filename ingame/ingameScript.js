@@ -48,8 +48,16 @@ function setRandomName() {
   alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this yu will be known as " + username + "!")
   user = true;   
   makeSavedData_cookies();
+  mili = 0;
 }
 
+function startTime() {
+  setInterval(timer, 1000);
+}
+var mili;
+function timer() {
+  mili++;
+}
 var invOn = true;
 
 function toggleInvOn() {
