@@ -1167,6 +1167,8 @@ function callSavedData_cookies() {
     //Dumb Ach
     ach_dumb_youAsked = savedData.ach_dumb_youAsked || false;
     ach_dumb_plusFifty = savedData.ach_dumb_plusFifty || false;
+    ach_dumb_takingAfterZ = savedData.ach_dumb_takingAfterZ || false; 
+    ach_dumb_takingAfterO = savedData.ach_dumb_takingAfterO || false; 
     //Season 1 Ach
     ach_seasonOne_AllArmor = savedData.ach_seasonOne_AllArmor || false;
   }
