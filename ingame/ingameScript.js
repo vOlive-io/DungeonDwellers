@@ -24,9 +24,7 @@ function startUp() {
   setInterval(updateHeadDiscription, 250); 
   setInterval(updateChestDiscription, 250);
   setInterval(updateLegDiscription, 250);
-  
 }
-
 
 ////////////////////////////////
 ///     NEW USER SET UP      ///
@@ -38,7 +36,6 @@ function testNew() {
     alert("Welcome back " + username + "!");
   }
 }
-
 
 function setRandomName() {
   let adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
@@ -52,11 +49,6 @@ function setRandomName() {
   user = true;   
   makeSavedData_cookies();
 }
-
-
-
-
-
 
 ///////////////////////////////////////////
 ///              VARIABLES              ///
@@ -73,7 +65,6 @@ function setRandomName() {
 //////////////////////////// 
 ///       1) STATS       ///
 ////////////////////////////
-
 function checkLevelUp() {
   if (xp >= xpTop) {
     xp = xp - xpTop;
@@ -84,14 +75,13 @@ function checkLevelUp() {
     levelUpRewards();
   }
 }
-
 function levelUpRewards() {
   //prize = Math.floor(Math.random() * 1500) + 1000;
   //maxWater
   //maxSat
   //maxHealth
 }
-  
+ 
 //stats 
 var level = 0; //               The level of the player
 var xp = 0; //                  The amount of XP the player has
