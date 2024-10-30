@@ -218,7 +218,7 @@ var ach_armors_RelicFirst = false; //   Unlocked all relic armors
 //DUMB ACHIEVEMENTS
 var ach_dumb_youAsked = false; //       Clicked on that achivement
 var ach_dumb_plusFifty = false; //      Has more unlocked achievements then locked ones
-var ach_dumb_takingAfterZ = false; //   Has Zharrias ideal setup
+var ach_dumb_takingAfterZ = false; //   Has Zharrias ideal setup (PepperSpray + Holy Bamboo)
 
 //SEASON ONE ACHIEVEMENTS
 var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
@@ -396,7 +396,7 @@ var EpicChestArmorTypes = [
   ["27", "CoralArmor", "4", "Description", false],
   ["28", "Snake Skin", "4", "Description", false],
   ["29", "Cooled magma", "4", "Description", false],
-  ["30", "Holy Bamboo", "4", "Description", false],
+  ["30", "Holy Bamboo", "4", "Description Your taking after Zharria!", false],
   ["31", "Diamond", "4", "Description", false],
   ["31", "Emerald", "4", "Description", false]
 ];
