@@ -821,6 +821,7 @@ function RandomPullCommonHeadArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
     commonGearPrize();
+    trys = 0;
   } else {
     drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
     owned = CommonHeadArmorTypes[drop] [4];
@@ -844,6 +845,7 @@ function RandomPullCommonChestArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
     commonGearPrize();
+    trys = 0;
   } else {
     drop = Math.floor(Math.random() * CommonChestArmorTypes.length);
     owned = CommonChestArmorTypes[drop] [4];
@@ -867,6 +869,7 @@ function RandomPullCommonLegArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
     commonGearPrize();
+    trys = 0;
   } else {
     drop = Math.floor(Math.random() * CommonLegArmorTypes.length);
     owned = CommonLegArmorTypes[drop] [4];
@@ -890,6 +893,7 @@ function RandomPullCommonBootArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
     commonGearPrize();
+    trys = 0;
   } else {
     drop = Math.floor(Math.random() * CommonBootArmorTypes.length);
     owned = CommonBootArmorTypes[drop] [4];
@@ -913,6 +917,7 @@ function RandomPullUncommonHeadArmor() {
  if (trys > 100) {
   console.log("Sorry armor could not be found... Instead you will get a gear prize.(50-100)")
   uncommonGearPrize();
+  trys = 0;
  } else {
   drop = Math.floor(Math.random() * UncommonHeadArmorTypes.length);
   owned = UncommonHeadArmorTypes[drop] [4];
@@ -937,6 +942,7 @@ function RandomPullUncommonChestArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)")
     commonGearPrize();
+    trys = 0;
   } else {
     drop = Math.floor(Math.random() * UncommonChestArmorTypes.length);
     owned = UncommonChestArmorTypes[drop] [4];
@@ -960,6 +966,7 @@ function RandomPullUncommonLegArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)")
     commonGearPrize();
+    trys = 0;
   } else {
     drop = Math.floor(Math.random() * UncommonLegArmorTypes.length);
     owned = UncommonLegArmorTypes[drop] [4];
@@ -983,6 +990,7 @@ function RandomPullUncommonBootArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)")
     commonGearPrize();
+    trys = 0;
   } else {
     drop = Math.floor(Math.random() * UncommonBootArmorTypes.length);
     owned = UncommonBootArmorTypes[drop] [4];
