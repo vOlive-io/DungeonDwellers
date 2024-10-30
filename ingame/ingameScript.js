@@ -60,8 +60,7 @@ function toggleInv() {
   if (invON = true) {
     invetoryToggle.style.display = "none";
     invOn = false;
-  }
-  
+  } 
 }
 
 ///////////////////////////////////////////
