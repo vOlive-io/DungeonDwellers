@@ -388,11 +388,11 @@ var RareBootArmorTypes = [
 var EpicChestArmorTypes = [
   ["26", "Medevil Armor", "5", "Description", false]
   ["27", "CoralArmor", "4", "Description", false],
-  ["28", "Snake Skin", "4", ""],
-  ["29", "Cooled magma", "4", ""],
-  ["30", "Holy Bamboo", "4", ""],
-  ["31", "Diamond", "4", ""],
-  ["31", "Emerald", "4", ""]
+  ["28", "Snake Skin", "4", "Description", false],
+  ["29", "Cooled magma", "4", "Description", false],
+  ["30", "Holy Bamboo", "4", "Description", false],
+  ["31", "Diamond", "4", "Description", false],
+  ["31", "Emerald", "4", "Description", false]
 ];
 
 
