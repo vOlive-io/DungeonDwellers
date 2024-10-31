@@ -1104,6 +1104,7 @@ function makeSavedData_cookies() {
     //Ach cookies
     //Total Ach
     ach_total: ach_total,
+    mili: mili,
     //Mech Ach
     ach_mech_strtGame: ach_mech_strtGame,
     ach_mech_donor: ach_mech_donor,
@@ -1148,6 +1149,7 @@ function callSavedData_cookies() {
     //Ach Cookies
     //Total Ach
     ach_total = savedData.ach_total || "false";
+    mili = savedData.mili || 0;
     //Mech Ach
     ach_mech_strtGame = savedData.ach_mech_strtGame || false;
     ach_mech_donor = savedData.ach_mech_donor || false;
