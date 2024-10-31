@@ -54,11 +54,11 @@ function setRandomName() {
 function startTime() {
   setInterval(timer, 1000);
 }
-var mili;
+
 function timer() {
   mili++;
 }
-var invOn = true;
+
 
 function toggleInvOn() {
     inventory.style.display = "none";
@@ -115,6 +115,8 @@ var user;
 var username;
 var atTag = "@guest";
 var allowCookies = false;
+var mili;
+var invOn = true;
 
 var currentHeath = 10; //       Current amount of Heath
 var currentWater = 10; //       Current amount of Water
