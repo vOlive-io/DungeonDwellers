@@ -484,6 +484,8 @@ var CommonHeadWeaponTypes = [
 
 function updateVitals() {
   currentProtection = HeadProtection + ChestProtection + LegProtection + BootProtection;
+  levelSlot.innerText = level;
+  xpSlot.innerText = xp + "/" + xpTop;
   hpt.innerText = currentHeath + "/" + maxHeath;
   wtr.innerText = currentWater + "/" + maxWater;
   sat.innerText = currentSat + "/" + maxSat;
