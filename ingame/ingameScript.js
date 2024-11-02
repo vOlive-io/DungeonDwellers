@@ -25,8 +25,7 @@ function startUp() {
   setInterval(updateChestDiscription, 250);
   setInterval(updateLegDiscription, 250);
 }
-toggleInvOn();
-toggleInvOff();
+
 ////////////////////////////////
 ///     NEW USER SET UP      ///
 ////////////////////////////////
@@ -72,6 +71,9 @@ function toggleInvOff() {
     invetoryToggleOn.style.display = "block";
     invetoryToggleOff.style.display = "none";
 }
+
+toggleInvOn();
+toggleInvOff();
 
 ///////////////////////////////////////////
 ///              VARIABLES              ///
