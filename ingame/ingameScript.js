@@ -72,9 +72,6 @@ function toggleInvOff() {
     invetoryToggleOff.style.display = "none";
 }
 
-toggleInvOn();
-toggleInvOff();
-
 ///////////////////////////////////////////
 ///              VARIABLES              ///
 ///        1) Stats                     ///
