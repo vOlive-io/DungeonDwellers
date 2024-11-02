@@ -23,6 +23,9 @@
   display: none;
 }
 /* -- */
+.unlockedArmors {
+  display: block;
+}
 .lockedArmors {
   display: none;
 }
