@@ -1215,3 +1215,4 @@ function callSavedData_cookies() {
 }
 
 
+window.gears = gears;
