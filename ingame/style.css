@@ -26,11 +26,7 @@
     ARMORS
 -------------*/
 
-/* commonHead 
-#FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet {
-  display: none;
-}
-*/
+/* commonHead == #FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet  */
 
 /* commonChest */
 #FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate {
