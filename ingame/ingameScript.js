@@ -1188,3 +1188,6 @@ function callSavedData_cookies() {
     ach_seasonOne_AllArmor = savedData.ach_seasonOne_AllArmor || false;
   }
 }
+
+
+window.gears = gears;
