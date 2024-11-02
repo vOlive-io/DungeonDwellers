@@ -25,8 +25,8 @@ function startUp() {
   setInterval(updateChestDiscription, 250);
   setInterval(updateLegDiscription, 250);
 }
-toggleInvOn()
-toggleInvOff()
+toggleInvOn();
+toggleInvOff();
 ////////////////////////////////
 ///     NEW USER SET UP      ///
 ////////////////////////////////
