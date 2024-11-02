@@ -22,6 +22,10 @@
 #FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet {
   display: none;
 }
+/* commonHead */
+.lockedArmors {
+  display: none;
+}
 
 /* commonChest */
 #FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate {
