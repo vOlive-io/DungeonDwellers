@@ -59,30 +59,6 @@ function timer() {
   mili++;
 }
 
-function toggleInvOff() {
-    inventory.style.display = "none";
-    invetoryToggleOff.style.display = "block";
-    invetoryToggleOn.style.display = "none";
-}
-
-function toggleInvOn() {
-    inventory.style.display = "block";
-    invetoryToggleOn.style.display = "block";
-    invetoryToggleOff.style.display = "none";
-}
-
-function toggleAchOff() {
-    AchievementsGallery.style.display = "none";
-    achievementToggleOff.style.display = "block";
-    achievementToggleOn.style.display = "none";
-}
-
-function toggleAchOn() {
-    AchievementsGallery.style.display = "block";
-    achievementToggleOn.style.display = "block";
-    achievementToggleOff.style.display = "none";
-}
-
 
 ///////////////////////////////////////////
 ///              VARIABLES              ///
@@ -486,7 +462,8 @@ var CommonHeadWeaponTypes = [
 ///              5) Story Dungeon Management                  ///
 ///              6) Story Dungeons Playout                    ///
 ///              7) Story Progress                            ///        
-///              8) Cookies                                   ///
+///              8) Toggels                                   ///  
+///              9) Cookies                                   ///
 ///                                                           ///
 /////////////////////////////////////////////////////////////////
 
@@ -1106,11 +1083,40 @@ function seasonOneGearPrize() {
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
 }
-  
+
+
+
+//////////////////////////// 
+///     8) TOGGELS       ///
+////////////////////////////
+
+function toggleInvOff() {
+    inventory.style.display = "none";
+    invetoryToggleOff.style.display = "block";
+    invetoryToggleOn.style.display = "none";
+}
+
+function toggleInvOn() {
+    inventory.style.display = "block";
+    invetoryToggleOn.style.display = "block";
+    invetoryToggleOff.style.display = "none";
+}
+
+function toggleAchOff() {
+    AchievementsGallery.style.display = "none";
+    achievementToggleOff.style.display = "block";
+    achievementToggleOn.style.display = "none";
+}
+
+function toggleAchOn() {
+    AchievementsGallery.style.display = "block";
+    achievementToggleOn.style.display = "block";
+    achievementToggleOff.style.display = "none";
+}
 
 
 ///////////////////////////////////////////
-///             8) COOKIES              ///
+///             9) COOKIES              ///
 ///////////////////////////////////////////
 function makeSavedData_cookies() {
   const data = {
