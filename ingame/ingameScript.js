@@ -495,15 +495,15 @@ function updateSlots() {
 
 function updateCommonHeadArmors() {
   if (CommonHeadArmorTypes[1][4] == true) {
-    FigWreath.setAttribute(class, unlcockedArmor)
+    FigWreath.setAttribute(class, unlcockedArmor);
   } if (CommonHeadArmorTypes[2][4] == true) {
-    WoodHelmet.setAttribute(class, unlcockedArmor)
+    WoodHelmet.setAttribute(class, unlcockedArmor);
   } if (CommonHeadArmorTypes[3][4] == true) {
-    LeatherBandana.setAttribute(class, unlcockedArmor)
+    LeatherBandana.setAttribute(class, unlcockedArmor);
   } if (CommonHeadArmorTypes[4][4] == true) {
-    PaintHelmet.setAttribute(class, unlcockedArmor)
+    PaintHelmet.setAttribute(class, unlcockedArmor);
   } if (CommonHeadArmorTypes[5][4] == true) {
-    BasicExplorersHelmet.setAttribute(class, unlcockedArmor)
+    BasicExplorersHelmet.setAttribute(class, unlcockedArmor);
   }
 }
 
