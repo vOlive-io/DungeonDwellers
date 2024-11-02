@@ -6,8 +6,6 @@ function startUp() {
   callSavedData_cookies();
   startTime();
   testNew();
-  toggleInvOn();
-  toggleInvOff();
   setInterval(makeSavedData_cookies, 1);
   //basic inv
   setInterval(updateVitals, 250);
