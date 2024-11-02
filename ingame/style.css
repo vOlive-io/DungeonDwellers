@@ -15,10 +15,10 @@
 }
 
 /* -- */
-.unlockedArmors {
+.unlockedArmor {
   display: block;
 }
-.lockedArmors {
+.lockedArmor {
   display: none;
 }
 
