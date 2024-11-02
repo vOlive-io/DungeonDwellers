@@ -98,6 +98,7 @@ function checkLevelUp() {
     levelUpRewards();
   }
 }
+
 function levelUpRewards() {
   //prize = Math.floor(Math.random() * 1500) + 1000;
   //maxWater
