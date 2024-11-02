@@ -8,6 +8,8 @@ function startUp() {
   testNew();
   toggleInvOn();
   toggleInvOff();
+  toggleAchOn();
+  toggleAchOff();
   setInterval(makeSavedData_cookies, 1);
   //basic inv
   setInterval(updateVitals, 250);
