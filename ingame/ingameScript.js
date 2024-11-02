@@ -6,6 +6,8 @@ function startUp() {
   callSavedData_cookies();
   startTime();
   testNew();
+  toggleInvOn();
+  toggleInvOff();
   setInterval(makeSavedData_cookies, 1);
   //basic inv
   setInterval(updateVitals, 250);
@@ -58,7 +60,6 @@ function startTime() {
 function timer() {
   mili++;
 }
-
 
 function toggleInvOff() {
     inventory.style.display = "none";
