@@ -6,6 +6,10 @@ function startUp() {
   callSavedData_cookies();
   startTime();
   testNew();
+  toggleInvOn();
+  toggleInvOff();
+  toggleAchOn();
+  toggleAchOff();
   setInterval(makeSavedData_cookies, 1);
   //basic inv
   setInterval(updateVitals, 250);
@@ -1098,7 +1102,6 @@ function seasonOneGearPrize() {
 //////////////////////////// 
 ///     8) TOGGELS       ///
 ////////////////////////////
-
 function toggleInvOff() {
     inventory.style.display = "none";
     invetoryToggleOff.style.display = "block";
