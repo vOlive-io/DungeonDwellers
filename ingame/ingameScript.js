@@ -73,6 +73,19 @@ function toggleInvOn() {
     invetoryToggleOff.style.display = "none";
 }
 
+function toggleAchOff() {
+    AchievementsGallery.style.display = "none";
+    achievementToggleOff.style.display = "block";
+    achievementToggleOn.style.display = "none";
+}
+
+function toggleAchOn() {
+    AchievementsGallery.style.display = "block";
+    achievementToggleOn.style.display = "block";
+    achievementToggleOff.style.display = "none";
+}
+
+
 ///////////////////////////////////////////
 ///              VARIABLES              ///
 ///        1) Stats                     ///
