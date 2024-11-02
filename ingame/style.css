@@ -14,14 +14,6 @@
   display: none;
 }
 
-/* ------------
-    ARMORS
--------------*/
-
-/* commonHead */
-#FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet {
-  display: none;
-}
 /* -- */
 .unlockedArmors {
   display: block;
@@ -29,6 +21,16 @@
 .lockedArmors {
   display: none;
 }
+
+/* ------------
+    ARMORS
+-------------*/
+
+/* commonHead 
+#FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet {
+  display: none;
+}
+*/
 
 /* commonChest */
 #FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate {
