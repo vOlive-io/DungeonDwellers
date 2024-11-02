@@ -493,17 +493,27 @@ function updateSlots() {
   //il do this soon
 }
 
+
+
+
+
 function updateCommonHeadArmors() {
   if (CommonHeadArmorTypes[1][4] == true) {
     FigWreath.setAttribute(class, unlcockedArmor);
+    document.getElementById("FigWreath").classList.add('unlockedArmor');
+    document.getElementById("FigWreath").classList.remove('lockedArmor');
   } if (CommonHeadArmorTypes[2][4] == true) {
-    WoodHelmet.setAttribute(class, unlcockedArmor);
+    document.getElementById("WoodHelmet").classList.add('unlockedArmor');
+    document.getElementById("WoodHelmet").classList.remove('lockedArmor');
   } if (CommonHeadArmorTypes[3][4] == true) {
-    LeatherBandana.setAttribute(class, unlcockedArmor);
+    document.getElementById("LeatherBandana").classList.add('unlockedArmor');
+    document.getElementById("LeatherBandana").classList.remove('lockedArmor');
   } if (CommonHeadArmorTypes[4][4] == true) {
-    PaintHelmet.setAttribute(class, unlcockedArmor);
+    document.getElementById("PaintHelmet").classList.add('unlockedArmor');
+    document.getElementById("PaintHelmet").classList.remove('lockedArmor');
   } if (CommonHeadArmorTypes[5][4] == true) {
-    BasicExplorersHelmet.setAttribute(class, unlcockedArmor);
+    document.getElementById("BasicExplorersHelmet").classList.add('unlockedArmor');
+    document.getElementById("BasicExplorersHelmet").classList.remove('lockedArmor');
   }
 }
 
