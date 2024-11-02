@@ -66,7 +66,7 @@ function toggleInvOff() {
     invetoryToggleOn.style.display = "none";
 }
 
-function toggleInvOff() {
+function toggleInvOn() {
     inventory.style.display = "block";
     invetoryToggleOn.style.display = "block";
     invetoryToggleOff.style.display = "none";
