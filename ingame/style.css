@@ -10,7 +10,7 @@
     INV STUFF
 -----------------*/
 
-#invetoryToggleOn, #inventory {
+#invetoryToggleOn, #inventory, #AchievementsGallery, #achievementToggleOn {
   display: none;
 }
 
