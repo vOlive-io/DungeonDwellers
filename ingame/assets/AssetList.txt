@@ -2,6 +2,7 @@
 10/21/2024 (to 10/22/2024) -- First Batch Of Ach Icons!
 10/23/2024 (to 10/23/2024) -- First Batch Of Bun Berries!
 10/28/2024 (to 10/28/2024) -- Added template icons!
+11/3/2024 (to 11/3/2024) ---- Few needed icons!
 
 -=-=-=-BASIC BUN BERRIES-=-=-=-
 Luck Bun Berrie ====== bunBerrie_Luck.png
@@ -21,7 +22,7 @@ Level 1 Xp Bun Berrie  ======= (Not done)
 Level 2 Xp Bun Berrie  ======= (Not done)
 
 -=-=-=-MECHANIC ACHIEVEMENTS-=-=-=-
-Started game === (Not done)
+Started game === ach_startedGame
 Contributor ==== (Not done)
 Exterminator === (Not done)
 Alpha Tester === (Not done)
