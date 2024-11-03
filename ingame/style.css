@@ -26,11 +26,15 @@
 -------------*/
 .unlockedAch {
      display: block;
+     font-size: 20px;
+     margin-bottom: 10px;
+     border: #2afefe groove 10px;
+     
 }
 
 .achText {
      display: block;
-     font-size: 20px;
+     
 }
 
 /* ------------
