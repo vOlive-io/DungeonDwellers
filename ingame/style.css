@@ -26,6 +26,7 @@
 -------------*/
 .unlockedAch {
      display: block;
+     aline-items: center;
      font-size: 20px;
      margin-bottom: 10px;
      border: #2afefe groove 10px;
