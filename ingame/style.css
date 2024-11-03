@@ -3,7 +3,7 @@
 -----------------*/
 
 #heathHealOneTag, #waterTag, #satTag, #strenthTag, #stealthTag, #luckTag {
-  display: none;
+     display: none;
 }
 
 /* ----------------
@@ -11,15 +11,22 @@
 -----------------*/
 
 #invetoryToggleOn, #inventory, #AchievementsGallery, #achievementToggleOn {
-  display: none;
+     display: none;
 }
 
 /* -- */
 .unlockedArmor {
-  display: block;
+     display: block;
 }
 .lockedArmor {
-  display: none;
+     display: none;
+}
+/* ------------
+    ACHS
+-------------*/
+.shownAchs {
+     display: block;
+     font-text: 20px;
 }
 
 /* ------------
