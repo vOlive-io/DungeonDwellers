@@ -35,7 +35,12 @@
 
 .achText {
      display: block;
-     
+     float: right;
+}
+
+.achImage {
+     display: block;
+     float: left;
 }
 
 /* ------------
