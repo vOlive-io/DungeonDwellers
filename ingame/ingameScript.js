@@ -224,7 +224,7 @@ var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
 
 //if (ach_lvl_Five == false) {
 //  let levelOneImgScr = "<img src=\"" + "assests/ach/ach_startedGame" + "\" class=\"lockedAch\">";
-//  levelOneImg.innerText = "<img src=\"" + "assests/ach/ach_startedGame" + "\" class=\"lockedAch\">";
+//  levelOneImg.innerHtml = "<img src=\"" + "assests/ach/ach_startedGame" + "\" class=\"lockedAch\">";
 //}
 
 ///////////////////////////
