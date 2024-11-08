@@ -30,22 +30,24 @@
      font-size: 20px;
      margin-bottom: 10px;
      height: 50px;
-     width: 200px;
+     width: 250px;
      border: #2afefe groove 10px;
+     padding-bottom: 10px;
+     
      
 }
 .achText {
      display: block;
      float: right;
      padding-right: 10px;
+     
 }
-
 
 .achImage {
      display: block;
      float: left;
+     padding-top: 10px;
 }
-
 /* ------------
     ARMORS
 -------------*/
