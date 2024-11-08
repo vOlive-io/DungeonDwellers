@@ -37,7 +37,9 @@
 .achText {
      display: block;
      float: right;
+     padding-right: 10px;
 }
+
 
 .achImage {
      display: block;
