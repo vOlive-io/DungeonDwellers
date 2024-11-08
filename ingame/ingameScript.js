@@ -223,8 +223,9 @@ var ach_dumb_takingAfterO = false; //   Has Olive's ideal setup (Rosax Sickels +
 var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
 
 if (ach_lvl_Five == true){
-  let levelOneImg = assests/ach/ach_locked
-  let levelOneImg = "<img src='" + levelOneImg + "' class='lockedAch'>";
+  let levelOneImgScr = "<img src='" + "assests/ach/ach_locked" + "' class='lockedAch'>";
+  levelOneImg.innerText = levelOneImgScr;
+
 }
 
 ///////////////////////////
