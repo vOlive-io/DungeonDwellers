@@ -419,11 +419,11 @@ var MythicChestArmorTypes = [
 
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 var FullRelicChestArmorTypes = [
-  ["32", "Rosax Robes", "50", ""],                  //Ancient: The Nightmear ------- Color: Rose (Leach)
-  ["32", "Midas Garments", "50", ""],               //Ancient: The Prosporer ------- Color: Gold (Money)
-  ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emereald (Boost)
-  ["32", "Voistiene Entity", "50", ""],             //Ancient: The Void ------------ Color: Purple (Negaite)
-  ["32", "HollowGhast Armor", "50", ""],            //Ancient: The Hollow Ghast  --- Color: Black (Damage)
+  ["32", "Rosax Robes", "50", ""],                  //Ancient: The Nightmear ------- Color: Rose (Leach) -------- Sickels
+  ["32", "Midas Garments", "50", ""],               //Ancient: The Prosporer ------- Color: Gold (Money) -------- Branch
+  ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emereald (Boost) ---- Measurement Stick
+  ["32", "Voistiene Entity", "50", ""],             //Ancient: The Void ------------ Color: Purple (Negaite) ---- Liquid
+  ["32", "HollowGhast Armor", "50", ""],            //Ancient: The Hollow Ghast  --- Color: Black (Damage) ------ Sword
 ];
 
 /////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
@@ -499,7 +499,8 @@ var EpicHeadWeaponTypes = [
   ["-", "Reinforced Battle Staff", 8, "Why is it hot??? Rare, +8 Power.", false],
   ["-", "Wild Living snake", 9, "It bites people, 20 at once!! Rare, +7 Power.", false],
   ["-", "Mace", 9, "SlAM DUNK!! Rare, +9 Power.", false],
-  
+  ["-", "Fire Extinguisher", 9, "Spray them to death!! Rare, +9 Power.", false],
+  ["-", "Daggers", 9, "A fast and quick way to end your enemies!! Rare, +9 Power.", false],
   //Sets
   ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and get lit on fire! Rare, 9 Power.", false],
   ["-", "Half Alive Tree Branch", 10, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
