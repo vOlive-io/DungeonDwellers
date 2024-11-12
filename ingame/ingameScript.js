@@ -917,7 +917,7 @@ function RandomPullCommonHeadArmor() {
     trys = 0;
   } else {
     drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
-    owned = CommonHeadArmorTypes[drop] [4];
+    owned = CommonHeadArmorTypes[drop] [5];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
@@ -927,7 +927,7 @@ function RandomPullCommonHeadArmor() {
       name = CommonHeadArmorTypes[drop] [1];
       protection = CommonHeadArmorTypes[drop] [2];
       description = CommonHeadArmorTypes[drop] [3];
-      CommonHeadArmorTypes[drop] [4] = true;
+      CommonHeadArmorTypes[drop] [5] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -941,7 +941,7 @@ function RandomPullCommonChestArmor() {
     trys = 0;
   } else {
     drop = Math.floor(Math.random() * CommonChestArmorTypes.length);
-    owned = CommonChestArmorTypes[drop] [4];
+    owned = CommonChestArmorTypes[drop] [5];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
@@ -951,7 +951,7 @@ function RandomPullCommonChestArmor() {
       name = CommonChestArmorTypes[drop] [1];
       protection = CommonChestArmorTypes[drop] [2];
       description = CommonChestArmorTypes[drop] [3];
-      CommonChestArmorTypes[drop] [4] = true;
+      CommonChestArmorTypes[drop] [5] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -965,7 +965,7 @@ function RandomPullCommonLegArmor() {
     trys = 0;
   } else {
     drop = Math.floor(Math.random() * CommonLegArmorTypes.length);
-    owned = CommonLegArmorTypes[drop] [4];
+    owned = CommonLegArmorTypes[drop] [5];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
@@ -975,7 +975,7 @@ function RandomPullCommonLegArmor() {
       name = CommonLegArmorTypes[drop] [1];
       protection = CommonLegArmorTypes[drop] [2];
       description = CommonLegArmorTypes[drop] [3];
-      CommonLegArmorTypes[drop] [4] = true;
+      CommonLegArmorTypes[drop] [5] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -989,7 +989,7 @@ function RandomPullCommonBootArmor() {
     trys = 0;
   } else {
     drop = Math.floor(Math.random() * CommonBootArmorTypes.length);
-    owned = CommonBootArmorTypes[drop] [4];
+    owned = CommonBootArmorTypes[drop] [5];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
@@ -999,7 +999,7 @@ function RandomPullCommonBootArmor() {
       name = CommonBootArmorTypes[drop] [1];
       protection = CommonBootArmorTypes[drop] [2];
       description = CommonBootArmorTypes[drop] [3];
-      CommonBootArmorTypes[drop] [4] = true;
+      CommonBootArmorTypes[drop] [5] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -1013,7 +1013,7 @@ function RandomPullUncommonHeadArmor() {
   trys = 0;
  } else {
   drop = Math.floor(Math.random() * UncommonHeadArmorTypes.length);
-  owned = UncommonHeadArmorTypes[drop] [4];
+  owned = UncommonHeadArmorTypes[drop] [5];
   if (owned == true) {
    console.log("Retring for new armor....")
    trys++;
@@ -1023,7 +1023,7 @@ function RandomPullUncommonHeadArmor() {
    name = UncommonHeadArmorTypes[drop] [1];
    protection = UncommonHeadArmorTypes[drop] [2];
    description = UncommonHeadArmorTypes[drop] [3];
-   UncommonHeadArmorTypes[drop] [4] = true;
+   UncommonHeadArmorTypes[drop] [5] = true;
    trys = 0;
    uncommonOwned = true;
    console.log("You got " + name + ", " + description + " ID: " + id);
@@ -1038,7 +1038,7 @@ function RandomPullUncommonChestArmor() {
     trys = 0;
   } else {
     drop = Math.floor(Math.random() * UncommonChestArmorTypes.length);
-    owned = UncommonChestArmorTypes[drop] [4];
+    owned = UncommonChestArmorTypes[drop] [5];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
@@ -1048,7 +1048,7 @@ function RandomPullUncommonChestArmor() {
       name = UncommonChestArmorTypes[drop] [1];
       protection = UncommonChestArmorTypes[drop] [2];
       description = UncommonChestArmorTypes[drop] [3];
-      UncommonChestArmorTypes[drop] [4] = true;
+      UncommonChestArmorTypes[drop] [5] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -1062,7 +1062,7 @@ function RandomPullUncommonLegArmor() {
     trys = 0;
   } else {
     drop = Math.floor(Math.random() * UncommonLegArmorTypes.length);
-    owned = UncommonLegArmorTypes[drop] [4];
+    owned = UncommonLegArmorTypes[drop] [5];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
@@ -1072,7 +1072,7 @@ function RandomPullUncommonLegArmor() {
       name = UncommonLegArmorTypes[drop] [1];
       protection = UncommonLegArmorTypes[drop] [2];
       description = UncommonLegArmorTypes[drop] [3];
-      UncommonLegArmorTypes[drop] [4] = true;
+      UncommonLegArmorTypes[drop] [5] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -1086,7 +1086,7 @@ function RandomPullUncommonBootArmor() {
     trys = 0;
   } else {
     drop = Math.floor(Math.random() * UncommonBootArmorTypes.length);
-    owned = UncommonBootArmorTypes[drop] [4];
+    owned = UncommonBootArmorTypes[drop] [5];
     if (owned == true) {
       console.log("Retring for new armor....")
       trys++;
@@ -1096,7 +1096,7 @@ function RandomPullUncommonBootArmor() {
       name = UncommonBootArmorTypes[drop] [1];
       protection = UncommonBootArmorTypes[drop] [2];
       description = UncommonBootArmorTypes[drop] [3];
-      UncommonBootArmorTypes[drop] [4] = true;
+      UncommonBootArmorTypes[drop] [5] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
