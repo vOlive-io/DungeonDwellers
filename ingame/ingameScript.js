@@ -488,6 +488,21 @@ var RareHeadWeaponTypes = [
   ["-", "Industrial Explores Knife", 8, "The stuff of industrial legends!!!  Rare, +8 Power.", false]
 ];
 
+var EpicHeadWeaponTypes = [
+  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
+  ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!! Rare, +8 Power.", false],
+  ["-", "Reinforced Battle Staff", 8, "Why is it hot??? Rare, +8 Power.", false],
+  ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and them go BOOM! Rare, 9 Power.", false],
+  ["-", "Wild Living snake", 9, "It bites people, 20 at once!! Rare, +7 Power.", false],
+  ["-", "Mace", 9, "SlAM DUNK!! Rare, +9 Power.", false],
+  
+  //Sets
+  ["-", "Half Alive Tree Branch", 7, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
+  ["-", "Golden Sword", 7, "The stuff of warriors!!! Rare, +10 Power.", false],
+  ["-", "Large Meter Stick", 7, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!!  Rare, +10 Power.", false],
+  ["-", "Dulex Explores Knife", 8, "The stuff of dulex legends!!!  Rare, +8 Power.", false]
+];
+
 
  
 ////////////////////////////
