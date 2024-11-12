@@ -455,6 +455,7 @@ var CommonHeadWeaponTypes = [
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "Styrafoam Sword", 2, "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
   //Sets
+  ["-", "Water", 1, "They slip!!!!. Common, +1 Power.", false],
   ["-", "Twig", 1, "LOOK ITS A TWIG!!!!. Common, +1 Power.", false],
   ["-", "Wooden Sword", 1, "The stuff of warriors. Common, +1 Power.", false],
   ["-", "Ruler", 1, "12 inches, or 1 foot!!. Common, +1 Power.", false],
@@ -468,6 +469,7 @@ var UncommonHeadWeaponTypes = [
   ["-", "Role of Tape", 4, "You wrap them up so fast that it hurts... Uncommon, +4 Power.", false],
   
   //Sets
+  ["-", "Hot Water", 3, "They slip and fall!! Uncommon, +3 Power.", false],
   ["-", "Stick", 3, "LOOK ITS A STICK!! Uncommon, +3 Power.", false],
   ["-", "Stone Sword", 4, "The stuff of warriors!!! Uncommon, +4 Power.", false],
   ["-", "Yard Stick", 4, "36 inches or 3 feet or 1 yard!!!  Uncommon, +4 Power.", false],
@@ -478,10 +480,10 @@ var RareHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
   ["-", "Rusty Katana", 6, "STABY STAB STAB! Rare, +6 Power.", false],
   ["-", "Battle Staff", 6, "Why is it warm??? Rare, +6 Power.", false],
-  ["-", "Oil", 6, "They slip and fall, and break their heads! Rare, +6 Power.", false],
   ["-", "Living snake", 6, "It bites people, even you!! Rare, +7 Power.", false],
   
   //Sets
+  ["-", "Oil", 6, "They slip and fall, and break their heads! Rare, +6 Power.", false],
   ["-", "Dead Tree Branch", 7, "LOOK ITS A DEAD TREE BRANCH!! Rare, +7 Power.", false],
   ["-", "Iron Sword", 7, "The stuff of warriors!!! Rare, +7 Power.", false],
   ["-", "Meter Stick", 7, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +7 Power.", false],
@@ -492,11 +494,11 @@ var EpicHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
   ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!! Rare, +8 Power.", false],
   ["-", "Reinforced Battle Staff", 8, "Why is it hot??? Rare, +8 Power.", false],
-  ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and them go BOOM! Rare, 9 Power.", false],
   ["-", "Wild Living snake", 9, "It bites people, 20 at once!! Rare, +7 Power.", false],
   ["-", "Mace", 9, "SlAM DUNK!! Rare, +9 Power.", false],
   
   //Sets
+  ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and them go BOOM! Rare, 9 Power.", false],
   ["-", "Half Alive Tree Branch", 10, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
   ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
   ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!!  Rare, +10 Power.", false],
