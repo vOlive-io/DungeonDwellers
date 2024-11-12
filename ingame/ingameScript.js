@@ -449,7 +449,7 @@ var CommonHeadWeaponTypes = [
   ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "styrafoam Sword", "2", "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
   ["-", "Pepper Spray", "2", "Ahhh A bear! . Common, +2 Power.", false],
-  ["-", "Wooden Sword", "2", "The stuff of legends!!! . Common, +2 Power.", false],
+  ["-", "Wooden Sword", "2", "The stuff of legends!!! . Common, +3 Power.", false]
 
 
 ];
