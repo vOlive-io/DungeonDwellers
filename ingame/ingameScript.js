@@ -444,16 +444,37 @@ var DungeonChestArmorTypes = [
 ////////////////////////////
 ///     5) WEAPONS       ///
 ////////////////////////////
+//Sets
+//branck
+//sword
+//meserment
+//peperspray
+//exploror
+
 var CommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
-  ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
-  ["-", "Tree Branch", "1", "LOOK ITS A CAVE MAN!!. Common, +1 Power.", true],
-  ["-", "Styrafoam Sword", "2", "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
-  ["-", "Pepper Spray", "3", "Ahhh A bear! . Common, +3 Power.", false],
-  ["-", "Basic Explores Knife", "3", "The stuff of legends!!! . Common, +3 Power.", false]
+  ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
+  ["-", "Styrafoam Sword", 2, "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
+  //Sets
+  ["-", "Dead Tree Branch", 1, "LOOK ITS A CAVE MAN!!. Common, +1 Power.", false],
+  ["-", "Wooden Sword", 1, "The stuff of warriors. Common, +1 Power.", false],
+  ["-", "Ruler", 1, "12 inches, or 1 foot!!. Common, +1 Power.", false],
+  ["-", "Old Pepper Spray", 3, "Ahhh A bear! . Common, +3 Power.", false],
+  ["-", "Basic Explores Knife", 3, "The stuff of legends!!!  Common, +3 Power.", false]
 ];
 
+var UncommonHeadWeaponTypes = [
+  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
+  ["-", "Fishing Pole", 4, "WAIT! IT BRINGS THEM CLOSER???!???!?! . Common, +4 Power.", false],
+  //Sets
+  ["-", "Half Alive Tree Branch", 3, "LOOK ITS A CAVE MAN!! Uncommon, +3 Power.", false],
+  ["-", "Wooden Sword", 4, "The stuff of warriors!!! Uncommon, +4 Power.", false],
+  ["-", "Yard Stick", 4, "36 inches or 3 feet or 1 yard!!!  Uncommon, +4 Power.", false],
+  ["-", "New Pepper Spray", 5, "Ahhh A monster! . Uncommon, +5 Power.", false],
+  ["-", "New Explores Knife", 5, "The stuff of legends!!!  Uncommon, +3 Power.", false]
+];
 
+ 
 ////////////////////////////
 ///   6) LOOT BOXS       ///
 ////////////////////////////
