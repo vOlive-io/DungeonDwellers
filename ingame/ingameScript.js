@@ -296,7 +296,7 @@ var UncommonChestArmorTypes = [
   ["45", "Copper Chestplate", 5, "Turn it green to make you look even more like the statue of liberty. Uncommon +5 Protection.", "Clasic Armors", false],
   ["46", "Brass Chestplate", 5, "Turn it into a tuba please, please, please!! Uncommon +5 Protection.", "Clasic Armors", false]
 ];
-//Needs new descriptions
+
 var UncommonLegArmorTypes = [
   ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", "Fruty Armors", false],
   ["37", "Safari Pants", 3, "Bro you don't need 43 pants. Uncommon +3 Protection.", "Wild Armors", false],
