@@ -227,13 +227,13 @@ if (ach_lvl_Five == true) {
   image.src = "assets/ach/ach_startedGame.png"
 }
 
-////////////////////////////        "Clasic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", 
+////////////////////////////        "Clasic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", ""
 ///      4) ARMORS       ///
 ////////////////////////////
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
   ["1", "Bead Head", 0, "Get a Comb lunkhead, +0 Protection.", "Starter Armors", true],
-  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*. Common, +1 Protection.", "Dumb Armors", false],
+  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*. Common, +1 Protection.", "Fruty Armors",  false],
   ["3", "Wood Helmet", 1, "Knock on wood. Common, +1 Protection.", "Clasic Armors", false],
   ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head. Common, +2 Protection.", "Clasic Armors", false],
   ["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common, +2 Protection.", "\"What the hell?\" Armors", false],
@@ -242,7 +242,7 @@ var CommonHeadArmorTypes = [
 
 var CommonChestArmorTypes = [
   ["7", "T-shirt", 0, "stop taking sheep wool please you look so ugly. Common, +0 Protection.", "Starter Armors", true],
-  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko. Common, +1 Protection.", "Dumb Armors", false],
+  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko. Common, +1 Protection.", "Fruty Armors", false],
   ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!, Common, +1 Protection.", "Clasic Armors", false],
   ["10", "Leather Chestplate", 2, "Found some cow patties I see . Common +2 Protection.", "Clasic Armors", false],
   ["11", "Painted on Armor", 2, "Wow look at you Picasso. Common +2 Protection.", "\"What the hell?\" Armors", false],
@@ -251,7 +251,7 @@ var CommonChestArmorTypes = [
 
 var CommonLegArmorTypes = [
   ["13", "Jeans", 0, "You-- You-- You- --You\'r burning my eyes please someone help!!. Common, +0 Protection.", "Starter Armors", true],
-  ["14", "The Fig Leaf", 1, "You look very, very, very, stupid. Common, +1 Protection.", "Dumb Armors", false],
+  ["14", "The Fig Leaf", 1, "You look very, very, very, stupid. Common, +1 Protection.", "Fruty Armors", false],
   ["15", "Wooden Leg Padding", 1, "you lunkhead now you can't move!!. Common, +1 Protection.", "Clasic Armors", false],
   ["16", "Leather Leggings", 2, "cool very very cool you MURDERER OF HORSES!!!!. Common +2 Protection.", "Clasic Armors", false],
   ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?. Common +2 Protection", "\"What the hell?\" Armors", false],
@@ -259,7 +259,7 @@ var CommonLegArmorTypes = [
 ];
 var CommonBootArmorTypes = [
   ["19", "Shoes", 0, "Why are they untied?. Common, +0 Protection.", "Starter Armors", true],
-  ["20", "Fig Leaf Feet Covers", 1, "rocks can easily poke through and cause you pain. Common, +1 Protection.", "Dumb Armors", true],
+  ["20", "Fig Leaf Feet Covers", 1, "rocks can easily poke through and cause you pain. Common, +1 Protection.", "Fruty Armors", true],
   ["21", "Wood Sandals", 1, "Forget to bring tweezers?. Common, +1 Protection.", "Clasic Armors", false],
   ["22", "Leather Boots", 2, "Like Minecraft I assume. Common +2 Protection.", "Clasic Armors", false],
   ["23", "Painted on Boots", 2, "Da Vinci who are you painting?. Common +2 Protection.", "\"What the hell?\" Armors", false],
@@ -267,63 +267,63 @@ var CommonBootArmorTypes = [
 ];
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
-
+//"Clasic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", "Fruty Armors", "Wild Armors", 
 
 var UncommonHeadArmorTypes = [
-  ["25", "Fruit Hat", 3, "Hungry? Don't eat it. Uncommon +3 Protection.", false],
-  ["26", "Safari Hat", 3, "You look like a cheetah . Uncommon +3 Protection.", false],
-  ["27", "Rubber Mask", 3, "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM. Uncommon +3 Protection.", false],
-  ["28", "Mud Mask", 3, "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\". Uncommon +3 Protection.", false],
-  ["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ Uncommon +4 Protection.", false],
-  ["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :\). Uncommon, +4 Protection.", false], 
+  ["25", "Fruit Hat", 3, "Hungry? Don't eat it. Uncommon +3 Protection.", "Fruty Armors", false],
+  ["26", "Safari Hat", 3, "You look like a cheetah . Uncommon +3 Protection.", "Wild Armors", false],
+  ["27", "Rubber Mask", 3, "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM. Uncommon +3 Protection.", "Dumb Armors", false],
+  ["28", "Mud Mask", 3, "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\". Uncommon +3 Protection.", "\"What the hell?\"", false],
+  ["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ Uncommon +4 Protection.", "Clasic Armors", false],
+  ["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :\). Uncommon, +4 Protection.", "Clasic Armors", false], 
   ["31", "Glass Helmet", 4, "Dang! you can see you're hair..... GET A FRIGGIN COMB LUNKHEAD! Uncommon +4 Protection.", false],
-  ["32", "Nickle Helmet", 5, "Get the new nickel helmet  now being sold for 999.99! Uncommon +5 Protection.", false],
-  ["33", "Chain Mail Helmet", 5, "You look so ancient. Uncommon +5 Protection.", false],
-  ["34", "Copper Helmet", 5, "Don a torch and book and you can be the Statue of Liberty! Uncommon +5 Protection.", false],
-  ["35", "Brass Helmet", 5, "You look so shiny . Uncommon +5 Protection.", false]
+  ["32", "Nickle Helmet", 5, "Get the new nickel helmet  now being sold for 999.99! Uncommon +5 Protection.", "Clasic Armors", false],
+  ["33", "Chain Mail Helmet", 5, "You look so ancient. Uncommon +5 Protection.", "Clasic Armors", false],
+  ["34", "Copper Helmet", 5, "Don a torch and book and you can be the Statue of Liberty! Uncommon +5 Protection.", "Clasic Armors", false],
+  ["35", "Brass Helmet", 5, "You look so shiny . Uncommon +5 Protection.", "Clasic Armors", false]
 ];
 
 var UncommonChestArmorTypes = [
-  ["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons! Uncommon +3 Protection.", false],
-  ["37", "Safari Vest", 3, "You look so dorky . Uncommon +3 Protection.", false],
-  ["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me). Uncommon +3 Protection.", false],
-  ["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\". Uncommon +3 Protection.", false],
-  ["40", "Tin Chestplate", 4, "You look like one of those coke ads. Uncommon +4 Protection.", false],
-  ["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun . Uncommon, +4 Protection.", false],
+  ["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons! Uncommon +3 Protection.", "Fruty Armors", false],
+  ["37", "Safari Vest", 3, "You look so dorky . Uncommon +3 Protection.", "Wild Armors", false],
+  ["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me). Uncommon +3 Protection.", "Dumb Armors", false],
+  ["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\". Uncommon +3 Protection.", "\"What the hell?\"", false],
+  ["40", "Tin Chestplate", 4, "You look like one of those coke ads. Uncommon +4 Protection.", "Clasic Armors", false],
+  ["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun . Uncommon, +4 Protection.", "Clasic Armors", false],
   ["42", "Glass Chestplate", 4, "Why did you keep the same shirt on! Uncommon +4 Protection.", false],
-  ["43", "Nickle Chestplate", 5, "Buy the new and more expensive chest piece for 1,233.99! Uncommon +5 Protection.", false],
-  ["44", "Chain Mail Chestplate", 5, "Are you so old you think chainmail is for armor (eye roll). Uncommon +5 Protection.", false],
-  ["45", "Copper Chestplate", 5, "Turn it green to make you look even more like the statue of liberty. Uncommon +5 Protection.", false],
-  ["46", "Brass Chestplate", 5, "Turn it into a tuba please, please, please!! Uncommon +5 Protection.", false]
+  ["43", "Nickle Chestplate", 5, "Buy the new and more expensive chest piece for 1,233.99! Uncommon +5 Protection.", "Clasic Armors", false],
+  ["44", "Chain Mail Chestplate", 5, "Are you so old you think chainmail is for armor (eye roll). Uncommon +5 Protection.", "Clasic Armors", false],
+  ["45", "Copper Chestplate", 5, "Turn it green to make you look even more like the statue of liberty. Uncommon +5 Protection.", "Clasic Armors", false],
+  ["46", "Brass Chestplate", 5, "Turn it into a tuba please, please, please!! Uncommon +5 Protection.", "Clasic Armors", false]
 ];
 //Needs new descriptions
 var UncommonLegArmorTypes = [
-  ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", false],
-  ["37", "Safari Pants", 3, "Bro you don't need 43 pants. Uncommon +3 Protection.", false],
-  ["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ. Uncommon +3 Protection.", false],
-  ["39", "Mud Leggings", 3, "You need more Fertilizer . Uncommon +3 Protection.", false],
-  ["40", "Tin Leggings", 4, "dang you're knees are poking out. Uncommon +4 Protection.", false],
-  ["41", "Stone Leggings", 4, "You have the one thing different from Minecraft. Uncommon, +4 Protection.", false],
+  ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", "Fruty Armors", false],
+  ["37", "Safari Pants", 3, "Bro you don't need 43 pants. Uncommon +3 Protection.", "Wild Armors", false],
+  ["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ. Uncommon +3 Protection.", "Dumb Armors", false],
+  ["39", "Mud Leggings", 3, "You need more Fertilizer . Uncommon +3 Protection.", "\"What the hell?\"", false],
+  ["40", "Tin Leggings", 4, "dang you're knees are poking out. Uncommon +4 Protection.", "Clasic Armors", false],
+  ["41", "Stone Leggings", 4, "You have the one thing different from Minecraft. Uncommon, +4 Protection.", "Clasic Armors", false],
   ["42", "Glass Leggings", 4, "Try not to fall or you are paying me like $1,252 for your medical bill. Uncommon +4 Protection.", false],
-  ["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232! Uncommon +5 Protection.", false],
-  ["44", "Chain Mail Leggings", 5, "Chainmail Won't protect against my trash talk . Uncommon +5 Protection.", false],
-  ["45", "Copper Leggings", 5, "Apologise to your knees please . Uncommon +5 Protection.", false],
-  ["46", "Brass Leggings", 5, "Make a clarinet to play to the monsters that try to kill you!! Uncommon +5 Protection.", false]
+  ["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232! Uncommon +5 Protection.", "Clasic Armors", false],
+  ["44", "Chain Mail Leggings", 5, "Chainmail Won't protect against my trash talk . Uncommon +5 Protection.", "Clasic Armors", false],
+  ["45", "Copper Leggings", 5, "Apologise to your knees please . Uncommon +5 Protection.", "Clasic Armors", false],
+  ["46", "Brass Leggings", 5, "Make a clarinet to play to the monsters that try to kill you!! Uncommon +5 Protection.", "Clasic Armors", false]
 ];
 
 //Does not new descriptions
 var UncommonBootArmorTypes = [
-  ["36", "Fruit Peel Shoes", 3, "Try not to slip. Uncommon +3 Protection", false],
-  ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari. Uncommon +3 Protection.", false],
-  ["38", "Rubber Boots", 3, "Gomu Gomu No Gatling. Uncommon +3 Protection.", false],
-  ["39", "Mud Boots", 3, "Now these are real crappy boots literally!! Uncommon +3 Protection.", false],
-  ["40", "Tin Boots", 4, "Your toes are bleeding.... Uncommon +4 Protection", false],
-  ["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away. Uncommon, +4 Protection.", false],
-  ["42", "Glass Boots", 4, "You can see your feet under underneath, how cool! Uncommon +4 Protection.", false],
-  ["43", "Nickle Boots", 5, "Buy NOW! Please, I'm poor! Uncommon +5 Protection.", false],
-  ["44", "Chain Mail Boots", 5, "Why are you doing this to you're poor feet. Uncommon +5 Protection.", false],
-  ["45", "Copper Boots", 5, "No more moving your ankle... Uncommon +5 Protection.", false],
-  ["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!  Uncommon +5 Protection.", false]
+  ["36", "Fruit Peel Shoes", 3, "Try not to slip. Uncommon +3 Protection", "Fruty Armors", false],
+  ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari. Uncommon +3 Protection.", "Wild Armors", false],
+  ["38", "Rubber Boots", 3, "Gomu Gomu No Gatling. Uncommon +3 Protection.", "Dumb Armors", false],
+  ["39", "Mud Boots", 3, "Now these are real crappy boots literally!! Uncommon +3 Protection.", "\"What the hell?\"", false],
+  ["40", "Tin Boots", 4, "Your toes are bleeding.... Uncommon +4 Protection", "Clasic Armors", false],
+  ["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away. Uncommon, +4 Protection.", "Clasic Armors", false],
+  ["42", "Glass Boots", 4, "You can see your feet underneath, how cool! Uncommon +4 Protection.", false],
+  ["43", "Nickle Boots", 5, "Buy NOW! Please, I'm poor! Uncommon +5 Protection.", "Clasic Armors", false],
+  ["44", "Chain Mail Boots", 5, "Why are you doing this to you're poor feet. Uncommon +5 Protection.", "Clasic Armors", false],
+  ["45", "Copper Boots", 5, "No more moving your ankle... Uncommon +5 Protection.", "Clasic Armors", false],
+  ["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!  Uncommon +5 Protection.", "Clasic Armors", false]
 ];
 
 
