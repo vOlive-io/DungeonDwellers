@@ -795,7 +795,6 @@ function updateChestDiscription() {
   if (document.getElementById("Shirt").selected == true) {
     ChestProtection = CommonChestArmorTypes[0][2]
     chestSlot = CommonChestArmorTypes[0]
-    ChestDescription.innerHTML = CommonChestArmorTypes[0][3];
   } if (document.getElementById("FigLeafBreastplate").selected == true) {
     ChestProtection = CommonChestArmorTypes[1][2]
     ChestDescription.innerHTML = CommonChestArmorTypes[1][3];
@@ -847,6 +846,7 @@ function updateChestDiscription() {
     ChestProtection = UncommonChestArmorTypes[10][2]
     ChestDescription.innerHTML = UncommonChestArmorTypes[10][3];
   }
+  ChestDescription.innerHTML = chestSlot[3] + "Part of the " + chestSlot[4] + " collection";
 }
 
 function updateLegDiscription() {
