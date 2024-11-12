@@ -329,6 +329,7 @@ var UncommonBootArmorTypes = [
 
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
+//NOTE TO SELF: ADD ARMOR SETS HERE
 var RareHeadArmorTypes = [
   ["47", "Steal Helmet", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
   ["48", "Bronze Helmet", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
