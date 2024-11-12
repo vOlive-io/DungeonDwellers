@@ -794,6 +794,7 @@ function updateHeadDiscription() {
 function updateChestDiscription() {
   if (document.getElementById("Shirt").selected == true) {
     ChestProtection = CommonChestArmorTypes[0][2]
+    chestSlot = CommonChestArmorTypes[0]
     ChestDescription.innerHTML = CommonChestArmorTypes[0][3];
   } if (document.getElementById("FigLeafBreastplate").selected == true) {
     ChestProtection = CommonChestArmorTypes[1][2]
