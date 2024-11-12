@@ -424,7 +424,7 @@ var FullRelicChestArmorTypes = [
   ["32", "Midas Garments", "50", ""],               //Ancient: The Prosporer ------- Color: Gold (Money) ---------- Branch
   ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emereald (Boost) ------ Measurement Stick
   ["32", "Voistiene Entity", "50", ""],             //Ancient: The Void ------------ Color: Purple (Negaite) ------ Liquid
-  ["32", "Miezin Cloak", "50", ""],                 //Ancient: The Mist Forge  ----- Color: White (Mindbending) --- Pepper Spray
+  ["32", "Miezin Cloud", "50", ""],                 //Ancient: The Mist Forge  ----- Color: White (Mindbending) --- Pepper Spray
   ["32", "HollowGhast Armor", "50", ""],            //Ancient: The Hollow Ghast  --- Color: Black (Damage) -------- Sword
 ];
 
