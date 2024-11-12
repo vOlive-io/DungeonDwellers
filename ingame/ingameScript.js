@@ -447,12 +447,12 @@ var DungeonChestArmorTypes = [
 var CommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
   ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
-  ["-", "styrafoam Sword", "2", "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
-  ["-", "Pepper Spray", "2", "Ahhh A bear! . Common, +2 Power.", false],
-  ["-", "Wooden Sword", "2", "The stuff of legends!!! . Common, +3 Power.", false]
-
-
+  ["-", "Tree Branch", "1", "LOOK ITS A CAVE MAN!!. Common, +1 Power.", true],
+  ["-", "Styrafoam Sword", "2", "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
+  ["-", "Pepper Spray", "3", "Ahhh A bear! . Common, +3 Power.", false],
+  ["-", "Basic Explores Knife", "3", "The stuff of legends!!! . Common, +3 Power.", false]
 ];
+
 
 ////////////////////////////
 ///   6) LOOT BOXS       ///
