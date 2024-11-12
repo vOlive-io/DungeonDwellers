@@ -474,6 +474,7 @@ var UncommonHeadWeaponTypes = [
   ["-", "Stick", 3, "LOOK ITS A STICK!! Uncommon, +3 Power.", false],
   ["-", "Stone Sword", 4, "The stuff of warriors!!! Uncommon, +4 Power.", false],
   ["-", "Yard Stick", 4, "36 inches or 3 feet or 1 yard!!!  Uncommon, +4 Power.", false],
+  ["-", "New Pepper Spray", 4, "AHH, its a bare!!!  Uncommon, +4 Power.", false],
   ["-", "New Explores Knife", 5, "The stuff of new legends!!!  Uncommon, +5 Power.", false]
 ];
 
@@ -481,13 +482,14 @@ var RareHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
   ["-", "Rusty Katana", 6, "STABY STAB STAB! Rare, +6 Power.", false],
   ["-", "Battle Staff", 6, "Why is it warm??? Rare, +6 Power.", false],
-  ["-", "Living snake", 6, "It bites people, even you!! Rare, +7 Power.", false],
+  ["-", "Living snake", 6, "It bites people, even you!! Rare, +6 Power.", false],
   
   //Sets
-  ["-", "Oil", 6, "They slip and fall, and break their heads! Rare, +6 Power.", false],
+  ["-", "Oil", 7, "They slip and fall, and break their heads! Rare, +7 Power.", false],
   ["-", "Dead Tree Branch", 7, "LOOK ITS A DEAD TREE BRANCH!! Rare, +7 Power.", false],
   ["-", "Iron Sword", 7, "The stuff of warriors!!! Rare, +7 Power.", false],
   ["-", "Meter Stick", 7, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +7 Power.", false],
+  ["-", "Extra Concentrated Pepper Spray", 7, "AHH, its a monster!!! Rare, +7 Power.", false],
   ["-", "Industrial Explores Knife", 8, "The stuff of industrial legends!!!  Rare, +8 Power.", false]
 ];
 
@@ -503,6 +505,7 @@ var EpicHeadWeaponTypes = [
   ["-", "Half Alive Tree Branch", 10, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
   ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
   ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!!  Rare, +10 Power.", false],
+  ["-", "Industrial Strenth Pepper Spray", 7, "AHH, its bear monster!!! Rare, +7 Power.", false],
   ["-", "Dulex Explores Knife", 11, "The stuff of dulex legends!!!  Rare, +11 Power.", false]
 ];
 
