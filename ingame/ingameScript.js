@@ -227,43 +227,43 @@ if (ach_lvl_Five == true) {
   image.src = "assets/ach/ach_startedGame.png"
 }
 
-////////////////////////////        "Clasic Armors", "Dumb Armors", "\"What the hell?\"", "Starter",
+////////////////////////////        "Clasic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", 
 ///      4) ARMORS       ///
 ////////////////////////////
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
-  ["1", "Bead Head", 0, "Get a Comb lunkhead, +0 Protection.", true],
-  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*. Common, +1 Protection.", false],
-  ["3", "Wood Helmet", 1, "Knock on wood. Common, +1 Protection.", false],
-  ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head. Common, +2 Protection.", false],
-  ["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common, +2 Protection.", false],
-  ["6", "Explorers Helmet", 3, "dum dum dum du dum dum dum da dum dum dum du dum. Common, +3 Protection.", false]
+  ["1", "Bead Head", 0, "Get a Comb lunkhead, +0 Protection.", "Starter Armors", true],
+  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*. Common, +1 Protection.", "Dumb Armors", false],
+  ["3", "Wood Helmet", 1, "Knock on wood. Common, +1 Protection.", "Clasic Armors", false],
+  ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head. Common, +2 Protection.", "Clasic Armors", false],
+  ["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common, +2 Protection.", "\"What the hell?\" Armors", false],
+  ["6", "Explorers Helmet", 3, "dum dum dum du dum dum dum da dum dum dum du dum. Common, +3 Protection.", "Explorer\'s Armors", false]
 ];
 
 var CommonChestArmorTypes = [
-  ["7", "T-shirt", 0, "stop taking sheep wool please you look so ugly. Common, +0 Protection.", true],
-  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko. Common, +1 Protection.", false],
-  ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!, Common, +1 Protection.", false],
-  ["10", "Leather Chestplate", 2, "Found some cow patties I see . Common +2 Protection.", false],
-  ["11", "Painted on Armor", 2, "Wow look at you Picasso. Common +2 Protection.", false],
-  ["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*. Common +3 Protection.", false]
+  ["7", "T-shirt", 0, "stop taking sheep wool please you look so ugly. Common, +0 Protection.", "Starter Armors", true],
+  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko. Common, +1 Protection.", "Dumb Armors", false],
+  ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!, Common, +1 Protection.", "Clasic Armors", false],
+  ["10", "Leather Chestplate", 2, "Found some cow patties I see . Common +2 Protection.", "Clasic Armors", false],
+  ["11", "Painted on Armor", 2, "Wow look at you Picasso. Common +2 Protection.", "\"What the hell?\" Armors", false],
+  ["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*. Common +3 Protection.", "Explorer\'s Armors", false]
 ];
 
 var CommonLegArmorTypes = [
-  ["13", "Jeans", 0, "You-- You-- You- --You\'r burning my eyes please someone help!!. Common, +0 Protection.", true],
-  ["14", "The Fig Leaf", 1, "You look very, very, very, stupid. Common, +1 Protection.", false],
-  ["15", "Wooden Leg Padding", 1, "you lunkhead now you can't move!!. Common, +1 Protection.", false],
-  ["16", "Leather Leggings", 2, "cool very very cool you MURDERER OF HORSES!!!!. Common +2 Protection.", false],
-  ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?. Common +2 Protection", false],
-  ["18", "Basic Explorers Leggings", 3, "How Many pockets Does it have?. Common +3 Protection.", false]
+  ["13", "Jeans", 0, "You-- You-- You- --You\'r burning my eyes please someone help!!. Common, +0 Protection.", "Starter Armors", true],
+  ["14", "The Fig Leaf", 1, "You look very, very, very, stupid. Common, +1 Protection.", "Dumb Armors", false],
+  ["15", "Wooden Leg Padding", 1, "you lunkhead now you can't move!!. Common, +1 Protection.", "Clasic Armors", false],
+  ["16", "Leather Leggings", 2, "cool very very cool you MURDERER OF HORSES!!!!. Common +2 Protection.", "Clasic Armors", false],
+  ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?. Common +2 Protection", "\"What the hell?\" Armors", false],
+  ["18", "Basic Explorers Leggings", 3, "How Many pockets Does it have?. Common +3 Protection.", "Explorer\'s Armors", false]
 ];
 var CommonBootArmorTypes = [
-  ["19", "Shoes", 0, "Why are they untied?. Common, +0 Protection.", true],
-  ["20", "Fig Leaf Feet Covers", 1, "rocks can easily poke through and cause you pain. Common, +1 Protection.", true],
-  ["21", "Wood Sandals", 1, "Forget to bring tweezers?. Common, +1 Protection.", false],
-  ["22", "Leather Boots", 2, "Like Minecraft I assume. Common +2 Protection.", false],
-  ["23", "Painted on Boots", 2, "Da Vinci who are you painting?. Common +2 Protection.", false],
-  ["24", "Basic Explorers Boots", 3, "No they aren't air Jordans. Common +3 Protection.", false]
+  ["19", "Shoes", 0, "Why are they untied?. Common, +0 Protection.", "Starter Armors", true],
+  ["20", "Fig Leaf Feet Covers", 1, "rocks can easily poke through and cause you pain. Common, +1 Protection.", "Dumb Armors", true],
+  ["21", "Wood Sandals", 1, "Forget to bring tweezers?. Common, +1 Protection.", "Clasic Armors", false],
+  ["22", "Leather Boots", 2, "Like Minecraft I assume. Common +2 Protection.", "Clasic Armors", false],
+  ["23", "Painted on Boots", 2, "Da Vinci who are you painting?. Common +2 Protection.", "\"What the hell?\" Armors", false],
+  ["24", "Basic Explorers Boots", 3, "No they aren't air Jordans. Common +3 Protection.", "Explorer\'s Armors", false]
 ];
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
@@ -330,44 +330,44 @@ var UncommonBootArmorTypes = [
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 var RareHeadArmorTypes = [
-  ["47", "Steal Helmet", 5, "Description. Rare + 5 Protection", false],
-  ["48", "Bronze Helmet", 5, "Description. Rare + 5 Protection", false],
-  ["49", "Silver Helmet", 5, "Description. Rare + 5 Protection", false],
-  ["50", "Gold Helmet", 6, "Description. Rare + 6 Protection", false],
-  ["51", "Iron Helmet", 6, "Description. Rare + 6 Protection", false],
+  ["47", "Steal Helmet", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["48", "Bronze Helmet", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["49", "Silver Helmet", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["50", "Gold Helmet", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
+  ["51", "Iron Helmet", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
   ["52", "Fethered Mask", 6, "Description. Rare + 6 Protection", false],
   ["53", "Blessed Mud Helmet", 6, "Description. Rare + 6 Protection", false],
   ["54", "Jungle Vine Helmet", 6, "Description. Rare + 6 Protection", false]
 ];
 
 var RareChestArmorTypes = [
-  ["55", "Steal Chestplate", 5, "Description. Rare + 5 Protection", false],
-  ["56", "Bronze Chestplate", 5, "Description. Rare + 5 Protection", false],
-  ["57", "Silver Chestplate", 5, "Description. Rare + 5 Protection", false],
-  ["58", "Gold Chestplate", 6, "Description. Rare + 6 Protection", false],
-  ["59", "Iron Chestplate", 6, "Description. Rare + 6 Protection", false],
+  ["55", "Steal Chestplate", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["56", "Bronze Chestplate", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["57", "Silver Chestplate", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["58", "Gold Chestplate", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
+  ["59", "Iron Chestplate", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
   ["60", "Fethered Chestplate", 6, "Description. Rare + 6 Protection", false],
   ["61", "Blessed Mud Chestplate", 6, "Description. Rare + 6 Protection", false],
   ["62", "Jungle Vine Chestplate", 6, "Description. Rare + 6 Protection", false]
 ];
 
 var RareLegArmorTypes = [
-  ["63", "Steal Leggings", 5, "Description. Rare + 5 Protection", false],
-  ["64", "Bronze Leggings", 5, "Description. Rare + 5 Protection", false],
-  ["65", "Silver Leggings", 5, "Description. Rare + 5 Protection", false],
-  ["66", "Gold Leggings", 6, "Description. Rare + 6 Protection", false],
-  ["67", "Iron Leggings", 6, "Description. Rare + 6 Protection", false],
+  ["63", "Steal Leggings", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["64", "Bronze Leggings", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["65", "Silver Leggings", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["66", "Gold Leggings", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
+  ["67", "Iron Leggings", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
   ["68", "Fethered Leggings", 6, "Description. Rare + 6 Protection", false],
   ["69", "Blessed Mud Leggings", 6, "Description. Rare + 6 Protection", false],
   ["70", "Jungle Vine Leggings", 6, "Description. Rare + 6 Protection", false]
 ];
 
 var RareBootArmorTypes = [
-  ["71", "Steal Boots", 5, "Description. Rare + 5 Protection", false],
-  ["72", "Bronze Boots", 5, "Description. Rare + 5 Protection", false],
-  ["73", "Silver Boots", 5, "Description. Rare + 5 Protection", false],
-  ["74", "Gold Boots", 6, "Description. Rare + 6 Protection", false],
-  ["75", "Iron Boots", 6, "Description. Rare + 6 Protection", false],
+  ["71", "Steal Boots", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["72", "Bronze Boots", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["73", "Silver Boots", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
+  ["74", "Gold Boots", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
+  ["75", "Iron Boots", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
   ["76", "Fethered Boots", 6, "Description. Rare + 6 Protection", false],
   ["77", "Blessed Mud Boots", 6, "Description. Rare + 6 Protection", false],
   ["78", "Jungle Vine Boots", 6, "Description. Rare + 6 Protection", false]
