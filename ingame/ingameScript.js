@@ -448,7 +448,6 @@ var DungeonChestArmorTypes = [
 //branck
 //sword
 //meserment
-//peperspray
 //exploror
 
 var CommonHeadWeaponTypes = [
@@ -456,23 +455,39 @@ var CommonHeadWeaponTypes = [
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "Styrafoam Sword", 2, "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
   //Sets
-  ["-", "Dead Tree Branch", 1, "LOOK ITS A CAVE MAN!!. Common, +1 Power.", false],
+  ["-", "Twig", 1, "LOOK ITS A TWIG!!!!. Common, +1 Power.", false],
   ["-", "Wooden Sword", 1, "The stuff of warriors. Common, +1 Power.", false],
   ["-", "Ruler", 1, "12 inches, or 1 foot!!. Common, +1 Power.", false],
-  ["-", "Old Pepper Spray", 3, "Ahhh A bear! . Common, +3 Power.", false],
   ["-", "Basic Explores Knife", 3, "The stuff of legends!!!  Common, +3 Power.", false]
 ];
 
 var UncommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
-  ["-", "Fishing Pole", 4, "WAIT! IT BRINGS THEM CLOSER???!???!?! . Common, +4 Power.", false],
+  ["-", "Pen", 3, "Write your enemys to death! Uncommon, +3 Power.", false],
+  ["-", "Fishing Pole", 4, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +4 Power.", false],
+  ["-", "Role of Tape", 4, "You wrap them up so fast that it hurts... Uncommon, +4 Power.", false],
+  
   //Sets
-  ["-", "Half Alive Tree Branch", 3, "LOOK ITS A CAVE MAN!! Uncommon, +3 Power.", false],
-  ["-", "Wooden Sword", 4, "The stuff of warriors!!! Uncommon, +4 Power.", false],
+  ["-", "Stick", 3, "LOOK ITS A STICK!! Uncommon, +3 Power.", false],
+  ["-", "Stone Sword", 4, "The stuff of warriors!!! Uncommon, +4 Power.", false],
   ["-", "Yard Stick", 4, "36 inches or 3 feet or 1 yard!!!  Uncommon, +4 Power.", false],
-  ["-", "New Pepper Spray", 5, "Ahhh A monster! . Uncommon, +5 Power.", false],
-  ["-", "New Explores Knife", 5, "The stuff of legends!!!  Uncommon, +3 Power.", false]
+  ["-", "New Explores Knife", 5, "The stuff of new legends!!!  Uncommon, +5 Power.", false]
 ];
+
+var RareHeadWeaponTypes = [
+  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
+  ["-", "Rusty Katana", 6, "STABY STAB STAB! Rare, +6 Power.", false],
+  ["-", "Battle Staff", 6, "Why is it warm??? Rare, +6 Power.", false],
+  ["-", "Oil", 6, "They slip and fall, and break their heads! Rare, +6 Power.", false],
+  ["-", "Living snake", 6, "It bites people, even you!! Rare, +7 Power.", false],
+  
+  //Sets
+  ["-", "Dead Tree Branch", 7, "LOOK ITS A DEAD TREE BRANCH!! Rare, +7 Power.", false],
+  ["-", "Iron Sword", 7, "The stuff of warriors!!! Rare, +7 Power.", false],
+  ["-", "Meter Stick", 7, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +7 Power.", false],
+  ["-", "Industrial Explores Knife", 8, "The stuff of industrial legends!!!  Rare, +8 Power.", false]
+];
+
 
  
 ////////////////////////////
