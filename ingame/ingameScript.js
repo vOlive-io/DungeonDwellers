@@ -497,10 +497,10 @@ var EpicHeadWeaponTypes = [
   ["-", "Mace", 9, "SlAM DUNK!! Rare, +9 Power.", false],
   
   //Sets
-  ["-", "Half Alive Tree Branch", 7, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
-  ["-", "Golden Sword", 7, "The stuff of warriors!!! Rare, +10 Power.", false],
-  ["-", "Large Meter Stick", 7, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!!  Rare, +10 Power.", false],
-  ["-", "Dulex Explores Knife", 8, "The stuff of dulex legends!!!  Rare, +8 Power.", false]
+  ["-", "Half Alive Tree Branch", 10, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
+  ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
+  ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!!  Rare, +10 Power.", false],
+  ["-", "Dulex Explores Knife", 11, "The stuff of dulex legends!!!  Rare, +11 Power.", false]
 ];
 
 
