@@ -423,6 +423,7 @@ var FullRelicChestArmorTypes = [
   ["32", "Midas Garments", "50", ""],               //Ancient: The Prosporer ------- Color: Gold (Money) -------- Branch
   ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emereald (Boost) ---- Measurement Stick
   ["32", "Voistiene Entity", "50", ""],             //Ancient: The Void ------------ Color: Purple (Negaite) ---- Liquid
+  ["32", "Miezin Cloak", "50", ""],                 //Ancient: The Mist Forge  --- Color: Black (Damage) -------- Pepper Spray
   ["32", "HollowGhast Armor", "50", ""],            //Ancient: The Hollow Ghast  --- Color: Black (Damage) ------ Sword
 ];
 
@@ -458,7 +459,8 @@ var CommonHeadWeaponTypes = [
   ["-", "Water", 1, "They slip!!!!. Common, +1 Power.", false],
   ["-", "Twig", 1, "LOOK ITS A TWIG!!!!. Common, +1 Power.", false],
   ["-", "Wooden Sword", 1, "The stuff of warriors. Common, +1 Power.", false],
-  ["-", "Ruler", 1, "12 inches, or 1 foot!!. Common, +1 Power.", false],
+  ["-", "Ruler", 2, "12 inches, or 1 foot!!. Common, +2 Power.", false],
+  ["-", "Rusty Sickels", 3, "Slow, but reliable!!. Common, +3 Power.", false],
   ["-", "Old Pepper Spray", 3, "AHH, a bare!!!  Common, +3 Power.", false],
   ["-", "Basic Explores Knife", 3, "The stuff of legends!!!  Common, +3 Power.", false]
 ];
