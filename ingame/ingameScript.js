@@ -445,10 +445,11 @@ var DungeonChestArmorTypes = [
 ///     5) WEAPONS       ///
 ////////////////////////////
 var CommonHeadWeaponTypes = [
-  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Protection.", false],
+  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
   ["-", "Fists", "1", "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "Basic Sword", "2", "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
   ["-", "Pepper Spray", "2", "Ahhh A bear! . Common, +2 Power.", false]
+
 ];
 
 ////////////////////////////
