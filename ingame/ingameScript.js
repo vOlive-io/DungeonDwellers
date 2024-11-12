@@ -498,7 +498,7 @@ var EpicHeadWeaponTypes = [
   ["-", "Mace", 9, "SlAM DUNK!! Rare, +9 Power.", false],
   
   //Sets
-  ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and them go BOOM! Rare, 9 Power.", false],
+  ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and get lit on fire! Rare, 9 Power.", false],
   ["-", "Half Alive Tree Branch", 10, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
   ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
   ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!!  Rare, +10 Power.", false],
