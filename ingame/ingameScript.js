@@ -736,114 +736,114 @@ function updateUncommonLegArmors() {
 
 function updateHeadDiscription() {
   if (document.getElementById("bedHead").selected == true) {
-    HeadProtection = CommonHeadArmorTypes[0][2]
+    HeadProtection = CommonHeadArmorTypes[0][2];
     HeadDescription.innerHTML = CommonHeadArmorTypes[0][3];
   } if (document.getElementById("FigWreath").selected == true) {
-    HeadProtection = CommonHeadArmorTypes[1][2]
+    HeadProtection = CommonHeadArmorTypes[1][2];
     HeadDescription.innerHTML = CommonHeadArmorTypes[1][3];
   } if (document.getElementById("WoodHelmet").selected == true) {
-    HeadProtection = CommonHeadArmorTypes[2][2]
+    HeadProtection = CommonHeadArmorTypes[2][2];
     HeadDescription.innerHTML = CommonHeadArmorTypes[2][3];
   } if (document.getElementById("LeatherBandana").selected == true) {
-    HeadProtection = CommonHeadArmorTypes[3][2]
+    HeadProtection = CommonHeadArmorTypes[3][2];
     HeadDescription.innerHTML = CommonHeadArmorTypes[3][3];
   } if (document.getElementById("PaintHelmet").selected == true) {
-    HeadProtection = CommonHeadArmorTypes[4][2]
+    HeadProtection = CommonHeadArmorTypes[4][2];
     HeadDescription.innerHTML = CommonHeadArmorTypes[4][3];
   } if (document.getElementById("BasicExplorersHelmet").selected == true) {
-    HeadProtection = CommonHeadArmorTypes[5][2]
+    HeadProtection = CommonHeadArmorTypes[5][2];
     HeadDescription.innerHTML = CommonHeadArmorTypes[5][3];
   } 
   // UNCOMMON
   if (document.getElementById("FruitHat").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[0][2]
+    HeadProtection = UncommonHeadArmorTypes[0][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[0][3];
   } if (document.getElementById("SafariHat").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[1][2]
+    HeadProtection = UncommonHeadArmorTypes[1][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[1][3];
   } if (document.getElementById("RubberMask").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[2][2]
+    HeadProtection = UncommonHeadArmorTypes[2][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[2][3];
   } if (document.getElementById("MudMask").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[3][2]
+    HeadProtection = UncommonHeadArmorTypes[3][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[3][3];
   } if (document.getElementById("TinHead").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[4][2]
+    HeadProtection = UncommonHeadArmorTypes[4][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[4][3];
   } if (document.getElementById("StoneHelmet").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[5][2]
+    HeadProtection = UncommonHeadArmorTypes[5][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
   } if (document.getElementById("GlassHelmet").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[6][2]
+    HeadProtection = UncommonHeadArmorTypes[6][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[6][3];
   } if (document.getElementById("NickleHelmet").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[7][2]
+    HeadProtection = UncommonHeadArmorTypes[7][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[7][3];
   } if (document.getElementById("ChainHelmet").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[8][2]
+    HeadProtection = UncommonHeadArmorTypes[8][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[8][3];
   } if (document.getElementById("CopperHelmet").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[9][2]
+    HeadProtection = UncommonHeadArmorTypes[9][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[9][3];
   } if (document.getElementById("BrassHelmet").selected == true) {
-    HeadProtection = UncommonHeadArmorTypes[10][2]
+    HeadProtection = UncommonHeadArmorTypes[10][2];
     HeadDescription.innerHTML = UncommonHeadArmorTypes[10][3];
   }
 }
 
 function updateChestDiscription() {
   if (document.getElementById("Shirt").selected == true) {
-    ChestProtection = CommonChestArmorTypes[0][2]
-    chestSlot = CommonChestArmorTypes[0]
+    ChestProtection = CommonChestArmorTypes[0][2];
+    chestSlot = CommonChestArmorTypes[0];
   } if (document.getElementById("FigLeafBreastplate").selected == true) {
-    ChestProtection = CommonChestArmorTypes[1][2]
+    ChestProtection = CommonChestArmorTypes[1][2];
     ChestDescription.innerHTML = CommonChestArmorTypes[1][3];
   } if (document.getElementById("Woodplate").selected == true) {
-    ChestProtection = CommonChestArmorTypes[2][2]
+    ChestProtection = CommonChestArmorTypes[2][2];
     ChestDescription.innerHTML = CommonChestArmorTypes[2][3];
   } if (document.getElementById("LeatherChestplate").selected == true) {
-    ChestProtection = CommonChestArmorTypes[3][2]
+    ChestProtection = CommonChestArmorTypes[3][2];
     ChestDescription.innerHTML = CommonChestArmorTypes[3][3];
   } if (document.getElementById("PaintedArmor").selected == true) {
-    ChestProtection = CommonChestArmorTypes[4][2]
+    ChestProtection = CommonChestArmorTypes[4][2];
     ChestDescription.innerHTML = CommonChestArmorTypes[4][3];
   } if (document.getElementById("BasicExplorersChestplate").selected == true) {
-    ChestProtection = CommonChestArmorTypes[5][2]
+    ChestProtection = CommonChestArmorTypes[5][2];
     ChestDescription.innerHTML = CommonChestArmorTypes[5][3];
   } 
   // UNCOMMON
   if (document.getElementById("CoconutShellBrestPlate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[0][2]
+    ChestProtection = UncommonChestArmorTypes[0][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[0][3];
   } if (document.getElementById("SafariVest").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[1][2]
+    ChestProtection = UncommonChestArmorTypes[1][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[1][3];
   } if (document.getElementById("RubberChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[2][2]
+    ChestProtection = UncommonChestArmorTypes[2][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[2][3];
   } if (document.getElementById("MudChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[3][2]
+    ChestProtection = UncommonChestArmorTypes[3][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[3][3];
   } if (document.getElementById("TinChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[4][2]
+    ChestProtection = UncommonChestArmorTypes[4][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[4][3];
   } if (document.getElementById("StoneChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[5][2]
+    ChestProtection = UncommonChestArmorTypes[5][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[5][3];
   } if (document.getElementById("GlassChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[6][2]
+    ChestProtection = UncommonChestArmorTypes[6][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[6][3];
   } if (document.getElementById("NickleChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[7][2]
+    ChestProtection = UncommonChestArmorTypes[7][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[7][3];
   } if (document.getElementById("ChainChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[8][2]
+    ChestProtection = UncommonChestArmorTypes[8][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[8][3];
   } if (document.getElementById("CopperChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[9][2]
+    ChestProtection = UncommonChestArmorTypes[9][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[9][3];
   } if (document.getElementById("BrassChestplate").selected == true) {
-    ChestProtection = UncommonChestArmorTypes[10][2]
+    ChestProtection = UncommonChestArmorTypes[10][2];
     ChestDescription.innerHTML = UncommonChestArmorTypes[10][3];
   }
   ChestDescription.innerHTML = chestSlot[3] + "Part of the " + chestSlot[4] + " collection";
@@ -851,57 +851,57 @@ function updateChestDiscription() {
 
 function updateLegDiscription() {
   if (document.getElementById("Jeans").selected == true) {
-    LegProtection = CommonLegArmorTypes[0][2]
+    LegProtection = CommonLegArmorTypes[0][2];
     LegDescription.innerHTML = CommonLegArmorTypes[0][3];
   } if (document.getElementById("TheFigLeaf").selected == true) {
-    LegProtection = CommonLegArmorTypes[1][2]
+    LegProtection = CommonLegArmorTypes[1][2];
     LegDescription.innerHTML = CommonLegArmorTypes[1][3];
   } if (document.getElementById("WoodenLegPadding").selected == true) {
-    LegProtection = CommonLegArmorTypes[2][2]
+    LegProtection = CommonLegArmorTypes[2][2];
     LegDescription.innerHTML = CommonLegArmorTypes[2][3];
   } if (document.getElementById("LeatherLeggings").selected == true) {
-    LegProtection = CommonLegArmorTypes[3][2]
+    LegProtection = CommonLegArmorTypes[3][2];
     LegDescription.innerHTML = CommonLegArmorTypes[3][3];
   } if (document.getElementById("PaintedOnLeggings").selected == true) {
-    LegProtection = CommonLegArmorTypes[4][2]
+    LegProtection = CommonLegArmorTypes[4][2];
     LegDescription.innerHTML = CommonLegArmorTypes[4][3];
   } if (document.getElementById("BasicExplorersLeggings").selected == true) {
-    LegProtection = CommonLegArmorTypes[5][2]
+    LegProtection = CommonLegArmorTypes[5][2];
     LegDescription.innerHTML = CommonLegArmorTypes[5][3];
   } 
   // UNCOMMON
   if (document.getElementById("BananaLeavesSkirt").selected == true) {
-    LegProtection = UncommonLegArmorTypes[0][2]
+    LegProtection = UncommonLegArmorTypes[0][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[0][3];
   } if (document.getElementById("SafariPants").selected == true) {
-    LegProtection = UncommonLegArmorTypes[1][2]
+    LegProtection = UncommonLegArmorTypes[1][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[1][3];
   } if (document.getElementById("RubberLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[2][2]
+    LegProtection = UncommonLegArmorTypes[2][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[2][3];
   } if (document.getElementById("MudLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[3][2]
+    LegProtection = UncommonLegArmorTypes[3][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[3][3];
   } if (document.getElementById("TinLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[4][2]
+    LegProtection = UncommonLegArmorTypes[4][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[4][3];
   } if (document.getElementById("StoneLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[5][2]
+    LegProtection = UncommonLegArmorTypes[5][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[5][3];
   } if (document.getElementById("GlassLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[6][2]
+    LegProtection = UncommonLegArmorTypes[6][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[6][3];
   } if (document.getElementById("NickleLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[7][2]
+    LegProtection = UncommonLegArmorTypes[7][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[7][3];
   } if (document.getElementById("ChainLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[8][2]
+    LegProtection = UncommonLegArmorTypes[8][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[8][3];
   } if (document.getElementById("CopperLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[9][2]
+    LegProtection = UncommonLegArmorTypes[9][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[9][3];
   } if (document.getElementById("BrassLeggings").selected == true) {
-    LegProtection = UncommonLegArmorTypes[10][2]
+    LegProtection = UncommonLegArmorTypes[10][2];
     LegDescription.innerHTML = UncommonLegArmorTypes[10][3];
   }
 }
