@@ -651,37 +651,37 @@ function updateUncommonHeadArmors() {
 }
 
 function updateUncommonChestArmors() {
-  if (UncommonChestArmorTypes[0][4] == true) {
+  if (UncommonChestArmorTypes[0][5] == true) {
     CoconutShellBrestPlate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[1][4] == true) {
+  } if (UncommonChestArmorTypes[1][5] == true) {
     SafariVest.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[2][4] == true) {
+  } if (UncommonChestArmorTypes[2][5] == true) {
     RubberChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[3][4] == true) {
+  } if (UncommonChestArmorTypes[3][5] == true) {
     MudChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[4][4] == true) {
+  } if (UncommonChestArmorTypes[4][5] == true) {
     TinChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[5][4] == true) {
+  } if (UncommonChestArmorTypes[5][5] == true) {
     StoneChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[6][4] == true) {
+  } if (UncommonChestArmorTypes[6][5] == true) {
     GlassChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[7][4] == true) {
+  } if (UncommonChestArmorTypes[7][5] == true) {
     NickleChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[8][4] == true) {
+  } if (UncommonChestArmorTypes[8][5] == true) {
     ChainChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[9][4] == true) {
+  } if (UncommonChestArmorTypes[9][5] == true) {
     CopperChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[10][4] == true) {
+  } if (UncommonChestArmorTypes[10][5] == true) {
     BrassChestplate.style.display = "block";
     uncommonChestOwned = true;
   } if (uncommonChestOwned == true) {
