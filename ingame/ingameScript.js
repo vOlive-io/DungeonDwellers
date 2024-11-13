@@ -565,84 +565,84 @@ function updateSlots() {
 
 
 function updateCommonHeadArmors() {
-  if (CommonHeadArmorTypes[1][4] == true) {
+  if (CommonHeadArmorTypes[1][5] == true) {
     document.getElementById("FigWreath").classList.add('unlockedArmor');
     document.getElementById("FigWreath").classList.remove('lockedArmor');
-  } if (CommonHeadArmorTypes[2][4] == true) {
+  } if (CommonHeadArmorTypes[2][5] == true) {
     document.getElementById("WoodHelmet").classList.add('unlockedArmor');
     document.getElementById("WoodHelmet").classList.remove('lockedArmor');
-  } if (CommonHeadArmorTypes[3][4] == true) {
+  } if (CommonHeadArmorTypes[3][5] == true) {
     document.getElementById("LeatherBandana").classList.add('unlockedArmor');
     document.getElementById("LeatherBandana").classList.remove('lockedArmor');
-  } if (CommonHeadArmorTypes[4][4] == true) {
+  } if (CommonHeadArmorTypes[4][5] == true) {
     document.getElementById("PaintHelmet").classList.add('unlockedArmor');
     document.getElementById("PaintHelmet").classList.remove('lockedArmor');
-  } if (CommonHeadArmorTypes[5][4] == true) {
+  } if (CommonHeadArmorTypes[5][5] == true) {
     document.getElementById("BasicExplorersHelmet").classList.add('unlockedArmor');
     document.getElementById("BasicExplorersHelmet").classList.remove('lockedArmor');
   }
 }
 
 function updateCommonChestArmors() {
-  if (CommonChestArmorTypes[1][4] == true) {
+  if (CommonChestArmorTypes[1][5] == true) {
     FigLeafBreastplate.style.display = "block";
-  } if (CommonChestArmorTypes[2][4] == true) {
+  } if (CommonChestArmorTypes[2][5] == true) {
     Woodplate.style.display = "block";
-  } if (CommonChestArmorTypes[3][4] == true) {
+  } if (CommonChestArmorTypes[3][5] == true) {
     LeatherChestplate.style.display = "block";
-  } if (CommonChestArmorTypes[4][4] == true) {
+  } if (CommonChestArmorTypes[4][5] == true) {
     PaintedArmor.style.display = "block";
-  } if (CommonChestArmorTypes[5][4] == true) {
+  } if (CommonChestArmorTypes[5][5] == true) {
     BasicExplorersChestplate.style.display = "block";
   }
 }
 
 function updateCommonLegArmors() {
-  if (CommonLegArmorTypes[1][4] == true) {
+  if (CommonLegArmorTypes[1][5] == true) {
     TheFigLeaf.style.display = "block";
-  } if (CommonLegArmorTypes[2][4] == true) {
+  } if (CommonLegArmorTypes[2][5] == true) {
     WoodenLegPadding.style.display = "block";
-  } if (CommonLegArmorTypes[3][4] == true) {
+  } if (CommonLegArmorTypes[3][5] == true) {
     LeatherLeggings.style.display = "block";
-  } if (CommonLegArmorTypes[4][4] == true) {
+  } if (CommonLegArmorTypes[4][5] == true) {
     PaintedOnLeggings.style.display = "block";
-  } if (CommonLegArmorTypes[5][4] == true) {
+  } if (CommonLegArmorTypes[5][5] == true) {
     BasicExplorersLeggings.style.display = "block";
   }
 }
 
 function updateUncommonHeadArmors() {
-  if (UncommonHeadArmorTypes[0][4] == true) {
+  if (UncommonHeadArmorTypes[0][5] == true) {
     FruitHat.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[1][4] == true) {
+  } if (UncommonHeadArmorTypes[1][5] == true) {
     SafariHat.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[2][4] == true) {
+  } if (UncommonHeadArmorTypes[2][5] == true) {
     RubberMask.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[3][4] == true) {
+  } if (UncommonHeadArmorTypes[3][5] == true) {
     MudMask.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[4][4] == true) {
+  } if (UncommonHeadArmorTypes[4][5] == true) {
     TinHead.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[5][4] == true) {
+  } if (UncommonHeadArmorTypes[5][5] == true) {
     StoneHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[6][4] == true) {
+  } if (UncommonHeadArmorTypes[6][5] == true) {
     GlassHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[7][4] == true) {
+  } if (UncommonHeadArmorTypes[7][5] == true) {
     NickleHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[8][4] == true) {
+  } if (UncommonHeadArmorTypes[8][5] == true) {
     ChainHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[9][4] == true) {
+  } if (UncommonHeadArmorTypes[9][5] == true) {
     CopperHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[10][4] == true) {
+  } if (UncommonHeadArmorTypes[10][5] == true) {
     BrassHelmet.style.display = "block";
     uncommonHeadOwned = true;
   } if (uncommonHeadOwned == true) {
