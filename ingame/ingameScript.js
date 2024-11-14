@@ -461,7 +461,7 @@ var CommonHeadWeaponTypes = [
   ["-", "Twig", 1, "LOOK ITS A TWIG!!!!. Common, +1 Power.", false],
   ["-", "Wooden Sword", 1, "The stuff of warriors. Common, +1 Power.", false],
   ["-", "Ruler", 2, "12 inches, or 1 foot!!. Common, +2 Power.", false],
-  ["-", "Rusty Sickels", 3, "Slow, but reliable!!. Common, +3 Power.", false],
+  ["-", "Rusty Horseshoes", 3, "Slow, but reliable!. Common, +3 Power.", false],
   ["-", "Old Pepper Spray", 3, "AHH, a bare!!!  Common, +3 Power.", false],
   ["-", "Basic Explores Knife", 3, "The stuff of legends!!!  Common, +3 Power.", false]
 ];
