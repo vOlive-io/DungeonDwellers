@@ -461,7 +461,7 @@ var CommonHeadWeaponTypes = [
   ["-", "Twig", 1, "LOOK ITS A TWIG!!!!. Common, +1 Power.", false],
   ["-", "Wooden Sword", 1, "The stuff of warriors. Common, +1 Power.", false],
   ["-", "Ruler", 2, "12 inches, or 1 foot!!. Common, +2 Power.", false],
-  ["-", "Rusty Horseshoes", 3, "Slow, but reliable!. Common, +3 Power.", false],
+  ["-", "Rusty Horseshoes", 3, "Slow, but reliable! Common, +3 Power.", false],
   ["-", "Old Pepper Spray", 3, "AHH, a bare!!!  Common, +3 Power.", false],
   ["-", "Basic Explores Knife", 3, "The stuff of legends!!!  Common, +3 Power.", false]
 ];
@@ -477,6 +477,7 @@ var UncommonHeadWeaponTypes = [
   ["-", "Stick", 3, "LOOK ITS A STICK!! Uncommon, +3 Power.", false],
   ["-", "Stone Sword", 4, "The stuff of warriors!!! Uncommon, +4 Power.", false],
   ["-", "Yard Stick", 4, "36 inches or 3 feet or 1 yard!!!  Uncommon, +4 Power.", false],
+  ["-", "Sharpened Horseshoes", 4, "Very close range, but very good damage Uncommon, +4 Power.", false],
   ["-", "New Pepper Spray", 4, "AHH, its a bare!!!  Uncommon, +4 Power.", false],
   ["-", "New Explores Knife", 5, "The stuff of new legends!!!  Uncommon, +5 Power.", false]
 ];
@@ -492,6 +493,7 @@ var RareHeadWeaponTypes = [
   ["-", "Dead Tree Branch", 7, "LOOK ITS A DEAD TREE BRANCH!! Rare, +7 Power.", false],
   ["-", "Iron Sword", 7, "The stuff of warriors!!! Rare, +7 Power.", false],
   ["-", "Meter Stick", 7, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +7 Power.", false],
+  ["-", "Daggers", 7, "Its new and shap and stabs harder than a dart!. Rare, +7 Power.", false],
   ["-", "Extra Concentrated Pepper Spray", 7, "AHH, its a monster!!! Rare, +7 Power.", false],
   ["-", "Industrial Explores Knife", 8, "The stuff of industrial legends!!!  Rare, +8 Power.", false]
 ];
