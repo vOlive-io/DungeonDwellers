@@ -463,39 +463,39 @@ var CommonHeadWeaponTypes = [
   ["-", "Ruler", 2, "12 inches, or 1 foot!!. Common, +2 Power.", false],
   ["-", "Rusty Horseshoes", 3, "Slow, but reliable! Common, +3 Power.", false],
   ["-", "Old Pepper Spray", 3, "AHH, a bare!!!  Common, +3 Power.", false],
-  ["-", "Basic Explores Knife", 3, "The stuff of legends!!!  Common, +3 Power.", false]
+  ["-", "Basic Explores Knife", 4, "The stuff of legends!!!  Common, +4 Power.", false]
 ];
 
 var UncommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
-  ["-", "Pen", 3, "Write your enemys to death! Uncommon, +3 Power.", false],
+  ["-", "Pen", 4, "Write your enemys to death! Uncommon, +4 Power.", false],
   ["-", "Fishing Pole", 4, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +4 Power.", false],
   ["-", "Role of Tape", 4, "You wrap them up so fast that it hurts... Uncommon, +4 Power.", false],
   
   //Sets
-  ["-", "Hot Water", 3, "They slip and fall!! Uncommon, +3 Power.", false],
-  ["-", "Stick", 3, "LOOK ITS A STICK!! Uncommon, +3 Power.", false],
-  ["-", "Stone Sword", 4, "The stuff of warriors!!! Uncommon, +4 Power.", false],
-  ["-", "Yard Stick", 4, "36 inches or 3 feet or 1 yard!!!  Uncommon, +4 Power.", false],
-  ["-", "Sharpened Horseshoes", 4, "Very close range, but very good damage Uncommon, +4 Power.", false],
-  ["-", "New Pepper Spray", 4, "AHH, its a bare!!!  Uncommon, +4 Power.", false],
-  ["-", "New Explores Knife", 5, "The stuff of new legends!!!  Uncommon, +5 Power.", false]
+  ["-", "Hot Water", 5, "They slip and fall!! Uncommon, +5 Power.", false],
+  ["-", "Stick", 5, "LOOK ITS A STICK!! Uncommon, +5 Power.", false],
+  ["-", "Stone Sword", 5, "The stuff of warriors!!! Uncommon, +5 Power.", false],
+  ["-", "Yard Stick", 5, "36 inches or 3 feet or 1 yard!!!  Uncommon, +5 Power.", false],
+  ["-", "Sharpened Horseshoes", 5, "Very close range, but very good damage Uncommon, +5 Power.", false],
+  ["-", "New Pepper Spray", 5, "AHH, its a bare!!!  Uncommon, +5 Power.", false],
+  ["-", "New Explores Knife", 6, "The stuff of new legends!!!  Uncommon, +6 Power.", false]
 ];
 
 var RareHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
   ["-", "Rusty Katana", 6, "STABY STAB STAB! Rare, +6 Power.", false],
   ["-", "Battle Staff", 6, "Why is it warm??? Rare, +6 Power.", false],
-  ["-", "Living snake", 6, "It bites people, even you!! Rare, +6 Power.", false],
+  ["-", "Living snake", 7, "It bites people, even you!! Rare, +7 Power.", false],
   
   //Sets
-  ["-", "Oil", 7, "They slip and fall, and break their heads! Rare, +7 Power.", false],
-  ["-", "Dead Tree Branch", 7, "LOOK ITS A DEAD TREE BRANCH!! Rare, +7 Power.", false],
-  ["-", "Iron Sword", 7, "The stuff of warriors!!! Rare, +7 Power.", false],
-  ["-", "Meter Stick", 7, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +7 Power.", false],
-  ["-", "Daggers", 7, "Its new and shap and stabs harder than a dart!. Rare, +7 Power.", false],
-  ["-", "Extra Concentrated Pepper Spray", 7, "AHH, its a monster!!! Rare, +7 Power.", false],
-  ["-", "Industrial Explores Knife", 8, "The stuff of industrial legends!!!  Rare, +8 Power.", false]
+  ["-", "Oil", 8, "They slip and fall, and break their heads! Rare, +8 Power.", false],
+  ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!! Rare, +8 Power.", false],
+  ["-", "Iron Sword", 8, "The stuff of warriors!!! Rare, +8 Power.", false],
+  ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
+  ["-", "Daggers", 8, "Its new and shap and stabs harder than a dart!. Rare, +8 Power.", false],
+  ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!! Rare, +8 Power.", false],
+  ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!  Rare, +9 Power.", false]
 ];
 
 var EpicHeadWeaponTypes = [
