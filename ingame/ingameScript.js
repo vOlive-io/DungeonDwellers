@@ -506,7 +506,7 @@ var EpicHeadWeaponTypes = [
   ["-", "Fire Extinguisher", 9, "Spray them to death!! Rare, +9 Power.", false],
   ["-", "Hammer", 9, "BAMM, it hits hard!! Rare, +9 Power.", false],
   //Sets
-  ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and get lit on fire! Rare, 9 Power.", false],
+  ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire! Rare, 9 Power.", false],
   ["-", "Alive Tree Branch", 10, "LOOK ITS AN ALIVE TREE BRANCH!! Rare, +10 Power.", false],
   ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
   ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!  Rare, +10 Power.", false],
@@ -516,6 +516,7 @@ var EpicHeadWeaponTypes = [
 ];
 
 
+ 
 ////////////////////////////
 ///   6) LOOT BOXS       ///
 ////////////////////////////
