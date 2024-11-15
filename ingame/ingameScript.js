@@ -505,7 +505,6 @@ var EpicHeadWeaponTypes = [
   ["-", "Mace", 9, "SlAM DUNK!! Rare, +9 Power.", false],
   ["-", "Fire Extinguisher", 9, "Spray them to death!! Rare, +9 Power.", false],
   ["-", "Hammer", 9, "BAMM, it hits hard!! Rare, +9 Power.", false],
-  ["-", "Daggers", 9, "A fast and quick way to end your enemies!! Rare, +9 Power.", false],
   //Sets
   ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and get lit on fire! Rare, 9 Power.", false],
   ["-", "Half Alive Tree Branch", 10, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
