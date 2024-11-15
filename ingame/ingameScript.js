@@ -457,12 +457,13 @@ var CommonHeadWeaponTypes = [
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!! . Common, +2 Power.", false],
   //Sets
-  ["-", "Water", 3, "They slip!!!!. Common, +3 Power.", false],
   ["-", "Twig", 3, "LOOK ITS A TWIG!!!!. Common, +3 Power.", false],
-  ["-", "Wooden Sword", 3, "The stuff of warriors. Common, +3 Power.", false],
   ["-", "Ruler", 3, "12 inches, or 1 foot!!. Common, +3 Power.", false],
-  ["-", "Rusty Horseshoes", 3, "Slow, but reliable! Common, +3 Power.", false],
+  ["-", "Water", 3, "They slip!!!!. Common, +3 Power.", false],
   ["-", "Old Pepper Spray", 3, "AHH, a bare!!!  Common, +3 Power.", false],
+  ["-", "Rusty Horseshoes", 3, "Slow, but reliable! Common, +3 Power.", false],
+  ["-", "Wooden Sword", 3, "The stuff of warriors. Common, +3 Power.", false],
+  //Explorers
   ["-", "Basic Explores Knife", 4, "The stuff of legends!!!  Common, +4 Power.", false]
 ];
 
@@ -473,12 +474,13 @@ var UncommonHeadWeaponTypes = [
   ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts... Uncommon, +4 Power.", false],
   
   //Sets
-  ["-", "Hot Water", 6, "They slip and fall!! Uncommon, +5 Power.", false],
   ["-", "Stick", 6, "LOOK ITS A STICK!! Uncommon, +5 Power.", false],
-  ["-", "Stone Sword", 6, "The stuff of warriors!!! Uncommon, +5 Power.", false],
   ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!  Uncommon, +5 Power.", false],
-  ["-", "Sharpened Horseshoes", 6, "Very close range, but very good damage Uncommon, +5 Power.", false],
+  ["-", "Hot Water", 6, "They slip and fall!! Uncommon, +5 Power.", false],
   ["-", "New Pepper Spray", 6, "AHH, its a bare!!!  Uncommon, +5 Power.", false],
+  ["-", "Sharpened Horseshoes", 6, "Very close range, but very good damage Uncommon, +5 Power.", false],
+  ["-", "Stone Sword", 6, "The stuff of warriors!!! Uncommon, +5 Power.", false],
+  //Explorers
   ["-", "New Explores Knife", 7, "The stuff of new legends!!!  Uncommon, +7 Power.", false]
 ];
 
@@ -489,12 +491,15 @@ var RareHeadWeaponTypes = [
   ["-", "Living snake", 7, "It bites people, even you!! Rare, +7 Power.", false],
   
   //Sets
-  ["-", "Oil", 8, "They slip and fall, and break their heads! Rare, +8 Power.", false],
   ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!! Rare, +8 Power.", false],
-  ["-", "Iron Sword", 8, "The stuff of warriors!!! Rare, +8 Power.", false],
+  ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
+  ["-", "Oil", 8, "They slip and fall, and break their heads! Rare, +8 Power.", false],
+  ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!! Rare, +8 Power.", false],
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
   ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart! Rare, +8 Power.", false],
-  ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!! Rare, +8 Power.", false],
+  ["-", "Iron Sword", 8, "The stuff of warriors!!! Rare, +8 Power.", false],
+  
+  //Explorers
   ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!  Rare, +9 Power.", false]
 ];
 
@@ -506,12 +511,13 @@ var EpicHeadWeaponTypes = [
   ["-", "Fire Extinguisher", 9, "Spray them to death!! Rare, +9 Power.", false],
   ["-", "Hammer", 9, "BAMM, it hits hard!! Rare, +9 Power.", false],
   //Sets
-  ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire! Rare, 9 Power.", false],
   ["-", "Alive Tree Branch", 10, "LOOK ITS AN ALIVE TREE BRANCH!! Rare, +10 Power.", false],
-  ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
   ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!  Rare, +10 Power.", false],
-  ["-", "Curved Daggers", 10, "The new curved blade enhances the strength and effect of these daggers. Rare, +10 Power.", false],
+  ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire! Rare, 9 Power.", false],
   ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!! Rare, +10 Power.", false],
+  ["-", "Curved Daggers", 10, "The new curved blade enhances the strength and effect of these daggers. Rare, +10 Power.", false],
+  ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
+  //Explorors
   ["-", "Dulex Explores Knife", 11, "The stuff of dulex legends!!!  Rare, +11 Power.", false]
 ];
 
@@ -522,12 +528,13 @@ var MythicHeadWeaponTypes = [
   ["-", "Spiked Mace", 13, "SlAM DUNK BUT WITH THORNS!! Rare, +9 Power.", false],
   ["-", "Runic Hammer", 12, "Just a better version of a hammer!! Rare, +9 Power.", false],
   //Sets
-  ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive! Rare, 9 Power.", false],
   ["-", "Thriving Tree Branch", 10, "LOOK ITS A THRIVING TREE BRANCH!! Rare, +10 Power.", false],
-  ["-", "Mythril Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
   ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!  Rare, +10 Power.", false],
-  ["-", "Sickels", 10, "The new curved blade enhances the strength and effect of these daggers. Rare, +10 Power.", false],
+  ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive! Rare, 9 Power.", false],
   ["-", "Aquatex Spray", 10, "AHH, its dev! Rare, +10 Power.", false],
+  ["-", "Sickels", 10, "The new curved blade enhances the strength and effect of these daggers. Rare, +10 Power.", false],
+  ["-", "Mythril Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
+  //Explorors
   ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!  Rare, +11 Power.", false]
 ];
  
