@@ -455,7 +455,7 @@ var DungeonChestArmorTypes = [
 var CommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
-  ["-", "Styrafoam Sword", 2, "Wow so daring and bold a sword made of styrafoam!!! . Common, +2 Power.", false],
+  ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!! . Common, +2 Power.", false],
   //Sets
   ["-", "Water", 1, "They slip!!!!. Common, +1 Power.", false],
   ["-", "Twig", 1, "LOOK ITS A TWIG!!!!. Common, +1 Power.", false],
@@ -468,7 +468,7 @@ var CommonHeadWeaponTypes = [
 
 var UncommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
-  ["-", "Pen", 4, "Write your enemys to death! Uncommon, +4 Power.", false],
+  ["-", "Pen", 4, "Write your enemies to death! Uncommon, +4 Power.", false],
   ["-", "Fishing Pole", 4, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +4 Power.", false],
   ["-", "Role of Tape", 4, "You wrap them up so fast that it hurts... Uncommon, +4 Power.", false],
   
@@ -493,7 +493,7 @@ var RareHeadWeaponTypes = [
   ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!! Rare, +8 Power.", false],
   ["-", "Iron Sword", 8, "The stuff of warriors!!! Rare, +8 Power.", false],
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
-  ["-", "Daggers", 8, "Its new and shap and stabs harder than a dart! Rare, +8 Power.", false],
+  ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart! Rare, +8 Power.", false],
   ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!! Rare, +8 Power.", false],
   ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!  Rare, +9 Power.", false]
 ];
@@ -511,8 +511,8 @@ var EpicHeadWeaponTypes = [
   ["-", "Half Alive Tree Branch", 10, "LOOK ITS A HALF ALIVE TREE BRANCH!! Rare, +10 Power.", false],
   ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
   ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!  Rare, +10 Power.", false],
-  ["-", "Curved Daggers", 8, "The new curved blade inhaces the streanth and effetion of these daggers. Rare, +8 Power.", false],
-  ["-", "Industrial Strenth Pepper Spray", 7, "AHH, its bear monster!!! Rare, +7 Power.", false],
+  ["-", "Curved Daggers", 10, "The new curved blade enhances the strength and effect of these daggers. Rare, +10 Power.", false],
+  ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!! Rare, +10 Power.", false],
   ["-", "Dulex Explores Knife", 11, "The stuff of dulex legends!!!  Rare, +11 Power.", false]
 ];
 
