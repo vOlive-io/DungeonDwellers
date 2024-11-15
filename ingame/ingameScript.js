@@ -457,6 +457,7 @@ var CommonHeadWeaponTypes = [
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!! . Common, +2 Power.", false],
   ["-", "Rusty Horseshoes", 2, "Slow, but reliable! Common, +2 Power.", false],
+  ["-", "Pillow", 2, "Its kida gross to think that you beat them up and still sleep with the pillow! Common, +2 Power.", false],
   //Sets
   ["-", "Twig", 3, "LOOK ITS A TWIG!!!!. Common, +3 Power.", false],
   ["-", "Ruler", 3, "12 inches, or 1 foot!!. Common, +3 Power.", false],
@@ -474,6 +475,7 @@ var UncommonHeadWeaponTypes = [
   ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +5 Power.", false],
   ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts... Uncommon, +5 Power.", false],
   ["-", "Sharpened Rocks", 6, "Very close range, but very good damage. Uncommon, +6 Power.", false],
+  ["-", "Crow Bar", 6, "Its good for hitting them on the head. Uncommon, +6 Power.", false],
   //Sets
   ["-", "Stick", 6, "LOOK ITS A STICK!! Uncommon, +5 Power.", false],
   ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!  Uncommon, +5 Power.", false],
