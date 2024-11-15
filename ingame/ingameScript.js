@@ -797,6 +797,7 @@ function updateHeadDiscription() {
 function updateChestDiscription() {
   if (document.getElementById("Shirt").selected == true) {
     ChestProtection = CommonChestArmorTypes[0][2];
+    ChestDescription.innerHTML = CommonChestArmorTypes[1][3];
     chestSlot = CommonChestArmorTypes[0];
   } if (document.getElementById("FigLeafBreastplate").selected == true) {
     ChestProtection = CommonChestArmorTypes[1][2];
@@ -817,37 +818,38 @@ function updateChestDiscription() {
   // UNCOMMON
   if (document.getElementById("CoconutShellBrestPlate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[0][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[0][3];
+    chestSlot = UncommonChestArmorTypes[0];
   } if (document.getElementById("SafariVest").selected == true) {
     ChestProtection = UncommonChestArmorTypes[1][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[1][3];
+    chestSlot = UncommonChestArmorTypes[1];
   } if (document.getElementById("RubberChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[2][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[2][3];
+    chestSlot = UncommonChestArmorTypes[2];
   } if (document.getElementById("MudChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[3][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[3][3];
+    chestSlot = UncommonChestArmorTypes[3];
   } if (document.getElementById("TinChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[4][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[4][3];
+    chestSlot = UncommonChestArmorTypes[4];
   } if (document.getElementById("StoneChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[5][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[5][3];
+    chestSlot = UncommonChestArmorTypes[5];
   } if (document.getElementById("GlassChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[6][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[6][3];
+    chestSlot = UncommonChestArmorTypes[6];
   } if (document.getElementById("NickleChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[7][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[7][3];
+    chestSlot = UncommonChestArmorTypes[7];
   } if (document.getElementById("ChainChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[8][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[8][3];
+    chestSlot = UncommonChestArmorTypes[8][3];
   } if (document.getElementById("CopperChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[9][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[9][3];
+    chestSlot = UncommonChestArmorTypes[9];
   } if (document.getElementById("BrassChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[10][2];
-    ChestDescription.innerHTML = UncommonChestArmorTypes[10][3];
+    chestSlot = UncommonChestArmorTypes[10];
+    
   }
   ChestDescription.innerHTML = chestSlot[3] + "Part of the " + chestSlot[4] + " collection";
 }
