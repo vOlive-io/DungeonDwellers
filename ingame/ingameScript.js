@@ -515,7 +515,21 @@ var EpicHeadWeaponTypes = [
   ["-", "Dulex Explores Knife", 11, "The stuff of dulex legends!!!  Rare, +11 Power.", false]
 ];
 
-
+var MythicHeadWeaponTypes = [
+  ["-", "Fire Blade", 12, "The ring of fire? Oh, you mean this thing! Rare, +8 Power.", false],
+  ["-", "Necromancer Staff", 12, "Summon minions to fight for you! Rare, +8 Power.", false],
+  ["-", "Serpentine Basket", 12, "It bites people, 200 at once!! But not you!! Rare, +7 Power.", false],
+  ["-", "Spiked Mace", 13, "SlAM DUNK BUT WITH THORNS!! Rare, +9 Power.", false],
+  ["-", "Runic Hammer", 12, "Just a better version of a hammer!! Rare, +9 Power.", false],
+  //Sets
+  ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive! Rare, 9 Power.", false],
+  ["-", "Thriving Tree Branch", 10, "LOOK ITS A THRIVING TREE BRANCH!! Rare, +10 Power.", false],
+  ["-", "Mythril Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
+  ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!  Rare, +10 Power.", false],
+  ["-", "Sickels", 10, "The new curved blade enhances the strength and effect of these daggers. Rare, +10 Power.", false],
+  ["-", "Aquatex Spray", 10, "AHH, its dev! Rare, +10 Power.", false],
+  ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!  Rare, +11 Power.", false]
+];
  
 ////////////////////////////
 ///   6) LOOT BOXS       ///
