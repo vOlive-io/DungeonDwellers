@@ -516,7 +516,6 @@ var EpicHeadWeaponTypes = [
 ];
 
 
-
  
 ////////////////////////////
 ///   6) LOOT BOXS       ///
