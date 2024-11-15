@@ -457,10 +457,10 @@ var CommonHeadWeaponTypes = [
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!! . Common, +2 Power.", false],
   //Sets
-  ["-", "Water", 1, "They slip!!!!. Common, +1 Power.", false],
-  ["-", "Twig", 1, "LOOK ITS A TWIG!!!!. Common, +1 Power.", false],
-  ["-", "Wooden Sword", 1, "The stuff of warriors. Common, +1 Power.", false],
-  ["-", "Ruler", 2, "12 inches, or 1 foot!!. Common, +2 Power.", false],
+  ["-", "Water", 3, "They slip!!!!. Common, +3 Power.", false],
+  ["-", "Twig", 3, "LOOK ITS A TWIG!!!!. Common, +3 Power.", false],
+  ["-", "Wooden Sword", 3, "The stuff of warriors. Common, +3 Power.", false],
+  ["-", "Ruler", 3, "12 inches, or 1 foot!!. Common, +3 Power.", false],
   ["-", "Rusty Horseshoes", 3, "Slow, but reliable! Common, +3 Power.", false],
   ["-", "Old Pepper Spray", 3, "AHH, a bare!!!  Common, +3 Power.", false],
   ["-", "Basic Explores Knife", 4, "The stuff of legends!!!  Common, +4 Power.", false]
@@ -468,18 +468,18 @@ var CommonHeadWeaponTypes = [
 
 var UncommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
-  ["-", "Pen", 4, "Write your enemies to death! Uncommon, +4 Power.", false],
-  ["-", "Fishing Pole", 4, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +4 Power.", false],
-  ["-", "Role of Tape", 4, "You wrap them up so fast that it hurts... Uncommon, +4 Power.", false],
+  ["-", "Pen", 5, "Write your enemies to death! Uncommon, +4 Power.", false],
+  ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +4 Power.", false],
+  ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts... Uncommon, +4 Power.", false],
   
   //Sets
-  ["-", "Hot Water", 5, "They slip and fall!! Uncommon, +5 Power.", false],
-  ["-", "Stick", 5, "LOOK ITS A STICK!! Uncommon, +5 Power.", false],
-  ["-", "Stone Sword", 5, "The stuff of warriors!!! Uncommon, +5 Power.", false],
-  ["-", "Yard Stick", 5, "36 inches or 3 feet or 1 yard!!!  Uncommon, +5 Power.", false],
-  ["-", "Sharpened Horseshoes", 5, "Very close range, but very good damage Uncommon, +5 Power.", false],
-  ["-", "New Pepper Spray", 5, "AHH, its a bare!!!  Uncommon, +5 Power.", false],
-  ["-", "New Explores Knife", 6, "The stuff of new legends!!!  Uncommon, +6 Power.", false]
+  ["-", "Hot Water", 6, "They slip and fall!! Uncommon, +5 Power.", false],
+  ["-", "Stick", 6, "LOOK ITS A STICK!! Uncommon, +5 Power.", false],
+  ["-", "Stone Sword", 6, "The stuff of warriors!!! Uncommon, +5 Power.", false],
+  ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!  Uncommon, +5 Power.", false],
+  ["-", "Sharpened Horseshoes", 6, "Very close range, but very good damage Uncommon, +5 Power.", false],
+  ["-", "New Pepper Spray", 6, "AHH, its a bare!!!  Uncommon, +5 Power.", false],
+  ["-", "New Explores Knife", 7, "The stuff of new legends!!!  Uncommon, +7 Power.", false]
 ];
 
 var RareHeadWeaponTypes = [
