@@ -472,7 +472,7 @@ var UncommonHeadWeaponTypes = [
   ["-", "Pen", 5, "Write your enemies to death! Uncommon, +4 Power.", false],
   ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +4 Power.", false],
   ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts... Uncommon, +4 Power.", false],
-  
+  ["-", "Gaunlets", 5, "The clasic style of fighting... but it does hurt. Uncommon, +4 Power.", false],
   //Sets
   ["-", "Stick", 6, "LOOK ITS A STICK!! Uncommon, +5 Power.", false],
   ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!  Uncommon, +5 Power.", false],
@@ -489,7 +489,7 @@ var RareHeadWeaponTypes = [
   ["-", "Rusty Katana", 6, "STABY STAB STAB! Rare, +6 Power.", false],
   ["-", "Battle Staff", 6, "Why is it warm??? Rare, +6 Power.", false],
   ["-", "Living snake", 7, "It bites people, even you!! Rare, +7 Power.", false],
-  
+  ["-", "Fighters Bindings", 7, "Even stronger gaunlets, with half the pain!! Rare, +7 Power.", false],
   //Sets
   ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!! Rare, +8 Power.", false],
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
