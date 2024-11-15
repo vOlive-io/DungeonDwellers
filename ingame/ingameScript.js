@@ -850,7 +850,7 @@ function updateChestDiscription() {
     chestSlot = UncommonChestArmorTypes[10];
     
   }
-  ChestDescription.innerHTML = chestSlot[3] + "Part of the " + chestSlot[4] + " collection";
+  ChestDescription.innerHTML = chestSlot[3] + " Part of the " + chestSlot[4] + " collection.";
 }
 
 function updateLegDiscription() {
