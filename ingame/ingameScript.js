@@ -499,7 +499,6 @@ var RareHeadWeaponTypes = [
 ];
 
 var EpicHeadWeaponTypes = [
-  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
   ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!! Rare, +8 Power.", false],
   ["-", "Reinforced Battle Staff", 8, "Why is it hot??? Rare, +8 Power.", false],
   ["-", "Wild Living snake", 9, "It bites people, 20 at once!! Rare, +7 Power.", false],
