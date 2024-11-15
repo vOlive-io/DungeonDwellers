@@ -504,6 +504,7 @@ var EpicHeadWeaponTypes = [
   ["-", "Wild Living snake", 9, "It bites people, 20 at once!! Rare, +7 Power.", false],
   ["-", "Mace", 9, "SlAM DUNK!! Rare, +9 Power.", false],
   ["-", "Fire Extinguisher", 9, "Spray them to death!! Rare, +9 Power.", false],
+  ["-", "Hammer", 9, "BAMM, it hits hard!! Rare, +9 Power.", false],
   ["-", "Daggers", 9, "A fast and quick way to end your enemies!! Rare, +9 Power.", false],
   //Sets
   ["-", "Gasoline and Matches", 9, "They slip and fall, and break their heads and get lit on fire! Rare, 9 Power.", false],
@@ -514,6 +515,7 @@ var EpicHeadWeaponTypes = [
   ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!! Rare, +10 Power.", false],
   ["-", "Dulex Explores Knife", 11, "The stuff of dulex legends!!!  Rare, +11 Power.", false]
 ];
+
 
 
  
