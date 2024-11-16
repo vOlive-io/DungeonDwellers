@@ -421,11 +421,11 @@ var MythicChestArmorTypes = [
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 var FullRelicChestArmorTypes = [
   ["32", "Midas Garments", "50", ""],               //Ancient: The Prosporer ------- Color: Gold (Money) ---------- Branch----------------(Unchosen)
-  ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emereald (Boost) ------ Measurement Stick-----(Unchosen)
+  ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emerald (Boost) ------- Measurement Stick-----(Unchosen)
   ["32", "Voistiene Entity", "50", ""],             //Ancient: The Void ------------ Color: Purple (Negaite) ------ Liquid----------------(Unchosen)
   ["32", "Miezin Cloud", "50", ""],                 //Ancient: The Mist Forge  ----- Color: White (Mindbending) --- Pepper Spray----------Zharria
-  ["32", "Rosax Robes", "50", ""],                  //Ancient: The Nightmear ------- Color: Rose (Leach) ---------- Hands --------------Olive
-  ["32", "HollowGhast Armor", "50", ""],            //Ancient: The Hollow Ghast  --- Color: Black (Damage) -------- Sword-----------------Armaan
+  ["32", "Rosax Robes", "50", ""],                  //Ancient: The Nightmare ------- Color: Rose (Leach) ---------- Hands ----------------Olive
+  ["32", "HollowGhast Armor", "50", ""],            //Ancient: The HallowGhast  --- Color: Black (Damage) --------- Scythe ---------------Armaan
 ];
 
 /////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
@@ -494,14 +494,14 @@ var RareHeadWeaponTypes = [
   ["-", "Living snake", 7, "It bites people, even you!! Rare, +7 Power.", false],
   ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart! Rare, +8 Power.", false],
   ["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers! Rare, +9 Power.", false],
-  ["-", "Sickels", 9, "What used to be for the havesting of wheat is now for the harvesting of eneimes. Rare, +9 Power.", false],
+  ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies. Rare, +9 Power.", false],
   //Sets
   ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!! Rare, +8 Power.", false],
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
   ["-", "Oil", 8, "They slip and fall, and break their heads! Rare, +8 Power.", false],
   ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!! Rare, +8 Power.", false],
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
-  ["-", "Fighters Bindings", 8, "Even stronger gaunlets, with mone pressure pads, reduces pain to a minimun. Rare, +8 Power.", false],
+  ["-", "Fighters Bindings", 8, "Even stronger gauntlets, with more pressure pads, reduces pain to a minimum. Rare, +8 Power.", false],
   ["-", "Iron Sword", 8, "The stuff of warriors!!! Rare, +8 Power.", false],
   
   //Explorers
