@@ -495,6 +495,7 @@ var RareHeadWeaponTypes = [
   ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart! Rare, +8 Power.", false],
   ["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers! Rare, +9 Power.", false],
   ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies. Rare, +9 Power.", false],
+  ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!. Rare, +9 Power.", false],
   //Sets
   ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!! Rare, +8 Power.", false],
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
