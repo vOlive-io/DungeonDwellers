@@ -538,7 +538,7 @@ var MythicHeadWeaponTypes = [
   ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!  Myithic, +10 Power.", false],
   ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive! Myithic, 9 Power.", false],
   ["-", "Aquatex Spray", 10, "AHH, its dev! Rare, +10 Power.", false],
-  ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the binding ave been spelled with a strong magic ratiating powerful attack and scraches. Myithic, +10 Power.", false],
+  ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches. Myithic, +10 Power.", false],
   ["-", "Mythril Sword", 10, "The stuff of warriors!!! Myithic, +10 Power.", false],
   //Explorors
   ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!  Myithic, +11 Power.", false]
