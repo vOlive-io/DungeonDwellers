@@ -298,17 +298,17 @@ var UncommonChestArmorTypes = [
 ];
 
 var UncommonLegArmorTypes = [
-  ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", "Fruity Armors", false],
-  ["37", "Safari Pants", 3, "Bro you don't need 43 pants. Uncommon +3 Protection.", "Wild Armors", false],
-  ["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ. Uncommon +3 Protection.", "Dumb Armors", false],
-  ["39", "Mud Leggings", 3, "You need more Fertilizer . Uncommon +3 Protection.", "\"What the f***?\"", false],
-  ["40", "Tin Leggings", 4, "dang you're knees are poking out. Uncommon +4 Protection.", "Classic Armors", false],
-  ["41", "Stone Leggings", 4, "You have the one thing different from Minecraft. Uncommon, +4 Protection.", "Classic Armors", false],
-  ["42", "Glass Leggings", 4, "Try not to fall or you are paying me like $1,252 for your medical bill. Uncommon +4 Protection.", "Dumb Armors", false],
-  ["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232! Uncommon +5 Protection.", "Classic Armors", false],
-  ["44", "Chain Mail Leggings", 5, "Chainmail Won't protect against my trash talk . Uncommon +5 Protection.", "Classic Armors", false],
-  ["45", "Copper Leggings", 5, "Apologise to your knees please . Uncommon +5 Protection.", "Classic Armors", false],
-  ["46", "Brass Leggings", 5, "Make a clarinet to play to the monsters that try to kill you!! Uncommon +5 Protection.", "Classic Armors", false]
+  ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!!", "Uncommon", "Fruity Armors", false],
+  ["37", "Safari Pants", 3, "Bro you don't need 43 pants.", "Uncommon", "Wild Armors", false],
+  ["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ.",  "Uncommon", "Dumb Armors", false],
+  ["39", "Mud Leggings", 3, "You need more Fertilizer.", "Uncommon", "\"What the f***?\"", false],
+  ["40", "Tin Leggings", 4, "dang you're knees are poking out.",  "Uncommon", "Classic Armors", false],
+  ["41", "Stone Leggings", 4, "You have the one thing different from Minecraft.", "Uncommon", "Classic Armors", false],
+  ["42", "Glass Leggings", 4, "Try not to fall or you are paying me like $1,252 for your medical bill.", "Uncommon", "Dumb Armors", false],
+  ["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232!", "Uncommon", "Classic Armors", false],
+  ["44", "Chain Mail Leggings", 5, "Chainmail Won't protect against my trash talk.", "Uncommon", "Classic Armors", false],
+  ["45", "Copper Leggings", 5, "Apologise to your knees please.", "Uncommon", "Classic Armors", false],
+  ["46", "Brass Leggings", 5, "Make a clarinet to play to the monsters that try to kill you!!", "Uncommon", "Classic Armors", false]
 ];
 
 //Does not new descriptions
