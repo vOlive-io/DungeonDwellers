@@ -284,17 +284,17 @@ var UncommonHeadArmorTypes = [
 ];
 
 var UncommonChestArmorTypes = [
-  ["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons! Uncommon +3 Protection.", "Fruity Armors", false],
-  ["37", "Safari Vest", 3, "You look so dorky . Uncommon +3 Protection.", "Wild Armors", false],
-  ["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me). Uncommon +3 Protection.", "Dumb Armors", false],
-  ["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\". Uncommon +3 Protection.", "\"What the f***?\"", false],
-  ["40", "Tin Chestplate", 4, "You look like one of those coke ads. Uncommon +4 Protection.", "Classic Armors", false],
-  ["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun . Uncommon, +4 Protection.", "Classic Armors", false],
-  ["42", "Glass Chestplate", 4, "Why did you keep the same shirt on! Uncommon +4 Protection.", "Dumb Armors", false],
-  ["43", "Nickle Chestplate", 5, "Buy the new and more expensive chest piece for 1,233.99! Uncommon +5 Protection.", "Classic Armors", false],
-  ["44", "Chain Mail Chestplate", 5, "Are you so old you think chainmail is for armor (eye roll). Uncommon +5 Protection.", "Classic Armors", false],
-  ["45", "Copper Chestplate", 5, "Turn it green to make you look even more like the statue of liberty. Uncommon +5 Protection.", "Classic Armors", false],
-  ["46", "Brass Chestplate", 5, "Turn it into a tuba please, please, please!! Uncommon +5 Protection.", "Classic Armors", false]
+  ["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons!", "Uncommon", "Fruity Armors", false],
+  ["37", "Safari Vest", 3, "You look so dorky.", "Uncommon", "Wild Armors", false],
+  ["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me).", "Uncommon", "Dumb Armors", false],
+  ["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\".",  "Uncommon", "\"What the f***?\"", false],
+  ["40", "Tin Chestplate", 4, "You look like one of those coke ads.", "Uncommon", "Classic Armors", false],
+  ["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun.", "Uncommon", "Classic Armors", false],
+  ["42", "Glass Chestplate", 4, "Why did you keep the same shirt on!", "Uncommon", "Dumb Armors", false],
+  ["43", "Nickle Chestplate", 5, "Buy the new and more expensive chest piece for 1,233.99!", "Uncommon", "Classic Armors", false],
+  ["44", "Chain Mail Chestplate", 5, "Are you so old you think chainmail is for armor (eye roll).", "Uncommon", "Classic Armors", false],
+  ["45", "Copper Chestplate", 5, "Turn it green to make you look even more like the statue of liberty.", "Uncommon", "Classic Armors", false],
+  ["46", "Brass Chestplate", 5, "Turn it into a tuba please, please, please!!", "Uncommon", "Classic Armors", false]
 ];
 
 var UncommonLegArmorTypes = [
