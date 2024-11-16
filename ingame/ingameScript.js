@@ -313,17 +313,17 @@ var UncommonLegArmorTypes = [
 
 //Does not new descriptions
 var UncommonBootArmorTypes = [
-  ["36", "Fruit Peel Shoes", 3, "Try not to slip. Uncommon +3 Protection", "Fruity Armors", false],
-  ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari. Uncommon +3 Protection.", "Wild Armors", false],
-  ["38", "Rubber Boots", 3, "Gomu Gomu No Gatling. Uncommon +3 Protection.", "Dumb Armors", false],
-  ["39", "Mud Boots", 3, "Now these are real crappy boots literally!! Uncommon +3 Protection.", "\"What the f***?\"", false],
-  ["40", "Tin Boots", 4, "Your toes are bleeding.... Uncommon +4 Protection", "Classic Armors", false],
-  ["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away. Uncommon, +4 Protection.", "Classic Armors", false],
-  ["42", "Glass Boots", 4, "You can see your feet underneath, how cool! Uncommon +4 Protection.", "Dumb Armors", false],
-  ["43", "Nickle Boots", 5, "Buy NOW! Please, I'm poor! Uncommon +5 Protection.", "Classic Armors", false],
-  ["44", "Chain Mail Boots", 5, "Why are you doing this to your poor feet. Uncommon +5 Protection.", "Classic Armors", false],
-  ["45", "Copper Boots", 5, "No more moving your ankle... Uncommon +5 Protection.", "Classic Armors", false],
-  ["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!  Uncommon +5 Protection.", "Classic Armors", false]
+  ["36", "Fruit Peel Shoes", 3, "Try not to slip.", "Fruity Armors", false],
+  ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari.", "Uncommon", "Wild Armors", false],
+  ["38", "Rubber Boots", 3, "Gomu Gomu No Gatling.", "Uncommon", "Dumb Armors", false],
+  ["39", "Mud Boots", 3, "Now these are real crappy boots literally!!", "Uncommon", "\"What the f***?\"", false],
+  ["40", "Tin Boots", 4, "Your toes are bleeding....",  "Uncommon", "Classic Armors", false],
+  ["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away.", "Uncommon", "Classic Armors", false],
+  ["42", "Glass Boots", 4, "You can see your feet underneath, how cool!", "Uncommon", "Dumb Armors", false],
+  ["43", "Nickle Boots", 5, "Buy NOW! Please, I'm poor!.", "Uncommon", "Classic Armors", false],
+  ["44", "Chain Mail Boots", 5, "Why are you doing this to your poor feet.", "Uncommon", "Classic Armors", false],
+  ["45", "Copper Boots", 5, "No more moving your ankle....", "Uncommon", "Classic Armors", false],
+  ["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!",  "Uncommon", "Classic Armors", false]
 ];
 
 
