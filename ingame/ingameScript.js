@@ -273,7 +273,7 @@ var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", 3, "Hungry? Don't eat it. Uncommon +3 Protection.", "Fruty Armors", false],
   ["26", "Safari Hat", 3, "You look like a cheetah . Uncommon +3 Protection.", "Wild Armors", false],
   ["27", "Rubber Mask", 3, "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM. Uncommon +3 Protection.", "Dumb Armors", false],
-  ["28", "Mud Mask", 3, "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\". Uncommon +3 Protection.", "\"What the hell?\"", false],
+  ["28", "Mud Mask", 3, "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\". Uncommon +3 Protection.", "\"What the f***?\"", false],
   ["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ Uncommon +4 Protection.", "Clasic Armors", false],
   ["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :\). Uncommon, +4 Protection.", "Clasic Armors", false], 
   ["31", "Glass Helmet", 4, "Dang! you can see you're hair..... GET A FRIGGIN COMB LUNKHEAD! Uncommon +4 Protection.", "Dumb Armors", false],
@@ -287,7 +287,7 @@ var UncommonChestArmorTypes = [
   ["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons! Uncommon +3 Protection.", "Fruty Armors", false],
   ["37", "Safari Vest", 3, "You look so dorky . Uncommon +3 Protection.", "Wild Armors", false],
   ["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me). Uncommon +3 Protection.", "Dumb Armors", false],
-  ["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\". Uncommon +3 Protection.", "\"What the hell?\"", false],
+  ["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\". Uncommon +3 Protection.", "\"What the f***?\"", false],
   ["40", "Tin Chestplate", 4, "You look like one of those coke ads. Uncommon +4 Protection.", "Clasic Armors", false],
   ["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun . Uncommon, +4 Protection.", "Clasic Armors", false],
   ["42", "Glass Chestplate", 4, "Why did you keep the same shirt on! Uncommon +4 Protection.", "Dumb Armors", false],
@@ -301,14 +301,14 @@ var UncommonLegArmorTypes = [
   ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!! Uncommon +3 Protection.", "Fruty Armors", false],
   ["37", "Safari Pants", 3, "Bro you don't need 43 pants. Uncommon +3 Protection.", "Wild Armors", false],
   ["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ. Uncommon +3 Protection.", "Dumb Armors", false],
-  ["39", "Mud Leggings", 3, "You need more Fertilizer . Uncommon +3 Protection.", "\"What the hell?\"", false],
-  ["40", "Tin Leggings", 4, "dang you're knees are poking out. Uncommon +4 Protection.", "Clasic Armors", false],
-  ["41", "Stone Leggings", 4, "You have the one thing different from Minecraft. Uncommon, +4 Protection.", "Clasic Armors", false],
+  ["39", "Mud Leggings", 3, "You need more Fertilizer . Uncommon +3 Protection.", "\"What the f***?\"", false],
+  ["40", "Tin Leggings", 4, "dang you're knees are poking out. Uncommon +4 Protection.", "Classic Armors", false],
+  ["41", "Stone Leggings", 4, "You have the one thing different from Minecraft. Uncommon, +4 Protection.", "Classic Armors", false],
   ["42", "Glass Leggings", 4, "Try not to fall or you are paying me like $1,252 for your medical bill. Uncommon +4 Protection.", "Dumb Armors", false],
-  ["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232! Uncommon +5 Protection.", "Clasic Armors", false],
-  ["44", "Chain Mail Leggings", 5, "Chainmail Won't protect against my trash talk . Uncommon +5 Protection.", "Clasic Armors", false],
-  ["45", "Copper Leggings", 5, "Apologise to your knees please . Uncommon +5 Protection.", "Clasic Armors", false],
-  ["46", "Brass Leggings", 5, "Make a clarinet to play to the monsters that try to kill you!! Uncommon +5 Protection.", "Clasic Armors", false]
+  ["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232! Uncommon +5 Protection.", "Classic Armors", false],
+  ["44", "Chain Mail Leggings", 5, "Chainmail Won't protect against my trash talk . Uncommon +5 Protection.", "Classic Armors", false],
+  ["45", "Copper Leggings", 5, "Apologise to your knees please . Uncommon +5 Protection.", "Classic Armors", false],
+  ["46", "Brass Leggings", 5, "Make a clarinet to play to the monsters that try to kill you!! Uncommon +5 Protection.", "Classic Armors", false]
 ];
 
 //Does not new descriptions
@@ -316,7 +316,7 @@ var UncommonBootArmorTypes = [
   ["36", "Fruit Peel Shoes", 3, "Try not to slip. Uncommon +3 Protection", "Fruty Armors", false],
   ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari. Uncommon +3 Protection.", "Wild Armors", false],
   ["38", "Rubber Boots", 3, "Gomu Gomu No Gatling. Uncommon +3 Protection.", "Dumb Armors", false],
-  ["39", "Mud Boots", 3, "Now these are real crappy boots literally!! Uncommon +3 Protection.", "\"What the hell?\"", false],
+  ["39", "Mud Boots", 3, "Now these are real crappy boots literally!! Uncommon +3 Protection.", "\"What the f***?\"", false],
   ["40", "Tin Boots", 4, "Your toes are bleeding.... Uncommon +4 Protection", "Clasic Armors", false],
   ["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away. Uncommon, +4 Protection.", "Clasic Armors", false],
   ["42", "Glass Boots", 4, "You can see your feet underneath, how cool! Uncommon +4 Protection.", "Dumb Armors", false],
