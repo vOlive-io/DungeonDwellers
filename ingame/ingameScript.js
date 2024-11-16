@@ -641,37 +641,37 @@ function updateCommonLegArmors() {
 }
 
 function updateUncommonHeadArmors() {
-  if (UncommonHeadArmorTypes[0][5] == true) {
+  if (UncommonHeadArmorTypes[0][6] == true) {
     FruitHat.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[1][5] == true) {
+  } if (UncommonHeadArmorTypes[1][6] == true) {
     SafariHat.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[2][5] == true) {
+  } if (UncommonHeadArmorTypes[2][6] == true) {
     RubberMask.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[3][5] == true) {
+  } if (UncommonHeadArmorTypes[3][6] == true) {
     MudMask.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[4][5] == true) {
+  } if (UncommonHeadArmorTypes[4][6] == true) {
     TinHead.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[5][5] == true) {
+  } if (UncommonHeadArmorTypes[5][6] == true) {
     StoneHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[6][5] == true) {
+  } if (UncommonHeadArmorTypes[6][6] == true) {
     GlassHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[7][5] == true) {
+  } if (UncommonHeadArmorTypes[7][6] == true) {
     NickleHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[8][5] == true) {
+  } if (UncommonHeadArmorTypes[8][6] == true) {
     ChainHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[9][5] == true) {
+  } if (UncommonHeadArmorTypes[9][6] == true) {
     CopperHelmet.style.display = "block";
     uncommonHeadOwned = true;
-  } if (UncommonHeadArmorTypes[10][5] == true) {
+  } if (UncommonHeadArmorTypes[10][6] == true) {
     BrassHelmet.style.display = "block";
     uncommonHeadOwned = true;
   } if (uncommonHeadOwned == true) {
@@ -680,37 +680,37 @@ function updateUncommonHeadArmors() {
 }
 
 function updateUncommonChestArmors() {
-  if (UncommonChestArmorTypes[0][5] == true) {
+  if (UncommonChestArmorTypes[0][6] == true) {
     CoconutShellBrestPlate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[1][5] == true) {
+  } if (UncommonChestArmorTypes[1][6] == true) {
     SafariVest.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[2][5] == true) {
+  } if (UncommonChestArmorTypes[2][6] == true) {
     RubberChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[3][5] == true) {
+  } if (UncommonChestArmorTypes[3][6] == true) {
     MudChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[4][5] == true) {
+  } if (UncommonChestArmorTypes[4][6] == true) {
     TinChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[5][5] == true) {
+  } if (UncommonChestArmorTypes[5][6] == true) {
     StoneChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[6][5] == true) {
+  } if (UncommonChestArmorTypes[6][6] == true) {
     GlassChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[7][5] == true) {
+  } if (UncommonChestArmorTypes[7][6] == true) {
     NickleChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[8][5] == true) {
+  } if (UncommonChestArmorTypes[8][6] == true) {
     ChainChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[9][5] == true) {
+  } if (UncommonChestArmorTypes[9][6] == true) {
     CopperChestplate.style.display = "block";
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[10][5] == true) {
+  } if (UncommonChestArmorTypes[10][6] == true) {
     BrassChestplate.style.display = "block";
     uncommonChestOwned = true;
   } if (uncommonChestOwned == true) {
@@ -719,37 +719,37 @@ function updateUncommonChestArmors() {
 }
 
 function updateUncommonLegArmors() {
-  if (UncommonLegArmorTypes[0][5] == true) {
+  if (UncommonLegArmorTypes[0][6] == true) {
     BananaLeavesSkirt.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[1][5] == true) {
+  } if (UncommonLegArmorTypes[1][6] == true) {
     SafariPants.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[2][5] == true) {
+  } if (UncommonLegArmorTypes[2][6] == true) {
     RubberLeggings.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[3][5] == true) {
+  } if (UncommonLegArmorTypes[3][6] == true) {
     MudLeggings.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[4][5] == true) {
+  } if (UncommonLegArmorTypes[4][6] == true) {
     TinLeggings.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[5][5] == true) {
+  } if (UncommonLegArmorTypes[5][6] == true) {
     StoneLeggings.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[6][5] == true) {
+  } if (UncommonLegArmorTypes[6][6] == true) {
     GlassLeggings.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[7][5] == true) {
+  } if (UncommonLegArmorTypes[7][6] == true) {
     NickleLeggings.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[8][5] == true) {
+  } if (UncommonLegArmorTypes[8][6] == true) {
     ChainLeggings.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[9][5] == true) {
+  } if (UncommonLegArmorTypes[9][6] == true) {
     CopperLeggings.style.display = "block";
     uncommonLegOwned = true;
-  } if (UncommonLegArmorTypes[10][5] == true) {
+  } if (UncommonLegArmorTypes[10][6] == true) {
     BrassLeggings.style.display = "block";
     uncommonLegOwned = true;
   } if (uncommonLegOwned == true) {
