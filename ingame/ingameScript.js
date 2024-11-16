@@ -270,17 +270,17 @@ var CommonBootArmorTypes = [
 //"Clasic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", "Fruty Armors", "Wild Armors", 
 
 var UncommonHeadArmorTypes = [
-  ["25", "Fruit Hat", 3, "Hungry? Don't eat it. Uncommon +3 Protection.", "Fruity Armors", false],
-  ["26", "Safari Hat", 3, "You look like a cheetah . Uncommon +3 Protection.", "Wild Armors", false],
-  ["27", "Rubber Mask", 3, "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM. Uncommon +3 Protection.", "Dumb Armors", false],
-  ["28", "Mud Mask", 3, "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\". Uncommon +3 Protection.", "\"What the f***?\"", false],
-  ["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ Uncommon +4 Protection.", "Classic Armors", false],
-  ["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :). Uncommon, +4 Protection.", "Classic Armors", false], 
-  ["31", "Glass Helmet", 4, "Dang! you can see you're hair..... GET A FRIGGIN COMB LUNKHEAD! Uncommon +4 Protection.", "Dumb Armors", false],
-  ["32", "Nickle Helmet", 5, "Get the new nickel helmet  now being sold for 999.99! Uncommon +5 Protection.", "Classic Armors", false],
-  ["33", "Chain Mail Helmet", 5, "You look so ancient. Uncommon +5 Protection.", "Classic Armors", false],
-  ["34", "Copper Helmet", 5, "Don a torch and book and you can be the Statue of Liberty! Uncommon +5 Protection.", "Classic Armors", false],
-  ["35", "Brass Helmet", 5, "You look so shiny . Uncommon +5 Protection.", "Classic Armors", false]
+  ["25", "Fruit Hat", 3, "Hungry? Don't eat it.", "Uncommon", "Fruity Armors", false],
+  ["26", "Safari Hat", 3, "You look like a cheetah.", "Uncommon", "Wild Armors", false],
+  ["27", "Rubber Mask", 3, "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM.", "Uncommon", "Dumb Armors", false],
+  ["28", "Mud Mask", 3, "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\"", "Uncommon", "\"What the f***?\"", false],
+  ["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ.", "Uncommon", "Classic Armors", false],
+  ["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :).", "Uncommon", "Classic Armors", false], 
+  ["31", "Glass Helmet", 4, "Dang! you can see you're hair..... GET A FRIGGIN COMB LUNKHEAD!", "Uncommon", "Dumb Armors", false],
+  ["32", "Nickle Helmet", 5, "Get the new nickel helmet  now being sold for 999.99!", "Uncommon", "Classic Armors", false],
+  ["33", "Chain Mail Helmet", 5, "You look so ancient.", "Classic Armors", "Uncommon", false],
+  ["34", "Copper Helmet", 5, "Don a torch and book and you can be the Statue of Liberty!", "Uncommon", "Classic Armors", false],
+  ["35", "Brass Helmet", 5, "You look so shiny.", "Uncommon", "Classic Armors", false]
 ];
 
 var UncommonChestArmorTypes = [
