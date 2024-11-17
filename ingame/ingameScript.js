@@ -331,47 +331,47 @@ var UncommonBootArmorTypes = [
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 //NOTE TO SELF: ADD ARMOR SETS HERE
 var RareHeadArmorTypes = [
-  ["47", "Steal Helmet", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["48", "Bronze Helmet", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["49", "Silver Helmet", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["50", "Gold Helmet", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
-  ["51", "Iron Helmet", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
-  ["52", "Fethered Mask", 6, "Description. Rare + 6 Protection", false],
-  ["53", "Blessed Mud Helmet", 6, "Description. Rare + 6 Protection", false],
-  ["54", "Jungle Vine Helmet", 6, "Description. Rare + 6 Protection", false]
+  ["47", "Steal Helmet", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["48", "Bronze Helmet", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["49", "Silver Helmet", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["50", "Gold Helmet", 6, "Description.", "Rare", "Clasic Armors", false],
+  ["51", "Iron Helmet", 6, "Description.", "Rare", "Clasic Armors", false],
+  ["52", "Fethered Mask", 6, "Description.", "Rare", false],
+  ["53", "Blessed Mud Helmet", 6, "Description.", "Rare", false],
+  ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", false]
 ];
 
 var RareChestArmorTypes = [
-  ["55", "Steal Chestplate", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["56", "Bronze Chestplate", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["57", "Silver Chestplate", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["58", "Gold Chestplate", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
-  ["59", "Iron Chestplate", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
-  ["60", "Fethered Chestplate", 6, "Description. Rare + 6 Protection", false],
-  ["61", "Blessed Mud Chestplate", 6, "Description. Rare + 6 Protection", false],
-  ["62", "Jungle Vine Chestplate", 6, "Description. Rare + 6 Protection", false]
+  ["55", "Steal Chestplate", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["56", "Bronze Chestplate", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["57", "Silver Chestplate", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["58", "Gold Chestplate", 6, "Description.", "Rare", "Clasic Armors", false],
+  ["59", "Iron Chestplate", 6, "Description.", "Rare", "Clasic Armors", false],
+  ["60", "Fethered Chestplate", 6, "Description.", "Rare", false],
+  ["61", "Blessed Mud Chestplate", 6, "Description.", "Rare", false],
+  ["62", "Jungle Vine Chestplate", 6, "Description.", "Rare", false]
 ];
 
 var RareLegArmorTypes = [
-  ["63", "Steal Leggings", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["64", "Bronze Leggings", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["65", "Silver Leggings", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["66", "Gold Leggings", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
-  ["67", "Iron Leggings", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
-  ["68", "Fethered Leggings", 6, "Description. Rare + 6 Protection", false],
-  ["69", "Blessed Mud Leggings", 6, "Description. Rare + 6 Protection", false],
-  ["70", "Jungle Vine Leggings", 6, "Description. Rare + 6 Protection", false]
+  ["63", "Steal Leggings", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["64", "Bronze Leggings", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["65", "Silver Leggings", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["66", "Gold Leggings", 6, "Description.", "Clasic Armors", false],
+  ["67", "Iron Leggings", 6, "Description.", "Rare", "Clasic Armors", false],
+  ["68", "Fethered Leggings", 6, "Description.", "Rare", false],
+  ["69", "Blessed Mud Leggings", 6, "Description.", "Rare", false],
+  ["70", "Jungle Vine Leggings", 6, "Description.", "Rare", "Rare", false]
 ];
 
 var RareBootArmorTypes = [
-  ["71", "Steal Boots", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["72", "Bronze Boots", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["73", "Silver Boots", 5, "Description. Rare + 5 Protection", "Clasic Armors", false],
-  ["74", "Gold Boots", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
-  ["75", "Iron Boots", 6, "Description. Rare + 6 Protection", "Clasic Armors", false],
-  ["76", "Fethered Boots", 6, "Description. Rare + 6 Protection", false],
-  ["77", "Blessed Mud Boots", 6, "Description. Rare + 6 Protection", false],
-  ["78", "Jungle Vine Boots", 6, "Description. Rare + 6 Protection", false]
+  ["71", "Steal Boots", 5, "Description.", "Rare", "Classic Armors", false],
+  ["72", "Bronze Boots", 5, "Description.", "Rare", "Classic Armors", false],
+  ["73", "Silver Boots", 5, "Description.", "Rare", "Classic Armors", false],
+  ["74", "Gold Boots", 6, "Description.", "Rare", "Classic Armors", false],
+  ["75", "Iron Boots", 6, "Description.", "Rare", "Classic Armors", false],
+  ["76", "Fethered Boots", 6, "Description.", "Rare", false],
+  ["77", "Blessed Mud Boots", 6, "Description.", "Rare", false],
+  ["78", "Jungle Vine Boots", 6, "Description.", "Rare", false]
 ];
 
 
