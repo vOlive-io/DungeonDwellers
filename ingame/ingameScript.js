@@ -946,7 +946,7 @@ function updateLegDiscription() {
 
 function RandomPullCommonHeadArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
     commonGearPrize();
     trys = 0;
   } else {
@@ -969,7 +969,7 @@ function RandomPullCommonHeadArmor() {
 
 function RandomPullCommonChestArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
     commonGearPrize();
     trys = 0;
   } else {
@@ -992,7 +992,7 @@ function RandomPullCommonChestArmor() {
 
 function RandomPullCommonLegArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
     commonGearPrize();
     trys = 0;
   } else {
@@ -1015,7 +1015,7 @@ function RandomPullCommonLegArmor() {
 
 function RandomPullCommonBootArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
     commonGearPrize();
     trys = 0;
   } else {
@@ -1038,7 +1038,7 @@ function RandomPullCommonBootArmor() {
  
 function RandomPullUncommonHeadArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize.(50-100)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize.(50-100)");
     uncommonGearPrize();
     trys = 0;
   } else {
@@ -1061,7 +1061,7 @@ function RandomPullUncommonHeadArmor() {
 
 function RandomPullUncommonChestArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
     commonGearPrize();
     trys = 0;
   } else {
