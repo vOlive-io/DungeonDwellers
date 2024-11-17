@@ -586,7 +586,7 @@ function updateMain() {
 }
 
 function updateSlots() {
-  gearSlot.innerHtml = gears;
+  gearSlot.innerHTML = gears;
   //il do more this soon
 }
 
