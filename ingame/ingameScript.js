@@ -232,38 +232,38 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
-  ["1", "Bead Head", 0, "Get a Comb lunkhead, +0 Protection.", "Starter Armors", true],
-  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*. Common, +1 Protection.", "Fruity Armors",  false],
-  ["3", "Wood Helmet", 1, "Knock on wood. Common, +1 Protection.", "Classic Armors", false],
-  ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head. Common, +2 Protection.", "Classic Armors", false],
-  ["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*. Common, +2 Protection.", "\"What the f***?\" Armors", false],
-  ["6", "Explorers Helmet", 3, "dum dum dum du dum dum dum da dum dum dum du dum. Common, +3 Protection.", "Explorer\'s Armors", false]
+  ["1", "Bead Head", 0, "Get a Comb lunkhead, +0 Protection.", "Common", "Starter Armors", true],
+  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*.", "Common", "Fruity Armors",  false],
+  ["3", "Wood Helmet", 1, "Knock on wood.", "Common", "Classic Armors", false],
+  ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head.", "Common", "Classic Armors", false],
+  ["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*.", "Common", "\"What the f***?\" Armors", false],
+  ["6", "Explorers Helmet", 3, "dum dum dum du dum dum dum da dum dum dum du dum.", "Common", "Explorer\'s Armors", false]
 ];
 
 var CommonChestArmorTypes = [
-  ["7", "T-shirt", 0, "stop taking sheep wool please you look so ugly. Common, +0 Protection.", "Starter Armors", true],
-  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko. Common, +1 Protection.", "Fruity Armors", false],
-  ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!, Common, +1 Protection.", "Classic Armors", false],
-  ["10", "Leather Chestplate", 2, "Found some cow patties I see . Common +2 Protection.", "Classic Armors", false],
-  ["11", "Painted on Armor", 2, "Wow look at you Picasso. Common +2 Protection.", "\"What the f***?\" Armors", false],
-  ["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*. Common +3 Protection.", "Explorer\'s Armors", false]
+  ["7", "T-shirt", 0, "Stop taking sheep wool please you look so ugly.", "Common", "Starter Armors", true],
+  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko.", "Common", "Fruity Armors", false],
+  ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!", "Common", "Classic Armors", false],
+  ["10", "Leather Chestplate", 2, "Found some cow patties I see.", "Common", "Classic Armors", false],
+  ["11", "Painted on Armor", 2, "Wow look at you Picasso.", "Common", "\"What the f***?\" Armors", false],
+  ["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*.", "Common", "Explorer\'s Armors", false]
 ];
 
 var CommonLegArmorTypes = [
-  ["13", "Jeans", 0, "You-- You-- You- --You\'r burning my eyes please someone help!!. Common, +0 Protection.", "Starter Armors", true],
-  ["14", "The Fig Leaf", 1, "You look very, very, very, stupid. Common, +1 Protection.", "Fruity Armors", false],
-  ["15", "Wooden Leg Padding", 1, "you lunkhead now you can't move!!. Common, +1 Protection.", "Classic Armors", false],
-  ["16", "Leather Leggings", 2, "cool very very cool you MURDERER OF HORSES!!!!. Common +2 Protection.", "Classic Armors", false],
-  ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?. Common +2 Protection", "\"What the f***?\" Armors", false],
-  ["18", "Basic Explorers Leggings", 3, "How Many pockets Does it have?. Common +3 Protection.", "Explorer\'s Armors", false]
+  ["13", "Jeans", 0, "You-- You-- You- --You\'r burning my eyes please someone help!!", "Common", "Starter Armors", true],
+  ["14", "The Fig Leaf", 1, "You look very, very, very, stupid.", "Common", "Fruity Armors", false],
+  ["15", "Wooden Leg Padding", 1, "you lunkhead now you can't move!!", "Common", "Classic Armors", false],
+  ["16", "Leather Leggings", 2, "cool very very cool you MURDERER OF HORSES!!!!", "Common", "Classic Armors", false],
+  ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?", "Common", "\"What the f***?\" Armors", false],
+  ["18", "Basic Explorers Leggings", 3, "How Many pockets Does it have?.", "Common", "Explorer\'s Armors", false]
 ];
 var CommonBootArmorTypes = [
-  ["19", "Shoes", 0, "Why are they untied?. Common, +0 Protection.", "Starter Armors", true],
-  ["20", "Fig Leaf Feet Covers", 1, "rocks can easily poke through and cause you pain. Common, +1 Protection.", "Fruity Armors", true],
-  ["21", "Wood Sandals", 1, "Forget to bring tweezers?. Common, +1 Protection.", "Classic Armors", false],
-  ["22", "Leather Boots", 2, "Like Minecraft I assume. Common +2 Protection.", "Classic Armors", false],
-  ["23", "Painted on Boots", 2, "Da Vinci who are you painting?. Common +2 Protection.", "\"What the hell?\" Armors", false],
-  ["24", "Basic Explorers Boots", 3, "No they aren't air Jordans. Common +3 Protection.", "Explorer\'s Armors", false]
+  ["19", "Shoes", 0, "Why are they untied?.", "Common", "Starter Armors", true],
+  ["20", "Fig Leaf Feet Covers", 1, "Rocks can easily poke through and cause you pain.", "Common", "Fruity Armors", true],
+  ["21", "Wood Sandals", 1, "Forget to bring tweezers?", "Common", "Classic Armors", false],
+  ["22", "Leather Boots", 2, "Like Minecraft I assume.", "Common", "Classic Armors", false],
+  ["23", "Painted on Boots", 2, "Da Vinci who are you painting?", "Common", "\"What the hell?\" Armors", false],
+  ["24", "Basic Explorers Boots", 3, "No they aren't air Jordans.", "Common", "Explorer\'s Armors", false]
 ];
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
