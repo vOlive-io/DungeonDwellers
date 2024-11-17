@@ -586,7 +586,8 @@ function updateMain() {
 }
 
 function updateSlots() {
-  //il do this soon
+  gearSlot.innerHtml = gears;
+  //il do more this soon
 }
 
 
