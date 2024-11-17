@@ -214,8 +214,8 @@ var ach_armors_EpicAll = false; //      Unlocked all epic armors
 var ach_armors_MythicAll = false; //    Unlocked all mythic armors
 var ach_armors_RelicFirst = false; //   Unlocked all relic armors
 //DUMB ACHIEVEMENTS
-var ach_dumb_youAsked = false; //       Clicked on that achivement
-var ach_dumb_plusFifty = false; //      Has more unlocked achievements then locked ones
+var ach_dumb_youAsked = false; //       Clicked on that achievement
+var ach_dumb_plusFifty = false; //      Has more unlocked achievements than locked ones
 var ach_dumb_takingAfterZ = false; //   Has Zharria's ideal setup (PepperSpray + Holy Bamboo + Panda)
 var ach_dumb_takingAfterO = false; //   Has Olive's ideal setup (Rosax Sickels + Rosax Armor + Rosax Lucky)
 
@@ -227,7 +227,7 @@ if (ach_lvl_Five == true) {
   image.src = "assets/ach/ach_startedGame.png"
 }
 
-////////////////////////////        "Clasic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", ""
+////////////////////////////        "Classic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", ""
 ///      4) ARMORS       ///
 ////////////////////////////
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
@@ -267,7 +267,7 @@ var CommonBootArmorTypes = [
 ];
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
-//"Clasic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", "Fruty Armors", "Wild Armors", 
+//"Classic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", "Fruty Armors", "Wild Armors", 
 
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", 3, "Hungry? Don't eat it.", "Uncommon", "Fruity Armors", false],
@@ -331,29 +331,29 @@ var UncommonBootArmorTypes = [
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 //NOTE TO SELF: ADD ARMOR SETS HERE
 var RareHeadArmorTypes = [
-  ["47", "Steal Helmet", 5, "Description.", "Rare", "Clasic Armors", false],
-  ["48", "Bronze Helmet", 5, "Description.", "Rare", "Clasic Armors", false],
-  ["49", "Silver Helmet", 5, "Description.", "Rare", "Clasic Armors", false],
-  ["50", "Gold Helmet", 6, "Description.", "Rare", "Clasic Armors", false],
-  ["51", "Iron Helmet", 6, "Description.", "Rare", "Clasic Armors", false],
+  ["47", "Steal Helmet", 5, "Description.", "Rare", "Classic Armors", false],
+  ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic Armors", false],
+  ["49", "Silver Helmet", 5, "Description.", "Rare", "Classic Armors", false],
+  ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic Armors", false],
+  ["51", "Iron Helmet", 6, "Description.", "Rare", "Classic Armors", false],
   ["52", "Feathered Mask", 6, "Description.", "Rare", false],
   ["53", "Blessed Mud Helmet", 6, "Description.", "Rare", false],
   ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", false]
 ];
 
 var RareChestArmorTypes = [
-  ["55", "Steal Chestplate", 5, "Description.", "Rare", "Clasic Armors", false],
-  ["56", "Bronze Chestplate", 5, "Description.", "Rare", "Clasic Armors", false],
-  ["57", "Silver Chestplate", 5, "Description.", "Rare", "Clasic Armors", false],
-  ["58", "Gold Chestplate", 6, "Description.", "Rare", "Clasic Armors", false],
-  ["59", "Iron Chestplate", 6, "Description.", "Rare", "Clasic Armors", false],
+  ["55", "Steal Chestplate", 5, "Description.", "Rare", "Classic Armors", false],
+  ["56", "Bronze Chestplate", 5, "Description.", "Rare", "Classic Armors", false],
+  ["57", "Silver Chestplate", 5, "Description.", "Rare", "Classic Armors", false],
+  ["58", "Gold Chestplate", 6, "Description.", "Rare", "Classic Armors", false],
+  ["59", "Iron Chestplate", 6, "Description.", "Rare", "Classic Armors", false],
   ["60", "Feathered Chestplate", 6, "Description.", "Rare", false],
   ["61", "Blessed Mud Chestplate", 6, "Description.", "Rare", false],
   ["62", "Jungle Vine Chestplate", 6, "Description.", "Rare", false]
 ];
 
 var RareLegArmorTypes = [
-  ["63", "Steal Leggings", 5, "Description.", "Rare", "Clasic Armors", false],
+  ["63", "Steal Leggings", 5, "Description.", "Rare", "Classic Armors", false],
   ["64", "Bronze Leggings", 5, "Description.", "Rare", "Classic Armors", false],
   ["65", "Silver Leggings", 5, "Description.", "Rare", "Classic Armors", false],
   ["66", "Gold Leggings", 6, "Description.", "Classic Armors", false],
@@ -453,11 +453,11 @@ var DungeonChestArmorTypes = [
 //exploror
 
 var CommonHeadWeaponTypes = [
-  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
+  ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
   ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!! . Common, +2 Power.", false],
   ["-", "Rusty Horseshoes", 2, "Slow, but reliable! Common, +2 Power.", false],
-  ["-", "Pillow", 2, "Its kida gross to think that you beat them up and still sleep with the pillow! Common, +2 Power.", false],
+  ["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow! Common, +2 Power.", false],
   //Sets
   ["-", "Twig", 3, "LOOK ITS A TWIG!!!!. Common, +3 Power.", false],
   ["-", "Ruler", 3, "12 inches, or 1 foot!!. Common, +3 Power.", false],
@@ -470,25 +470,25 @@ var CommonHeadWeaponTypes = [
 ];
 
 var UncommonHeadWeaponTypes = [
-  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
+  ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Pen", 5, "Write your enemies to death! Uncommon, +5 Power.", false],
   ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +5 Power.", false],
   ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts... Uncommon, +5 Power.", false],
   ["-", "Sharpened Rocks", 6, "Very close range, but very good damage. Uncommon, +6 Power.", false],
-  ["-", "Crow Bar", 6, "Its good for hitting them on the head. Uncommon, +6 Power.", false],
+  ["-", "Crow Bar", 6, "It is good for hitting them on the head. Uncommon, +6 Power.", false],
   //Sets
   ["-", "Stick", 6, "LOOK ITS A STICK!! Uncommon, +5 Power.", false],
   ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!  Uncommon, +5 Power.", false],
   ["-", "Hot Water", 6, "They slip and fall!! Uncommon, +5 Power.", false],
   ["-", "New Pepper Spray", 6, "AHH, its a bare!!!  Uncommon, +5 Power.", false],
-  ["-", "Gaunlets", 6, "The clasic style of fighting... but it does hurt. Uncommon, +6 Power.", false],
+  ["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt. Uncommon, +6 Power.", false],
   ["-", "Stone Sword", 6, "The stuff of warriors!!! Uncommon, +5 Power.", false],
   //Explorers
   ["-", "New Explores Knife", 7, "The stuff of new legends!!!  Uncommon, +7 Power.", false]
 ];
 
 var RareHeadWeaponTypes = [
-  ["ID", "NAME", "POWER", "DISCRIPTION, +0 Power.", false],
+  ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Rusty Katana", 6, "STABY STAB STAB! Rare, +6 Power.", false],
   ["-", "Battle Staff", 6, "Why is it warm??? Rare, +6 Power.", false],
   ["-", "Living snake", 7, "It bites people, even you!! Rare, +7 Power.", false],
@@ -521,10 +521,10 @@ var EpicHeadWeaponTypes = [
   ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!  Rare, +10 Power.", false],
   ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire! Rare, 9 Power.", false],
   ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!! Rare, +10 Power.", false],
-  ["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals who name real remains unknown and have been dubed maulers. Rare, +10 Power.", false],
+  ["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals whose name real remains unknown and have been dubbed maulers. Rare, +10 Power.", false],
   ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
-  //Explorors
-  ["-", "Dulex Explores Knife", 11, "The stuff of dulex legends!!!  Rare, +11 Power.", false]
+  //Explorers
+  ["-", "Duplex Explores Knife", 11, "The stuff of duplex legends!!!  Rare, +11 Power.", false]
 ];
 
 var MythicHeadWeaponTypes = [
@@ -540,12 +540,12 @@ var MythicHeadWeaponTypes = [
   ["-", "Aquatex Spray", 10, "AHH, its dev! Rare, +10 Power.", false],
   ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches. Myithic, +10 Power.", false],
   ["-", "Mythril Sword", 10, "The stuff of warriors!!! Myithic, +10 Power.", false],
-  //Explorors
+  //Explorers
   ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!  Myithic, +11 Power.", false]
 ];
  
 ////////////////////////////
-///   6) LOOT BOXS       ///
+///   6) LOOT BOXES       ///
 ////////////////////////////
 
 
