@@ -960,7 +960,7 @@ function RandomPullCommonHeadArmor() {
       name = CommonHeadArmorTypes[drop] [1];
       protection = CommonHeadArmorTypes[drop] [2];
       description = CommonHeadArmorTypes[drop] [3];
-      CommonHeadArmorTypes[drop] [5] = true;
+      CommonHeadArmorTypes[drop] [6] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -984,7 +984,7 @@ function RandomPullCommonChestArmor() {
       name = CommonChestArmorTypes[drop] [1];
       protection = CommonChestArmorTypes[drop] [2];
       description = CommonChestArmorTypes[drop] [3];
-      CommonChestArmorTypes[drop] [5] = true;
+      CommonChestArmorTypes[drop] [6] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -1008,7 +1008,7 @@ function RandomPullCommonLegArmor() {
       name = CommonLegArmorTypes[drop] [1];
       protection = CommonLegArmorTypes[drop] [2];
       description = CommonLegArmorTypes[drop] [3];
-      CommonLegArmorTypes[drop] [5] = true;
+      CommonLegArmorTypes[drop] [6] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
@@ -1032,7 +1032,7 @@ function RandomPullCommonBootArmor() {
       name = CommonBootArmorTypes[drop] [1];
       protection = CommonBootArmorTypes[drop] [2];
       description = CommonBootArmorTypes[drop] [3];
-      CommonBootArmorTypes[drop] [5] = true;
+      CommonBootArmorTypes[drop] [6] = true;
       trys = 0;
       console.log("You got " + name + ", " + description + " ID: " + id);
     }
