@@ -594,48 +594,48 @@ function updateSlots() {
 
 
 function updateCommonHeadArmors() {
-  if (CommonHeadArmorTypes[1][5] == true) {
+  if (CommonHeadArmorTypes[1][6] == true) {
     document.getElementById("FigWreath").classList.add('unlockedArmor');
     document.getElementById("FigWreath").classList.remove('lockedArmor');
-  } if (CommonHeadArmorTypes[2][5] == true) {
+  } if (CommonHeadArmorTypes[2][6] == true) {
     document.getElementById("WoodHelmet").classList.add('unlockedArmor');
     document.getElementById("WoodHelmet").classList.remove('lockedArmor');
-  } if (CommonHeadArmorTypes[3][5] == true) {
+  } if (CommonHeadArmorTypes[3][6] == true) {
     document.getElementById("LeatherBandana").classList.add('unlockedArmor');
     document.getElementById("LeatherBandana").classList.remove('lockedArmor');
-  } if (CommonHeadArmorTypes[4][5] == true) {
+  } if (CommonHeadArmorTypes[4][6] == true) {
     document.getElementById("PaintHelmet").classList.add('unlockedArmor');
     document.getElementById("PaintHelmet").classList.remove('lockedArmor');
-  } if (CommonHeadArmorTypes[5][5] == true) {
+  } if (CommonHeadArmorTypes[5][6] == true) {
     document.getElementById("BasicExplorersHelmet").classList.add('unlockedArmor');
     document.getElementById("BasicExplorersHelmet").classList.remove('lockedArmor');
   }
 }
 
 function updateCommonChestArmors() {
-  if (CommonChestArmorTypes[1][5] == true) {
+  if (CommonChestArmorTypes[1][6] == true) {
     FigLeafBreastplate.style.display = "block";
-  } if (CommonChestArmorTypes[2][5] == true) {
+  } if (CommonChestArmorTypes[2][6] == true) {
     Woodplate.style.display = "block";
-  } if (CommonChestArmorTypes[3][5] == true) {
+  } if (CommonChestArmorTypes[3][6] == true) {
     LeatherChestplate.style.display = "block";
-  } if (CommonChestArmorTypes[4][5] == true) {
+  } if (CommonChestArmorTypes[4][6] == true) {
     PaintedArmor.style.display = "block";
-  } if (CommonChestArmorTypes[5][5] == true) {
+  } if (CommonChestArmorTypes[5][6] == true) {
     BasicExplorersChestplate.style.display = "block";
   }
 }
 
 function updateCommonLegArmors() {
-  if (CommonLegArmorTypes[1][5] == true) {
+  if (CommonLegArmorTypes[1][6] == true) {
     TheFigLeaf.style.display = "block";
-  } if (CommonLegArmorTypes[2][5] == true) {
+  } if (CommonLegArmorTypes[2][6] == true) {
     WoodenLegPadding.style.display = "block";
-  } if (CommonLegArmorTypes[3][5] == true) {
+  } if (CommonLegArmorTypes[3][6] == true) {
     LeatherLeggings.style.display = "block";
-  } if (CommonLegArmorTypes[4][5] == true) {
+  } if (CommonLegArmorTypes[4][6] == true) {
     PaintedOnLeggings.style.display = "block";
-  } if (CommonLegArmorTypes[5][5] == true) {
+  } if (CommonLegArmorTypes[5][6] == true) {
     BasicExplorersLeggings.style.display = "block";
   }
 }
