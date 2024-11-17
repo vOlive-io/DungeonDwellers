@@ -241,11 +241,11 @@ var CommonHeadArmorTypes = [
 ];
 
 var CommonChestArmorTypes = [
-  ["7", "T-shirt", 0, "Stop taking sheep wool please you look so ugly.", "Common", "Starter Armors", true],
+  ["7", "T-shirt", 0, "Everyone has to start somewhere.", "Common", "Starter Armors", true],
   ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko.", "Common", "Fruity Armors", false],
   ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!", "Common", "Classic Armors", false],
   ["10", "Leather Chestplate", 2, "Found some cow patties I see.", "Common", "Classic Armors", false],
-  ["11", "Painted on Armor", 2, "Wow look at you Picasso.", "Common", "\"What the f***?\" Armors", false],
+  ["11", "Painted on Armor", 2, "Wow look at you, Picasso.", "Common", "\"What the f***?\" Armors", false],
   ["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*.", "Common", "Explorer\'s Armors", false]
 ];
 
