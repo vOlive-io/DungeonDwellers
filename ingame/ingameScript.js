@@ -278,7 +278,7 @@ var UncommonHeadArmorTypes = [
   ["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :).", "Uncommon", "Classic Armors", false], 
   ["31", "Glass Helmet", 4, "Dang! you can see you're hair..... GET A FRIGGIN COMB LUNKHEAD!", "Uncommon", "Dumb Armors", false],
   ["32", "Nickle Helmet", 5, "Get the new nickel helmet  now being sold for 999.99!", "Uncommon", "Classic Armors", false],
-  ["33", "Chain Mail Helmet", 5, "You look so ancient.", "Classic Armors", "Uncommon", false],
+  ["33", "Chain Mail Helmet", 5, "You look so ancient.", "Uncommon", "Classic Armors", false],
   ["34", "Copper Helmet", 5, "Don a torch and book and you can be the Statue of Liberty!", "Uncommon", "Classic Armors", false],
   ["35", "Brass Helmet", 5, "You look so shiny.", "Uncommon", "Classic Armors", false]
 ];
@@ -292,7 +292,7 @@ var UncommonChestArmorTypes = [
   ["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun.", "Uncommon", "Classic Armors", false],
   ["42", "Glass Chestplate", 4, "Why did you keep the same shirt on!", "Uncommon", "Dumb Armors", false],
   ["43", "Nickle Chestplate", 5, "Buy the new and more expensive chest piece for 1,233.99!", "Uncommon", "Classic Armors", false],
-  ["44", "Chain Mail Chestplate", 5, "Are you so old you think chainmail is for armor (eye roll).", "Uncommon", "Classic Armors", false],
+  ["44", "Chain Mail Chestplate", 5, "You are so old to think chainmail is good *eye roll*.", "Uncommon", "Classic Armors", false],
   ["45", "Copper Chestplate", 5, "Turn it green to make you look even more like the statue of liberty.", "Uncommon", "Classic Armors", false],
   ["46", "Brass Chestplate", 5, "Turn it into a tuba please, please, please!!", "Uncommon", "Classic Armors", false]
 ];
