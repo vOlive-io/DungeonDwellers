@@ -232,7 +232,7 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
-  ["1", "Bead Head", 0, "Get a Comb lunkhead, +0 Protection.", "Common", "Starter Armors", true],
+  ["1", "Bead Head", 0, "Get a Comb lunkhead.", "Common", "Starter Armors", true],
   ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*.", "Common", "Fruity Armors",  false],
   ["3", "Wood Helmet", 1, "Knock on wood.", "Common", "Classic Armors", false],
   ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head.", "Common", "Classic Armors", false],
