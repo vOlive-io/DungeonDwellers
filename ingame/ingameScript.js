@@ -766,58 +766,59 @@ function updateUncommonLegArmors() {
 function updateHeadDiscription() {
   if (document.getElementById("bedHead").selected == true) {
     HeadProtection = CommonHeadArmorTypes[0][2];
-    HeadDescription.innerHTML = CommonHeadArmorTypes[0][3];
+    headSlot = CommonHeadArmorTypes[0];
   } if (document.getElementById("FigWreath").selected == true) {
     HeadProtection = CommonHeadArmorTypes[1][2];
-    HeadDescription.innerHTML = CommonHeadArmorTypes[1][3];
+    headSlot = CommonHeadArmorTypes[1];
   } if (document.getElementById("WoodHelmet").selected == true) {
     HeadProtection = CommonHeadArmorTypes[2][2];
-    HeadDescription.innerHTML = CommonHeadArmorTypes[2][3];
+    headSlot = CommonHeadArmorTypes[2];
   } if (document.getElementById("LeatherBandana").selected == true) {
     HeadProtection = CommonHeadArmorTypes[3][2];
-    HeadDescription.innerHTML = CommonHeadArmorTypes[3][3];
+    headSlot = CommonHeadArmorTypes[3];
   } if (document.getElementById("PaintHelmet").selected == true) {
     HeadProtection = CommonHeadArmorTypes[4][2];
-    HeadDescription.innerHTML = CommonHeadArmorTypes[4][3];
+    headSlot = CommonHeadArmorTypes[4];
   } if (document.getElementById("BasicExplorersHelmet").selected == true) {
     HeadProtection = CommonHeadArmorTypes[5][2];
-    HeadDescription.innerHTML = CommonHeadArmorTypes[5][3];
+    headSlot = CommonHeadArmorTypes[5];
   } 
   // UNCOMMON
   if (document.getElementById("FruitHat").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[0][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[0][3];
+    headSlot = UncommonHeadArmorTypes[0];
   } if (document.getElementById("SafariHat").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[1][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[1][3];
+    headSlot = UncommonHeadArmorTypes[1];
   } if (document.getElementById("RubberMask").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[2][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[2][3];
+    headSlot = UncommonHeadArmorTypes[2];
   } if (document.getElementById("MudMask").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[3][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[3][3];
+    headSlot = UncommonHeadArmorTypes[3];
   } if (document.getElementById("TinHead").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[4][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[4][3];
+    headSlot = UncommonHeadArmorTypes[4];
   } if (document.getElementById("StoneHelmet").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[5][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[5][3];
+    headSlot = UncommonHeadArmorTypes[5];
   } if (document.getElementById("GlassHelmet").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[6][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[6][3];
+    headSlot = UncommonHeadArmorTypes[6];
   } if (document.getElementById("NickleHelmet").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[7][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[7][3];
+    headSlot = UncommonHeadArmorTypes[7];
   } if (document.getElementById("ChainHelmet").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[8][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[8][3];
+    headSlot = UncommonHeadArmorTypes[8];
   } if (document.getElementById("CopperHelmet").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[9][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[9][3];
+    headSlot = UncommonHeadArmorTypes[9];
   } if (document.getElementById("BrassHelmet").selected == true) {
     HeadProtection = UncommonHeadArmorTypes[10][2];
-    HeadDescription.innerHTML = UncommonHeadArmorTypes[10][3];
+    headSlot = UncommonHeadArmorTypes[10];
   }
+  HeadDescription.innerHTML = headSlot[3] + "<br>" + "Part of the " + headSlot[5] + " collection." + "<br>" +  headSlot[4] + " +" + headSlot[2] + " Protection";
 }
 
 function updateChestDiscription() {
