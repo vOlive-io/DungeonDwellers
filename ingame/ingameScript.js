@@ -869,7 +869,7 @@ function updateChestDiscription() {
     chestSlot = UncommonChestArmorTypes[7];
   } if (document.getElementById("ChainChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[8][2];
-    chestSlot = UncommonChestArmorTypes[8][3];
+    chestSlot = UncommonChestArmorTypes[8];
   } if (document.getElementById("CopperChestplate").selected == true) {
     ChestProtection = UncommonChestArmorTypes[9][2];
     chestSlot = UncommonChestArmorTypes[9];
