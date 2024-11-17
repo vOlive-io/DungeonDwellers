@@ -1084,7 +1084,7 @@ function RandomPullUncommonChestArmor() {
 
 function RandomPullUncommonLegArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
     commonGearPrize();
     trys = 0;
   } else {
@@ -1107,7 +1107,7 @@ function RandomPullUncommonLegArmor() {
 
 function RandomPullUncommonBootArmor() {
   if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)")
+    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
     commonGearPrize();
     trys = 0;
   } else {
