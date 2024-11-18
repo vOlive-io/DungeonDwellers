@@ -454,17 +454,17 @@ var DungeonChestArmorTypes = [
 
 var CommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
-  ["-", "Fists", 1, "Wow, your so strong! *sarcasm*. Common, +1 Power.", true],
-  ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!! . Common, +2 Power.", false],
-  ["-", "Rusty Horseshoes", 2, "Slow, but reliable! Common, +2 Power.", false],
-  ["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow! Common, +2 Power.", false],
+  ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", true],
+  ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!!", "Common", false],
+  ["-", "Rusty Horseshoes", 2, "Slow, but reliable!", "Common", false],
+  ["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow!", "Common", false],
   //Sets
-  ["-", "Twig", 3, "LOOK ITS A TWIG!!!!. Common, +3 Power.", false],
-  ["-", "Ruler", 3, "12 inches, or 1 foot!!. Common, +3 Power.", false],
-  ["-", "Water", 3, "They slip!!!!. Common, +3 Power.", false],
-  ["-", "Old Pepper Spray", 3, "AHH, a bare!!!  Common, +3 Power.", false],
-  ["-", "Taped up hands", 3, "Slow, but reliable! Common, +3 Power.", false],
-  ["-", "Wooden Sword", 3, "The stuff of warriors. Common, +3 Power.", false],
+  ["-", "Twig", 3, "LOOK ITS A TWIG!!!!.", "Common", false],
+  ["-", "Ruler", 3, "12 inches, or 1 foot!!", "Common", false],
+  ["-", "Water", 3, "They slip!!!!", "Common", false],
+  ["-", "Old Pepper Spray", 3, "AHH, a bare!!!", "Common", false],
+  ["-", "Taped up hands", 3, "Slow, but reliable!", "Common", false],
+  ["-", "Wooden Sword", 3, "The stuff of warriors.", "Common", false],
   //Explorers
   ["-", "Basic Explores Knife", 4, "The stuff of legends!!!", "Common", false]
 ];
