@@ -466,25 +466,25 @@ var CommonHeadWeaponTypes = [
   ["-", "Taped up hands", 3, "Slow, but reliable! Common, +3 Power.", false],
   ["-", "Wooden Sword", 3, "The stuff of warriors. Common, +3 Power.", false],
   //Explorers
-  ["-", "Basic Explores Knife", 4, "The stuff of legends!!!  Common, +4 Power.", false]
+  ["-", "Basic Explores Knife", 4, "The stuff of legends!!!", "Common", false]
 ];
 
 var UncommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
-  ["-", "Pen", 5, "Write your enemies to death! Uncommon, +5 Power.", false],
-  ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?! Uncommon, +5 Power.", false],
-  ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts... Uncommon, +5 Power.", false],
-  ["-", "Sharpened Rocks", 6, "Very close range, but very good damage. Uncommon, +6 Power.", false],
-  ["-", "Crow Bar", 6, "It is good for hitting them on the head. Uncommon, +6 Power.", false],
+  ["-", "Pen", 5, "Write your enemies to death!", "Uncommon", false],
+  ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!",  "Uncommon", false],
+  ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", false],
+  ["-", "Sharpened Rocks", 6, "Very close range, but very good damage.", "Uncommon", false],
+  ["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", false],
   //Sets
-  ["-", "Stick", 6, "LOOK ITS A STICK!! Uncommon, +5 Power.", false],
-  ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!  Uncommon, +5 Power.", false],
-  ["-", "Hot Water", 6, "They slip and fall!! Uncommon, +5 Power.", false],
-  ["-", "New Pepper Spray", 6, "AHH, its a bare!!!  Uncommon, +5 Power.", false],
-  ["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt. Uncommon, +6 Power.", false],
-  ["-", "Stone Sword", 6, "The stuff of warriors!!! Uncommon, +5 Power.", false],
+  ["-", "Stick", 6, "LOOK ITS A STICK!!", "Uncommon", false],
+  ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!", "Uncommon", false],
+  ["-", "Hot Water", 6, "They slip and fall!!", "Uncommon", false],
+  ["-", "New Pepper Spray", 6, "AHH, its a bare!!!", "Uncommon", false],
+  ["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt.", "Uncommon", false],
+  ["-", "Stone Sword", 6, "The stuff of warriors!!!", "Uncommon", false],
   //Explorers
-  ["-", "New Explores Knife", 7, "The stuff of new legends!!!  Uncommon, +7 Power.", false]
+  ["-", "New Explores Knife", 7, "The stuff of new legends!!!", "Uncommon", false]
 ];
 
 var RareHeadWeaponTypes = [
