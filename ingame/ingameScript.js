@@ -395,25 +395,25 @@ var RareBootArmorTypes = [
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 var EpicChestArmorTypes = [
-  ["26", "Medevil Armor", "5", "Description", "Epic", false],
-  ["27", "CoralArmor", "4", "Description", "Epic", false],
-  ["28", "Snake Skin", "4", "Description", "Epic", false],
-  ["29", "Cooled magma", "4", "Description", "Epic", false],
-  ["30", "Holy Bamboo", "4", "Description", "Epic", false],
-  ["31", "Diamond", "4", "Description", "Epic", false],
-  ["31", "Emerald", "4", "Description", "Epic", false]
+  ["26", "Medevil Armor", 5, "Description", "Epic", false],
+  ["27", "CoralArmor", 4, "Description", "Epic", false],
+  ["28", "Snake Skin", 4, "Description", "Epic", false],
+  ["29", "Cooled magma", 4, "Description", "Epic", false],
+  ["30", "Holy Bamboo", 4, "Description", "Epic", false],
+  ["31", "Diamond", 4, "Description", "Epic", false],
+  ["31", "Emerald", 4, "Description", "Epic", false]
 ];
 
 
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
 var MythicChestArmorTypes = [
-  ["32", "Gold encrusted Silk", "4", "Description", "Epic", false],
-  ["33", "Dragon Skin", "4", "Description", "Epic", false],
-  ["27", "Rhodochrosite", "4", "Description", "Epic", false],
-  ["34", "Mythrill", "4", "Description", "Epic", false],
-  ["34", "Ghoul Skin", "4", "Description", "Epic", false],
-  ["34", "Spacic", "4", "Description", "Epic", false]
+  ["32", "Gold encrusted Silk", 4, "Description", "Epic", false],
+  ["33", "Dragon Skin", 4, "Description", "Epic", false],
+  ["27", "Rhodochrosite", 4, "Description", "Epic", false],
+  ["34", "Mythrill", 4, "Description", "Epic", false],
+  ["34", "Ghoul Skin", 4, "Description", "Epic", false],
+  ["34", "Spacic", 4, "Description", "Epic", false]
 ];
 
 
