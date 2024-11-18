@@ -489,60 +489,60 @@ var UncommonHeadWeaponTypes = [
 
 var RareHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
-  ["-", "Rusty Katana", 6, "STABY STAB STAB! Rare, +6 Power.", false],
-  ["-", "Battle Staff", 6, "Why is it warm??? Rare, +6 Power.", false],
-  ["-", "Living snake", 7, "It bites people, even you!! Rare, +7 Power.", false],
-  ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart! Rare, +8 Power.", false],
-  ["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers! Rare, +9 Power.", false],
-  ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies. Rare, +9 Power.", false],
-  ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!. Rare, +9 Power.", false],
+  ["-", "Rusty Katana", 6, "STABY STAB STAB!", "Rare", false],
+  ["-", "Battle Staff", 6, "Why is it warm???", "Rare", false],
+  ["-", "Living snake", 7, "It bites people, even you!!", "Rare", false],
+  ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart!", "Rare", false],
+  ["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers!", "Rare", false],
+  ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies.", "Rare", false],
+  ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!", "Rare", false],
   //Sets
-  ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!! Rare, +8 Power.", false],
-  ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
-  ["-", "Oil", 8, "They slip and fall, and break their heads! Rare, +8 Power.", false],
-  ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!! Rare, +8 Power.", false],
-  ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!  Rare, +8 Power.", false],
-  ["-", "Fighters Bindings", 8, "Even stronger gauntlets, with more pressure pads, reduces pain to a minimum. Rare, +8 Power.", false],
-  ["-", "Iron Sword", 8, "The stuff of warriors!!! Rare, +8 Power.", false],
+  ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!!", "Rare", false],
+  ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!", "Rare", false],
+  ["-", "Oil", 8, "They slip and fall, and break their heads!", "Rare", false],
+  ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!!", "Rare", false],
+  ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!", "Rare", false],
+  ["-", "Fighters Bindings", 8, "Even stronger gauntlets, with more pressure pads, reduces pain to a minimum.", "Rare", false],
+  ["-", "Iron Sword", 8, "The stuff of warriors!!!", "Rare", false],
   
   //Explorers
-  ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!  Rare, +9 Power.", false]
+  ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!", "Rare", false]
 ];
 
 var EpicHeadWeaponTypes = [
-  ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!! Rare, +8 Power.", false],
-  ["-", "Reinforced Battle Staff", 8, "Why is it hot??? Rare, +8 Power.", false],
-  ["-", "Wild Living snake", 9, "It bites people, 20 at once!! Rare, +7 Power.", false],
-  ["-", "Mace", 9, "SlAM DUNK!! Rare, +9 Power.", false],
-  ["-", "Fire Extinguisher", 9, "Spray them to death!! Rare, +9 Power.", false],
-  ["-", "Hammer", 9, "BAMM, it hits hard!! Rare, +9 Power.", false],
+  ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!!", "Epic", false],
+  ["-", "Reinforced Battle Staff", 8, "Why is it hot???", "Epic", false],
+  ["-", "Wild Living snake", 9, "It bites people, 20 at once!!", "Epic", false],
+  ["-", "Mace", 9, "SlAM DUNK!!", "Epic", false],
+  ["-", "Fire Extinguisher", 9, "Spray them to death!!", "Epic", false],
+  ["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", false],
   //Sets
-  ["-", "Alive Tree Branch", 10, "LOOK ITS AN ALIVE TREE BRANCH!! Rare, +10 Power.", false],
-  ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!  Rare, +10 Power.", false],
-  ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire! Rare, 9 Power.", false],
-  ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!! Rare, +10 Power.", false],
-  ["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals whose name real remains unknown and have been dubbed maulers. Rare, +10 Power.", false],
-  ["-", "Golden Sword", 10, "The stuff of warriors!!! Rare, +10 Power.", false],
+  ["-", "Alive Tree Branch", 10, "LOOK ITS AN ALIVE TREE BRANCH!!", "Epic", false],
+  ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!", "Epic", false],
+  ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire!", "Epic", false],
+  ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!!", "Epic", false],
+  ["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals whose name real remains unknown and have been dubbed maulers.", "Epic", false],
+  ["-", "Golden Sword", 10, "The stuff of warriors!!!.", "Epic", false],
   //Explorers
-  ["-", "Duplex Explores Knife", 11, "The stuff of duplex legends!!!  Rare, +11 Power.", false]
+  ["-", "Duplex Explores Knife", 11, "The stuff of duplex legends!!!", "Epic", false]
 ];
 
 var MythicHeadWeaponTypes = [
-  ["-", "Fire Blade", 12, "The ring of fire? Oh, you mean this thing! Rare, +8 Power.", false],
-  ["-", "Dragon Katana", 12, "A strong curse emenates from the blade! Rare, +8 Power.", false],
-  ["-", "Necromancer Staff", 12, "Summon minions to fight for you! Rare, +8 Power.", false],
-  ["-", "Serpentine Basket", 12, "It bites people, 200 at once!! But not you!! Rare, +7 Power.", false],
-  ["-", "Spiked Mace", 13, "SlAM DUNK BUT WITH THORNS!! Rare, +9 Power.", false],
-  ["-", "Runic Hammer", 12, "Just a better version of a hammer!! Rare, +9 Power.", false],
+  ["-", "Fire Blade", 12, "The ring of fire? Oh, you mean this thing!", "Myithic", false],
+  ["-", "Dragon Katana", 12, "A strong curse emenates from the blade!", "Myithic", false],
+  ["-", "Necromancer Staff", 12, "Summon minions to fight for you!", "Myithic", false],
+  ["-", "Serpentine Basket", 12, "It bites people, 200 at once!! But not you!!", "Myithic", false],
+  ["-", "Spiked Mace", 13, "SlAM DUNK BUT WITH THORNS!!", false],
+  ["-", "Runic Hammer", 12, "Just a better version of a hammer!!", "Myithic", false],
   //Sets
-  ["-", "Thriving Tree Branch", 10, "LOOK ITS A THRIVING TREE BRANCH!! Myithic, +10 Power.", false],
-  ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!  Myithic, +10 Power.", false],
-  ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive! Myithic, 9 Power.", false],
-  ["-", "Aquatex Spray", 10, "AHH, its dev! Rare, +10 Power.", false],
-  ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches. Myithic, +10 Power.", false],
-  ["-", "Mythril Sword", 10, "The stuff of warriors!!! Myithic, +10 Power.", false],
+  ["-", "Thriving Tree Branch", 10, "LOOK ITS A THRIVING TREE BRANCH!!", "Myithic", false],
+  ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!", "Myithic", false],
+  ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive!", "Myithic", false],
+  ["-", "Aquatex Spray", 10, "AHH, its dev!", "Myithic", false],
+  ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches.", "Myithic", false],
+  ["-", "Mythril Sword", 10, "The stuff of warriors!!!", "Myithic", false],
   //Explorers
-  ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!  Myithic, +11 Power.", false]
+  ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!", "Myithic", false]
 ];
  
 ////////////////////////////
