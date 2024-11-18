@@ -413,7 +413,7 @@ var MythicChestArmorTypes = [
   ["27", "Rhodochrosite", 4, "Description", "Epic", false],
   ["34", "Mythrill", 4, "Description", "Epic", false],
   ["34", "Ghoul Skin", 4, "Description", "Epic", false],
-  ["34", "Spacic", 4, "Description", "Epic", false]
+  ["34", "Chicken Suit", 4, "Description", "Epic", false]
 ];
 
 
