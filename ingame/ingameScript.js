@@ -529,6 +529,7 @@ var EpicHeadWeaponTypes = [
 
 var MythicHeadWeaponTypes = [
   ["-", "Fire Blade", 12, "The ring of fire? Oh, you mean this thing! Rare, +8 Power.", false],
+  ["-", "Dragon Katana", 12, "A strong curse emenates from the blade! Rare, +8 Power.", false],
   ["-", "Necromancer Staff", 12, "Summon minions to fight for you! Rare, +8 Power.", false],
   ["-", "Serpentine Basket", 12, "It bites people, 200 at once!! But not you!! Rare, +7 Power.", false],
   ["-", "Spiked Mace", 13, "SlAM DUNK BUT WITH THORNS!! Rare, +9 Power.", false],
