@@ -395,7 +395,7 @@ var RareBootArmorTypes = [
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 var EpicChestArmorTypes = [
-  ["26", "Medevil Armor", "5", "Description", "Epic", false]
+  ["26", "Medevil Armor", "5", "Description", "Epic", false],
   ["27", "CoralArmor", "4", "Description", "Epic", false],
   ["28", "Snake Skin", "4", "Description", "Epic", false],
   ["29", "Cooled magma", "4", "Description", "Epic", false],
@@ -413,7 +413,7 @@ var MythicChestArmorTypes = [
   ["27", "Rhodochrosite", "4", "Description", "Epic", false],
   ["34", "Mythrill", "4", "Description", "Epic", false],
   ["34", "Ghoul Skin", "4", "Description", "Epic", false],
-  ["34", "Spacic", "4", "Description", "Epic", false],
+  ["34", "Spacic", "4", "Description", "Epic", false]
 ];
 
 
