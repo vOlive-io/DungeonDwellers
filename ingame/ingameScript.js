@@ -621,9 +621,6 @@ function updateSlots() {
 }
 
 
-
-
-
 function updateCommonHeadArmors() {
   if (CommonHeadArmorTypes[1][6] == true) {
     document.getElementById("FigWreath").classList.add('unlockedArmor');
