@@ -179,6 +179,11 @@ var totalBunBerriesEver = 0; //  Total Number of Bun Berries Even Owned (Owned +
 var totalBunBerries = 0; //      Total Number of Bun Berries Owned
 var totalEaten = 0; //           Total Number of Bun Berries Eaten
 //BASIC BUN BERRIES
+var bunberries = [
+  [],
+  [],
+  []
+];
 var luckBunBerries = 0; //           +3 Luck
 var strenthBunBerries = 0; //        +5 Strength
 var stealthBunBerries  = 0; //       +5 Stealth
