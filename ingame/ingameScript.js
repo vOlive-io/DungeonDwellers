@@ -474,6 +474,7 @@ var DungeonChestArmorTypes = [
 //meserment
 //exploror
 
+//Collections: NOT DONE
 var CommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", true],
@@ -491,6 +492,7 @@ var CommonHeadWeaponTypes = [
   ["-", "Basic Explores Knife", 4, "The stuff of legends!!!", "Common", false]
 ];
 
+//Collections: NOT DONE
 var UncommonHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Pen", 5, "Write your enemies to death!", "Uncommon", false],
@@ -509,6 +511,7 @@ var UncommonHeadWeaponTypes = [
   ["-", "New Explores Knife", 7, "The stuff of new legends!!!", "Uncommon", false]
 ];
 
+//Collections: NOT DONE
 var RareHeadWeaponTypes = [
   ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Rusty Katana", 6, "STABY STAB STAB!", "Rare", false],
@@ -531,6 +534,7 @@ var RareHeadWeaponTypes = [
   ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!", "Rare", false]
 ];
 
+//Collections: NOT DONE
 var EpicHeadWeaponTypes = [
   ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!!", "Epic", false],
   ["-", "Reinforced Battle Staff", 8, "Why is it hot???", "Epic", false],
@@ -549,6 +553,7 @@ var EpicHeadWeaponTypes = [
   ["-", "Duplex Explores Knife", 11, "The stuff of duplex legends!!!", "Epic", false]
 ];
 
+//Collections: NOT DONE
 var MythicHeadWeaponTypes = [
   ["-", "Fire Blade", 12, "The ring of fire? Oh, you mean this thing!", "Myithic", false],
   ["-", "Dragon Katana", 12, "A strong curse emenates from the blade!", "Myithic", false],
