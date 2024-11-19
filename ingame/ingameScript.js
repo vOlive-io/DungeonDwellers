@@ -227,7 +227,7 @@ if (ach_lvl_Five == true) {
   image.src = "assets/ach/ach_startedGame.png"
 }
 
-////////////////////////////        "Classic", "Dumb", "\"What the hell?\"", "Starter", "Explorer\'s", ""
+////////////////////////////
 ///      4) ARMORS       ///
 ////////////////////////////
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
@@ -267,11 +267,10 @@ var CommonBootArmorTypes = [
 ];
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
-//"Classic", "Dumb", "\"What the hell?\"", "Starter", "Explorer\'s", "Fruty", "Wild", 
 
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", 3, "Hungry? Don't eat it.", "Uncommon", "Fruity", false],
-  ["26", "Safari Hat", 3, "You look like a cheetah.", "Uncommon", "Wild", false],
+  ["26", "Safari Hat", 3, "You look like a cheetah.", "Uncommon", "Unique", false],
   ["27", "Rubber Mask", 3, "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM.", "Uncommon", "Dumb", false],
   ["28", "Mud Mask", 3, "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\"", "Uncommon", "\"What the f***?\"", false],
   ["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ.", "Uncommon", "Classic", false],
@@ -285,7 +284,7 @@ var UncommonHeadArmorTypes = [
 
 var UncommonChestArmorTypes = [
   ["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons!", "Uncommon", "Fruity", false],
-  ["37", "Safari Vest", 3, "You look so dorky.", "Uncommon", "Wild", false],
+  ["37", "Safari Vest", 3, "You look so dorky.", "Uncommon", "Unique", false],
   ["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me).", "Uncommon", "Dumb", false],
   ["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\".",  "Uncommon", "\"What the f***?\"", false],
   ["40", "Tin Chestplate", 4, "You look like one of those coke ads.", "Uncommon", "Classic", false],
@@ -299,7 +298,7 @@ var UncommonChestArmorTypes = [
 
 var UncommonLegArmorTypes = [
   ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!!", "Uncommon", "Fruity", false],
-  ["37", "Safari Pants", 3, "Bro you don't need 43 pants.", "Uncommon", "Wild", false],
+  ["37", "Safari Pants", 3, "Bro you don't need 43 pants.", "Uncommon", "Unique", false],
   ["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ.",  "Uncommon", "Dumb", false],
   ["39", "Mud Leggings", 3, "You need more Fertilizer.", "Uncommon", "\"What the f***?\"", false],
   ["40", "Tin Leggings", 4, "dang you're knees are poking out.",  "Uncommon", "Classic", false],
@@ -314,7 +313,7 @@ var UncommonLegArmorTypes = [
 //Does not new descriptions
 var UncommonBootArmorTypes = [
   ["36", "Fruit Peel Shoes", 3, "Try not to slip.", "Fruity", false],
-  ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari.", "Uncommon", "Wild", false],
+  ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari.", "Uncommon", "Unique", false],
   ["38", "Rubber Boots", 3, "Gomu Gomu No Gatling.", "Uncommon", "Dumb", false],
   ["39", "Mud Boots", 3, "Now these are real crappy boots literally!!", "Uncommon", "\"What the f***?\"", false],
   ["40", "Tin Boots", 4, "Your toes are bleeding....",  "Uncommon", "Classic", false],
