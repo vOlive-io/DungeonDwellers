@@ -20,6 +20,9 @@
 .lockedArmor {
      display: none;
 }
+.creditText {
+     font-size: 10px;
+}
 
 /* ------------
     ACHS
