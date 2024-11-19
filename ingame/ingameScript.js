@@ -879,7 +879,7 @@ function updateChestDiscription() {
     chestSlot = UncommonChestArmorTypes[10];
     
   }
-  ChestDescription.innerHTML = chestSlot[3] + "<br>" + "Part of the " + chestSlot[5] + " collection." + "<br>" +  chestSlot[4] + " +" + chestSlot[2] + " Protection";
+  ChestDescription.innerHTML = chestSlot[3] + "<br>" + "Part of the " + chestSlot[5] + " Armor & Weapons collection." + "<br>" +  chestSlot[4] + " +" + chestSlot[2] + " Protection";
 }
 
 function updateLegDiscription() {
@@ -937,7 +937,7 @@ function updateLegDiscription() {
     LegProtection = UncommonLegArmorTypes[10][2];
     legSlot = UncommonLegArmorTypes[10];
   }
-  LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " collection." + "<br>" +  legSlot[4] + " +" + legSlot[2] + " Protection";
+  LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " Armor & Weapons collection." + "<br>" +  legSlot[4] + " +" + legSlot[2] + " Protection";
 }
 
 ///////////////////////////////////////////
