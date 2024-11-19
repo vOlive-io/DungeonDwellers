@@ -820,7 +820,7 @@ function updateHeadDiscription() {
     HeadProtection = UncommonHeadArmorTypes[10][2];
     headSlot = UncommonHeadArmorTypes[10];
   }
-  HeadDescription.innerHTML = headSlot[3] + "<br>" + "Part of the " + headSlot[5] + " collection." + "<br>" +  headSlot[4] + " +" + headSlot[2] + " Protection";
+  HeadDescription.innerHTML = headSlot[3] + "<br>" + "Part of the " + headSlot[5] + " Armor & Weapons collection." + "<br>" +  headSlot[4] + " +" + headSlot[2] + " Protection";
 }
 
 function updateChestDiscription() {
