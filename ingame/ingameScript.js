@@ -230,6 +230,10 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 ///      4) ARMORS       ///
 ////////////////////////////
+//collections and raritys
+var collections = ["Classic", "Dumb", "\"What the hell?\"", "Starter", "Explorer\'s", "Fruty", "Unique"]
+var raritys = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"]
+
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
   ["1", "Bead Head", 0, "Get a Comb lunkhead.", "Common", "Starter", true],
