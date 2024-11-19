@@ -235,6 +235,7 @@ var collections = ["Classic", "Dumb", "\"What the hell?\"", "Starter", "Explorer
 var raritys = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"]
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
+//Collections: Done
 var CommonHeadArmorTypes = [
   ["1", "Bead Head", 0, "Get a Comb lunkhead.", "Common", "Starter", true],
   ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*.", "Common", "Fruity",  false],
@@ -271,7 +272,7 @@ var CommonBootArmorTypes = [
 ];
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
-
+//Collections: Done
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", 3, "Hungry? Don't eat it.", "Uncommon", "Fruity", false],
   ["26", "Safari Hat", 3, "You look like a cheetah.", "Uncommon", "Unique", false],
@@ -332,7 +333,7 @@ var UncommonBootArmorTypes = [
 
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
-//NOTE TO SELF: ADD ARMOR SETS HERE
+//Collections: Done
 var RareHeadArmorTypes = [
   ["47", "Steal Helmet", 5, "Description.", "Rare", "Classic", false],
   ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic", false],
@@ -397,6 +398,7 @@ var RareBootArmorTypes = [
 
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
+//Collections: NOT DONE
 var EpicChestArmorTypes = [
   ["26", "Medevil Armor", 5, "Description", "Epic", false],
   ["27", "CoralArmor", 4, "Description", "Epic", false],
@@ -410,6 +412,7 @@ var EpicChestArmorTypes = [
 
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
+//Collections: NOT DONE
 var MythicChestArmorTypes = [
   ["32", "Gold encrusted Silk", 4, "Description", "Epic", false],
   ["33", "Dragon Skin", 4, "Description", "Epic", false],
@@ -422,6 +425,7 @@ var MythicChestArmorTypes = [
 
 
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
+//Collections: NOT DONE
 var FullRelicChestArmorTypes = [
   ["32", "Midas Garments", "50", ""],               //Ancient: The Prosporer ------- Color: Gold (Money) ---------- Branch----------------(Unchosen)
   ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emerald (Boost) ------- Measurement Stick-----(Unchosen)
