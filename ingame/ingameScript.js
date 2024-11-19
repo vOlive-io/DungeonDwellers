@@ -56,7 +56,22 @@ function startTime() {
 }
 
 function timer() {
-  mili++;
+  //mili to sec
+  if timeA >= 1000 {
+    timeA = timeA - 1000
+    timeB++
+  }
+  //sec to min
+  if timeB >= 60 {
+    timeB = timeB - 60
+    timeC++ 
+  }
+  //min to hour
+  if timeC >= 60 {
+    timeC = timeC - 60
+    timeD++ 
+  }
+  timeA++;
 }
 
 
