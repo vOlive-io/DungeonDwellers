@@ -476,7 +476,6 @@ var DungeonChestArmorTypes = [
 
 //Collections: NOT DONE
 var CommonHeadWeaponTypes = [
-  ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", true],
   ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!!", "Common", false],
   ["-", "Rusty Horseshoes", 2, "Slow, but reliable!", "Common", false],
@@ -494,7 +493,6 @@ var CommonHeadWeaponTypes = [
 
 //Collections: NOT DONE
 var UncommonHeadWeaponTypes = [
-  ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Pen", 5, "Write your enemies to death!", "Uncommon", false],
   ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!",  "Uncommon", false],
   ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", false],
@@ -513,7 +511,6 @@ var UncommonHeadWeaponTypes = [
 
 //Collections: NOT DONE
 var RareHeadWeaponTypes = [
-  ["ID", "NAME", "POWER", "DESCRIPTION, +0 Power.", false],
   ["-", "Rusty Katana", 6, "STABY STAB STAB!", "Rare", false],
   ["-", "Battle Staff", 6, "Why is it warm???", "Rare", false],
   ["-", "Living snake", 7, "It bites people, even you!!", "Rare", false],
