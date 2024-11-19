@@ -282,6 +282,7 @@ var CommonLegArmorTypes = [
   ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?", "Common", "\"What the f***?\"", false],
   ["18", "Basic Explorers Leggings", 3, "How Many pockets Does it have?.", "Common", "Explorer\'s", false]
 ];
+
 var CommonBootArmorTypes = [
   ["19", "Shoes", 0, "Why are they untied?.", "Common", "Starter", true],
   ["20", "Fig Leaf Feet Covers", 1, "Rocks can easily poke through and cause you pain.", "Common", "Fruity", true],
