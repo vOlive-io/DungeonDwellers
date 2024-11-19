@@ -227,103 +227,103 @@ if (ach_lvl_Five == true) {
   image.src = "assets/ach/ach_startedGame.png"
 }
 
-////////////////////////////        "Classic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", ""
+////////////////////////////        "Classic", "Dumb", "\"What the hell?\"", "Starter", "Explorer\'s", ""
 ///      4) ARMORS       ///
 ////////////////////////////
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 var CommonHeadArmorTypes = [
-  ["1", "Bead Head", 0, "Get a Comb lunkhead.", "Common", "Starter Armors", true],
-  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*.", "Common", "Fruity Armors",  false],
-  ["3", "Wood Helmet", 1, "Knock on wood.", "Common", "Classic Armors", false],
-  ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head.", "Common", "Classic Armors", false],
-  ["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*.", "Common", "\"What the f***?\" Armors", false],
-  ["6", "Explorers Helmet", 3, "dum dum dum du dum dum dum da dum dum dum du dum.", "Common", "Explorer\'s Armors", false]
+  ["1", "Bead Head", 0, "Get a Comb lunkhead.", "Common", "Starter", true],
+  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*.", "Common", "Fruity",  false],
+  ["3", "Wood Helmet", 1, "Knock on wood.", "Common", "Classic", false],
+  ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head.", "Common", "Classic", false],
+  ["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*.", "Common", "\"What the f***?\"", false],
+  ["6", "Explorers Helmet", 3, "dum dum dum du dum dum dum da dum dum dum du dum.", "Common", "Explorer\'s", false]
 ];
 
 var CommonChestArmorTypes = [
-  ["7", "T-shirt", 0, "Everyone has to start somewhere.", "Common", "Starter Armors", true],
-  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko.", "Common", "Fruity Armors", false],
-  ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!", "Common", "Classic Armors", false],
-  ["10", "Leather Chestplate", 2, "Found some cow patties I see.", "Common", "Classic Armors", false],
-  ["11", "Painted on Armor", 2, "Wow look at you, Picasso.", "Common", "\"What the f***?\" Armors", false],
-  ["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*.", "Common", "Explorer\'s Armors", false]
+  ["7", "T-shirt", 0, "Everyone has to start somewhere.", "Common", "Starter", true],
+  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko.", "Common", "Fruity", false],
+  ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!", "Common", "Classic", false],
+  ["10", "Leather Chestplate", 2, "Found some cow patties I see.", "Common", "Classic", false],
+  ["11", "Painted on Armor", 2, "Wow look at you, Picasso.", "Common", "\"What the f***?\"", false],
+  ["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*.", "Common", "Explorer\'s", false]
 ];
 
 var CommonLegArmorTypes = [
-  ["13", "Jeans", 0, "You-- You-- You- --You\'r burning my eyes please someone help!!", "Common", "Starter Armors", true],
-  ["14", "The Fig Leaf", 1, "You look very, very, very, stupid.", "Common", "Fruity Armors", false],
-  ["15", "Wooden Leg Padding", 1, "you lunkhead now you can't move!!", "Common", "Classic Armors", false],
-  ["16", "Leather Leggings", 2, "cool very very cool you MURDERER OF HORSES!!!!", "Common", "Classic Armors", false],
-  ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?", "Common", "\"What the f***?\" Armors", false],
-  ["18", "Basic Explorers Leggings", 3, "How Many pockets Does it have?.", "Common", "Explorer\'s Armors", false]
+  ["13", "Jeans", 0, "You-- You-- You- --You\'r burning my eyes please someone help!!", "Common", "Starter", true],
+  ["14", "The Fig Leaf", 1, "You look very, very, very, stupid.", "Common", "Fruity", false],
+  ["15", "Wooden Leg Padding", 1, "you lunkhead now you can't move!!", "Common", "Classic", false],
+  ["16", "Leather Leggings", 2, "cool very very cool you MURDERER OF HORSES!!!!", "Common", "Classic", false],
+  ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?", "Common", "\"What the f***?\"", false],
+  ["18", "Basic Explorers Leggings", 3, "How Many pockets Does it have?.", "Common", "Explorer\'s", false]
 ];
 var CommonBootArmorTypes = [
-  ["19", "Shoes", 0, "Why are they untied?.", "Common", "Starter Armors", true],
-  ["20", "Fig Leaf Feet Covers", 1, "Rocks can easily poke through and cause you pain.", "Common", "Fruity Armors", true],
-  ["21", "Wood Sandals", 1, "Forget to bring tweezers?", "Common", "Classic Armors", false],
-  ["22", "Leather Boots", 2, "Like Minecraft I assume.", "Common", "Classic Armors", false],
-  ["23", "Painted on Boots", 2, "Da Vinci who are you painting?", "Common", "\"What the hell?\" Armors", false],
-  ["24", "Basic Explorers Boots", 3, "No they aren't air Jordans.", "Common", "Explorer\'s Armors", false]
+  ["19", "Shoes", 0, "Why are they untied?.", "Common", "Starter", true],
+  ["20", "Fig Leaf Feet Covers", 1, "Rocks can easily poke through and cause you pain.", "Common", "Fruity", true],
+  ["21", "Wood Sandals", 1, "Forget to bring tweezers?", "Common", "Classic", false],
+  ["22", "Leather Boots", 2, "Like Minecraft I assume.", "Common", "Classic", false],
+  ["23", "Painted on Boots", 2, "Da Vinci who are you painting?", "Common", "\"What the hell?\"", false],
+  ["24", "Basic Explorers Boots", 3, "No they aren't air Jordans.", "Common", "Explorer\'s", false]
 ];
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
-//"Classic Armors", "Dumb Armors", "\"What the hell?\"", "Starter Armors", "Explorer\'s Armors", "Fruty Armors", "Wild Armors", 
+//"Classic", "Dumb", "\"What the hell?\"", "Starter", "Explorer\'s", "Fruty", "Wild", 
 
 var UncommonHeadArmorTypes = [
-  ["25", "Fruit Hat", 3, "Hungry? Don't eat it.", "Uncommon", "Fruity Armors", false],
-  ["26", "Safari Hat", 3, "You look like a cheetah.", "Uncommon", "Wild Armors", false],
-  ["27", "Rubber Mask", 3, "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM.", "Uncommon", "Dumb Armors", false],
+  ["25", "Fruit Hat", 3, "Hungry? Don't eat it.", "Uncommon", "Fruity", false],
+  ["26", "Safari Hat", 3, "You look like a cheetah.", "Uncommon", "Wild", false],
+  ["27", "Rubber Mask", 3, "I AM THOR! STRIKE ME LIGHTNING, YOU DO NO HARM.", "Uncommon", "Dumb", false],
   ["28", "Mud Mask", 3, "It looks so much like poop, I mean that's what fertilizer is made of right? I got it from the ground so it must....\"", "Uncommon", "\"What the f***?\"", false],
-  ["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ.", "Uncommon", "Classic Armors", false],
-  ["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :).", "Uncommon", "Classic Armors", false], 
-  ["31", "Glass Helmet", 4, "Dang! you can see you're hair..... GET A FRIGGIN COMB LUNKHEAD!", "Uncommon", "Dumb Armors", false],
-  ["32", "Nickle Helmet", 5, "Get the new nickel helmet  now being sold for 999.99!", "Uncommon", "Classic Armors", false],
-  ["33", "Chain Mail Helmet", 5, "You look so ancient.", "Uncommon", "Classic Armors", false],
-  ["34", "Copper Helmet", 5, "Don a torch and book and you can be the Statue of Liberty!", "Uncommon", "Classic Armors", false],
-  ["35", "Brass Helmet", 5, "You look so shiny.", "Uncommon", "Classic Armors", false]
+  ["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ.", "Uncommon", "Classic", false],
+  ["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :).", "Uncommon", "Classic", false], 
+  ["31", "Glass Helmet", 4, "Dang! you can see you're hair..... GET A FRIGGIN COMB LUNKHEAD!", "Uncommon", "Dumb", false],
+  ["32", "Nickle Helmet", 5, "Get the new nickel helmet  now being sold for 999.99!", "Uncommon", "Classic", false],
+  ["33", "Chain Mail Helmet", 5, "You look so ancient.", "Uncommon", "Classic", false],
+  ["34", "Copper Helmet", 5, "Don a torch and book and you can be the Statue of Liberty!", "Uncommon", "Classic", false],
+  ["35", "Brass Helmet", 5, "You look so shiny.", "Uncommon", "Classic", false]
 ];
 
 var UncommonChestArmorTypes = [
-  ["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons!", "Uncommon", "Fruity Armors", false],
-  ["37", "Safari Vest", 3, "You look so dorky.", "Uncommon", "Wild Armors", false],
-  ["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me).", "Uncommon", "Dumb Armors", false],
+  ["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons!", "Uncommon", "Fruity", false],
+  ["37", "Safari Vest", 3, "You look so dorky.", "Uncommon", "Wild", false],
+  ["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me).", "Uncommon", "Dumb", false],
   ["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\".",  "Uncommon", "\"What the f***?\"", false],
-  ["40", "Tin Chestplate", 4, "You look like one of those coke ads.", "Uncommon", "Classic Armors", false],
-  ["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun.", "Uncommon", "Classic Armors", false],
-  ["42", "Glass Chestplate", 4, "Why did you keep the same shirt on!", "Uncommon", "Dumb Armors", false],
-  ["43", "Nickle Chestplate", 5, "Buy the new and more expensive chest piece for 1,233.99!", "Uncommon", "Classic Armors", false],
-  ["44", "Chain Mail Chestplate", 5, "You are so old to think chainmail is good *eye roll*.", "Uncommon", "Classic Armors", false],
-  ["45", "Copper Chestplate", 5, "Turn it green to make you look even more like the statue of liberty.", "Uncommon", "Classic Armors", false],
-  ["46", "Brass Chestplate", 5, "Turn it into a tuba please, please, please!!", "Uncommon", "Classic Armors", false]
+  ["40", "Tin Chestplate", 4, "You look like one of those coke ads.", "Uncommon", "Classic", false],
+  ["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun.", "Uncommon", "Classic", false],
+  ["42", "Glass Chestplate", 4, "Why did you keep the same shirt on!", "Uncommon", "Dumb", false],
+  ["43", "Nickle Chestplate", 5, "Buy the new and more expensive chest piece for 1,233.99!", "Uncommon", "Classic", false],
+  ["44", "Chain Mail Chestplate", 5, "You are so old to think chainmail is good *eye roll*.", "Uncommon", "Classic", false],
+  ["45", "Copper Chestplate", 5, "Turn it green to make you look even more like the statue of liberty.", "Uncommon", "Classic", false],
+  ["46", "Brass Chestplate", 5, "Turn it into a tuba please, please, please!!", "Uncommon", "Classic", false]
 ];
 
 var UncommonLegArmorTypes = [
-  ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!!", "Uncommon", "Fruity Armors", false],
-  ["37", "Safari Pants", 3, "Bro you don't need 43 pants.", "Uncommon", "Wild Armors", false],
-  ["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ.",  "Uncommon", "Dumb Armors", false],
+  ["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!!", "Uncommon", "Fruity", false],
+  ["37", "Safari Pants", 3, "Bro you don't need 43 pants.", "Uncommon", "Wild", false],
+  ["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ.",  "Uncommon", "Dumb", false],
   ["39", "Mud Leggings", 3, "You need more Fertilizer.", "Uncommon", "\"What the f***?\"", false],
-  ["40", "Tin Leggings", 4, "dang you're knees are poking out.",  "Uncommon", "Classic Armors", false],
-  ["41", "Stone Leggings", 4, "You have the one thing different from Minecraft.", "Uncommon", "Classic Armors", false],
-  ["42", "Glass Leggings", 4, "Try not to fall or you are paying me like $1,252 for your medical bill.", "Uncommon", "Dumb Armors", false],
-  ["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232!", "Uncommon", "Classic Armors", false],
-  ["44", "Chain Mail Leggings", 5, "Chainmail Won't protect against my trash talk.", "Uncommon", "Classic Armors", false],
-  ["45", "Copper Leggings", 5, "Apologise to your knees please.", "Uncommon", "Classic Armors", false],
-  ["46", "Brass Leggings", 5, "Make a clarinet to play to the monsters that try to kill you!!", "Uncommon", "Classic Armors", false]
+  ["40", "Tin Leggings", 4, "dang you're knees are poking out.",  "Uncommon", "Classic", false],
+  ["41", "Stone Leggings", 4, "You have the one thing different from Minecraft.", "Uncommon", "Classic", false],
+  ["42", "Glass Leggings", 4, "Try not to fall or you are paying me like $1,252 for your medical bill.", "Uncommon", "Dumb", false],
+  ["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232!", "Uncommon", "Classic", false],
+  ["44", "Chain Mail Leggings", 5, "Chainmail Won't protect against my trash talk.", "Uncommon", "Classic", false],
+  ["45", "Copper Leggings", 5, "Apologise to your knees please.", "Uncommon", "Classic", false],
+  ["46", "Brass Leggings", 5, "Make a clarinet to play to the monsters that try to kill you!!", "Uncommon", "Classic", false]
 ];
 
 //Does not new descriptions
 var UncommonBootArmorTypes = [
-  ["36", "Fruit Peel Shoes", 3, "Try not to slip.", "Fruity Armors", false],
-  ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari.", "Uncommon", "Wild Armors", false],
-  ["38", "Rubber Boots", 3, "Gomu Gomu No Gatling.", "Uncommon", "Dumb Armors", false],
+  ["36", "Fruit Peel Shoes", 3, "Try not to slip.", "Fruity", false],
+  ["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari.", "Uncommon", "Wild", false],
+  ["38", "Rubber Boots", 3, "Gomu Gomu No Gatling.", "Uncommon", "Dumb", false],
   ["39", "Mud Boots", 3, "Now these are real crappy boots literally!!", "Uncommon", "\"What the f***?\"", false],
-  ["40", "Tin Boots", 4, "Your toes are bleeding....",  "Uncommon", "Classic Armors", false],
-  ["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away.", "Uncommon", "Classic Armors", false],
-  ["42", "Glass Boots", 4, "You can see your feet underneath, how cool!", "Uncommon", "Dumb Armors", false],
-  ["43", "Nickle Boots", 5, "Buy NOW! Please, I'm poor!.", "Uncommon", "Classic Armors", false],
-  ["44", "Chain Mail Boots", 5, "Why are you doing this to your poor feet.", "Uncommon", "Classic Armors", false],
-  ["45", "Copper Boots", 5, "No more moving your ankle....", "Uncommon", "Classic Armors", false],
-  ["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!",  "Uncommon", "Classic Armors", false]
+  ["40", "Tin Boots", 4, "Your toes are bleeding....",  "Uncommon", "Classic", false],
+  ["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away.", "Uncommon", "Classic", false],
+  ["42", "Glass Boots", 4, "You can see your feet underneath, how cool!", "Uncommon", "Dumb", false],
+  ["43", "Nickle Boots", 5, "Buy NOW! Please, I'm poor!.", "Uncommon", "Classic", false],
+  ["44", "Chain Mail Boots", 5, "Why are you doing this to your poor feet.", "Uncommon", "Classic", false],
+  ["45", "Copper Boots", 5, "No more moving your ankle....", "Uncommon", "Classic", false],
+  ["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!",  "Uncommon", "Classic", false]
 ];
 
 
@@ -331,47 +331,47 @@ var UncommonBootArmorTypes = [
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 //NOTE TO SELF: ADD ARMOR SETS HERE
 var RareHeadArmorTypes = [
-  ["47", "Steal Helmet", 5, "Description.", "Rare", "Classic Armors", false],
-  ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic Armors", false],
-  ["49", "Silver Helmet", 5, "Description.", "Rare", "Classic Armors", false],
-  ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic Armors", false],
-  ["51", "Iron Helmet", 6, "Description.", "Rare", "Classic Armors", false],
-  ["52", "Feathered Mask", 6, "Description.", "Rare", "Uniquie Armors", false],
+  ["47", "Steal Helmet", 5, "Description.", "Rare", "Classic", false],
+  ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic", false],
+  ["49", "Silver Helmet", 5, "Description.", "Rare", "Classic", false],
+  ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic", false],
+  ["51", "Iron Helmet", 6, "Description.", "Rare", "Classic", false],
+  ["52", "Feathered Mask", 6, "Description.", "Rare", "Uniquie", false],
   ["53", "Blessed Mud Helmet", 6, "Description.", "Rare", \"What the f***\"", false],
-  ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity Armors", false]
+  ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity", false]
 ];
 
 var RareChestArmorTypes = [
-  ["55", "Steal Chestplate", 5, "Description.", "Rare", "Classic Armors", false],
-  ["56", "Bronze Chestplate", 5, "Description.", "Rare", "Classic Armors", false],
-  ["57", "Silver Chestplate", 5, "Description.", "Rare", "Classic Armors", false],
-  ["58", "Gold Chestplate", 6, "Description.", "Rare", "Classic Armors", false],
-  ["59", "Iron Chestplate", 6, "Description.", "Rare", "Classic Armors", false],
-  ["60", "Feathered Chestplate", 6, "Description.", "Rare", "Uniquie Armors", false],
+  ["55", "Steal Chestplate", 5, "Description.", "Rare", "Classic", false],
+  ["56", "Bronze Chestplate", 5, "Description.", "Rare", "Classic", false],
+  ["57", "Silver Chestplate", 5, "Description.", "Rare", "Classic", false],
+  ["58", "Gold Chestplate", 6, "Description.", "Rare", "Classic", false],
+  ["59", "Iron Chestplate", 6, "Description.", "Rare", "Classic", false],
+  ["60", "Feathered Chestplate", 6, "Description.", "Rare", "Uniquie", false],
   ["61", "Blessed Mud Chestplate", 6, "Description.", "Rare",  "\"What the f***\"", false],
-  ["62", "Jungle Vine Chestplate", 6, "Description.", "Rare", "Fruity Armors", false]
+  ["62", "Jungle Vine Chestplate", 6, "Description.", "Rare", "Fruity", false]
 ];
 
 var RareLegArmorTypes = [
-  ["63", "Steal Leggings", 5, "Description.", "Rare", "Classic Armors", false],
-  ["64", "Bronze Leggings", 5, "Description.", "Rare", "Classic Armors", false],
-  ["65", "Silver Leggings", 5, "Description.", "Rare", "Classic Armors", false],
-  ["66", "Gold Leggings", 6, "Description.", "Classic Armors", false],
-  ["67", "Iron Leggings", 6, "Description.", "Rare", "Classic Armors", false],
-  ["68", "Feathered Leggings", 6, "Description.", "Rare", "Uniquie Armors", false],
+  ["63", "Steal Leggings", 5, "Description.", "Rare", "Classic", false],
+  ["64", "Bronze Leggings", 5, "Description.", "Rare", "Classic", false],
+  ["65", "Silver Leggings", 5, "Description.", "Rare", "Classic", false],
+  ["66", "Gold Leggings", 6, "Description.", "Classic", false],
+  ["67", "Iron Leggings", 6, "Description.", "Rare", "Classic", false],
+  ["68", "Feathered Leggings", 6, "Description.", "Rare", "Uniquie", false],
   ["69", "Blessed Mud Leggings", 6, "Description.", "Rare", "\"What the f***\"", false],
-  ["70", "Jungle Vine Leggings", 6, "Description.", "Rare", "Fruity Armors", false]
+  ["70", "Jungle Vine Leggings", 6, "Description.", "Rare", "Fruity", false]
 ];
 
 var RareBootArmorTypes = [
-  ["71", "Steal Boots", 5, "Description.", "Rare", "Classic Armors", false],
-  ["72", "Bronze Boots", 5, "Description.", "Rare", "Classic Armors", false],
-  ["73", "Silver Boots", 5, "Description.", "Rare", "Classic Armors", false],
-  ["74", "Gold Boots", 6, "Description.", "Rare", "Classic Armors", false],
-  ["75", "Iron Boots", 6, "Description.", "Rare", "Classic Armors", false],
-  ["76", "Feathered Boots", 6, "Description.", "Rare", "Uniquie Armors", false],
+  ["71", "Steal Boots", 5, "Description.", "Rare", "Classic", false],
+  ["72", "Bronze Boots", 5, "Description.", "Rare", "Classic", false],
+  ["73", "Silver Boots", 5, "Description.", "Rare", "Classic", false],
+  ["74", "Gold Boots", 6, "Description.", "Rare", "Classic", false],
+  ["75", "Iron Boots", 6, "Description.", "Rare", "Classic", false],
+  ["76", "Feathered Boots", 6, "Description.", "Rare", "Uniquie", false],
   ["77", "Blessed Mud Boots", 6, "Description.", "Rare", "\"What the f***\"", false],
-  ["78", "Jungle Vine Boots", 6, "Description.", "Rare", "Fruity Armors", false]
+  ["78", "Jungle Vine Boots", 6, "Description.", "Rare", "Fruity", false]
 ];
 
 
