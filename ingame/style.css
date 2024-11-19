@@ -70,31 +70,11 @@
     ARMORS
 -------------*/
 
-/* commonHead == #FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet  */
+/* commonHead == #FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet */
+/* commonChest == #FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate */
+/* commonLeg == #TheFigLeaf, #WoodenLegPadding, #LeatherLeggings, #PaintedOnLeggings, #BasicExplorersLeggings */
 
-/* commonChest */
-#FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate {
-  display: none;
-}
-
-/* commonLeg */
-#TheFigLeaf, #WoodenLegPadding, #LeatherLeggings, #PaintedOnLeggings, #BasicExplorersLeggings {
-  display: none;
-}
-
-
-/* uncommonHead */
-#uncommonHead, #FruitHat, #SafariHat, #RubberMask, #MudMask, #TinHead, #StoneHelmet, #GlassHelmet, #NickleHelmet, #ChainHelmet, #CopperHelmet, #BrassHelmet {
-  display: none;
-}
-
-/* uncommonChest */
-#uncommonChest, #CoconutShellBrestPlate, #SafariVest, #RubberChestplate, #MudChestplate, #TinChestplate, #StoneChestplate, #GlassChestplate, #NickleChestplate, #ChainChestplate, #CopperChestplate, #BrassChestplate {
-  display: none;
-}
-
-/* uncommonLeg */
-#uncommonLeg, #BananaLeavesSkirt, #SafariPants, #RubberLeggings, #MudLeggings, #TinLeggings, #StoneLeggings, #GlassLeggings, #NickleLeggings, #ChainLeggings, #CopperLeggings, #BrassLeggings {
-  display: none;
-}
+/* uncommonHead == #uncommonHead, #FruitHat, #SafariHat, #RubberMask, #MudMask, #TinHead, #StoneHelmet, #GlassHelmet, #NickleHelmet, #ChainHelmet, #CopperHelmet, #BrassHelmet */
+/* uncommonChest == #uncommonChest, #CoconutShellBrestPlate, #SafariVest, #RubberChestplate, #MudChestplate, #TinChestplate, #StoneChestplate, #GlassChestplate, #NickleChestplate, #ChainChestplate, #CopperChestplate, #BrassChestplate */
+/* uncommonLeg == #uncommonLeg, #BananaLeavesSkirt, #SafariPants, #RubberLeggings, #MudLeggings, #TinLeggings, #StoneLeggings, #GlassLeggings, #NickleLeggings, #ChainLeggings, #CopperLeggings, #BrassLeggings */
 
