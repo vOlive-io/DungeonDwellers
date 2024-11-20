@@ -5,12 +5,17 @@
 <body>
     <div id="sorry">
         <h1>Sorry, something went wrong. </h1>
-        <h2>Please clich this <b onclick="sendBack()" class="links">link</b> or try agin later.</h2>
+        <h2>Please clich this <b  class="links" onclick="sendBack()">link</b> or try agin later.</h2>
     </div>
 </body>
+<style>
+    .links {
+        color: blue;
+    }
+</style>
 <script>
-function sendBack() {
-    window.location.href = "https://volive-io.github.io/DungeonDwellers/";
-}
+    function sendBack() {
+        window.location.href = "https://volive-io.github.io/DungeonDwellers/";
+    }
 </script>
  
