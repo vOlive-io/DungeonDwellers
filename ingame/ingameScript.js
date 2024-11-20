@@ -971,6 +971,69 @@ function updateLegDiscription() {
   LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " Armor & Weapons collection." + "<br>" +  legSlot[4] + " +" + legSlot[2] + " Protection";
 }
 
+
+function updateBootDiscription() {
+  if (document.getElementById("Jeans").selected == true) {
+    LegProtection = CommonLegArmorTypes[0][2];
+    bootSlot = CommonLegArmorTypes[0];
+  } if (document.getElementById("TheFigLeaf").selected == true) {
+    LegProtection = CommonLegArmorTypes[1][2];
+    bootSlot = CommonLegArmorTypes[1];
+  } if (document.getElementById("WoodenLegPadding").selected == true) {
+    LegProtection = CommonLegArmorTypes[2][2];
+    bootSlot = CommonLegArmorTypes[2];
+  } if (document.getElementById("LeatherLeggings").selected == true) {
+    LegProtection = CommonLegArmorTypes[3][2];
+    bootSlot = CommonLegArmorTypes[3];
+  } if (document.getElementById("PaintedOnLeggings").selected == true) {
+    LegProtection = CommonLegArmorTypes[4][2];
+    bootSlot = CommonLegArmorTypes[4];
+  } if (document.getElementById("BasicExplorersLeggings").selected == true) {
+    LegProtection = CommonLegArmorTypes[5][2];
+    bootSlot = CommonLegArmorTypes[5];
+  } 
+  // UNCOMMON
+  if (document.getElementById("BananaLeavesSkirt").selected == true) {
+    LegProtection = UncommonLegArmorTypes[0][2];
+    bootSlot = UncommonLegArmorTypes[0];
+  } if (document.getElementById("SafariPants").selected == true) {
+    LegProtection = UncommonLegArmorTypes[1][2];
+    bootSlot = UncommonLegArmorTypes[1];
+  } if (document.getElementById("RubberLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[2][2];
+    bootSlot = UncommonLegArmorTypes[2];
+  } if (document.getElementById("MudLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[3][2];
+    bootSlot = UncommonLegArmorTypes[3];
+  } if (document.getElementById("TinLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[4][2];
+    bootSlot = UncommonLegArmorTypes[4];
+  } if (document.getElementById("StoneLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[5][2];
+    bootSlot = UncommonLegArmorTypes[5];
+  } if (document.getElementById("GlassLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[6][2];
+    bootSlot = UncommonLegArmorTypes[6];
+  } if (document.getElementById("NickleLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[7][2];
+    bootSlot = UncommonLegArmorTypes[7];
+  } if (document.getElementById("ChainLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[8][2];
+    bootSlot = UncommonLegArmorTypes[8];
+  } if (document.getElementById("CopperLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[9][2];
+    bootSlot = UncommonLegArmorTypes[9];
+  } if (document.getElementById("BrassLeggings").selected == true) {
+    LegProtection = UncommonLegArmorTypes[10][2];
+    bootSlot = UncommonLegArmorTypes[10];
+  }
+  
+  LegDescription.innerHTML = bootSlot[3] + "<br>" + "Part of the " + bootSlot[5] + " Armor & Weapons collection." + "<br>" +  bootSlot[4] + " +" + bootSlot[2] + " Protection";
+}
+
+
+
+
 ///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
