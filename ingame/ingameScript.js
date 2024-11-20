@@ -411,9 +411,15 @@ var RareBootArmorTypes = [
 
 
 /////////////////////////////////////////////////////////////////////////////
-//////////////   →→→→→→→→→→→→→→→→→→ IDEAS ←←←←←←←←←←←←←←←←←←  //////////////
+//////////////   →→→→→→→→→→→→→→→→→→ IDEAS ←←←←←←←←←←←←←←←←←←  ///////////////
 /////////////////////////////////////////////////////////////////////////////
-
+--Set up ger giver
+  --Wiki
+  --Credits
+  --Inventory
+  --Forge
+  --Achivments
+  --Google form
 
 
 
@@ -601,8 +607,6 @@ var MythicHeadWeaponTypes = [
 ///////////////////////////////////////////
 ///             1) UPDATES              ///
 ///////////////////////////////////////////
-
-
 function updateVitals() {
   currentProtection = HeadProtection + ChestProtection + LegProtection + BootProtection;
   levelSlot.innerText = level;
@@ -800,12 +804,9 @@ function updateUncommonLegArmors() {
   }
 }
 
-
 ///////////////////////////////////////////
 ///      1.5) Description updates       ///
 ///////////////////////////////////////////
-
-
 function updateHeadDiscription() {
   //COMMON
   if (document.getElementById("bedHead").selected == true) {headSlot = CommonHeadArmorTypes[0];}
@@ -881,7 +882,6 @@ function updateBootDiscription() {
   LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " Armor & Weapons collection." + "<br>" +  legSlot[4] + " +" + legSlot[2] + " Protection";
 }
 
-
 function updateLegDiscription() {
   //COMMON
   if (document.getElementById("Shoes").selected == true) {bootSlot = CommonBootArmorTypes[0]; }
@@ -908,14 +908,9 @@ function updateLegDiscription() {
 }
 
 
-
-
-
 ///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
-
-
 function RandomPullCommonHeadArmor() {
   if (trys > 100) {
     console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
