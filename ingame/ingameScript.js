@@ -433,15 +433,47 @@ var RareBootArmorTypes = [
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 //Collections: DONE
-var EpicChestArmorTypes = [
-  ["26", "Medevil Armor", 5, "Description", "Epic", "Uniquie", false],
-  ["27", "CoralArmor", 4, "Description", "Epic", "Uniquie", false],
-  ["28", "Snake Skin", 4, "Description", "Epic", "Uniquie", false],
-  ["29", "Cooled magma", 4, "Description", "Epic", "Uniquie", false],
-  ["30", "Holy Bamboo", 4, "Description", "Epic", "Uniquie", false],
-  ["31", "Diamond", 4, "Description", "Epic", "Classic", false],
-  ["31", "Emerald", 4, "Description", "Epic", "Uniquie", false]
+var EpicHeadArmorTypes = [
+  ["26", "Medevil Helmet", 5, "Description", "Epic", "Uniquie", false],
+  ["27", "Coral Helmet", 4, "Description", "Epic", "Uniquie", false],
+  ["28", "Snakeskin Helmet", 4, "Description", "Epic", "Uniquie", false],
+  ["29", "Cooled magma Helmet", 4, "Description", "Epic", "Uniquie", false],
+  ["30", "Holy Bamboo Helmet", 4, "Description", "Epic", "Uniquie", false],
+  ["31", "Diamond Helmet", 4, "Description", "Epic", "Classic", false],
+  ["31", "Emerald Helmet", 4, "Description", "Epic", "Uniquie", false]
 ];
+
+var EpicChestArmorTypes = [
+  ["26", "Medevil Chestplate", 5, "Description", "Epic", "Uniquie", false],
+  ["27", "Coral Chestplate", 4, "Description", "Epic", "Uniquie", false],
+  ["28", "Snakeskin Chestplate", 4, "Description", "Epic", "Uniquie", false],
+  ["29", "Cooled magma Chestplate", 4, "Description", "Epic", "Uniquie", false],
+  ["30", "Holy Bamboo Chestplate", 4, "Description", "Epic", "Uniquie", false],
+  ["31", "Diamond Chestplate", 4, "Description", "Epic", "Classic", false],
+  ["31", "Emerald Chestplate", 4, "Description", "Epic", "Uniquie", false]
+];
+
+var EpicLegArmorTypes = [
+  ["26", "Medevil Leggings", 5, "Description", "Epic", "Uniquie", false],
+  ["27", "Coral Leggings", 4, "Description", "Epic", "Uniquie", false],
+  ["28", "Snakeskin Leggings", 4, "Description", "Epic", "Uniquie", false],
+  ["29", "Cooled magma Leggings", 4, "Description", "Epic", "Uniquie", false],
+  ["30", "Holy Bamboo Leggings", 4, "Description", "Epic", "Uniquie", false],
+  ["31", "Diamond Leggings", 4, "Description", "Epic", "Classic", false],
+  ["31", "Emerald Leggings", 4, "Description", "Epic", "Uniquie", false]
+];
+
+var EpicBootArmorTypes = [
+  ["26", "Medevil Boots", 5, "Description", "Epic", "Uniquie", false],
+  ["27", "Coral Boots", 4, "Description", "Epic", "Uniquie", false],
+  ["28", "Snakeskin Boots", 4, "Description", "Epic", "Uniquie", false],
+  ["29", "Cooled magma Boots", 4, "Description", "Epic", "Uniquie", false],
+  ["30", "Holy Bamboo Boots", 4, "Description", "Epic", "Uniquie", false],
+  ["31", "Diamond Boots", 4, "Description", "Epic", "Classic", false],
+  ["31", "Emerald Boots", 4, "Description", "Epic", "Uniquie", false]
+];
+
+
 
 
 
