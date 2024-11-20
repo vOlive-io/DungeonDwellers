@@ -20,6 +20,7 @@ function startUp() {
   setInterval(updateUncommonHeadArmors, 250);
   setInterval(updateUncommonChestArmors, 250);
   setInterval(updateUncommonLegArmors, 250);
+  setInterval(updateUncommonBootArmors, 250);
   //Armor Descriptions
   setInterval(updateHeadDiscription, 250); 
   setInterval(updateChestDiscription, 250);
