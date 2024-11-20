@@ -630,6 +630,10 @@ function updateSlots() {
 }
 
 
+//////////////////////////////////
+///    1.25) ARMOR UPDATES     ///
+//////////////////////////////////
+
 function updateCommonHeadArmors() {
   if (CommonHeadArmorTypes[1][6] == true) {
     document.getElementById("FigWreath").classList.add('unlockedArmor');
@@ -689,37 +693,48 @@ function updateCommonLegArmors() {
 
 function updateUncommonHeadArmors() {
   if (UncommonHeadArmorTypes[0][6] == true) {
-    FruitHat.style.display = "block";
+    document.getElementById("TheFigFruitHatLeaf").classList.add('unlockedArmor');
+    document.getElementById("FruitHat").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[1][6] == true) {
-    SafariHat.style.display = "block";
+    document.getElementById("SafariHat").classList.add('unlockedArmor');
+    document.getElementById("SafariHat").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[2][6] == true) {
-    RubberMask.style.display = "block";
+    document.getElementById("RubberMask").classList.add('unlockedArmor');
+    document.getElementById("RubberMask").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[3][6] == true) {
-    MudMask.style.display = "block";
+    document.getElementById("MudMask").classList.add('unlockedArmor');
+    document.getElementById("MudMask").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[4][6] == true) {
-    TinHead.style.display = "block";
+    document.getElementById("TinHead").classList.add('unlockedArmor');
+    document.getElementById("TinHead").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[5][6] == true) {
-    StoneHelmet.style.display = "block";
+    document.getElementById("StoneHelmet").classList.add('unlockedArmor');
+    document.getElementById("StoneHelmet").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[6][6] == true) {
-    GlassHelmet.style.display = "block";
+    document.getElementById("GlassHelmet").classList.add('unlockedArmor');
+    document.getElementById("GlassHelmet").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[7][6] == true) {
-    NickleHelmet.style.display = "block";
+    document.getElementById("NickleHelmet").classList.add('unlockedArmor');
+    document.getElementById("NickleHelmet").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[8][6] == true) {
-    ChainHelmet.style.display = "block";
+    document.getElementById("ChainHelmet").classList.add('unlockedArmor');
+    document.getElementById("ChainHelmet").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[9][6] == true) {
-    CopperHelmet.style.display = "block";
+    document.getElementById("CopperHelmet").classList.add('unlockedArmor');
+    document.getElementById("CopperHelmet").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[10][6] == true) {
-    BrassHelmet.style.display = "block";
+    document.getElementById("BrassHelmet").classList.add('unlockedArmor');
+    document.getElementById("BrassHelmet").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (uncommonHeadOwned == true) {
     uncommonHead.style.display = "block";
