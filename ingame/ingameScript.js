@@ -408,6 +408,7 @@ var RareBootArmorTypes = [
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 //Collections: DONE
+// NEEDS DISCRIPTIONS
 var EpicHeadArmorTypes = [
   ["79", "Medevil Helmet", 5, "Description", "Epic", "Uniquie", false],
   ["80", "Coral Helmet", 4, "Description", "Epic", "Uniquie", false],
@@ -450,6 +451,7 @@ var EpicBootArmorTypes = [
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
 //Collections: DONE
+// NEEDS DISCRIPTIONS
 var MythicHeadArmorTypes = [
   ["107", "Gold encrusted Silk Vail", 4, "Description", "Epic", "Uniquie", false],
   ["108", "Dragon Skin Hood", 4, "Description", "Epic", "Uniquie", false],
@@ -490,6 +492,8 @@ var MythicChestArmorTypes = [
 /////////////////////////////////////////////////////////////////////////////
 //////////////   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ DONE ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  //////////////
 /////////////////////////////////////////////////////////////////////////////
+
+
 
 
 /////////////////////////////////////////////////////////////////////////////
