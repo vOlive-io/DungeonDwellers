@@ -54,6 +54,10 @@ function setRandomName() {
 function startTime() {
   setInterval(timer, 1000);
 }
+var timeA = 0;
+var timeB = 0;
+var timeC = 0;
+var timeD = 0;
 
 function timer() {
   //mili to sec
