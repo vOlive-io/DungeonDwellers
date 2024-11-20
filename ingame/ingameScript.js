@@ -914,44 +914,27 @@ function updateChestDiscription() {
 }
 
 function updateLegDiscription() {
-  if (document.getElementById("Jeans").selected == true) {
-    legSlot = CommonLegArmorTypes[0];
-  } if (document.getElementById("TheFigLeaf").selected == true) {
-    legSlot = CommonLegArmorTypes[1];
-  } if (document.getElementById("WoodenLegPadding").selected == true) {
-    legSlot = CommonLegArmorTypes[2];
-  } if (document.getElementById("LeatherLeggings").selected == true) {
-    legSlot = CommonLegArmorTypes[3];
-  } if (document.getElementById("PaintedOnLeggings").selected == true) {
-    legSlot = CommonLegArmorTypes[4];
-  } if (document.getElementById("BasicExplorersLeggings").selected == true) {
-    legSlot = CommonLegArmorTypes[5];
-  } 
+  //COMMON
+  if (document.getElementById("Jeans").selected == true) { legSlot = CommonLegArmorTypes[0]; }
+  if (document.getElementById("TheFigLeaf").selected == true) { legSlot = CommonLegArmorTypes[1]; }
+  if (document.getElementById("WoodenLegPadding").selected == true) { legSlot = CommonLegArmorTypes[2]; }
+  if (document.getElementById("LeatherLeggings").selected == true) { legSlot = CommonLegArmorTypes[3]; }
+  if (document.getElementById("PaintedOnLeggings").selected == true) { legSlot = CommonLegArmorTypes[4]; }
+  if (document.getElementById("BasicExplorersLeggings").selected == true) { legSlot = CommonLegArmorTypes[5]; } 
   // UNCOMMON
-  if (document.getElementById("BananaLeavesSkirt").selected == true) {
-    legSlot = UncommonLegArmorTypes[0];
-  } if (document.getElementById("SafariPants").selected == true) {
-    legSlot = UncommonLegArmorTypes[1];
-  } if (document.getElementById("RubberLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[2];
-  } if (document.getElementById("MudLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[3];
-  } if (document.getElementById("TinLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[4];
-  } if (document.getElementById("StoneLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[5];
-  } if (document.getElementById("GlassLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[6];
-  } if (document.getElementById("NickleLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[7];
-  } if (document.getElementById("ChainLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[8];
-  } if (document.getElementById("CopperLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[9];
-  } if (document.getElementById("BrassLeggings").selected == true) {
-    legSlot = UncommonLegArmorTypes[10];
-  }
-  legProtection = bootSlot[2]
+  if (document.getElementById("BananaLeavesSkirt").selected == true) { legSlot = UncommonLegArmorTypes[0]; }
+  if (document.getElementById("SafariPants").selected == true) { legSlot = UncommonLegArmorTypes[1]; }
+  if (document.getElementById("RubberLeggings").selected == true) { legSlot = UncommonLegArmorTypes[2]; }
+  if (document.getElementById("MudLeggings").selected == true) { legSlot = UncommonLegArmorTypes[3]; }
+  if (document.getElementById("TinLeggings").selected == true) { legSlot = UncommonLegArmorTypes[4]; }
+  if (document.getElementById("StoneLeggings").selected == true) { legSlot = UncommonLegArmorTypes[5]; }
+  if (document.getElementById("GlassLeggings").selected == true) { legSlot = UncommonLegArmorTypes[6]; }
+  if (document.getElementById("NickleLeggings").selected == true) { legSlot = UncommonLegArmorTypes[7]; }
+  if (document.getElementById("ChainLeggings").selected == true) { legSlot = UncommonLegArmorTypes[8]; }
+  if (document.getElementById("CopperLeggings").selected == true) { legSlot = UncommonLegArmorTypes[9]; } 
+  if (document.getElementById("BrassLeggings").selected == true) { legSlot = UncommonLegArmorTypes[10]; }
+  //SET PROPERTIES
+  legProtection = legSlot[2]
   LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " Armor & Weapons collection." + "<br>" +  legSlot[4] + " +" + legSlot[2] + " Protection";
 }
 
