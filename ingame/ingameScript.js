@@ -19,11 +19,11 @@ function startUp() {
   setInterval(updateUncommonHeadArmors, 250);
   setInterval(updateUncommonChestArmors, 250);
   setInterval(updateUncommonLegArmors, 250);
-  //needs boots
   //Armor Descriptions
   setInterval(updateHeadDiscription, 250); 
   setInterval(updateChestDiscription, 250);
   setInterval(updateLegDiscription, 250);
+  setInterval(updateBootDiscription, 250);
 }
 
 ////////////////////////////////
