@@ -1,30 +1,27 @@
 /* ----------------
-     BUN BERRIES
------------------*/
-#heathHealOneTag, #waterTag, #satTag, #strenthTag, #stealthTag, #luckTag {
-     display: none;
-}
-
-/* ----------------
     INV STUFF
 -----------------*/
-
 #invetoryToggleOn, #inventory, #AchievementsGallery, #achievementToggleOn {
      display: none;
 }
 
-/* -- */
+/* -- ARMORS -- */
 .unlockedArmor {
      display: block;
 }
+
 .lockedArmor {
      display: none;
 }
+/* -- BUN BERRIES -- */
+#heathHealOneTag, #waterTag, #satTag, #strenthTag, #stealthTag, #luckTag {
+     display: none;
+}
+/* -- CREDITS -- */
 .creditText {
      font-size: 10px;
      list-style-type: circle;
 }
-
 .creditHeader {
      font-size: 20px;
 }
@@ -75,9 +72,9 @@
      float: left;
      padding-top: 10px;
 }
-/* ------------
-    ARMORS
--------------*/
+/* --------------
+   (OLD) ARMOR
+---------------*/
 
 /* commonHead == #FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet */
 /* commonChest == #FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate */
