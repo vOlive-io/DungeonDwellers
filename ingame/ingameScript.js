@@ -691,6 +691,26 @@ function updateCommonLegArmors() {
   }
 }
 
+function updateCommonBootArmors() {
+  if (CommonBootArmorTypes[1][6] == true) {
+    document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
+    document.getElementById("FigLeafFeet").classList.remove('lockedArmor');
+  } if (CommonBootArmorTypes[2][6] == true) {
+    document.getElementById("WoodSandals").classList.add('unlockedArmor');
+    document.getElementById("WoodSandals").classList.remove('lockedArmor');
+  } if (CommonBootArmorTypes[3][6] == true) {
+    document.getElementById("LeatherBoots").classList.add('unlockedArmor');
+    document.getElementById("LeatherBoots").classList.remove('lockedArmor');
+  } if (CommonBootArmorTypes[4][6] == true) {
+    document.getElementById("PaintedOnBoots").classList.add('unlockedArmor');
+    document.getElementById("PaintedOnBoots").classList.remove('lockedArmor');
+  } if (CommonBootArmorTypes[5][6] == true) {
+    document.getElementById("BasicExplorersBoots").classList.add('unlockedArmor');
+    document.getElementById("BasicExplorersBoots").classList.remove('lockedArmor');
+  }
+}
+
+
 function updateUncommonHeadArmors() {
   if (UncommonHeadArmorTypes[0][6] == true) {
     document.getElementById("FruitHat").classList.add('unlockedArmor');
