@@ -350,7 +350,7 @@ var UncommonBootArmorTypes = [
   ["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away.", "Uncommon", "Classic", false],
   ["42", "Glass Boots", 4, "You can see your feet underneath, how cool!", "Uncommon", "Dumb", false],
   ["43", "Nickle Boots", 5, "Buy NOW! Please, I'm poor!.", "Uncommon", "Classic", false],
-  ["44", "Chain Mail Boots", 5, "Why are you doing this to your poor feet.", "Uncommon", "Classic", false],
+  ["44", "Chain Mail Boots", 5, "Neat foot pattern.", "Uncommon", "Classic", false],
   ["45", "Copper Boots", 5, "No more moving your ankle....", "Uncommon", "Classic", false],
   ["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!",  "Uncommon", "Classic", false]
 ];
@@ -360,7 +360,7 @@ var UncommonBootArmorTypes = [
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 //Collections: Done
 var RareHeadArmorTypes = [
-  ["47", "Steal Helmet", 5, "Description.", "Rare", "Classic", false],
+  ["47", "Steel Helmet", 5, "Knock on steel *try not to break you're fist*.", "Rare", "Classic", false],
   ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic", false],
   ["49", "Silver Helmet", 5, "Description.", "Rare", "Classic", false],
   ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic", false],
@@ -371,7 +371,7 @@ var RareHeadArmorTypes = [
 ];
 
 var RareChestArmorTypes = [
-  ["55", "Steal Chestplate", 5, "Description.", "Rare", "Classic", false],
+  ["55", "Steel Chestplate", 5, "Description.", "Rare", "Classic", false],
   ["56", "Bronze Chestplate", 5, "Description.", "Rare", "Classic", false],
   ["57", "Silver Chestplate", 5, "Description.", "Rare", "Classic", false],
   ["58", "Gold Chestplate", 6, "Description.", "Rare", "Classic", false],
@@ -382,7 +382,7 @@ var RareChestArmorTypes = [
 ];
 
 var RareLegArmorTypes = [
-  ["63", "Steal Leggings", 5, "Description.", "Rare", "Classic", false],
+  ["63", "Steel Leggings", 5, "Description.", "Rare", "Classic", false],
   ["64", "Bronze Leggings", 5, "Description.", "Rare", "Classic", false],
   ["65", "Silver Leggings", 5, "Description.", "Rare", "Classic", false],
   ["66", "Gold Leggings", 6, "Description.", "Classic", false],
@@ -393,7 +393,7 @@ var RareLegArmorTypes = [
 ];
 
 var RareBootArmorTypes = [
-  ["71", "Steal Boots", 5, "Description.", "Rare", "Classic", false],
+  ["71", "Steel Boots", 5, "Description.", "Rare", "Classic", false],
   ["72", "Bronze Boots", 5, "Description.", "Rare", "Classic", false],
   ["73", "Silver Boots", 5, "Description.", "Rare", "Classic", false],
   ["74", "Gold Boots", 6, "Description.", "Rare", "Classic", false],
