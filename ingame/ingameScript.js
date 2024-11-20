@@ -45,7 +45,7 @@ function setRandomName() {
   num = Math.floor(Math.random() * 999) + 1;
   username = (adj + ani + num)
   console.log(username)
-  alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this yu will be known as " + username + "!")
+  alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this you will be known as " + username + "!")
   user = true;   
   makeSavedData_cookies();
   mili = 0;
