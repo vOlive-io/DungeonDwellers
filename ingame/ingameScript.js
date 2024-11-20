@@ -743,37 +743,47 @@ function updateUncommonHeadArmors() {
 
 function updateUncommonChestArmors() {
   if (UncommonChestArmorTypes[0][6] == true) {
-    CoconutShellBrestPlate.style.display = "block";
+    document.getElementById("CoconutShellBrestPlate").classList.add('unlockedArmor');
+    document.getElementById("CoconutShellBrestPlate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[1][6] == true) {
-    SafariVest.style.display = "block";
+    document.getElementById("SafariVest").classList.add('unlockedArmor');
+    document.getElementById("SafariVest").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[2][6] == true) {
-    RubberChestplate.style.display = "block";
+    document.getElementById("RubberChestplate").classList.add('unlockedArmor');
+    document.getElementById("RubberChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[3][6] == true) {
-    MudChestplate.style.display = "block";
+    document.getElementById("MudChestplate").classList.add('unlockedArmor');
+    document.getElementById("MudChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[4][6] == true) {
-    TinChestplate.style.display = "block";
+    document.getElementById("TinChestplate").classList.add('unlockedArmor');
+    document.getElementById("TinChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[5][6] == true) {
-    StoneChestplate.style.display = "block";
+    document.getElementById("StoneChestplate").classList.add('unlockedArmor');
+    document.getElementById("StoneChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[6][6] == true) {
-    GlassChestplate.style.display = "block";
+    document.getElementById("GlassChestplate").classList.add('unlockedArmor');
+    document.getElementById("GlassChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[7][6] == true) {
-    NickleChestplate.style.display = "block";
+    document.getElementById("NickleChestplate").classList.add('unlockedArmor');
+    document.getElementById("NickleChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[8][6] == true) {
-    ChainChestplate.style.display = "block";
+    document.getElementById("ChainChestplate").classList.add('unlockedArmor');
+    document.getElementById("ChainChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (UncommonChestArmorTypes[9][6] == true) {
-    CopperChestplate.style.display = "block";
+    document.getElementById("CopperChestplate").classList.add('unlockedArmor');
+    document.getElementById("CopperChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[10][6] == true) {
-    BrassChestplate.style.display = "block";
+  } if (UncommonChestArmorTypes[10][6] == true) {    document.getElementById("BrassChestplate").classList.add('unlockedArmor');
+    document.getElementById("BrassChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (uncommonChestOwned == true) {
     uncommonChest.style.display = "block";
