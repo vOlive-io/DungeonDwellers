@@ -846,7 +846,7 @@ function updateChestDiscription() {
   ChestDescription.innerHTML = chestSlot[3] + "<br>" + "Part of the " + chestSlot[5] + " Armor & Weapons collection." + "<br>" +  chestSlot[4] + " +" + chestSlot[2] + " Protection";
 }
 
-function updateLegDiscription() {
+function updateBootDiscription() {
   //COMMON
   if (document.getElementById("Jeans").selected == true) { legSlot = CommonLegArmorTypes[0]; }
   if (document.getElementById("TheFigLeaf").selected == true) { legSlot = CommonLegArmorTypes[1]; }
