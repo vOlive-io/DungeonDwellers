@@ -25,6 +25,11 @@
      list-style-type: circle;
 }
 
+.creditHeader {
+     font-size: 10px;
+     list-style-type: circle;
+}
+
 /* ------------
     ACHS
 -------------*/
