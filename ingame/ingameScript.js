@@ -647,29 +647,39 @@ function updateCommonHeadArmors() {
 
 function updateCommonChestArmors() {
   if (CommonChestArmorTypes[1][6] == true) {
-    FigLeafBreastplate.style.display = "block";
+    document.getElementById("FigLeafBreastplate").classList.add('unlockedArmor');
+    document.getElementById("FigLeafBreastplate").classList.remove('lockedArmor');
   } if (CommonChestArmorTypes[2][6] == true) {
-    Woodplate.style.display = "block";
+    document.getElementById("Woodplate").classList.add('unlockedArmor');
+    document.getElementById("Woodplate").classList.remove('lockedArmor');
   } if (CommonChestArmorTypes[3][6] == true) {
-    LeatherChestplate.style.display = "block";
+    document.getElementById("LeatherChestplate").classList.add('unlockedArmor');
+    document.getElementById("LeatherChestplate").classList.remove('lockedArmor');
   } if (CommonChestArmorTypes[4][6] == true) {
-    PaintedArmor.style.display = "block";
+    document.getElementById("PaintedArmor").classList.add('unlockedArmor');
+    document.getElementById("PaintedArmor").classList.remove('lockedArmor');
   } if (CommonChestArmorTypes[5][6] == true) {
-    BasicExplorersChestplate.style.display = "block";
+    document.getElementById("BasicExplorersChestplate").classList.add('unlockedArmor');
+    document.getElementById("BasicExplorersChestplate").classList.remove('lockedArmor');
   }
 }
 
 function updateCommonLegArmors() {
   if (CommonLegArmorTypes[1][6] == true) {
-    TheFigLeaf.style.display = "block";
+    document.getElementById("TheFigLeaf").classList.add('unlockedArmor');
+    document.getElementById("TheFigLeaf").classList.remove('lockedArmor');
   } if (CommonLegArmorTypes[2][6] == true) {
-    WoodenLegPadding.style.display = "block";
+    document.getElementById("WoodenLegPadding").classList.add('unlockedArmor');
+    document.getElementById("WoodenLegPadding").classList.remove('lockedArmor');
   } if (CommonLegArmorTypes[3][6] == true) {
-    LeatherLeggings.style.display = "block";
+    document.getElementById("LeatherLeggings").classList.add('unlockedArmor');
+    document.getElementById("LeatherLeggings").classList.remove('lockedArmor');
   } if (CommonLegArmorTypes[4][6] == true) {
-    PaintedOnLeggings.style.display = "block";
+    document.getElementById("PaintedOnLeggings").classList.add('unlockedArmor');
+    document.getElementById("PaintedOnLeggings").classList.remove('lockedArmor');
   } if (CommonLegArmorTypes[5][6] == true) {
-    BasicExplorersLeggings.style.display = "block";
+    document.getElementById("BasicExplorersLeggings").classList.add('unlockedArmor');
+    document.getElementById("BasicExplorersLeggings").classList.remove('lockedArmor');
   }
 }
 
