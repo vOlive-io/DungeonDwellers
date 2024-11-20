@@ -862,6 +862,57 @@ function updateUncommonLegArmors() {
   }
 }
 
+
+function updateUncommonBootArmors() {
+  if (UncommonBootArmorTypes[0][6] == true) {
+    document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
+    document.getElementById("FigLeafFeet").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[1][6] == true) {
+    document.getElementById("SafariBoots").classList.add('unlockedArmor');
+    document.getElementById("SafariBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[2][6] == true) {
+    document.getElementById("RubberBoots").classList.add('unlockedArmor');
+    document.getElementById("RubberBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[3][6] == true) {
+    document.getElementById("MudBoots").classList.add('unlockedArmor');
+    document.getElementById("MudBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[4][6] == true) {
+    document.getElementById("TinBoots").classList.add('unlockedArmor');
+    document.getElementById("TinBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[5][6] == true) {
+    document.getElementById("StoneBoots").classList.add('unlockedArmor');
+    document.getElementById("StoneBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[6][6] == true) {
+    document.getElementById("GlassBoots").classList.add('unlockedArmor');
+    document.getElementById("GlassBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[7][6] == true) {
+    document.getElementById("NickleBoots").classList.add('unlockedArmor');
+    document.getElementById("NickleBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[8][6] == true) {
+    document.getElementById("ChainBoots").classList.add('unlockedArmor');
+    document.getElementById("ChainBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[9][6] == true) {
+    document.getElementById("CopperBoots").classList.add('unlockedArmor');
+    document.getElementById("CopperBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (UncommonBootArmorTypes[10][6] == true) {
+    document.getElementById("BrassBoots").classList.add('unlockedArmor');
+    document.getElementById("BrassBoots").classList.remove('lockedArmor');
+    uncommonBootOwned = true;
+  } if (uncommonBootOwned == true) {
+    uncommonBoot.style.display = "block";
+  }
+}
+
 ///////////////////////////////////////////
 ///      1.5) Description updates       ///
 ///////////////////////////////////////////
