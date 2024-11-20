@@ -951,7 +951,7 @@ function updateLegDiscription() {
   } if (document.getElementById("BrassLeggings").selected == true) {
     legSlot = UncommonLegArmorTypes[10];
   }
-  bootProtection = bootSlot[2]
+  legProtection = bootSlot[2]
   LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " Armor & Weapons collection." + "<br>" +  legSlot[4] + " +" + legSlot[2] + " Protection";
 }
 
