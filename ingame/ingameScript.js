@@ -361,6 +361,7 @@ var UncommonBootArmorTypes = [
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 //Collections: DONE
+// NEEDS DISCRIPTIONS
 var RareHeadArmorTypes = [
   ["47", "Steel Helmet", 5, "Knock on steel *try not to break you're fist*.", "Rare", "Classic", false],
   ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic", false],
