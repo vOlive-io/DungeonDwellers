@@ -782,7 +782,8 @@ function updateUncommonChestArmors() {
     document.getElementById("CopperChestplate").classList.add('unlockedArmor');
     document.getElementById("CopperChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
-  } if (UncommonChestArmorTypes[10][6] == true) {    document.getElementById("BrassChestplate").classList.add('unlockedArmor');
+  } if (UncommonChestArmorTypes[10][6] == true) {    
+    document.getElementById("BrassChestplate").classList.add('unlockedArmor');
     document.getElementById("BrassChestplate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
   } if (uncommonChestOwned == true) {
@@ -792,37 +793,48 @@ function updateUncommonChestArmors() {
 
 function updateUncommonLegArmors() {
   if (UncommonLegArmorTypes[0][6] == true) {
-    BananaLeavesSkirt.style.display = "block";
+    document.getElementById("BananaLeavesSkirt").classList.add('unlockedArmor');
+    document.getElementById("BananaLeavesSkirt").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[1][6] == true) {
-    SafariPants.style.display = "block";
+    document.getElementById("SafariPants").classList.add('unlockedArmor');
+    document.getElementById("SafariPants").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[2][6] == true) {
-    RubberLeggings.style.display = "block";
+    document.getElementById("RubberLeggings").classList.add('unlockedArmor');
+    document.getElementById("RubberLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[3][6] == true) {
-    MudLeggings.style.display = "block";
+    document.getElementById("MudLeggings").classList.add('unlockedArmor');
+    document.getElementById("MudLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[4][6] == true) {
-    TinLeggings.style.display = "block";
+    document.getElementById("TinLeggings").classList.add('unlockedArmor');
+    document.getElementById("TinLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[5][6] == true) {
-    StoneLeggings.style.display = "block";
+    document.getElementById("StoneLeggings").classList.add('unlockedArmor');
+    document.getElementById("StoneLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[6][6] == true) {
-    GlassLeggings.style.display = "block";
+    document.getElementById("GlassLeggings").classList.add('unlockedArmor');
+    document.getElementById("GlassLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[7][6] == true) {
-    NickleLeggings.style.display = "block";
+    document.getElementById("NickleLeggings").classList.add('unlockedArmor');
+    document.getElementById("NickleLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[8][6] == true) {
-    ChainLeggings.style.display = "block";
+    document.getElementById("ChainLeggings").classList.add('unlockedArmor');
+    document.getElementById("ChainLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[9][6] == true) {
-    CopperLeggings.style.display = "block";
+    document.getElementById("CopperLeggings").classList.add('unlockedArmor');
+    document.getElementById("CopperLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (UncommonLegArmorTypes[10][6] == true) {
-    BrassLeggings.style.display = "block";
+    document.getElementById("BrassLeggings").classList.add('unlockedArmor');
+    document.getElementById("BrassLeggings").classList.remove('lockedArmor');
     uncommonLegOwned = true;
   } if (uncommonLegOwned == true) {
     uncommonLeg.style.display = "block";
