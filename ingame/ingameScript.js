@@ -259,7 +259,7 @@ var collections = ["Classic", "Dumb", "\"What the f***?\"", "Starter", "Explorer
 var raritys = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"]
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
-//Collections: Done
+//Collections: DONE
 var CommonHeadArmorTypes = [
   ["1", "Bead Head", 0, "Get a Comb lunkhead.", "Common", "Starter", true],
   ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*.", "Common", "Fruity",  false],
@@ -297,7 +297,7 @@ var CommonBootArmorTypes = [
 ];
 
 /////////////////////////////////////////////UNCOMMON/////////////////////////////////////////////
-//Collections: Done
+//Collections: DONE
 var UncommonHeadArmorTypes = [
   ["25", "Fruit Hat", 3, "Hungry? Don't eat it.", "Uncommon", "Fruity", false],
   ["26", "Safari Hat", 3, "You look like a cheetah.", "Uncommon", "Unique", false],
@@ -358,7 +358,7 @@ var UncommonBootArmorTypes = [
 
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
-//Collections: Done
+//Collections: DONE
 var RareHeadArmorTypes = [
   ["47", "Steel Helmet", 5, "Knock on steel *try not to break you're fist*.", "Rare", "Classic", false],
   ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic", false],
@@ -423,28 +423,28 @@ var RareBootArmorTypes = [
 
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
-//Collections: NOT DONE
+//Collections: DONE
 var EpicChestArmorTypes = [
-  ["26", "Medevil Armor", 5, "Description", "Epic", false],
-  ["27", "CoralArmor", 4, "Description", "Epic", false],
-  ["28", "Snake Skin", 4, "Description", "Epic", false],
-  ["29", "Cooled magma", 4, "Description", "Epic", false],
-  ["30", "Holy Bamboo", 4, "Description", "Epic", false],
-  ["31", "Diamond", 4, "Description", "Epic", false],
-  ["31", "Emerald", 4, "Description", "Epic", false]
+  ["26", "Medevil Armor", 5, "Description", "Epic", "Uniquie", false],
+  ["27", "CoralArmor", 4, "Description", "Epic", "Uniquie", false],
+  ["28", "Snake Skin", 4, "Description", "Epic", "Uniquie", false],
+  ["29", "Cooled magma", 4, "Description", "Epic", "Uniquie", false],
+  ["30", "Holy Bamboo", 4, "Description", "Epic", "Uniquie", false],
+  ["31", "Diamond", 4, "Description", "Epic", "Classic", false],
+  ["31", "Emerald", 4, "Description", "Epic", "Uniquie", false]
 ];
 
 
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
-//Collections: NOT DONE
+//Collections: DONE
 var MythicChestArmorTypes = [
-  ["32", "Gold encrusted Silk", 4, "Description", "Epic", false],
-  ["33", "Dragon Skin", 4, "Description", "Epic", false],
-  ["27", "Rhodochrosite", 4, "Description", "Epic", false],
-  ["34", "Mythrill", 4, "Description", "Epic", false],
-  ["34", "Ghoul Skin", 4, "Description", "Epic", false],
-  ["34", "Chicken Suit", 4, "Description", "Epic", false]
+  ["32", "Gold encrusted Silk", 4, "Description", "Epic", "Uniquie", false],
+  ["33", "Dragon Skin", 4, "Description", "Epic", "Uniquie", false],
+  ["27", "Rhodochrosite", 4, "Description", "Epic", "Uniquie", false],
+  ["34", "Mythrill", 4, "Description", "Epic", "Classic", false],
+  ["34", "Ghoul Skin", 4, "Description", "Epic", "Uniquie", false],
+  ["34", "Chicken Suit", 4, "Description", "Epic", "\"What the f***\"", false]
 ];
 
 
