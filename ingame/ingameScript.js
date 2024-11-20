@@ -39,7 +39,7 @@ function testNew() {
 
 function setRandomName() {
   let adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
-  let animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hipo'];
+  let animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hippo'];
   adj = adjectives[Math.floor(Math.random() * adjectives.length)];
   ani = animals[Math.floor(Math.random() * animals.length)];
   num = Math.floor(Math.random() * 999) + 1;
