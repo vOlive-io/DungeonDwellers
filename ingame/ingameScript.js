@@ -872,6 +872,32 @@ function updateLegDiscription() {
 }
 
 
+function updateLegDiscription() {
+  //COMMON
+  if (document.getElementById("Jeans").selected == true) {bootSlot = CommonLegArmorTypes[0]; }
+  if (document.getElementById("TheFigLeaf").selected == true) {bootSlot = CommonLegArmorTypes[1]; }
+  if (document.getElementById("WoodenLegPadding").selected == true) {bootSlot = CommonLegArmorTypes[2]; }
+  if (document.getElementById("LeatherLeggings").selected == true) {bootSlot = CommonLegArmorTypes[3]; }
+  if (document.getElementById("PaintedOnLeggings").selected == true) {bootSlot = CommonLegArmorTypes[4]; }
+  if (document.getElementById("BasicExplorersLeggings").selected == true) {bootSlot = CommonLegArmorTypes[5]; } 
+  // UNCOMMON
+  if (document.getElementById("BananaLeavesSkirt").selected == true) {bootSlot = UncommonBootArmorTypes[0]; }
+  if (document.getElementById("SafariPants").selected == true) {bootSlot = UncommonBootArmorTypes[1]; }
+  if (document.getElementById("RubberLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[2]; }
+  if (document.getElementById("MudLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[3]; }
+  if (document.getElementById("TinLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[4]; }
+  if (document.getElementById("StoneLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[5]; }
+  if (document.getElementById("GlassLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[6]; }
+  if (document.getElementById("NickleLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[7]; }
+  if (document.getElementById("ChainLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[8]; }
+  if (document.getElementById("CopperLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[9]; } 
+  if (document.getElementById("BrassLeggings").selected == true) {bootSlot = UncommonBootArmorTypes[10]; }
+  //SET PROPERTIES
+  bootProtection = bootSlot[2]
+  BootDescription.innerHTML = bootSlot[3] + "<br>" + "Part of the " + bootSlot[5] + " Armor & Weapons collection." + "<br>" +  bootSlot[4] + " +" + bootSlot[2] + " Protection";
+}
+
+
 
 
 
