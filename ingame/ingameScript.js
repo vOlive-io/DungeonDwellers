@@ -448,8 +448,43 @@ var EpicBootArmorTypes = [
   ["106", "Emerald Boots", 4, "Description", "Epic", "Uniquie", false]
 ];
 
+/////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
+//Collections: DONE
+var MythicHeadArmorTypes = [
+  ["107", "Gold encrusted Silk Vail", 4, "Description", "Epic", "Uniquie", false],
+  ["108", "Dragon Skin Hood", 4, "Description", "Epic", "Uniquie", false],
+  ["109", "Rhodochrosite Helmet", 4, "Description", "Epic", "Exotic Gems", false],
+  ["110", "Mythrill Helmet", 4, "Description", "Epic", "Exotic Gems", false],
+  ["111", "Ghoul Skin Head Cover", 4, "Description", "Epic", "Uniquie", false],
+  ["112", "Chicken Costume Head Piece", 4, "Description", "Epic", "\"What the f***\"", false]
+];
 
+var MythicChestArmorTypes = [
+  ["113", "Gold encrusted Silk Robe", 4, "Description", "Epic", "Uniquie", false],
+  ["114", "Dragon Skin Robe", 4, "Description", "Epic", "Uniquie", false],
+  ["115", "Rhodochrosite Chestplate", 4, "Description", "Epic", "Exotic Gems", false],
+  ["116", "Mythrill Chestplate", 4, "Description", "Epic", "Exotic Gems", false],
+  ["117", "Ghoul Skin Torso Cover", 4, "Description", "Epic", "Uniquie", false],
+  ["118", "Chicken Suit Chest Piece", 4, "Description", "Epic", "\"What the f***\"", false]
+];
 
+var MythicLegArmorTypes = [
+  ["119", "Gold encrusted Silk Thermals", 4, "Description", "Epic", "Uniquie", false],
+  ["120", "Dragon Skin Thermals", 4, "Description", "Epic", "Uniquie", false],
+  ["121", "Rhodochrosite Leggings", 4, "Description", "Epic", "Exotic Gems", false],
+  ["122", "Mythrill Leggings", 4, "Description", "Epic", "Exotic Gems", false],
+  ["123", "Ghoul Skin Leg Covers", 4, "Description", "Epic", "Uniquie", false],
+  ["124", "Chicken Suit Leg Piece", 4, "Description", "Epic", "\"What the f***\"", false]
+];
+
+var MythicChestArmorTypes = [
+  ["125", "Gold encrusted Silk Slipers", 4, "Description", "Epic", "Uniquie", false],
+  ["126", "Dragon Skin Shoes", 4, "Description", "Epic", "Uniquie", false],
+  ["127", "Rhodochrosite Boots", 4, "Description", "Epic", "Exotic Gems", false],
+  ["128", "Mythrill Boots", 4, "Description", "Epic", "Exotic Gems", false],
+  ["129", "Ghoul Skin Foot Covers", 4, "Description", "Epic", "Uniquie", false],
+  ["130", "Chicken Suit Boot Piece", 4, "Description", "Epic", "\"What the f***\"", false]
+];
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -472,49 +507,6 @@ var EpicBootArmorTypes = [
 
 /////////////////////////////////////////////////////////////////////////////
 //////////////   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ COMING SOON ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓  //////////////
-/////////////////////////////////////////////////////////////////////////////
-
-
-
-/////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
-//Collections: DONE
-var MythicHeadArmorTypes = [
-  ["32", "Gold encrusted Silk Vail", 4, "Description", "Epic", "Uniquie", false],
-  ["33", "Dragon Skin Hood", 4, "Description", "Epic", "Uniquie", false],
-  ["27", "Rhodochrosite Helmet", 4, "Description", "Epic", "Exotic Gems", false],
-  ["34", "Mythrill Helmet", 4, "Description", "Epic", "Exotic Gems", false],
-  ["34", "Ghoul Skin Head Cover", 4, "Description", "Epic", "Uniquie", false],
-  ["34", "Chicken Costume Head Piece", 4, "Description", "Epic", "\"What the f***\"", false]
-];
-
-var MythicChestArmorTypes = [
-  ["32", "Gold encrusted Silk Robe", 4, "Description", "Epic", "Uniquie", false],
-  ["33", "Dragon Skin Robe", 4, "Description", "Epic", "Uniquie", false],
-  ["27", "Rhodochrosite Chestplate", 4, "Description", "Epic", "Exotic Gems", false],
-  ["34", "Mythrill Chestplate", 4, "Description", "Epic", "Exotic Gems", false],
-  ["34", "Ghoul Skin Torso Cover", 4, "Description", "Epic", "Uniquie", false],
-  ["34", "Chicken Suit Chest Piece", 4, "Description", "Epic", "\"What the f***\"", false]
-];
-
-var MythicLegArmorTypes = [
-  ["32", "Gold encrusted Silk Thermals", 4, "Description", "Epic", "Uniquie", false],
-  ["33", "Dragon Skin Thermals", 4, "Description", "Epic", "Uniquie", false],
-  ["27", "Rhodochrosite Leggings", 4, "Description", "Epic", "Exotic Gems", false],
-  ["34", "Mythrill Leggings", 4, "Description", "Epic", "Exotic Gems", false],
-  ["34", "Ghoul Skin Leg Covers", 4, "Description", "Epic", "Uniquie", false],
-  ["34", "Chicken Suit Leg Piece", 4, "Description", "Epic", "\"What the f***\"", false]
-];
-
-var MythicChestArmorTypes = [
-  ["32", "Gold encrusted Silk Slipers", 4, "Description", "Epic", "Uniquie", false],
-  ["33", "Dragon Skin Shoes", 4, "Description", "Epic", "Uniquie", false],
-  ["27", "Rhodochrosite Boots", 4, "Description", "Epic", "Exotic Gems", false],
-  ["34", "Mythrill Boots", 4, "Description", "Epic", "Exotic Gems", false],
-  ["34", "Ghoul Skin Foot Covers", 4, "Description", "Epic", "Uniquie", false],
-  ["34", "Chicken Suit Boot Piece", 4, "Description", "Epic", "\"What the f***\"", false]
-];
-
-
 
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 //Collections: NOT DONE
