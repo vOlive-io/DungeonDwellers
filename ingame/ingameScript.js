@@ -693,7 +693,7 @@ function updateCommonLegArmors() {
 
 function updateUncommonHeadArmors() {
   if (UncommonHeadArmorTypes[0][6] == true) {
-    document.getElementById("TheFigFruitHatLeaf").classList.add('unlockedArmor');
+    document.getElementById("FruitHat").classList.add('unlockedArmor');
     document.getElementById("FruitHat").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
   } if (UncommonHeadArmorTypes[1][6] == true) {
