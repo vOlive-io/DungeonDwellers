@@ -255,7 +255,7 @@ if (ach_lvl_Five == true) {
 ///      4) ARMORS       ///
 ////////////////////////////
 //collections and raritys
-var collections = ["Classic", "Dumb", "\"What the hell?\"", "Starter", "Explorer\'s", "Fruty", "Unique"]
+var collections = ["Classic", "Dumb", "\"What the f***?\"", "Starter", "Explorer\'s", "Fruty", "Unique"]
 var raritys = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"]
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
@@ -366,7 +366,7 @@ var RareHeadArmorTypes = [
   ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic", false],
   ["51", "Iron Helmet", 6, "Description.", "Rare", "Classic", false],
   ["52", "Feathered Mask", 6, "Description.", "Rare", "Uniquie", false],
-  ["53", "Blessed Mud Helmet", 6, "Description.", "Rare", \"What the f***\"", false],
+  ["53", "Blessed Mud Helmet", 6, "Description.", "Rare", '\"What the f***\"", false],
   ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity", false]
 ];
 
