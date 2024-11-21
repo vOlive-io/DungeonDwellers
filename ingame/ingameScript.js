@@ -317,7 +317,7 @@ var RareChestArmorTypes = [
   ["57", "Silver Chestplate", 5, "Description.", "Rare", "Classic", false],
   ["58", "Gold Chestplate", 6, "Description.", "Rare", "Classic", false],
   ["59", "Iron Chestplate", 6, "Description.", "Rare", "Classic", false],
-  ["60", "Feathered Chestplate", 6, "Description.", "Rare", "Uniquie", false],
+  ["60", "Feathered Wings", 6, "Description.", "Rare", "Uniquie", false],
   ["61", "Blessed Mud Chestplate", 6, "Description.", "Rare",  "\"What the f***\"", false],
   ["62", "Jungle Vine Chestplate", 6, "Description.", "Rare", "Fruity", false]
 ];
