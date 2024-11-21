@@ -205,9 +205,9 @@ var totalBunBerries = 0; //      Total Number of Bun Berries Owned
 var totalEaten = 0; //           Total Number of Bun Berries Eaten
 //BASIC BUN BERRIES
 var bunberries = [
-  ["ID", "NAME", "DISCRIPTION", "TYPE", "STRENTH", "AMOUNT"],
-  ["--", "Luck Bun Berry", "DISCRIPTION", "Basic", 1, 0],
-  ["--", "Strenth Bun Berry", "DISCRIPTION", "Basic", 1, 0]
+  ["ID", "NAME", "DISCRIPTION", "ASSET", "AMOUNT"],
+  ["--", "Luck Bun Berry", "DISCRIPTION", "----", "Basic", 0],
+  ["--", "Strenth Bun Berry", "DISCRIPTION", "----", "Basic", 0]
 ];
 var luckBunBerries = 0; //           +3 Luck
 var strenthBunBerries = 0; //        +5 Strength
