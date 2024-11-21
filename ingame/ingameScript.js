@@ -12,15 +12,10 @@ function startUp() {
   setInterval(updateMain, 250);
   setInterval(updateSlots, 250);
   //Armors
-  setInterval(updateCommonHeadArmors, 250);
-  setInterval(updateCommonChestArmors, 2500);
-  setInterval(updateCommonLegArmors, 2500);
-  setInterval(updateCommonBootArmors, 2500);
-  
-  setInterval(updateUncommonHeadArmors, 250);
-  setInterval(updateUncommonChestArmors, 250);
-  setInterval(updateUncommonLegArmors, 250);
-  setInterval(updateUncommonBootArmors, 250);
+  setInterval(updateOwnedHeadArmors, 250);
+  setInterval(updateOwnedChestArmors, 2500);
+  setInterval(updateOwnedLegArmors, 2500);
+  setInterval(updateOwnedBootArmors, 2500);
   //Armor Descriptions
   setInterval(updateHeadDiscription, 250); 
   setInterval(updateChestDiscription, 250);
@@ -706,7 +701,7 @@ function updateSlots() {
 ///    1.25) ARMOR UPDATES     ///
 //////////////////////////////////
 
-function updateCommonHeadArmors() {
+function updateOwnedHeadArmors() {
   if (CommonHeadArmorTypes[1][6] == true) {
     document.getElementById("FigWreath").classList.add('unlockedArmor');
     document.getElementById("FigWreath").classList.remove('lockedArmor');
@@ -722,69 +717,8 @@ function updateCommonHeadArmors() {
   } if (CommonHeadArmorTypes[5][6] == true) {
     document.getElementById("BasicExplorersHelmet").classList.add('unlockedArmor');
     document.getElementById("BasicExplorersHelmet").classList.remove('lockedArmor');
-  }
-}
-
-function updateCommonChestArmors() {
-  if (CommonChestArmorTypes[1][6] == true) {
-    document.getElementById("FigLeafBreastplate").classList.add('unlockedArmor');
-    document.getElementById("FigLeafBreastplate").classList.remove('lockedArmor');
-  } if (CommonChestArmorTypes[2][6] == true) {
-    document.getElementById("Woodplate").classList.add('unlockedArmor');
-    document.getElementById("Woodplate").classList.remove('lockedArmor');
-  } if (CommonChestArmorTypes[3][6] == true) {
-    document.getElementById("LeatherChestplate").classList.add('unlockedArmor');
-    document.getElementById("LeatherChestplate").classList.remove('lockedArmor');
-  } if (CommonChestArmorTypes[4][6] == true) {
-    document.getElementById("PaintedArmor").classList.add('unlockedArmor');
-    document.getElementById("PaintedArmor").classList.remove('lockedArmor');
-  } if (CommonChestArmorTypes[5][6] == true) {
-    document.getElementById("BasicExplorersChestplate").classList.add('unlockedArmor');
-    document.getElementById("BasicExplorersChestplate").classList.remove('lockedArmor');
-  }
-}
-
-function updateCommonLegArmors() {
-  if (CommonLegArmorTypes[1][6] == true) {
-    document.getElementById("TheFigLeaf").classList.add('unlockedArmor');
-    document.getElementById("TheFigLeaf").classList.remove('lockedArmor');
-  } if (CommonLegArmorTypes[2][6] == true) {
-    document.getElementById("WoodenLegPadding").classList.add('unlockedArmor');
-    document.getElementById("WoodenLegPadding").classList.remove('lockedArmor');
-  } if (CommonLegArmorTypes[3][6] == true) {
-    document.getElementById("LeatherLeggings").classList.add('unlockedArmor');
-    document.getElementById("LeatherLeggings").classList.remove('lockedArmor');
-  } if (CommonLegArmorTypes[4][6] == true) {
-    document.getElementById("PaintedOnLeggings").classList.add('unlockedArmor');
-    document.getElementById("PaintedOnLeggings").classList.remove('lockedArmor');
-  } if (CommonLegArmorTypes[5][6] == true) {
-    document.getElementById("BasicExplorersLeggings").classList.add('unlockedArmor');
-    document.getElementById("BasicExplorersLeggings").classList.remove('lockedArmor');
-  }
-}
-
-function updateCommonBootArmors() {
-  if (CommonBootArmorTypes[1][6] == true) {
-    document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
-    document.getElementById("FigLeafFeet").classList.remove('lockedArmor');
-  } if (CommonBootArmorTypes[2][6] == true) {
-    document.getElementById("WoodSandals").classList.add('unlockedArmor');
-    document.getElementById("WoodSandals").classList.remove('lockedArmor');
-  } if (CommonBootArmorTypes[3][6] == true) {
-    document.getElementById("LeatherBoots").classList.add('unlockedArmor');
-    document.getElementById("LeatherBoots").classList.remove('lockedArmor');
-  } if (CommonBootArmorTypes[4][6] == true) {
-    document.getElementById("PaintedOnBoots").classList.add('unlockedArmor');
-    document.getElementById("PaintedOnBoots").classList.remove('lockedArmor');
-  } if (CommonBootArmorTypes[5][6] == true) {
-    document.getElementById("BasicExplorersBoots").classList.add('unlockedArmor');
-    document.getElementById("BasicExplorersBoots").classList.remove('lockedArmor');
-  }
-}
-
-
-function updateUncommonHeadArmors() {
-  if (UncommonHeadArmorTypes[0][6] == true) {
+  //UNCOMMON
+  } if (UncommonHeadArmorTypes[0][6] == true) {
     document.getElementById("FruitHat").classList.add('unlockedArmor');
     document.getElementById("FruitHat").classList.remove('lockedArmor');
     uncommonHeadOwned = true;
@@ -833,8 +767,26 @@ function updateUncommonHeadArmors() {
   }
 }
 
-function updateUncommonChestArmors() {
-  if (UncommonChestArmorTypes[0][6] == true) {
+
+
+function updateOwnedChestArmors() {
+  if (CommonChestArmorTypes[1][6] == true) {
+    document.getElementById("FigLeafBreastplate").classList.add('unlockedArmor');
+    document.getElementById("FigLeafBreastplate").classList.remove('lockedArmor');
+  } if (CommonChestArmorTypes[2][6] == true) {
+    document.getElementById("Woodplate").classList.add('unlockedArmor');
+    document.getElementById("Woodplate").classList.remove('lockedArmor');
+  } if (CommonChestArmorTypes[3][6] == true) {
+    document.getElementById("LeatherChestplate").classList.add('unlockedArmor');
+    document.getElementById("LeatherChestplate").classList.remove('lockedArmor');
+  } if (CommonChestArmorTypes[4][6] == true) {
+    document.getElementById("PaintedArmor").classList.add('unlockedArmor');
+    document.getElementById("PaintedArmor").classList.remove('lockedArmor');
+  } if (CommonChestArmorTypes[5][6] == true) {
+    document.getElementById("BasicExplorersChestplate").classList.add('unlockedArmor');
+    document.getElementById("BasicExplorersChestplate").classList.remove('lockedArmor');
+//UNCOMMON
+  } if (UncommonChestArmorTypes[0][6] == true) {
     document.getElementById("CoconutShellBrestPlate").classList.add('unlockedArmor');
     document.getElementById("CoconutShellBrestPlate").classList.remove('lockedArmor');
     uncommonChestOwned = true;
@@ -883,8 +835,24 @@ function updateUncommonChestArmors() {
   }
 }
 
-function updateUncommonLegArmors() {
-  if (UncommonLegArmorTypes[0][6] == true) {
+function updateOwnedLegArmors() {
+  if (CommonLegArmorTypes[1][6] == true) {
+    document.getElementById("TheFigLeaf").classList.add('unlockedArmor');
+    document.getElementById("TheFigLeaf").classList.remove('lockedArmor');
+  } if (CommonLegArmorTypes[2][6] == true) {
+    document.getElementById("WoodenLegPadding").classList.add('unlockedArmor');
+    document.getElementById("WoodenLegPadding").classList.remove('lockedArmor');
+  } if (CommonLegArmorTypes[3][6] == true) {
+    document.getElementById("LeatherLeggings").classList.add('unlockedArmor');
+    document.getElementById("LeatherLeggings").classList.remove('lockedArmor');
+  } if (CommonLegArmorTypes[4][6] == true) {
+    document.getElementById("PaintedOnLeggings").classList.add('unlockedArmor');
+    document.getElementById("PaintedOnLeggings").classList.remove('lockedArmor');
+  } if (CommonLegArmorTypes[5][6] == true) {
+    document.getElementById("BasicExplorersLeggings").classList.add('unlockedArmor');
+    document.getElementById("BasicExplorersLeggings").classList.remove('lockedArmor');
+  //UNCOMMON
+  } if (UncommonLegArmorTypes[0][6] == true) {
     document.getElementById("BananaLeavesSkirt").classList.add('unlockedArmor');
     document.getElementById("BananaLeavesSkirt").classList.remove('lockedArmor');
     uncommonLegOwned = true;
@@ -934,8 +902,24 @@ function updateUncommonLegArmors() {
 }
 
 
-function updateUncommonBootArmors() {
-  if (UncommonBootArmorTypes[0][6] == true) {
+function updateOwnedBootArmors() {
+  if (CommonBootArmorTypes[1][6] == true) {
+    document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
+    document.getElementById("FigLeafFeet").classList.remove('lockedArmor');
+  } if (CommonBootArmorTypes[2][6] == true) {
+    document.getElementById("WoodSandals").classList.add('unlockedArmor');
+    document.getElementById("WoodSandals").classList.remove('lockedArmor');
+  } if (CommonBootArmorTypes[3][6] == true) {
+    document.getElementById("LeatherBoots").classList.add('unlockedArmor');
+    document.getElementById("LeatherBoots").classList.remove('lockedArmor');
+  } if (CommonBootArmorTypes[4][6] == true) {
+    document.getElementById("PaintedOnBoots").classList.add('unlockedArmor');
+    document.getElementById("PaintedOnBoots").classList.remove('lockedArmor');
+  } if (CommonBootArmorTypes[5][6] == true) {
+    document.getElementById("BasicExplorersBoots").classList.add('unlockedArmor');
+    document.getElementById("BasicExplorersBoots").classList.remove('lockedArmor');
+//UNCOMMON
+  } if (UncommonBootArmorTypes[0][6] == true) {
     document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
     document.getElementById("FigLeafFeet").classList.remove('lockedArmor');
     uncommonBootOwned = true;
