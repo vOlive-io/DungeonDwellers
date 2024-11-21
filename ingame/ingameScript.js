@@ -210,14 +210,13 @@ var bunberries = [
   ["--", "Strenth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Strength
   ["--", "Stealth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Stealth
   ["--", "Water Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //           +5 Water 
-  ["--", "Saturation Bun Berry", "DISCRIPTION", "----", "Basic", 0]  //      +10 Saturation
+  ["--", "Saturation Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //      +10 Saturation
+  ["--", "Heath Bun Berry (Lv 1)", "DISCRIPTION", "----", "Heath", 0],  //    restores 5% of Heath
+  ["--", "Heath Bun Berry (Lv 2)", "DISCRIPTION", "----", "Heath", 0],  //    restores 10% of Heath
+  ["--", "Heath Bun Berry (Lv 3)", "DISCRIPTION", "----", "Heath", 0],  //    restores 25% of Heath
+  ["--", "Heath Bun Berry (Lv 4)", "DISCRIPTION", "----", "Heath", 0],  //    restores 50% of Heath
+  ["--", "Heath Bun Berry (Lv 5)", "DISCRIPTION", "----", "Heath", 0]  //     restores 100% of Heath
 ];
-//HEATH BUN BERRIES
-var lv1HeathHealBunBerries = 0; //   restores 5% of Heath
-var lv2HeathHealBunBerries = 0; //   restores 10% of Heath
-var lv3HeatHealhBunBerries = 0; //   restores 25% of Heath
-var lv4HeathHealBunBerries = 0; //   restores 50% of Heath
-var lv5HeathHealBunBerries = 0; //   restores 100% of Heath
 //XP BUN BERRIES
 var lv1XpHeathBunBerries = 0; //    +100 Xp  
 var lv2XpHeathBunBerries = 0; //    +500 Xp 
