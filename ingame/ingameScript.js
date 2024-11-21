@@ -256,9 +256,9 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 ///      4) ARMORS       ///
 ////////////////////////////
-//collections and raritys
+//collections and rarities
 var collections = ["Classic", "Dumb", "\"What the f***?\"", "Starter", "Explorer\'s", "Fruty", "Unique"]
-var raritys = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"]
+var rarities = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"]
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 //Collections: DONE
