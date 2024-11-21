@@ -535,7 +535,6 @@ var RareHeadWeaponTypes = [
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!", "Rare", false],
   ["-", "Fighters Bindings", 8, "Even stronger gauntlets, with more pressure pads, reduces pain to a minimum.", "Rare", false],
   ["-", "Iron Sword", 8, "The stuff of warriors!!!", "Rare", false],
-  
   //Explorers
   ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!", "Rare", false]
 ];
@@ -550,7 +549,7 @@ var EpicHeadWeaponTypes = [
   ["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", false],
   //Sets
   ["-", "Alive Tree Branch", 10, "LOOK ITS AN ALIVE TREE BRANCH!!", "Epic", false],
-  ["-", "Large Meter Stick", 10, "100 inches or 9ish feet or almost over 3 yard or 2.5ish meters!!", "Epic", false],
+  ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!!", "Epic", false],
   ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire!", "Epic", false],
   ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!!", "Epic", false],
   ["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals whose name real remains unknown and have been dubbed maulers.", "Epic", false],
@@ -569,7 +568,7 @@ var MythicHeadWeaponTypes = [
   ["-", "Runic Hammer", 12, "Just a better version of a hammer!!", "Myithic", false],
   //Sets
   ["-", "Thriving Tree Branch", 10, "LOOK ITS A THRIVING TREE BRANCH!!", "Myithic", false],
-  ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!", "Myithic", false],
+  ["-", "Retractable Mile Stick", 10, "Its kind of hard to caray around a mile of wood, this with make it so your arms don\'t tire out as much!", "Myithic", false],
   ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive!", "Myithic", false],
   ["-", "Aquatex Spray", 10, "AHH, its dev!", "Myithic", false],
   ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches.", "Myithic", false],
