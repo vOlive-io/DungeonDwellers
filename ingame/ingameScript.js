@@ -483,12 +483,6 @@ var DungeonChestArmorTypes = [
 ////////////////////////////
 ///     3) WEAPONS       ///
 ////////////////////////////
-//Sets
-//branck
-//sword
-//meserment
-//exploror
-
 //Collections: NOT DONE
 var CommonHeadWeaponTypes = [
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", true],
@@ -646,12 +640,12 @@ var ach_armors_UnommonAll = false; //   Unlocked all uncommon armors
 var ach_armors_RareAll = false; //      Unlocked all rare armors
 var ach_armors_EpicAll = false; //      Unlocked all epic armors
 var ach_armors_MythicAll = false; //    Unlocked all mythic armors
-var ach_armors_RelicFirst = false; //   Unlocked all relic armors
+var ach_armors_RelicFirst = false; //   Unlocked one relic armors
 //DUMB ACHIEVEMENTS
 var ach_dumb_youAsked = false; //       Clicked on that achievement
 var ach_dumb_plusFifty = false; //      Has more unlocked achievements than locked ones
-var ach_dumb_takingAfterZ = false; //   Has Zharria's ideal setup (PepperSpray + Holy Bamboo + Panda)
-var ach_dumb_takingAfterO = false; //   Has Olive's ideal setup (Rosax Fistes + Rosax Armor + Rosax Lucky)
+var ach_dumb_takingAfterZ = false; //   Has Zharria's second hand setup (PepperSpray + Holy Bamboo + Panda)
+var ach_dumb_takingAfterO = false; //   Has Olive's second hand setup (Necromancer staff  + Gold encrusted silk + Dog)
 
 //SEASON ONE ACHIEVEMENTS
 var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
