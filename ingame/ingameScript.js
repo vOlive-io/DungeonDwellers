@@ -50,7 +50,7 @@ function setRandomName() {
   alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this you will be known as " + username + "!")
   user = true;   
   makeSavedData_cookies();
-  mili = 0;
+  timeA = 0;
 }
 
 function startTime() {
