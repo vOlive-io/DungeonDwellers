@@ -146,7 +146,6 @@ var ChestProtection = 0;
 var LegProtection = 0;
 var BootProtection = 0;
 
-
 var id;
 var name;
 var description;
@@ -190,10 +189,6 @@ var mythicBootOwned = false;
 var dungeonBootOwned = false;
 var seasonOneBootOwned = false;
 var relicBootOwned = false;
-
-
-
-var uncommonLegOwned = false;
 
 
 ////////////////////////////
