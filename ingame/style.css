@@ -13,8 +13,8 @@
 .lockedArmor {
      display: none;
 }
-/* -- BUN BERRIES -- */
-#heathHealOneTag, #waterTag, #satTag, #strenthTag, #stealthTag, #luckTag {
+/* -- BUN BERRIES #heathHealOneTag, #waterTag, #satTag, #strenthTag, #stealthTag, #luckTag  (basic) -- */
+.unOwnedItem{
      display: none;
 }
 /* -- CREDITS -- */
