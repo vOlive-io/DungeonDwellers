@@ -503,11 +503,11 @@ var CommonHeadWeaponTypes = [
 
 //Collections: NOT DONE
 var UncommonHeadWeaponTypes = [
-  ["-", "Pen", 5, "Write your enemies to death!", "Uncommon", false],
-  ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!",  "Uncommon", false],
-  ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", false],
-  ["-", "Sharpened Rocks", 6, "Very close range, but very good damage.", "Uncommon", false],
-  ["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", false],
+  ["-", "Pen", 5, "Write your enemies to death!", "Uncommon", "Dumb", false],
+  ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!",  "Uncommon", "\"What the f***?\"", false],
+  ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", "Dumb", false],
+  ["-", "Sharpened Rocks", 6, "Very close range, but very good damage.", "Uncommon", "Dumb", false],
+  ["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", "Classic", false],
   //Sets
   ["-", "Stick", 6, "LOOK ITS A STICK!!", "Uncommon", false],
   ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!", "Uncommon", false],
