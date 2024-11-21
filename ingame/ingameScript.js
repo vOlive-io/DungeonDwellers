@@ -84,10 +84,10 @@ function timer() {
 ///////////////////////////////////////////
 ///              VARIABLES              ///
 ///        1) Stats                     ///
-///        2) BunBerries                ///
-///        3) Achievements              ///
-///        4) Armor                     ///
-///        5) Weapons                   ///
+///        2) Armor                     ///
+///        3) Weapons                   ///
+///        4) BunBerries                ///
+///        5) Achievements              ///
 ///        6) Items                     ///
 ///        7) LootChest/Boxes           ///
 ///                                     ///
@@ -192,83 +192,7 @@ var relicBootOwned = false;
 
 
 ////////////////////////////
-////  2) BUN BERRIES     ///
-////////////////////////////
-//TOTALS
-var totalBunBerriesEver = 0; //  Total Number of Bun Berries Even Owned (Owned + Eaten)
-var totalBunBerries = 0; //      Total Number of Bun Berries Owned
-var totalEaten = 0; //           Total Number of Bun Berries Eaten
-//BASIC BUN BERRIES
-var bunberries = [
-  ["ID", "NAME", "DISCRIPTION", "ASSET", "TYPE", "AMOUNT"],
-  //BASIC
-  ["--", "Luck Bun Berry", "DISCRIPTION", "----", "Basic", 0],   //           +5 Luck
-  ["--", "Strenth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Strength
-  ["--", "Stealth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Stealth
-  ["--", "Water Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //           +5 Water 
-  ["--", "Saturation Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //      +10 Saturation
-  //HEALTH
-  ["--", "Heath Bun Berry (Lv 1)", "DISCRIPTION", "----", "Heath", 0],  //    restores 5% of Heath
-  ["--", "Heath Bun Berry (Lv 2)", "DISCRIPTION", "----", "Heath", 0],  //    restores 10% of Heath
-  ["--", "Heath Bun Berry (Lv 3)", "DISCRIPTION", "----", "Heath", 0],  //    restores 25% of Heath
-  ["--", "Heath Bun Berry (Lv 4)", "DISCRIPTION", "----", "Heath", 0],  //    restores 50% of Heath
-  ["--", "Heath Bun Berry (Lv 5)", "DISCRIPTION", "----", "Heath", 0],  //    restores 100% of Heath
-  //XP
-  ["--", "XP Bun Berry (Lv 1)", "DISCRIPTION", "----", "XP", 0],  //          +100 xp
-  ["--", "XP Bun Berry (Lv 2)", "DISCRIPTION", "----", "XP", 0],  //          +500 xp
-  //SPECIAL
-  ["--", "Shadow Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Stealth, +5 Heath, +3 Luck
-  ["--", "Lava Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Strength, +5 Stealth, +3 Heath
-  ["--", "Aqua Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Water, +5 Strength, +3 Heath
-  ["--", "Jester Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Luck, +5 Steath, +3 Heath
-];
-
-
-
-///////////////////////////////// 
-///      3) ACHIEVEMENTS      ///
-/////////////////////////////////
-//TOTALS
-var ach_total = 0; //                  Total Number of Achievements
-//MECHANIC ACHIEVEMENTS
-var ach_mech_strtGame = false; //      Started game 
-var ach_mech_donor = false; //         The player has given the devs money
-var ach_mech_giver = false; //         The player has given the devs feedback that has been put in the game 
-var ach_mech_exterm = false; //        The player has reported a bug in the game
-var ach_mech_alpha = false; //         The player was a Alpha tester
-var ach_mech_beta = false; //          The player was a Beta tester
-//PLAYING ACHIEVEMENTS
-var ach_lvl_Five = false; //           Got to level 5
-var ach_lvl_Ten = false; //            Got to level 10
-var ach_lvl_TwoFive = false; //        Got to level 25
-var ach_lvl_Fifty = false; //          Got to level 50
-var ach_lvl_OneHun = false; //         Got to level 100
-var ach_lvl_TwoFiveHun = false; //     Got to level 250
-var ach_lvl_FiveHun = false; //        Got to level 500
-var ach_lvl_OneT = false; //           Got to level 1000
-//ARMOR ACHIEVEMENTS
-var ach_armors_CommonAll = false; //    Unlocked all common armors
-var ach_armors_UnommonAll = false; //   Unlocked all uncommon armors
-var ach_armors_RareAll = false; //      Unlocked all rare armors
-var ach_armors_EpicAll = false; //      Unlocked all epic armors
-var ach_armors_MythicAll = false; //    Unlocked all mythic armors
-var ach_armors_RelicFirst = false; //   Unlocked all relic armors
-//DUMB ACHIEVEMENTS
-var ach_dumb_youAsked = false; //       Clicked on that achievement
-var ach_dumb_plusFifty = false; //      Has more unlocked achievements than locked ones
-var ach_dumb_takingAfterZ = false; //   Has Zharria's ideal setup (PepperSpray + Holy Bamboo + Panda)
-var ach_dumb_takingAfterO = false; //   Has Olive's ideal setup (Rosax Fistes + Rosax Armor + Rosax Lucky)
-
-//SEASON ONE ACHIEVEMENTS
-var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
-
-if (ach_lvl_Five == true) {
-  let image = document.getElementById("levelOneId");
-  image.src = "assets/ach/ach_startedGame.png"
-}
-
-////////////////////////////
-///      4) ARMORS       ///
+///      2) ARMORS       ///
 ////////////////////////////
 //collections and rarities
 var collections = ["Classic", "Dumb", "\"What the f***?\"", "Starter", "Explorer\'s", "Fruty", "Unique"]
@@ -555,8 +479,9 @@ var DungeonChestArmorTypes = [
   ["42", " ----- ----- ", "2", ""]  // ----- driver
 ];
 
+
 ////////////////////////////
-///     5) WEAPONS       ///
+///     3) WEAPONS       ///
 ////////////////////////////
 //Sets
 //branck
@@ -658,6 +583,84 @@ var MythicHeadWeaponTypes = [
   //Explorers
   ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!", "Myithic", false]
 ];
+
+
+////////////////////////////
+////  4) BUN BERRIES     ///
+////////////////////////////
+//TOTALS
+var totalBunBerriesEver = 0; //  Total Number of Bun Berries Even Owned (Owned + Eaten)
+var totalBunBerries = 0; //      Total Number of Bun Berries Owned
+var totalEaten = 0; //           Total Number of Bun Berries Eaten
+//BASIC BUN BERRIES
+var bunberries = [
+  ["ID", "NAME", "DISCRIPTION", "ASSET", "TYPE", "AMOUNT"],
+  //BASIC
+  ["--", "Luck Bun Berry", "DISCRIPTION", "----", "Basic", 0],   //           +5 Luck
+  ["--", "Strenth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Strength
+  ["--", "Stealth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Stealth
+  ["--", "Water Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //           +5 Water 
+  ["--", "Saturation Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //      +10 Saturation
+  //HEALTH
+  ["--", "Heath Bun Berry (Lv 1)", "DISCRIPTION", "----", "Heath", 0],  //    restores 5% of Heath
+  ["--", "Heath Bun Berry (Lv 2)", "DISCRIPTION", "----", "Heath", 0],  //    restores 10% of Heath
+  ["--", "Heath Bun Berry (Lv 3)", "DISCRIPTION", "----", "Heath", 0],  //    restores 25% of Heath
+  ["--", "Heath Bun Berry (Lv 4)", "DISCRIPTION", "----", "Heath", 0],  //    restores 50% of Heath
+  ["--", "Heath Bun Berry (Lv 5)", "DISCRIPTION", "----", "Heath", 0],  //    restores 100% of Heath
+  //XP
+  ["--", "XP Bun Berry (Lv 1)", "DISCRIPTION", "----", "XP", 0],  //          +100 xp
+  ["--", "XP Bun Berry (Lv 2)", "DISCRIPTION", "----", "XP", 0],  //          +500 xp
+  //SPECIAL
+  ["--", "Shadow Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Stealth, +5 Heath, +3 Luck
+  ["--", "Lava Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Strength, +5 Stealth, +3 Heath
+  ["--", "Aqua Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Water, +5 Strength, +3 Heath
+  ["--", "Jester Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Luck, +5 Steath, +3 Heath
+];
+
+
+
+///////////////////////////////// 
+///      5) ACHIEVEMENTS      ///
+/////////////////////////////////
+//TOTALS
+var ach_total = 0; //                  Total Number of Achievements
+//MECHANIC ACHIEVEMENTS
+var ach_mech_strtGame = false; //      Started game 
+var ach_mech_donor = false; //         The player has given the devs money
+var ach_mech_giver = false; //         The player has given the devs feedback that has been put in the game 
+var ach_mech_exterm = false; //        The player has reported a bug in the game
+var ach_mech_alpha = false; //         The player was a Alpha tester
+var ach_mech_beta = false; //          The player was a Beta tester
+//PLAYING ACHIEVEMENTS
+var ach_lvl_Five = false; //           Got to level 5
+var ach_lvl_Ten = false; //            Got to level 10
+var ach_lvl_TwoFive = false; //        Got to level 25
+var ach_lvl_Fifty = false; //          Got to level 50
+var ach_lvl_OneHun = false; //         Got to level 100
+var ach_lvl_TwoFiveHun = false; //     Got to level 250
+var ach_lvl_FiveHun = false; //        Got to level 500
+var ach_lvl_OneT = false; //           Got to level 1000
+//ARMOR ACHIEVEMENTS
+var ach_armors_CommonAll = false; //    Unlocked all common armors
+var ach_armors_UnommonAll = false; //   Unlocked all uncommon armors
+var ach_armors_RareAll = false; //      Unlocked all rare armors
+var ach_armors_EpicAll = false; //      Unlocked all epic armors
+var ach_armors_MythicAll = false; //    Unlocked all mythic armors
+var ach_armors_RelicFirst = false; //   Unlocked all relic armors
+//DUMB ACHIEVEMENTS
+var ach_dumb_youAsked = false; //       Clicked on that achievement
+var ach_dumb_plusFifty = false; //      Has more unlocked achievements than locked ones
+var ach_dumb_takingAfterZ = false; //   Has Zharria's ideal setup (PepperSpray + Holy Bamboo + Panda)
+var ach_dumb_takingAfterO = false; //   Has Olive's ideal setup (Rosax Fistes + Rosax Armor + Rosax Lucky)
+
+//SEASON ONE ACHIEVEMENTS
+var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
+
+if (ach_lvl_Five == true) {
+  let image = document.getElementById("levelOneId");
+  image.src = "assets/ach/ach_startedGame.png"
+}
+
  
 ////////////////////////////
 ///   6) LOOT BOXES       ///
