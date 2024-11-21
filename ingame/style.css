@@ -5,6 +5,10 @@
      display: none;
 }
 
+.unOwnedItem{
+     display: none;
+}
+
 /* -- ARMORS -- */
 .unlockedArmor {
      display: block;
@@ -14,9 +18,9 @@
      display: none;
 }
 /* -- BUN BERRIES #heathHealOneTag, #waterTag, #satTag, #strenthTag, #stealthTag, #luckTag  (basic) -- */
-.unOwnedItem{
-     display: none;
-}
+
+
+
 /* -- CREDITS -- */
 .creditText {
      font-size: 15px;
