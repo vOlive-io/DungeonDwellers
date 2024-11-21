@@ -484,11 +484,12 @@ var DungeonChestArmorTypes = [
 ///     3) WEAPONS       ///
 ////////////////////////////
 //Collections: NOT DONE
+
 var CommonHeadWeaponTypes = [
-  ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", true],
-  ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!!", "Common", false],
-  ["-", "Rusty Horseshoes", 2, "Slow, but reliable!", "Common", false],
-  ["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow!", "Common", false],
+  ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", "Starter", true],
+  ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!!", "Common", "Dumb", false],
+  ["-", "Rusty Horseshoes", 2, "Slow, but reliable!", "Common", "Unique", false],
+  ["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow!", "Common", "\"What the f***?\"", false],
   //Sets
   ["-", "Twig", 3, "LOOK ITS A TWIG!!!!.", "Common", false],
   ["-", "Ruler", 3, "12 inches, or 1 foot!!", "Common", false],
