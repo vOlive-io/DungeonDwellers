@@ -215,16 +215,15 @@ var bunberries = [
   ["--", "Heath Bun Berry (Lv 2)", "DISCRIPTION", "----", "Heath", 0],  //    restores 10% of Heath
   ["--", "Heath Bun Berry (Lv 3)", "DISCRIPTION", "----", "Heath", 0],  //    restores 25% of Heath
   ["--", "Heath Bun Berry (Lv 4)", "DISCRIPTION", "----", "Heath", 0],  //    restores 50% of Heath
-  ["--", "Heath Bun Berry (Lv 5)", "DISCRIPTION", "----", "Heath", 0]  //     restores 100% of Heath
+  ["--", "Heath Bun Berry (Lv 5)", "DISCRIPTION", "----", "Heath", 0],  //    restores 100% of Heath
+  ["--", "XP Bun Berry (Lv 1)", "DISCRIPTION", "----", "XP", 0],  //          +100 xp
+  ["--", "XP Bun Berry (Lv 2)", "DISCRIPTION", "----", "XP", 0],  //          +500 xp
+  ["--", "Shadow Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Stealth, +5 Heath, +3 Luck
+  ["--", "Lava Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Strength, +5 Stealth, +3 Heath
+  ["--", "Aqua Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Water, +5 Strength, +3 Heath
+  ["--", "Jester Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Luck, +5 Steath, +3 Heath
 ];
-//XP BUN BERRIES
-var lv1XpHeathBunBerries = 0; //    +100 Xp  
-var lv2XpHeathBunBerries = 0; //    +500 Xp 
-//SPECIAL BUN BERRIES
-var shadowBunBerries = 0; //         +10 Stealth, +5 Heath, +3 Luck
-var lavaBunBerries = 0; //           +10 Strength, +5 Stealth, +3 Heath
-var aquaBunBerries = 0; //           +10 Water, +5 Strength, +3 Heath
-var jesterBunBerries = 0; //         +10 Luck, +5 Steath, +3 Heath
+
 
 
 ///////////////////////////////// 
