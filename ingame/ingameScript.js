@@ -918,6 +918,8 @@ function updateOwnedBootArmors() {
   } if (CommonBootArmorTypes[5][6] == true) {
     document.getElementById("BasicExplorersBoots").classList.add('unlockedArmor');
     document.getElementById("BasicExplorersBoots").classList.remove('lockedArmor');
+
+    
 //UNCOMMON
   } if (UncommonBootArmorTypes[0][6] == true) {
     document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
@@ -965,6 +967,38 @@ function updateOwnedBootArmors() {
     uncommonBootOwned = true;
   } if (uncommonBootOwned == true) {
     uncommonBoot.style.display = "block";
+
+    //RARE
+  } if (RareBootArmorTypes[0][6] == true) {
+    document.getElementById("SteelBoots").classList.add('unlockedArmor');
+    document.getElementById("SteelBoots").classList.remove('lockedArmor');
+    rareBootOwned = true;
+  } if (RareBootArmorTypes[1][6] == true) {
+    document.getElementById("BronzeBoots").classList.add('unlockedArmor');
+    document.getElementById("BronzeBoots").classList.remove('lockedArmor');
+    rareBootOwned = true;
+  } if (RareBootArmorTypes[2][6] == true) {
+    document.getElementById("SilverBoots").classList.add('unlockedArmor');
+    document.getElementById("SilverBoots").classList.remove('lockedArmor');
+    rareBootOwned = true;
+  } if (RareBootArmorTypes[3][6] == true) {
+    document.getElementById("GoldBoots").classList.add('unlockedArmor');
+    document.getElementById("GoldBoots").classList.remove('lockedArmor');
+    rareBootOwned = true;
+  } if (RareBootArmorTypes[4][6] == true) {
+    document.getElementById("IronBoots").classList.add('unlockedArmor');
+    document.getElementById("IronBoots").classList.remove('lockedArmor');
+    rareBootOwned = true;
+  } if (RareBootArmorTypes[5][6] == true) {
+    document.getElementById("FeatheredFootWings").classList.add('unlockedArmor');
+    document.getElementById("FeatheredFootWings").classList.remove('lockedArmor');
+    rareBootOwned = true;
+  } if (RareBootArmorTypes[6][6] == true) {
+    document.getElementById("JungleVineBoots").classList.add('unlockedArmor');
+    document.getElementById("JungleVineBoots").classList.remove('lockedArmor');
+    rareBootOwned = true;
+  } if (rareBootOwned == true) {
+    rareBoot.style.display = "block";
   }
 }
 
