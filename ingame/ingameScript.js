@@ -173,6 +173,25 @@ var dungeonChestOwned = false;
 var seasonOneChestOwned = false;
 var relicChestOwned = false;
 
+var commonLegOwned = true;
+var uncommonLegOwned = false;
+var rareLegOwned = false;
+var epicLegOwned = false;
+var mythicLegOwned = false;
+var dungeonLegOwned = false;
+var seasonOneLegOwned = false;
+var relicLegOwned = false;
+
+var commonBootOwned = true;
+var uncommonBootOwned = false;
+var rareBootOwned = false;
+var epicBootOwned = false;
+var mythicBootOwned = false;
+var dungeonBootOwned = false;
+var seasonOneBootOwned = false;
+var relicBootOwned = false;
+
+
 
 var uncommonLegOwned = false;
 
