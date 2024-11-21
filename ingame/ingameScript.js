@@ -328,7 +328,7 @@ var RareLegArmorTypes = [
   ["65", "Silver Leggings", 5, "Description.", "Rare", "Classic", false],
   ["66", "Gold Leggings", 6, "Description.", "Classic", false],
   ["67", "Iron Leggings", 6, "Description.", "Rare", "Classic", false],
-  ["68", "Feathered Leggings", 6, "Description.", "Rare", "Uniquie", false],
+  ["68", "Feathered Leg Gliders", 6, "Description.", "Rare", "Uniquie", false],
   ["69", "Blessed Mud Leggings", 6, "Description.", "Rare", "\"What the f***\"", false],
   ["70", "Jungle Vine Leggings", 6, "Description.", "Rare", "Fruity", false]
 ];
@@ -339,7 +339,7 @@ var RareBootArmorTypes = [
   ["73", "Silver Boots", 5, "Description.", "Rare", "Classic", false],
   ["74", "Gold Boots", 6, "Description.", "Rare", "Classic", false],
   ["75", "Iron Boots", 6, "Description.", "Rare", "Classic", false],
-  ["76", "Feathered Boots", 6, "Description.", "Rare", "Uniquie", false],
+  ["76", "Feathered Foot Wings", 6, "Description.", "Rare", "Uniquie", false],
   ["77", "Blessed Mud Boots", 6, "Description.", "Rare", "\"What the f***\"", false],
   ["78", "Jungle Vine Boots", 6, "Description.", "Rare", "Fruity", false]
 ];
