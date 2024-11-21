@@ -195,7 +195,7 @@ var relicBootOwned = false;
 ///      2) ARMORS       ///
 ////////////////////////////
 //collections and rarities
-var collections = ["Classic", "Dumb", "\"What the f***?\"", "Starter", "Explorer\'s", "Fruty", "Unique"]
+var collections = ["Classic", "Dumb", "\"What the f***?\"", "Starter", "Explorer\'s", "Fruty", "Unique", "Up Close & Personal"]
 var rarities = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"]
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
@@ -483,7 +483,7 @@ var DungeonChestArmorTypes = [
 ////////////////////////////
 ///     3) WEAPONS       ///
 ////////////////////////////
-//Collections: NOT DONE
+//Collections:NOT DONE
 
 var CommonHeadWeaponTypes = [
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", "Starter", true],
@@ -521,13 +521,13 @@ var UncommonHeadWeaponTypes = [
 
 //Collections: NOT DONE
 var RareHeadWeaponTypes = [
-  ["-", "Rusty Katana", 6, "STABY STAB STAB!", "Rare", false],
-  ["-", "Battle Staff", 6, "Why is it warm???", "Rare", false],
-  ["-", "Living snake", 7, "It bites people, even you!!", "Rare", false],
-  ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart!", "Rare", false],
-  ["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers!", "Rare", false],
-  ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies.", "Rare", false],
-  ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!", "Rare", false],
+  ["-", "Rusty Katana", 6, "STABY STAB STAB!", "Rare", "\"What the f***?\"", false],
+  ["-", "Battle Staff", 6, "Why is it warm???", "Rare", "Unique", false],
+  ["-", "Living snake", 7, "It bites people, even you!!", "Rare", "\"What the f***?\"", false],
+  ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart!", "Rare", "Up Close & Personal", false],
+  ["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers!", "Rare", "Up Close & Personal", false],
+  ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies.", "Rare", "Up Close & Personal", false],
+  ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!", "Rare", "Up Close & Personal", false],
   //Sets
   ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!!", "Rare", false],
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!", "Rare", false],
@@ -541,13 +541,14 @@ var RareHeadWeaponTypes = [
 ];
 
 //Collections: NOT DONE
+
 var EpicHeadWeaponTypes = [
-  ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!!", "Epic", false],
-  ["-", "Reinforced Battle Staff", 8, "Why is it hot???", "Epic", false],
-  ["-", "Wild Living snake", 9, "It bites people, 20 at once!!", "Epic", false],
-  ["-", "Mace", 9, "SlAM DUNK!!", "Epic", false],
-  ["-", "Fire Extinguisher", 9, "Spray them to death!!", "Epic", false],
-  ["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", false],
+  ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!!", "\"What the f***?\"", "Epic", false],
+  ["-", "Reinforced Battle Staff", 8, "Why is it hot???", "Epic", "Unique", false],
+  ["-", "Wild Living snake", 9, "It bites people, 20 at once!!", "Epic", "\"What the f***?\"", false],
+  ["-", "Mace", 9, "SlAM DUNK!!", "Epic", "Classic", false],
+  ["-", "Fire Extinguisher", 9, "Spray them to death!!", "Epic", "\"What the f***?\"", false],
+  ["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", "Classic", false],
   //Sets
   ["-", "Alive Tree Branch", 10, "LOOK ITS AN ALIVE TREE BRANCH!!", "Epic", false],
   ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!!", "Epic", false],
