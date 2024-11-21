@@ -206,18 +206,22 @@ var totalEaten = 0; //           Total Number of Bun Berries Eaten
 //BASIC BUN BERRIES
 var bunberries = [
   ["ID", "NAME", "DISCRIPTION", "ASSET", "TYPE", "AMOUNT"],
+  //BASIC
   ["--", "Luck Bun Berry", "DISCRIPTION", "----", "Basic", 0],   //           +5 Luck
   ["--", "Strenth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Strength
   ["--", "Stealth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Stealth
   ["--", "Water Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //           +5 Water 
   ["--", "Saturation Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //      +10 Saturation
+  //HEALTH
   ["--", "Heath Bun Berry (Lv 1)", "DISCRIPTION", "----", "Heath", 0],  //    restores 5% of Heath
   ["--", "Heath Bun Berry (Lv 2)", "DISCRIPTION", "----", "Heath", 0],  //    restores 10% of Heath
   ["--", "Heath Bun Berry (Lv 3)", "DISCRIPTION", "----", "Heath", 0],  //    restores 25% of Heath
   ["--", "Heath Bun Berry (Lv 4)", "DISCRIPTION", "----", "Heath", 0],  //    restores 50% of Heath
   ["--", "Heath Bun Berry (Lv 5)", "DISCRIPTION", "----", "Heath", 0],  //    restores 100% of Heath
+  //XP
   ["--", "XP Bun Berry (Lv 1)", "DISCRIPTION", "----", "XP", 0],  //          +100 xp
   ["--", "XP Bun Berry (Lv 2)", "DISCRIPTION", "----", "XP", 0],  //          +500 xp
+  //SPECIAL
   ["--", "Shadow Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Stealth, +5 Heath, +3 Luck
   ["--", "Lava Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Strength, +5 Stealth, +3 Heath
   ["--", "Aqua Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Water, +5 Strength, +3 Heath
