@@ -205,15 +205,13 @@ var totalBunBerries = 0; //      Total Number of Bun Berries Owned
 var totalEaten = 0; //           Total Number of Bun Berries Eaten
 //BASIC BUN BERRIES
 var bunberries = [
-  ["ID", "NAME", "DISCRIPTION", "ASSET", "AMOUNT"],
-  ["--", "Luck Bun Berry", "DISCRIPTION", "----", "Basic", 0],
-  ["--", "Strenth Bun Berry", "DISCRIPTION", "----", "Basic", 0]
+  ["ID", "NAME", "DISCRIPTION", "ASSET", "TYPE", "AMOUNT"],
+  ["--", "Luck Bun Berry", "DISCRIPTION", "----", "Basic", 0],   //           +5 Luck
+  ["--", "Strenth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Strength
+  ["--", "Stealth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Stealth
+  ["--", "Water Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //           +5 Water 
+  ["--", "Saturation Bun Berry", "DISCRIPTION", "----", "Basic", 0]  //      +10 Saturation
 ];
-var luckBunBerries = 0; //           +3 Luck
-var strenthBunBerries = 0; //        +5 Strength
-var stealthBunBerries  = 0; //       +5 Stealth
-var waterBunBerries = 0; //          +5 Water
-var saturationBunBerries = 0; //     +10 Saturation
 //HEATH BUN BERRIES
 var lv1HeathHealBunBerries = 0; //   restores 5% of Heath
 var lv2HeathHealBunBerries = 0; //   restores 10% of Heath
