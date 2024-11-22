@@ -451,12 +451,12 @@ var MythicChestArmorTypes = [
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 //Collections: NOT DONE
 var FullRelicChestArmorTypes = [
-  ["32", "Midas Garments", "50", ""],               //Ancient: The Prosporer ------- Color: Gold (Money) ---------- Branch----------------(Unchosen)
-  ["32", "Prospice Gown", "50", ""],                //Ancient: The Hand  ----------- Color: Emerald (Boost) ------- Measurement Stick-----(Unchosen)
-  ["32", "Voistiene Entity", "50", ""],             //Ancient: The Void ------------ Color: Purple (Negaite) ------ Liquid----------------(Unchosen)
-  ["32", "Miezin Cloud", "50", ""],                 //Ancient: The Mist Forge  ----- Color: White (Mindbending) --- Pepper Spray----------Zharria
-  ["32", "Rosax Robes", "50", ""],                  //Ancient: The Nightmare ------- Color: Rose (Leach) ---------- Hands ----------------Olive
-  ["32", "HollowGhast Armor", "50", ""],            //Ancient: The HallowGhast  --- Color: Black (Damage) --------- Scythe ---------------Armaan
+  ["32", "Thriving Garments", "50", ""],            //Ancient: The Prosporer ------- Color: Lime + Gold (Money) ------- Branch----------------(Unchosen)
+  ["32", "Living Gown", "50", ""],                  //Ancient: The Hand  ----------- Color: Blue (Boost) -------------- Measurement Stick-----(Unchosen)
+  ["32", "Voistiene Entity", "50", ""],             //Ancient: The Void ------------ Color: Purple (Negaite) ---------- Liquid----------------(Unchosen)
+  ["32", "Miezin Cloud", "50", ""],                 //Ancient: The Mist Forge  ----- Color: White (Mindbending) ------- Pepper Spray----------Zharria
+  ["32", "Rosax Robes", "50", ""],                  //Ancient: The Nightmare ------- Color: Rose (Leach) -------------- Hands ----------------Olive
+  ["32", "HollowGhast Armor", "50", ""],            //Ancient: The HallowGhast  --- Color: Black (Damage) ------------- Scythe ---------------Armaan
 ];
 
 /////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
@@ -1214,6 +1214,14 @@ function updateLegDiscription() {
   bootProtection = bootSlot[2]
   BootDescription.innerHTML = bootSlot[3] + "<br>" + "Part of the " + bootSlot[5] + " Armor & Weapons collection." + "<br>" +  bootSlot[4] + " +" + bootSlot[2] + " Protection";
 }
+
+
+
+
+
+
+
+
 
 
 ///////////////////////////////////////////
