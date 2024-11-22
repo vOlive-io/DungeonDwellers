@@ -906,8 +906,42 @@ function updateOwnedLegArmors() {
     uncommonLegOwned = true;
   } if (uncommonLegOwned == true) {
     uncommonLeg.style.display = "block";
+
+    
+    //RARE
+  } if (RareLegArmorTypes[0][6] == true) {
+    document.getElementById("SteelLeggings").classList.add('unlockedArmor');
+    document.getElementById("SteelLeggings").classList.remove('lockedArmor');
+    rareLegOwned = true;
+  } if (RareLegArmorTypes[1][6] == true) {
+    document.getElementById("BronzeLeggings").classList.add('unlockedArmor');
+    document.getElementById("BronzeLeggings").classList.remove('lockedArmor');
+    rareLegOwned = true;
+  } if (RareLegArmorTypes[2][6] == true) {
+    document.getElementById("SilverLegging").classList.add('unlockedArmor');
+    document.getElementById("SilverLeggings").classList.remove('lockedArmor');
+    rareLegOwned = true;
+  } if (RareLegArmorTypes[3][6] == true) {
+    document.getElementById("GoldLeggings").classList.add('unlockedArmor');
+    document.getElementById("GoldLeggings").classList.remove('lockedArmor');
+    rareLegOwned = true;
+  } if (RareLegArmorTypes[4][6] == true) {
+    document.getElementById("IronLeggings").classList.add('unlockedArmor');
+    document.getElementById("IronLeggings").classList.remove('lockedArmor');
+    rareLegOwned = true;
+  } if (RareLegArmorTypes[5][6] == true) {
+    document.getElementById("FeatheredLeggings").classList.add('unlockedArmor');
+    document.getElementById("FeatheredLeggings").classList.remove('lockedArmor');
+    rareLegOwned = true;
+  } if (RareLegArmorTypes[6][6] == true) {
+    document.getElementById("JungleVineLeggings").classList.add('unlockedArmor');
+    document.getElementById("JungleVineLeggings").classList.remove('lockedArmor');
+    rareLegOwned = true;
+  } if (rareLegOwned == true) {
+    rareLeg.style.display = "block";
   }
 }
+
 
 ///////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////
