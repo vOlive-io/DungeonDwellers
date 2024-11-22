@@ -835,6 +835,38 @@ function updateOwnedChestArmors() {
     uncommonChestOwned = true;
   } if (uncommonChestOwned == true) {
     uncommonChest.style.display = "block";
+    
+    //RARE
+  } if (RareChestArmorTypes[0][6] == true) {
+    document.getElementById("SteelChestplate").classList.add('unlockedArmor');
+    document.getElementById("SteelChestplate").classList.remove('lockedArmor');
+    rareChestOwned = true;
+  } if (RareChestArmorTypes[1][6] == true) {
+    document.getElementById("BronzeChestplate").classList.add('unlockedArmor');
+    document.getElementById("BronzeChestplate").classList.remove('lockedArmor');
+    rareChestOwned = true;
+  } if (RareChestArmorTypes[2][6] == true) {
+    document.getElementById("SilverChestplate").classList.add('unlockedArmor');
+    document.getElementById("SilverChestplate").classList.remove('lockedArmor');
+    rareChestOwned = true;
+  } if (RareChestArmorTypes[3][6] == true) {
+    document.getElementById("GoldChestplate").classList.add('unlockedArmor');
+    document.getElementById("GoldChestplate").classList.remove('lockedArmor');
+    rareChestOwned = true;
+  } if (RareChestArmorTypes[4][6] == true) {
+    document.getElementById("IronChestplate").classList.add('unlockedArmor');
+    document.getElementById("IronChestplate").classList.remove('lockedArmor');
+    rareChestOwned = true;
+  } if (RareChestArmorTypes[5][6] == true) {
+    document.getElementById("FeatheredChestplate").classList.add('unlockedArmor');
+    document.getElementById("FeatheredChestplate").classList.remove('lockedArmor');
+    rareChestOwned = true;
+  } if (RareChestArmorTypes[6][6] == true) {
+    document.getElementById("JungleVineChestplate").classList.add('unlockedArmor');
+    document.getElementById("JungleVineChestplate").classList.remove('lockedArmor');
+    rareChestOwned = true;
+  } if (rareChestOwned == true) {
+    rareChest.style.display = "block";
   }
 }
 
