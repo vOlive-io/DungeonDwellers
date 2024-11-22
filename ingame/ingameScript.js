@@ -764,8 +764,40 @@ function updateOwnedHeadArmors() {
     uncommonHeadOwned = true;
   } if (uncommonHeadOwned == true) {
     uncommonHead.style.display = "block";
+    //RARE
+  } if (RareHeadArmorTypes[0][6] == true) {
+    document.getElementById("SteelHelmet").classList.add('unlockedArmor');
+    document.getElementById("SteelHelmet").classList.remove('lockedArmor');
+    rareHeadfOwned = true;
+  } if (RareHeadArmorTypes[1][6] == true) {
+    document.getElementById("BronzeHelmet").classList.add('unlockedArmor');
+    document.getElementById("BronzeHelmet").classList.remove('lockedArmor');
+    rareHeadfOwned = true;
+  } if (RareHeadArmorTypes[2][6] == true) {
+    document.getElementById("SilverHelmet").classList.add('unlockedArmor');
+    document.getElementById("SilverHelmet).classList.remove('lockedArmor');
+    rareHeadfOwned = true;
+  } if (RareHeadArmorTypes[3][6] == true) {
+    document.getElementById("GoldHelmet").classList.add('unlockedArmor');
+    document.getElementById("GoldHelmet").classList.remove('lockedArmor');
+    rareHeadfOwned = true;
+  } if (RareHeadArmorTypes[4][6] == true) {
+    document.getElementById("IronHelmet").classList.add('unlockedArmor');
+    document.getElementById("IronHelmet").classList.remove('lockedArmor');
+    rareHeadfOwned = true;
+  } if (RareHeadArmorTypes[5][6] == true) {
+    document.getElementById("FeatheredHelmet").classList.add('unlockedArmor');
+    document.getElementById("FeatheredHelmet").classList.remove('lockedArmor');
+    rareHeadfOwned = true;
+  } if (RareHeadArmorTypes[6][6] == true) {
+    document.getElementById("JungleVineHelmet").classList.add('unlockedArmor');
+    document.getElementById("JungleVineHelmet").classList.remove('lockedArmor');
+    rareHeadfOwned = true;
+  } if (rareHeadfOwned == true) {
+    rareHead.style.display = "block";
   }
 }
+
 
 ///////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////
