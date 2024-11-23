@@ -393,36 +393,36 @@ var MythicHeadArmorTypes = [
   ["108", "Gold encrusted Silk Vail", 4, "Description", "Mythic", "Unique", false],
   ["109", "Dragon Skin Hood", 4, "Description", "Mythic", "Unique", false],
   ["110", "Rhodochrosite Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["110", "Amber Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["111", "Mythrill Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["112", "Ghoul Skin Head Cover", 4, "Description", "Mythic", "Unique", false]
+  ["111", "Amber Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["112", "Mythrill Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["113", "Ghoul Skin Head Cover", 4, "Description", "Mythic", "Unique", false]
 ];
 
 var MythicChestArmorTypes = [
   ["114", "Gold encrusted Silk Robe", 4, "Description", "Mythic", "Unique", false],
   ["115", "Dragon Skin Robe", 4, "Description", "Mythic", "Unique", false],
   ["116", "Rhodochrosite Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["116", "Amber Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["117", "Mythrill Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["118", "Ghoul Skin Torso Cover", 4, "Description", "Mythic", "Unique", false]
+  ["117", "Amber Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["118", "Mythrill Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["119", "Ghoul Skin Torso Cover", 4, "Description", "Mythic", "Unique", false]
 ];
 
 var MythicLegArmorTypes = [
-  ["119", "Gold encrusted Silk Thermals", 4, "Description", "Mythic", "Unique", false],
-  ["120", "Dragon Skin Thermals", 4, "Description", "Mythic", "Unique", false],
-  ["121", "Rhodochrosite Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["116", "Amber Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["122", "Mythrill Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["123", "Ghoul Skin Leg Covers", 4, "Description", "Mythic", "Unique", false]
+  ["120", "Gold encrusted Silk Thermals", 4, "Description", "Mythic", "Unique", false],
+  ["121", "Dragon Skin Thermals", 4, "Description", "Mythic", "Unique", false],
+  ["122", "Rhodochrosite Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["123", "Amber Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["124", "Mythrill Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["125", "Ghoul Skin Leg Covers", 4, "Description", "Mythic", "Unique", false]
 ];
 
 var MythicChestArmorTypes = [
-  ["124", "Gold encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false],
-  ["125", "Dragon Skin Shoes", 4, "Description", "Mythic", "Unique", false],
-  ["126", "Rhodochrosite Boots", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["126", "Amber Boots", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["127", "Mythrill Boots", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["128", "Ghoul Skin Foot Covers", 4, "Description", "Mythic", "Unique", false]
+  ["126", "Gold encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false],
+  ["127", "Dragon Skin Shoes", 4, "Description", "Mythic", "Unique", false],
+  ["128", "Rhodochrosite Boots", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["129", "Amber Boots", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["130", "Mythrill Boots", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["131", "Ghoul Skin Foot Covers", 4, "Description", "Mythic", "Unique", false]
 ];
 
 
