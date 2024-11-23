@@ -112,8 +112,8 @@ function levelUpRewards() {
 //stats 
 var level = 0; //               The level of the player
 var xp = 0; //                  The amount of XP the player has
-var xpTop = 100; //             The about of XP needed for the player to level up
-var xpBoost = 1; //             The about of XP you get from raw XP
+var xpTop = 100; //             The amount of XP needed for the player to level up
+var xpBoost = 1; //             The amount of XP you get from raw XP
 var xpBoostOn = false; //       If the player has an XP booster on
 
 var user;
@@ -304,7 +304,7 @@ var RareHeadArmorTypes = [
   ["52", "Feathered Mask", 6, "Description.", "Rare", "Uniquie", false],
   ["53", "Blessed Mud Helmet", 6, "Description.", "Rare", "\"What the f***\"", false],
   ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity", false],
-  ["55", "Medevil Helmet", 5, "Description", "Rare", "Uniquie", false]
+  ["55", "Medevil Helmet", 5, "Description", "Rare", "Unique", false]
 ];
 
 var RareChestArmorTypes = [
@@ -328,7 +328,7 @@ var RareLegArmorTypes = [
   ["70", "Feathered Leg Gliders", 6, "Description.", "Rare", "Uniquie", false],
   ["71", "Blessed Mud Leggings", 6, "Description.", "Rare", "\"What the f***\"", false],
   ["72", "Jungle Vine Leggings", 6, "Description.", "Rare", "Fruity", false],
-  ["73", "Medevil Leggings", 5, "Description", "Epic", "Uniquie", false]
+  ["73", "Medevil Leggings", 5, "Description", "Epic", "Unique", false]
 ];
 
 var RareBootArmorTypes = [
@@ -345,7 +345,7 @@ var RareBootArmorTypes = [
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 //Collections: DONE
-// NEEDS DISCRIPTIONS
+// NEEDS DESCRIPTIONS
 var EpicHeadArmorTypes = [
   ["83", "Coral Helmet", 4, "Description", "Epic", "Unique", false],
   ["84", "Snakeskin Helmet", 4, "Description", "Epic", "Unique", false],
@@ -508,10 +508,10 @@ var UncommonHeadWeaponTypes = [
   ["-", "Sharpened Rocks", 6, "Very close range, but excellent damage.", "Uncommon", "Dumb", false],
   ["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", "Classic", false],
   //Sets
-  ["-", "Stick", 6, "LOOK ITS A STICK!!", "Uncommon", false],
+  ["-", "Stick", 6, "LOOK IT'S A STICK!!", "Uncommon", false],
   ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!", "Uncommon", false],
   ["-", "Hot Water", 6, "They slip and fall!!", "Uncommon", false],
-  ["-", "New Pepper Spray", 6, "AHH, it's a baer!!!", "Uncommon", false],
+  ["-", "New Pepper Spray", 6, "AHH, it's a bear!!!", "Uncommon", false],
   ["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt.", "Uncommon", false],
   ["-", "Stone Sword", 6, "The stuff of warriors!!!", "Uncommon", false],
   //Explorers
@@ -528,7 +528,7 @@ var RareHeadWeaponTypes = [
   ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies.", "Rare", "Up Close & Personal", false],
   ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!", "Rare", "Up Close & Personal", false],
   //Sets
-  ["-", "Dead Tree Branch", 8, "LOOK ITS A DEAD TREE BRANCH!!", "Rare", false],
+  ["-", "Dead Tree Branch", 8, "LOOK IT'S A DEAD TREE BRANCH!!", "Rare", false],
   ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!", "Rare", false],
   ["-", "Oil", 8, "They slip and fall, and break their heads!", "Rare", false],
   ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!!", "Rare", false],
@@ -549,7 +549,7 @@ var EpicHeadWeaponTypes = [
   ["-", "Fire Extinguisher", 9, "Spray them to death!!", "Epic", "\"What the f***?\"", false],
   ["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", "Classic", false],
   //Sets
-  ["-", "Alive Tree Branch", 10, "LOOK ITS AN ALIVE TREE BRANCH!!", "Epic", false],
+  ["-", "Alive Tree Branch", 10, "LOOK IT'S AN ALIVE TREE BRANCH!!", "Epic", false],
   ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!!", "Epic", false],
   ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire!", "Epic", false],
   ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!!", "Epic", false],
@@ -568,8 +568,8 @@ var MythicHeadWeaponTypes = [
   ["-", "Spiked Mace", 13, "SlAM DUNK BUT WITH THORNS!!", false],
   ["-", "Runic Hammer", 12, "Just a better version of a hammer!!", "Mythic", false],
   //Sets
-  ["-", "Thriving Tree Branch", 10, "LOOK ITS A THRIVING TREE BRANCH!!", "Mythic", false],
-  ["-", "Retractable Mile Stick", 10, "Its kind of hard to caray around a mile of wood, this with make it so your arms don\'t tire out as much!", "Mythic", false],
+  ["-", "Thriving Tree Branch", 10, "LOOK IT'S A THRIVING TREE BRANCH!!", "Mythic", false],
+  ["-", "Retractable Mile Stick", 10, "It's kind of hard to carry around a mile of wood, this with make it so your arms don\'t tire out as much!", "Mythic", false],
   ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive!", "Mythic", false],
   ["-", "Aquatex Spray", 10, "AHH, its dev!", "Mythic", false],
   ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches.", "Mythic", false],
@@ -596,10 +596,10 @@ var bunberries = [
   ["--", "Water Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //           +5 Water 
   ["--", "Saturation Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //      +10 Saturation
   //HEALTH
-  ["--", "Heath Bun Berry (Lv 1)", "DISCRIPTION", "----", "Heath", 0],  //    restores 5% of Heath
-  ["--", "Heath Bun Berry (Lv 2)", "DISCRIPTION", "----", "Heath", 0],  //    restores 10% of Heath
-  ["--", "Heath Bun Berry (Lv 3)", "DISCRIPTION", "----", "Heath", 0],  //    restores 25% of Heath
-  ["--", "Heath Bun Berry (Lv 4)", "DISCRIPTION", "----", "Heath", 0],  //    restores 50% of Heath
+  ["--", "Heath Bun Berry (Lv 1)", "DESCRIPTION", "----", "Heath", 0],  //    restores 5% of Heath
+  ["--", "Heath Bun Berry (Lv 2)", "DESCRIPTION", "----", "Heath", 0],  //    restores 10% of Heath
+  ["--", "Heath Bun Berry (Lv 3)", "DESCRIPTION", "----", "Heath", 0],  //    restores 25% of Heath
+  ["--", "Heath Bun Berry (Lv 4)", "DESCRIPTION", "----", "Heath", 0],  //    restores 50% of Heath
   ["--", "Heath Bun Berry (Lv 5)", "DISCRIPTION", "----", "Heath", 0],  //    restores 100% of Heath
   //XP
   ["--", "XP Bun Berry (Lv 1)", "DISCRIPTION", "----", "XP", 0],  //          +100 xp
@@ -608,7 +608,7 @@ var bunberries = [
   ["--", "Shadow Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Stealth, +5 Heath, +3 Luck
   ["--", "Lava Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Strength, +5 Stealth, +3 Heath
   ["--", "Aqua Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Water, +5 Strength, +3 Heath
-  ["--", "Jester Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Luck, +5 Steath, +3 Heath
+  ["--", "Jester Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Luck, +5 Stealth, +3 Heath
 ];
 
 
@@ -639,16 +639,16 @@ var ach_armors_CommonAll = false; //    Unlocked all common armors
 var ach_armors_UnommonAll = false; //   Unlocked all uncommon armors
 var ach_armors_RareAll = false; //      Unlocked all rare armors
 var ach_armors_EpicAll = false; //      Unlocked all epic armors
-var ach_armors_MythicAll = false; //    Unlocked all mythic armors
-var ach_armors_RelicFirst = false; //   Unlocked one relic armors
+var ach_armors_MyDESCRIPTIONalse; //    Unlocked all mythic armors
+var ach_armors_RelicFirst = false; //   Unlocked oneDESCRIPTIONrs
 //DUMB ACHIEVEMENTS
-var ach_dumb_youAsked = false; //       Clicked on that achievement
-var ach_dumb_plusFifty = false; //      Has more unlocked achievements than locked ones
-var ach_dumb_takingAfterZ = false; //   Has Zharria's second hand setup (PepperSpray + Holy Bamboo + Panda)
-var ach_dumb_takingAfterO = false; //   Has Olive's second hand setup (Necromancer staff  + Gold encrusted silk + Dog)
+var ach_dumb_youAsked = false; //       ClickeDESCRIPTIONchievement
+var ach_dumb_plusFifty = false; //      Has more unlocked achievDESCRIPTION locked ones
+var ach_dumb_takingAfterZ = false; //   Has Zharria's second hand setup (PeDESCRIPTION Holy Bamboo + Panda)
+var ach_dumb_takingAfterO = false; //   Has Olive's second hand setup DESCRIPTIONr staff  + Gold encrusted silk + Dog)
 
 //SEASON ONE ACHIEVEMENTS
-var ach_seasonOne_AllArmor = false; //  Unlocked all season one armors
+var ach_seasonOne_AllArmorDESCRIPTION/  Unlocked all season one armors
 
 if (ach_lvl_Five == true) {
   let image = document.getElementById("levelOneId");
