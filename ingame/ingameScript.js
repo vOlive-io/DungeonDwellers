@@ -303,7 +303,8 @@ var RareHeadArmorTypes = [
   ["51", "Iron Helmet", 6, "Description.", "Rare", "Classic", false],
   ["52", "Feathered Mask", 6, "Description.", "Rare", "Uniquie", false],
   ["53", "Blessed Mud Helmet", 6, "Description.", "Rare", "\"What the f***\"", false],
-  ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity", false]
+  ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity", false],
+  ["79", "Medevil Helmet", 5, "Description", "Rare", "Uniquie", false]
 ];
 
 var RareChestArmorTypes = [
@@ -314,7 +315,8 @@ var RareChestArmorTypes = [
   ["59", "Iron Chestplate", 6, "Description.", "Rare", "Classic", false],
   ["60", "Feathered Wings", 6, "Description.", "Rare", "Uniquie", false],
   ["61", "Blessed Mud Chestplate", 6, "Description.", "Rare",  "\"What the f***\"", false],
-  ["62", "Jungle Vine Chestplate", 6, "Description.", "Rare", "Fruity", false]
+  ["62", "Jungle Vine Chestplate", 6, "Description.", "Rare", "Fruity", false],
+  ["86", "Medevil Chestplate", 5, "Description", "Rare", "Unique", false]
 ];
 
 var RareLegArmorTypes = [
@@ -325,7 +327,8 @@ var RareLegArmorTypes = [
   ["67", "Iron Leggings", 6, "Description.", "Rare", "Classic", false],
   ["68", "Feathered Leg Gliders", 6, "Description.", "Rare", "Uniquie", false],
   ["69", "Blessed Mud Leggings", 6, "Description.", "Rare", "\"What the f***\"", false],
-  ["70", "Jungle Vine Leggings", 6, "Description.", "Rare", "Fruity", false]
+  ["70", "Jungle Vine Leggings", 6, "Description.", "Rare", "Fruity", false],
+  ["93", "Medevil Leggings", 5, "Description", "Epic", "Uniquie", false]
 ];
 
 var RareBootArmorTypes = [
@@ -336,14 +339,14 @@ var RareBootArmorTypes = [
   ["75", "Iron Boots", 6, "Description.", "Rare", "Classic", false],
   ["76", "Feathered Foot Wings", 6, "Description.", "Rare", "Uniquie", false],
   ["77", "Blessed Mud Boots", 6, "Description.", "Rare", "\"What the f***\"", false],
-  ["78", "Jungle Vine Boots", 6, "Description.", "Rare", "Fruity", false]
+  ["78", "Jungle Vine Boots", 6, "Description.", "Rare", "Fruity", false],
+  ["100", "Medevil Boots", 5, "Description", "Epic", "Uniquie", false]
 ];
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 //Collections: DONE
 // NEEDS DISCRIPTIONS
 var EpicHeadArmorTypes = [
-  ["79", "Medevil Helmet", 5, "Description", "Epic", "Uniquie", false],
   ["80", "Coral Helmet", 4, "Description", "Epic", "Uniquie", false],
   ["81", "Snakeskin Helmet", 4, "Description", "Epic", "Uniquie", false],
   ["82", "Cooled magma Helmet", 4, "Description", "Epic", "Uniquie", false],
@@ -353,17 +356,14 @@ var EpicHeadArmorTypes = [
 ];
 
 var EpicChestArmorTypes = [
-  ["86", "Medevil Chestplate", 5, "Description", "Epic", "Uniquie", false],
   ["87", "Coral Chestplate", 4, "Description", "Epic", "Uniquie", false],
   ["88", "Snakeskin Chestplate", 4, "Description", "Epic", "Uniquie", false],
   ["89", "Cooled magma Chestplate", 4, "Description", "Epic", "Uniquie", false],
   ["90", "Holy Bamboo Chestplate", 4, "Description", "Epic", "Uniquie", false],
   ["91", "Diamond Chestplate", 4, "Description", "Epic", "Classic", false],
-  ["92", "Emerald Chestplate", 4, "Description", "Epic", "Uniquie", false]
 ];
 
 var EpicLegArmorTypes = [
-  ["93", "Medevil Leggings", 5, "Description", "Epic", "Uniquie", false],
   ["94", "Coral Leggings", 4, "Description", "Epic", "Uniquie", false],
   ["95", "Snakeskin Leggings", 4, "Description", "Epic", "Uniquie", false],
   ["96", "Cooled magma Leggings", 4, "Description", "Epic", "Uniquie", false],
@@ -373,7 +373,6 @@ var EpicLegArmorTypes = [
 ];
 
 var EpicBootArmorTypes = [
-  ["100", "Medevil Boots", 5, "Description", "Epic", "Uniquie", false],
   ["101", "Coral Boots", 4, "Description", "Epic", "Uniquie", false],
   ["102", "Snakeskin Boots", 4, "Description", "Epic", "Uniquie", false],
   ["103", "Cooled magma Boots", 4, "Description", "Epic", "Uniquie", false],
