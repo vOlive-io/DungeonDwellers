@@ -1489,6 +1489,19 @@ function toggleAchOn() {
     achievementToggleOff.style.display = "none";
 }
 
+function toggleCreditsOff() {
+    credits.style.display = "none";
+    creditsToggleOff.style.display = "block";
+    creditsToggleOn.style.display = "none";
+}
+
+function toggleCreditsOn() {
+    credits.style.display = "block";
+    creditsToggleOn.style.display = "block";
+    creditsToggleOff.style.display = "none";
+}
+
+
 
 ///////////////////////////////////////////
 ///             9) COOKIES              ///
