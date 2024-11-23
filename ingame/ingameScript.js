@@ -775,7 +775,7 @@ function updateOwnedHeadArmors() {
     rareHeadfOwned = true;
   } if (RareHeadArmorTypes[2][6] == true) {
     document.getElementById("SilverHelmet").classList.add('unlockedArmor');
-    document.getElementById("SilverHelmet).classList.remove('lockedArmor');
+    document.getElementById("SilverHelmet").classList.remove('lockedArmor');
     rareHeadfOwned = true;
   } if (RareHeadArmorTypes[3][6] == true) {
     document.getElementById("GoldHelmet").classList.add('unlockedArmor');
