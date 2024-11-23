@@ -340,48 +340,48 @@ var RareBootArmorTypes = [
   ["76", "Feathered Foot Wings", 6, "Description.", "Rare", "Uniquie", false],
   ["77", "Blessed Mud Boots", 6, "Description.", "Rare", "\"What the f***\"", false],
   ["78", "Jungle Vine Boots", 6, "Description.", "Rare", "Fruity", false],
-  ["100", "Medevil Boots", 5, "Description", "Epic", "Uniquie", false]
+  ["100", "Medevil Boots", 5, "Description", "Epic", "Unique", false]
 ];
 
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 //Collections: DONE
 // NEEDS DISCRIPTIONS
 var EpicHeadArmorTypes = [
-  ["80", "Coral Helmet", 4, "Description", "Epic", "Uniquie", false],
-  ["81", "Snakeskin Helmet", 4, "Description", "Epic", "Uniquie", false],
-  ["82", "Cooled magma Helmet", 4, "Description", "Epic", "Uniquie", false],
-  ["83", "Holy Bamboo Helmet", 4, "Description", "Epic", "Uniquie", false],
+  ["80", "Coral Helmet", 4, "Description", "Epic", "Unique", false],
+  ["81", "Snakeskin Helmet", 4, "Description", "Epic", "Unique", false],
+  ["82", "Cooled magma Helmet", 4, "Description", "Epic", "Unique", false],
+  ["83", "Holy Bamboo Helmet", 4, "Description", "Epic", "Unique", false],
   ["84", "Diamond Helmet", 4, "Description", "Epic", "Classic", false],
-  ["85", "Emerald Helmet", 4, "Description", "Epic", "Uniquie", false],
+  ["85", "Emerald Helmet", 4, "Description", "Epic", "Unique", false],
   ["112", "Chicken Costume Head Piece", 4, "Description", "Epic", "\"What the f***\"", false]
 ];
 
 var EpicChestArmorTypes = [
   ["87", "Coral Chestplate", 4, "Description", "Epic", "Uniquie", false],
-  ["88", "Snakeskin Chestplate", 4, "Description", "Epic", "Uniquie", false],
-  ["89", "Cooled magma Chestplate", 4, "Description", "Epic", "Uniquie", false],
-  ["90", "Holy Bamboo Chestplate", 4, "Description", "Epic", "Uniquie", false],
+  ["88", "Snakeskin Chestplate", 4, "Description", "Epic", "Unique", false],
+  ["89", "Cooled magma Chestplate", 4, "Description", "Epic", "Unique", false],
+  ["90", "Holy Bamboo Chestplate", 4, "Description", "Epic", "Unique", false],
   ["91", "Diamond Chestplate", 4, "Description", "Epic", "Classic", false]
   ["118", "Chicken Suit Chest Piece", 4, "Description", "Epic", "\"What the f***\"", false]
 ];
 
 var EpicLegArmorTypes = [
-  ["94", "Coral Leggings", 4, "Description", "Epic", "Uniquie", false],
-  ["95", "Snakeskin Leggings", 4, "Description", "Epic", "Uniquie", false],
-  ["96", "Cooled magma Leggings", 4, "Description", "Epic", "Uniquie", false],
-  ["97", "Holy Bamboo Leggings", 4, "Description", "Epic", "Uniquie", false],
+  ["94", "Coral Leggings", 4, "Description", "Epic", "Unique", false],
+  ["95", "Snakeskin Leggings", 4, "Description", "Epic", "Unique", false],
+  ["96", "Cooled magma Leggings", 4, "Description", "Epic", "Unique", false],
+  ["97", "Holy Bamboo Leggings", 4, "Description", "Epic", "Unique", false],
   ["98", "Diamond Leggings", 4, "Description", "Epic", "Classic", false],
-  ["99", "Emerald Leggings", 4, "Description", "Epic", "Uniquie", false],
+  ["99", "Emerald Leggings", 4, "Description", "Epic", "Unique", false],
   ["124", "Chicken Suit Leg Piece", 4, "Description", "Epic", "\"What the f***\"", false]
 ];
 
 var EpicBootArmorTypes = [
-  ["101", "Coral Boots", 4, "Description", "Epic", "Uniquie", false],
-  ["102", "Snakeskin Boots", 4, "Description", "Epic", "Uniquie", false],
-  ["103", "Cooled magma Boots", 4, "Description", "Epic", "Uniquie", false],
-  ["104", "Holy Bamboo Boots", 4, "Description", "Epic", "Uniquie", false],
+  ["101", "Coral Boots", 4, "Description", "Epic", "Unique", false],
+  ["102", "Snakeskin Boots", 4, "Description", "Epic", "Unique", false],
+  ["103", "Cooled magma Boots", 4, "Description", "Epic", "Unique", false],
+  ["104", "Holy Bamboo Boots", 4, "Description", "Epic", "Unique", false],
   ["105", "Diamond Boots", 4, "Description", "Epic", "Classic", false],
-  ["106", "Emerald Boots", 4, "Description", "Epic", "Uniquie", false],
+  ["106", "Emerald Boots", 4, "Description", "Epic", "Unique", false],
   ["130", "Chicken Suit Boot Piece", 4, "Description", "Epic", "\"What the f***\"", false]
   
 ];
@@ -390,35 +390,35 @@ var EpicBootArmorTypes = [
 //Collections: DONE
 // NEEDS DISCRIPTIONS
 var MythicHeadArmorTypes = [
-  ["107", "Gold encrusted Silk Vail", 4, "Description", "Epic", "Uniquie", false],
-  ["108", "Dragon Skin Hood", 4, "Description", "Epic", "Uniquie", false],
+  ["107", "Gold encrusted Silk Vail", 4, "Description", "Epic", "Unique", false],
+  ["108", "Dragon Skin Hood", 4, "Description", "Epic", "Unique", false],
   ["109", "Rhodochrosite Helmet", 4, "Description", "Epic", "Exotic Gems", false],
-  ["110", "Mythrill Helmet", 4, "Description", "Epic", "Exotic Gems", false],
-  ["111", "Ghoul Skin Head Cover", 4, "Description", "Epic", "Uniquie", false]
+  ["110", "My thrill Helmet", 4, "Description", "Epic", "Exotic Gems", false],
+  ["111", "Ghoul Skin Head Cover", 4, "Description", "Epic", "Unique", false]
 ];
 
 var MythicChestArmorTypes = [
-  ["113", "Gold encrusted Silk Robe", 4, "Description", "Epic", "Uniquie", false],
-  ["114", "Dragon Skin Robe", 4, "Description", "Epic", "Uniquie", false],
+  ["113", "Gold encrusted Silk Robe", 4, "Description", "Epic", "Unique", false],
+  ["114", "Dragon Skin Robe", 4, "Description", "Epic", "Unique", false],
   ["115", "Rhodochrosite Chestplate", 4, "Description", "Epic", "Exotic Gems", false],
   ["116", "Mythrill Chestplate", 4, "Description", "Epic", "Exotic Gems", false],
-  ["117", "Ghoul Skin Torso Cover", 4, "Description", "Epic", "Uniquie", false]
+  ["117", "Ghoul Skin Torso Cover", 4, "Description", "Epic", "Unique", false]
 ];
 
 var MythicLegArmorTypes = [
-  ["119", "Gold encrusted Silk Thermals", 4, "Description", "Epic", "Uniquie", false],
-  ["120", "Dragon Skin Thermals", 4, "Description", "Epic", "Uniquie", false],
+  ["119", "Gold encrusted Silk Thermals", 4, "Description", "Epic", "Unique", false],
+  ["120", "Dragon Skin Thermals", 4, "Description", "Epic", "Unique", false],
   ["121", "Rhodochrosite Leggings", 4, "Description", "Epic", "Exotic Gems", false],
   ["122", "Mythrill Leggings", 4, "Description", "Epic", "Exotic Gems", false],
-  ["123", "Ghoul Skin Leg Covers", 4, "Description", "Epic", "Uniquie", false]
+  ["123", "Ghoul Skin Leg Covers", 4, "Description", "Epic", "Unique", false]
 ];
 
 var MythicChestArmorTypes = [
-  ["125", "Gold encrusted Silk Slipers", 4, "Description", "Epic", "Uniquie", false],
-  ["126", "Dragon Skin Shoes", 4, "Description", "Epic", "Uniquie", false],
+  ["125", "Gold encrusted Silk Slipers", 4, "Description", "Epic", "Unique", false],
+  ["126", "Dragon Skin Shoes", 4, "Description", "Epic", "Unique", false],
   ["127", "Rhodochrosite Boots", 4, "Description", "Epic", "Exotic Gems", false],
   ["128", "Mythrill Boots", 4, "Description", "Epic", "Exotic Gems", false],
-  ["129", "Ghoul Skin Foot Covers", 4, "Description", "Epic", "Uniquie", false]
+  ["129", "Ghoul Skin Foot Covers", 4, "Description", "Epic", "Unique", false]
 ];
 
 
@@ -438,7 +438,7 @@ var MythicChestArmorTypes = [
   --Credits
   --Inventory
   --Forge
-  --Achivments
+  --Achievements
   --Google form
 
 
@@ -478,7 +478,7 @@ var DungeonChestArmorTypes = [
 ////////////////////////////
 ///     3) WEAPONS       ///
 ////////////////////////////
-//Collections:NOT DONE
+//Collections: NOT DONE
 
 var CommonHeadWeaponTypes = [
   ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", "Starter", true],
@@ -501,13 +501,13 @@ var UncommonHeadWeaponTypes = [
   ["-", "Pen", 5, "Write your enemies to death!", "Uncommon", "Dumb", false],
   ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!",  "Uncommon", "\"What the f***?\"", false],
   ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", "Dumb", false],
-  ["-", "Sharpened Rocks", 6, "Very close range, but very good damage.", "Uncommon", "Dumb", false],
+  ["-", "Sharpened Rocks", 6, "Very close range, but excellent damage.", "Uncommon", "Dumb", false],
   ["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", "Classic", false],
   //Sets
   ["-", "Stick", 6, "LOOK ITS A STICK!!", "Uncommon", false],
   ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!", "Uncommon", false],
   ["-", "Hot Water", 6, "They slip and fall!!", "Uncommon", false],
-  ["-", "New Pepper Spray", 6, "AHH, its a bare!!!", "Uncommon", false],
+  ["-", "New Pepper Spray", 6, "AHH, it's a baer!!!", "Uncommon", false],
   ["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt.", "Uncommon", false],
   ["-", "Stone Sword", 6, "The stuff of warriors!!!", "Uncommon", false],
   //Explorers
@@ -557,21 +557,21 @@ var EpicHeadWeaponTypes = [
 
 //Collections: NOT DONE
 var MythicHeadWeaponTypes = [
-  ["-", "Fire Blade", 12, "The ring of fire? Oh, you mean this thing!", "Myithic", false],
-  ["-", "Dragon Katana", 12, "A strong curse emenates from the blade!", "Myithic", false],
-  ["-", "Necromancer Staff", 12, "Summon minions to fight for you!", "Myithic", false],
-  ["-", "Serpentine Basket", 12, "It bites people, 200 at once!! But not you!!", "Myithic", false],
+  ["-", "Fire Blade", 12, "The ring of fire? Oh, you mean this thing!", "Mythic", false],
+  ["-", "Dragon Katana", 12, "A strong curse emanates from the blade!", "Mythic", false],
+  ["-", "Necromancer Staff", 12, "Summon minions to fight for you!", "Mythic", false],
+  ["-", "Serpentine Basket", 12, "It bites people, 200 at once!! But not you!!", "Mythic", false],
   ["-", "Spiked Mace", 13, "SlAM DUNK BUT WITH THORNS!!", false],
-  ["-", "Runic Hammer", 12, "Just a better version of a hammer!!", "Myithic", false],
+  ["-", "Runic Hammer", 12, "Just a better version of a hammer!!", "Mythic", false],
   //Sets
-  ["-", "Thriving Tree Branch", 10, "LOOK ITS A THRIVING TREE BRANCH!!", "Myithic", false],
-  ["-", "Retractable Mile Stick", 10, "Its kind of hard to caray around a mile of wood, this with make it so your arms don\'t tire out as much!", "Myithic", false],
-  ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive!", "Myithic", false],
-  ["-", "Aquatex Spray", 10, "AHH, its dev!", "Myithic", false],
-  ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches.", "Myithic", false],
-  ["-", "Mythril Sword", 10, "The stuff of warriors!!!", "Myithic", false],
+  ["-", "Thriving Tree Branch", 10, "LOOK ITS A THRIVING TREE BRANCH!!", "Mythic", false],
+  ["-", "Retractable Mile Stick", 10, "Its kind of hard to caray around a mile of wood, this with make it so your arms don\'t tire out as much!", "Mythic", false],
+  ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive!", "Mythic", false],
+  ["-", "Aquatex Spray", 10, "AHH, its dev!", "Mythic", false],
+  ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches.", "Mythic", false],
+  ["-", "Mythril Sword", 10, "The stuff of warriors!!!", "Mythic", false],
   //Explorers
-  ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!", "Myithic", false]
+  ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!", "Mythic", false]
 ];
 
 
