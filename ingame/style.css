@@ -1,7 +1,7 @@
 /* ----------------
     INV STUFF
 -----------------*/
-#invetoryToggleOn, #inventory, #AchievementsGallery, #achievementToggleOn {
+#invetoryToggleOn, #achievementToggleOn, #creditsToggleOn #inventory, #AchievementsGallery, #credits {
      display: none;
 }
 
