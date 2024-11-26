@@ -648,7 +648,7 @@ var ach_dumb_takingAfterZ = false; //   Has Zharria's second hand setup (PeDESCR
 var ach_dumb_takingAfterO = false; //   Has Olive's second hand setup DESCRIPTIONr staff  + Gold encrusted silk + Dog)
 
 //SEASON ONE ACHIEVEMENTS
-var ach_seasonOne_AllArmorDESCRIPTION/  Unlocked all season one armors
+var ach_seasonOne_AllArmorDESCRIPTION//  Unlocked all season one armors
 
 if (ach_lvl_Five == true) {
   let image = document.getElementById("levelOneId");
