@@ -662,7 +662,12 @@ if (ach_lvl_Five == true) {
 var commonItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   ["--", "Pencil", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
-  ["--", "Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
+  ["--", "Red Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
+  ["--", "Orange Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
+  ["--", "Yellow Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
+  ["--", "Green Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
+  ["--", "Blue Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
+  ["--", "Purple Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
   ["--", "Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0]
 ]
 
