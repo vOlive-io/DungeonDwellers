@@ -661,18 +661,18 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 var commonItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
-  ["--", "Pencil", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //            Useless
-  ["--", "Red Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //        Useless
-  ["--", "Orange Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
-  ["--", "Yellow Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
-  ["--", "Green Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
-  ["--", "Blue Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
-  ["--", "Purple Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
-  ["--", "Pink Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
-  ["--", "Black Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
-  ["--", "Brown Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
-  ["--", "Gray Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
-  ["--", "White Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0] //       Useless
+  ["--", "Pencil", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //            Colors the screen Gray   (Leaves LOTS patches of old color)
+  ["--", "Red Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //        Colors the screen Red    (Leaves patches of old color)
+  ["--", "Orange Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //     Colors the screen Orange (Leaves patches of old color)
+  ["--", "Yellow Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //     Colors the screen Yellow (Leaves patches of old color)
+  ["--", "Green Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //      Colors the screen Green  (Leaves patches of old color)
+  ["--", "Blue Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //       Colors the screen Blue   (Leaves patches of old color)
+  ["--", "Purple Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //     Colors the screen Purple (Leaves patches of old color)
+  ["--", "Pink Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //       Colors the screen Pink   (Leaves patches of old color)
+  ["--", "Black Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //      Colors the screen Black  (Leaves patches of old color)
+  ["--", "Brown Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //      Colors the screen Brown  (Leaves patches of old color)
+  ["--", "Gray Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //       Colors the screen Gray   (Leaves patches of old color)
+  ["--", "White Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0] //       Colors the screen White  (Leaves patches of old color)
 ]
 
 
