@@ -662,12 +662,12 @@ if (ach_lvl_Five == true) {
 var commonItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   ["--", "Pencil", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //            Useless
-  ["--", "Red Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //        Useless
-  ["--", "Orange Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
-  ["--", "Yellow Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
-  ["--", "Green Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
-  ["--", "Blue Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
-  ["--", "Purple Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
+  ["--", "Red Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //        Useless
+  ["--", "Orange Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
+  ["--", "Yellow Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
+  ["--", "Green Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
+  ["--", "Blue Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
+  ["--", "Purple Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
   ["--", "Black Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
   ["--", "Brown Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
   ["--", "Gray Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
