@@ -298,11 +298,11 @@ var UncommonBootArmorTypes = [
 var RareHeadArmorTypes = [
   ["47", "Steel Helmet", 5, "Knock on steel *try not to break you're fist*.", "Rare", "Classic", false],
   ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic", false],
-  ["49", "Silver Helmet", 5, "Description.", "Rare", "Classic", false],
+  ["49", "Silver Helmet", 5, "turn it into a for it will be like optimus prime :).", "Rare", "Classic", false],
   ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic", false],
-  ["51", "Iron Helmet", 6, "Description.", "Rare", "Classic", false],
-  ["52", "Feathered Mask", 6, "Description.", "Rare", "Uniquie", false],
-  ["53", "Blessed Mud Helmet", 6, "Description.", "Rare", "\"What the f***\"", false],
+  ["51", "Iron Helmet", 6, "NOT A MINECRAFT KNOCKOFF (please don't report us).", "Rare", "Classic", false],
+  ["52", "Feathered Mask", 6, "How many chickens did you slaughter?", "Rare", "Uniquie", false],
+  ["53", "Blessed Mud Helmet", 6, "Yum.", "Rare", "\"What the f***\"", false],
   ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity", false],
   ["55", "Medevil Helmet", 5, "Description", "Rare", "Unique", false]
 ];
