@@ -660,7 +660,7 @@ if (ach_lvl_Five == true) {
 ///     6) ITEMS         ///
 ////////////////////////////
 
-var commonItems = [
+var unsortedItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   ["--", "Pencil", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
   ["--", "Red Marker", "DISCRIPTION", true, 1, "Common", "School Objects", 0], //        Colors the screen Red      (Leaves patches of old color)
