@@ -621,13 +621,12 @@ var ach_total = 0; //                  Total Number of Achievements
 var achievements = [
   ["ID", "NAME", "DISCRIPTION", "ACH_ID", "ASSET", "TYPE", "UNLOCKED"],
   //Mech
-  ["--", "Started Game", "DISCRIPTION", "ach_mech_strtGame", "ASSET", "TYPE", "UNLOCKED"],
-  ["--", "Doner", "DISCRIPTION", "ach_mech_donor", "ASSET", "TYPE", "UNLOCKED"],
-  ["--", "Giver", "DISCRIPTION", "ach_mech_giver", "ASSET", "TYPE", "UNLOCKED"],
-  ["--", "Exterminator", "DISCRIPTION", "ach_mech_exterm", "ASSET", "TYPE", "UNLOCKED"],
-  ["--", "Alpha Tester", "DISCRIPTION", "ach_mech_alpha", "ASSET", "TYPE", "UNLOCKED"],
-  ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "TYPE", "UNLOCKED"],
-  ["--", "Super Mech", "DISCRIPTION", "ach_mech_superMech", "ASSET", "TYPE", "UNLOCKED"]
+  ["--", "Started Game", "DISCRIPTION", "ach_mech_strtGame", "ASSET", "TYPE", "UNLOCKED"], //Started game
+  ["--", "Doner", "DISCRIPTION", "ach_mech_donor", "ASSET", "TYPE", "UNLOCKED"],//The player has given the devs money
+  ["--", "Giver", "DISCRIPTION", "ach_mech_giver", "ASSET", "TYPE", "UNLOCKED"],//The player has given the devs feedback that has been put in the game 
+  ["--", "Exterminator", "DISCRIPTION", "ach_mech_exterm", "ASSET", "TYPE", "UNLOCKED"],//The player has reported a bug in the game
+  ["--", "Alpha Tester", "DISCRIPTION", "ach_mech_alpha", "ASSET", "TYPE", "UNLOCKED"], //The player was a Alpha tester
+  ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "TYPE", "UNLOCKED"]//The player was a Beta tester
   
   
 ];
