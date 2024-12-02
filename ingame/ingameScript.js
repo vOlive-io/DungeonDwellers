@@ -659,7 +659,10 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 ///     6) ITEMS         ///
 ////////////////////////////
-
+var commonItems = [
+  ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
+  ["--", "Pencil", "DISCRIPTION", false, 0, "Common", "School Objects", 0]
+]
 
 /////////////////////////////////////////////////////////////////
 ///                           FUNCTIONS                       ///
