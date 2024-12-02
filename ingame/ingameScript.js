@@ -626,9 +626,9 @@ var achievements = [
   ["--", "Giver", "DISCRIPTION", "ach_mech_giver", "ASSET", "TYPE", "UNLOCKED"], //               The player has given the devs feedback that has been put in the game 
   ["--", "Exterminator", "DISCRIPTION", "ach_mech_exterm", "ASSET", "TYPE", "UNLOCKED"], //       The player has reported a bug in the game
   ["--", "Alpha Tester", "DISCRIPTION", "ach_mech_alpha", "ASSET", "TYPE", "UNLOCKED"], //        The player was a Alpha tester
-  ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "TYPE", "UNLOCKED"]  //          The player was a Beta tester
-
-  
+  ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "TYPE", "UNLOCKED"],  //         The player was a Beta tester
+  //Playing
+  ["--", "Level 5", "DISCRIPTION", "ach_lvl_Five", "ASSET", "TYPE", "UNLOCKED"],  //         The player was a Beta tester
 ];
 //MECHANIC ACHIEVEMENTS
 var ach_mech_strtGame = false; //      Started game 
@@ -637,6 +637,7 @@ var ach_mech_giver = false; //         The player has given the devs feedback th
 var ach_mech_exterm = false; //        The player has reported a bug in the game
 var ach_mech_alpha = false; //         The player was a Alpha tester
 var ach_mech_beta = false; //          The player was a Beta tester
+
 //PLAYING ACHIEVEMENTS
 var ach_lvl_Five = false; //           Got to level 5
 var ach_lvl_Ten = false; //            Got to level 10
