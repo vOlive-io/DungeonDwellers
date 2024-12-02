@@ -628,7 +628,7 @@ var achievements = [
   ["--", "Alpha Tester", "DISCRIPTION", "ach_mech_alpha", "ASSET", "TYPE", "UNLOCKED"], //        The player was a Alpha tester
   ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "TYPE", "UNLOCKED"],  //         The player was a Beta tester
   //Playing
-  ["--", "Level 5", "DISCRIPTION", "ach_lvl_Five", "ASSET", "TYPE", "UNLOCKED"],  //         The player was a Beta tester
+  ["--", "Level 5", "DISCRIPTION", "ach_lvl_Five", "ASSET", "TYPE", "UNLOCKED"],  //              Got to level 5
 ];
 //MECHANIC ACHIEVEMENTS
 var ach_mech_strtGame = false; //      Started game 
