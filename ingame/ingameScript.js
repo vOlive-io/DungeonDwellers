@@ -668,6 +668,7 @@ var commonItems = [
   ["--", "Green Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
   ["--", "Blue Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
   ["--", "Purple Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //     Useless
+  ["--", "Pink Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
   ["--", "Black Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
   ["--", "Brown Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //      Useless
   ["--", "Gray Marker", "DISCRIPTION", false, 0, "Common", "School Objects", 0], //       Useless
