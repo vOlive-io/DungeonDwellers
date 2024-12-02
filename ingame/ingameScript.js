@@ -700,12 +700,16 @@ var unsortedItems = [
   ["--", "Smelly Cheese in a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //             Deals one health to enemies  (Battels)
   ["--", "Pickels In a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //                   Deals five health to enemies (Battels)
   ["--", "20 day old milkshake in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
-  ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, "Common", "Tactical Objects", 0] //           Deals 50% health to enemies  (Battels)
-  //Lipstick
-  ["--", "Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 1 Strenth (User)
-  ["--", "Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Health  (User)
-  ["--", "Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Sat     (User)
-  ["--", "Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0] //            + 1 Luck    (User)
+  ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
+  //Lipsticks
+  //basic
+  ["--", "Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 1 Strenth     (User)
+  ["--", "Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Health      (User)
+  ["--", "Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Sat         (User)
+  ["--", "Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Luck        (User)
+  ["--", "Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //            + 1 Protection  (User)
+  ["--", "Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Water       (User)
+  ["--", "Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Stealth     (User)
 ]  
 
 
