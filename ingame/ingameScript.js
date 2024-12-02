@@ -629,6 +629,14 @@ var achievements = [
   ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "Mechanical", false],  //         The player was a Beta tester
   //Playing
   ["--", "Level 5", "DISCRIPTION", "ach_lvl_Five", "ASSET", "Playing", false],  //                 Got to level 5
+  ["--", "Level 10", "DISCRIPTION", "ach_lvl_Ten", "ASSET", "Playing", false],  //                 Got to level 10
+  ["--", "Level 25", "DISCRIPTION", "ach_lvl_TwoFive", "ASSET", "Playing", false],  //             Got to level 25
+  ["--", "Level 50", "DISCRIPTION", "ach_lvl_Fifty", "ASSET", "Playing", false],  //               Got to level 50
+  ["--", "Level 100", "DISCRIPTION", "ach_lvl_OneHun", "ASSET", "Playing", false],  //             Got to level 100
+  ["--", "Level 250", "DISCRIPTION", "ach_lvl_TwoFiveHun", "ASSET", "Playing", false],  //         Got to level 250
+  ["--", "Level 500", "DISCRIPTION", "ach_lvl_FiveHun", "ASSET", "Playing", false],  //            Got to level 500
+  ["--", "Level 1000", "DISCRIPTION", "ach_lvl_OneT", "ASSET", "Playing", false] //                Got to level 1000
+  
 ];
 //MECHANIC ACHIEVEMENTS
 var ach_mech_strtGame = false; //      Started game 
