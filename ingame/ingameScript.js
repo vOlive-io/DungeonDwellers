@@ -619,6 +619,7 @@ var bunberries = [
 //TOTALS
 var ach_total = 0; //                  Total Number of Achievements
 var achievements = [
+  ["ID", "NAME", "DISCRIPTION", "ACH_ID", "ASSET", "TYPE", "UNLOCKED"]
   
 ];
 //MECHANIC ACHIEVEMENTS
