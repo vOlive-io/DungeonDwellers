@@ -190,8 +190,8 @@ var relicBootOwned = false;
 ///      2) ARMORS       ///
 ////////////////////////////
 //collections and rarities
-var collections = ["Classic", "Dumb", "\"What the f***?\"", "Starter", "Explorer\'s", "Fruty", "Unique", "Up Close & Personal"]
-var rarities = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"]
+var collections = ["Classic", "Dumb", "\"What the f***?\"", "Starter", "Explorer\'s", "Fruty", "Unique", "Up Close & Personal"];
+var rarities = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeon", "Seasonal"];
 
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 //Collections: DONE
@@ -618,6 +618,9 @@ var bunberries = [
 /////////////////////////////////
 //TOTALS
 var ach_total = 0; //                  Total Number of Achievements
+var achievements = [
+  
+];
 //MECHANIC ACHIEVEMENTS
 var ach_mech_strtGame = false; //      Started game 
 var ach_mech_donor = false; //         The player has given the devs money
@@ -719,7 +722,7 @@ var unsortedItems = [
   //Tokens & Totems
   //Totems
   //Tokens
-]  
+];  
 
 
 
