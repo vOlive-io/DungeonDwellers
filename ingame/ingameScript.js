@@ -727,14 +727,21 @@ var unsortedItems = [
   
   //Lipsticks  ------- {
   //Basic
-  ["--", "Basic Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 1 Strenth     (User)
-  ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Health      (User)
-  ["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Sat         (User)
-  ["--", "Basic Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Luck        (User)
-  ["--", "Basic Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //            + 1 Protection  (User)
-  ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Water       (User)
-  ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Stealth     (User)
+  ["--", "Basic Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
+  ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Health      (User)
+  ["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Sat         (User)
+  ["--", "Basic Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Luck        (User)
+  ["--", "Basic Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //            + 10 Protection  (User)
+  ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Water       (User)
+  ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Stealth     (User)
   //Deluxe lipstick
+  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
+  ["--", "Deluxe Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Health      (User)
+  ["--", "Deluxe Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Sat         (User)
+  ["--", "Deluxe Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Luck        (User)
+  ["--", "Deluxe Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //            + 10 Protection  (User)
+  ["--", "Deluxe Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Water       (User)
+  ["--", "Deluxe Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Stealth     (User)
   // }
   
   //Poitions ------ {
