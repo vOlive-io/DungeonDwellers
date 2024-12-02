@@ -619,7 +619,16 @@ var bunberries = [
 //TOTALS
 var ach_total = 0; //                  Total Number of Achievements
 var achievements = [
-  ["ID", "NAME", "DISCRIPTION", "ACH_ID", "ASSET", "TYPE", "UNLOCKED"]
+  ["ID", "NAME", "DISCRIPTION", "ACH_ID", "ASSET", "TYPE", "UNLOCKED"],
+  //Mech
+  ["--", "Started Game", "DISCRIPTION", "ach_mech_strtGame", "ASSET", "TYPE", "UNLOCKED"],
+  ["--", "Doner", "DISCRIPTION", "ach_mech_donor", "ASSET", "TYPE", "UNLOCKED"],
+  ["--", "Giver", "DISCRIPTION", "ach_mech_giver", "ASSET", "TYPE", "UNLOCKED"],
+  ["--", "Exterminator", "DISCRIPTION", "ach_mech_exterm", "ASSET", "TYPE", "UNLOCKED"],
+  ["--", "Alpha Tester", "DISCRIPTION", "ach_mech_alpha", "ASSET", "TYPE", "UNLOCKED"],
+  ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "TYPE", "UNLOCKED"],
+  ["--", "Super Mech", "DISCRIPTION", "ach_mech_superMech", "ASSET", "TYPE", "UNLOCKED"]
+  
   
 ];
 //MECHANIC ACHIEVEMENTS
