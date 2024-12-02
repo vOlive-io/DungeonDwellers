@@ -675,7 +675,7 @@ if (ach_lvl_Five == true) {
 // "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects"
 var unsortedItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
-  //Screen changer
+  //Screen changer ------------ {
   //Weak
   ["--", "Pencil", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
   //Mid
@@ -702,8 +702,8 @@ var unsortedItems = [
   ["--", "Brown Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //       Colors the screen Brown    (Leaves FEW patches of old color)
   ["--", "Gray Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //        Colors the screen Gray     (Leaves FEW patches of old color)
   ["--", "White Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //       Colors the screen White    (Leaves FEW patches of old color)
-
-  //Jars
+  // }
+  //Jars ---------- {
   //Gross
   ["--", "Burp in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals one health to all     (Battels & Users)
   ["--", "Barf In a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals five health to all    (Battels & Users)
@@ -714,7 +714,10 @@ var unsortedItems = [
   ["--", "Pickels In a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //                   Deals five health to enemies (Battels)
   ["--", "20 day old milkshake in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
   ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
-  //Lipsticks
+  // }
+
+  
+  //Lipsticks  ------- {
   //Basic
   ["--", "Basic Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 1 Strenth     (User)
   ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Health      (User)
@@ -724,20 +727,26 @@ var unsortedItems = [
   ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Water       (User)
   ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Stealth     (User)
   //Deluxe lipstick
-
-  //Poitions
+  // }
+  
+  //Poitions ------ {
   //Drink
   //Splash
+  // }
 
-  //Tokens & Totems
+  //Tokens & Totems ---- {
   //Totems
   //Tokens
+  // }
 
-  //Attacks
+  //Attacks ----- {
   //Melee Specials
   //Specials Attacks
-  //Ranged
+  //Ranged ---{ 
+  //Classic
   //Explosives
+  // }
+  // }
 ];  
 
 
