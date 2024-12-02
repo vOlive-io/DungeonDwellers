@@ -703,13 +703,13 @@ var unsortedItems = [
   ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
   //Lipsticks
   //basic
-  ["--", "Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 1 Strenth     (User)
-  ["--", "Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Health      (User)
-  ["--", "Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Sat         (User)
-  ["--", "Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Luck        (User)
-  ["--", "Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //            + 1 Protection  (User)
-  ["--", "Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Water       (User)
-  ["--", "Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Stealth     (User)
+  ["--", "Basic Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 1 Strenth     (User)
+  ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Health      (User)
+  ["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Sat         (User)
+  ["--", "Basic Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Luck        (User)
+  ["--", "Basic Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //            + 1 Protection  (User)
+  ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Water       (User)
+  ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Stealth     (User)
 ]  
 
 
