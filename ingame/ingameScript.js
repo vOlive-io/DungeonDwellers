@@ -682,22 +682,22 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 // "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects"
 var unsortedItems = [
-  ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
+  ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "STARTING USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   //Screen changer ------------ {
   //Weak
-  ["--", "Pencil", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
+  ["--", "Pencil", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
   //Mid
-  ["--", "Red Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //        Colors the screen Red      (Leaves SOME patches of old color)
-  ["--", "Orange Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //     Colors the screen Orange   (Leaves SOME patches of old color)
-  ["--", "Yellow Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //     Colors the screen Yellow   (Leaves SOME patches of old color)
-  ["--", "Green Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen Green    (Leaves SOME patches of old color)
-  ["--", "Blue Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //       Colors the screen Blue     (Leaves SOME patches of old color)
-  ["--", "Purple Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //     Colors the screen Purple   (Leaves SOME patches of old color)
-  ["--", "Pink Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //       Colors the screen Pink     (Leaves SOME patches of old color)
-  ["--", "Black Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen Black    (Leaves SOME patches of old color)
-  ["--", "Brown Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen Brown    (Leaves SOME patches of old color)
-  ["--", "Gray Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //       Colors the screen Gray     (Leaves SOME patches of old color)
-  ["--", "White Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen White    (Leaves SOME patches of old color)
+  ["--", "Red Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //        Colors the screen Red      (Leaves SOME patches of old color)
+  ["--", "Orange Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Orange   (Leaves SOME patches of old color)
+  ["--", "Yellow Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Yellow   (Leaves SOME patches of old color)
+  ["--", "Green Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Green    (Leaves SOME patches of old color)
+  ["--", "Blue Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Blue     (Leaves SOME patches of old color)
+  ["--", "Purple Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Purple   (Leaves SOME patches of old color)
+  ["--", "Pink Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Pink     (Leaves SOME patches of old color)
+  ["--", "Black Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Black    (Leaves SOME patches of old color)
+  ["--", "Brown Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Brown    (Leaves SOME patches of old color)
+  ["--", "Gray Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Gray     (Leaves SOME patches of old color)
+  ["--", "White Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen White    (Leaves SOME patches of old color)
   //Good
   ["--", "Red Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //         Colors the screen Red      (Leaves FEW patches of old color)
   ["--", "Orange Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen Orange   (Leaves FEW patches of old color)
@@ -735,7 +735,7 @@ var unsortedItems = [
   ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Water       (User)
   ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Stealth     (User)
   //Deluxe lipstick
-  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
+  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, , "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
   ["--", "Deluxe Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Health      (User)
   ["--", "Deluxe Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Sat         (User)
   ["--", "Deluxe Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Luck        (User)
