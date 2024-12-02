@@ -661,7 +661,8 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 var commonItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
-  ["--", "Pencil", "DISCRIPTION", false, 0, "Common", "School Objects", 0]
+  ["--", "Pencil", "DISCRIPTION", false, 0, "Common", "School Objects", 0],
+  ["--", "Crayon", "DISCRIPTION", false, 0, "Common", "School Objects", 0]
 ]
 
 
