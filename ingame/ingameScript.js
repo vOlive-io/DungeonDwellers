@@ -732,6 +732,12 @@ var unsortedItems = [
   //Tokens & Totems
   //Totems
   //Tokens
+
+  //Attacks
+  //Melee Specials
+  //Specials Attacks
+  //Ranged
+  //Explosives
 ];  
 
 
