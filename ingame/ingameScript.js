@@ -663,9 +663,9 @@ if (ach_lvl_Five == true) {
 var unsortedItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   //Screen changer
-  //weak
+  //Weak
   ["--", "Pencil", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
-  //mid
+  //Mid
   ["--", "Red Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //        Colors the screen Red      (Leaves SOME patches of old color)
   ["--", "Orange Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //     Colors the screen Orange   (Leaves SOME patches of old color)
   ["--", "Yellow Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //     Colors the screen Yellow   (Leaves SOME patches of old color)
@@ -677,7 +677,7 @@ var unsortedItems = [
   ["--", "Brown Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen Brown    (Leaves SOME patches of old color)
   ["--", "Gray Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //       Colors the screen Gray     (Leaves SOME patches of old color)
   ["--", "White Marker", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen White    (Leaves SOME patches of old color)
-  //good
+  //Good
   ["--", "Red Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //         Colors the screen Red      (Leaves FEW patches of old color)
   ["--", "Orange Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen Orange   (Leaves FEW patches of old color)
   ["--", "Yellow Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //      Colors the screen Yellow   (Leaves FEW patches of old color)
@@ -696,13 +696,13 @@ var unsortedItems = [
   ["--", "Barf In a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals five health to all    (Battels & Users)
   ["--", "Fart in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals 10% health to all     (Battels & Users)
   ["--", "Poop in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals 50% health to all     (Battels & Users)
-  //food
+  //Food
   ["--", "Smelly Cheese in a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //             Deals one health to enemies  (Battels)
   ["--", "Pickels In a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //                   Deals five health to enemies (Battels)
   ["--", "20 day old milkshake in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
   ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
   //Lipsticks
-  //basic
+  //Basic
   ["--", "Basic Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 1 Strenth     (User)
   ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Health      (User)
   ["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Sat         (User)
@@ -710,6 +710,15 @@ var unsortedItems = [
   ["--", "Basic Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //            + 1 Protection  (User)
   ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 1 Water       (User)
   ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 1 Stealth     (User)
+  //Deluxe lipstick
+
+  //Poitions
+  //Drink
+  //Splash
+
+  //Tokens & Totems
+  //Totems
+  //Tokens
 ]  
 
 
