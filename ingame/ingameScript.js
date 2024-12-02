@@ -659,7 +659,7 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 ///     6) ITEMS         ///
 ////////////////////////////
-
+// "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects"
 var unsortedItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   //Screen changer
