@@ -663,7 +663,7 @@ var ach_armors_EpicAll = false; //      Unlocked all epic armors
 var ach_armors_MyDESCRIPTIONalse; //    Unlocked all mythic armors
 var ach_armors_RelicFirst = false; //   Unlocked oneDESCRIPTIONrs
 //DUMB ACHIEVEMENTS
-var ach_dumb_youAsked = false; //       ClickeDESCRIPTIONchievement
+var ach_dumb_youAsked = false; //       Clicked on this achievement
 var ach_dumb_plusFifty = false; //      Has more unlocked achievDESCRIPTION locked ones
 var ach_dumb_takingAfterZ = false; //   Has Zharria's second hand setup (PeDESCRIPTION Holy Bamboo + Panda)
 var ach_dumb_takingAfterO = false; //   Has Olive's second hand setup DESCRIPTIONr staff  + Gold encrusted silk + Dog)
