@@ -608,7 +608,7 @@ var bunberries = [
   ["--", "Shadow Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Stealth, +5 Heath, +3 Luck
   ["--", "Lava Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Strength, +5 Stealth, +3 Heath
   ["--", "Aqua Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Water, +5 Strength, +3 Heath
-  ["--", "Jester Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Luck, +5 Stealth, +3 Heath
+  ["--", "Jester Bun Berry", "DISCRIPTION", "----", "Special", 0]  //        +10 Luck, +5 Stealth, +3 Heath
 ];
 
 
@@ -657,7 +657,7 @@ if (ach_lvl_Five == true) {
 
  
 ////////////////////////////
-///   6) LOOT BOXES       ///
+///     6) ITEMS         ///
 ////////////////////////////
 
 
