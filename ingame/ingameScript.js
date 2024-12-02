@@ -689,12 +689,19 @@ var unsortedItems = [
   ["--", "Brown Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //       Colors the screen Brown    (Leaves FEW patches of old color)
   ["--", "Gray Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //        Colors the screen Gray     (Leaves FEW patches of old color)
   ["--", "White Paint", "DISCRIPTION", true, 1, "Common", "Customization Objects", 0], //       Colors the screen White    (Leaves FEW patches of old color)
-  
-  ["--", "Burp in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //      Deals one health to all    (Battels & Users)
-  ["--", "Barf In a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //     Deals five health to all   (Battels & Users)
-  ["--", "Fart in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //      Deals ten health to all    (Battels & Users)
-  ["--", "Poop in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0] //       Deals twenty health to all (Battels & Users)
-]
+
+  //Jars
+  //Gross
+  ["--", "Burp in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals one health to all     (Battels & Users)
+  ["--", "Barf In a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals five health to all    (Battels & Users)
+  ["--", "Fart in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals 10% health to all     (Battels & Users)
+  ["--", "Poop in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals 50% health to all     (Battels & Users)
+  //food
+  ["--", "Smelly Cheese in a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //             Deals one health to enemies  (Battels)
+  ["--", "Pickels In a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //                   Deals five health to enemies (Battels)
+  ["--", "20 day old milkshake in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
+  ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, "Common", "Tactical Objects", 0] //           Deals 50% health to enemies  (Battels)
+]  
 
 
 
