@@ -753,8 +753,12 @@ var unsortedItems = [
   ["--", "Stall Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                   + 10 Stall       (User)
   ["--", "Water Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                   + 10 Water       (User)
   ["--", "Stealth Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Stealth     (User)
-  
   //Splash
+  ["--", "Weakness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //         - 10 Strenth     (Battles)
+  ["--", "Pain Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //             - 10 Health      (Battles)
+  ["--", "Emptyness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //        - 10 Sat         (Battles)
+  ["--", "Anti-Stall Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //       - 10 Stall       (Battles)
+  ["--", "Dryness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //          - 10 Water       (Battles)
   // }
 
   //Tokens & Totems ---- {
