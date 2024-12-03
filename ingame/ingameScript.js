@@ -347,6 +347,9 @@ var RareBootArmorTypes = [
 //Collections: DONE
 // NEEDS DESCRIPTIONS
 var EpicHeadArmorTypes = [
+  ["84", "Top Hat", 4, "Description", "Epic", "Fancy", false],
+  ["84", "Invisible Helmet", 4, "Description", "Epic", "Unique", false],
+  ["84", "Reinforced Glass Helmet", 4, "Description", "Epic", "\"What the f***\"", false],
   ["84", "Snakeskin Helmet", 4, "Description", "Epic", "Unique", false],
   ["85", "Cooled magma Helmet", 4, "Description", "Epic", "Unique", false],
   ["86", "Holy Bamboo Helmet", 4, "Description", "Epic", "Unique", false],
@@ -356,6 +359,9 @@ var EpicHeadArmorTypes = [
 ];
 
 var EpicChestArmorTypes = [
+  ["91", "Suit Shirt", 4, "Description", "Epic", "Fancy", false],
+  ["91", "Invisible Chestplate", 4, "Description", "Epic", "Unique", false],
+  ["91", "Reinforced Glass Chestplate", 4, "Description", "Epic", "\"What the f***\"", false],
   ["91", "Snakeskin Chestplate", 4, "Description", "Epic", "Unique", false],
   ["92", "Cooled magma Chestplate", 4, "Description", "Epic", "Unique", false],
   ["93", "Holy Bamboo Chestplate", 4, "Description", "Epic", "Unique", false],
@@ -364,6 +370,9 @@ var EpicChestArmorTypes = [
 ];
 
 var EpicLegArmorTypes = [
+  ["97", "Suit Pants", 4, "Description", "Epic", "Fancy", false],
+  ["97", "Invisible Leggings", 4, "Description", "Epic", "Unique", false],
+  ["97", "Reinforced Glass Leggings", 4, "Description", "Epic", "\"What the f***\"", false],
   ["97", "Snakeskin Leggings", 4, "Description", "Epic", "Unique", false],
   ["98", "Cooled magma Leggings", 4, "Description", "Epic", "Unique", false],
   ["99", "Holy Bamboo Leggings", 4, "Description", "Epic", "Unique", false],
@@ -373,7 +382,9 @@ var EpicLegArmorTypes = [
 ];
 
 var EpicBootArmorTypes = [
-
+  ["104", "Work Boots", 4, "Description", "Epic", "Fancy", false],
+  ["104", "Invisible Boots", 4, "Description", "Epic", "Unique", false],
+  ["104", "Reinforced Glass Boots", 4, "Description", "Epic", "\"What the f***\"", false],
   ["104", "Snakeskin Boots", 4, "Description", "Epic", "Unique", false],
   ["105", "Cooled magma Boots", 4, "Description", "Epic", "Unique", false],
   ["106", "Holy Bamboo Boots", 4, "Description", "Epic", "Unique", false],
