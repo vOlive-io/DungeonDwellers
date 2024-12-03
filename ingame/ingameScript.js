@@ -364,7 +364,8 @@ var EpicChestArmorTypes = [
   ["91", "Snakeskin Chestplate", 4, "Description", "Epic", "Unique", false],
   ["92", "Cooled magma Chestplate", 4, "Description", "Epic", "Unique", false],
   ["93", "Holy Bamboo Chestplate", 4, "Description", "Epic", "Unique", false],
-  ["94", "Diamond Chestplate", 4, "Description", "Epic", "Classic", false]
+  ["94", "Diamond Chestplate", 4, "Description", "Epic", "Classic", false],
+  ["88", "Emerald Chestplate", 4, "Description", "Epic", "Unique", false],
   ["95", "Chicken Suit Chest Piece", 4, "Description", "Epic", "\"What the f***\"", false]
 ];
 
