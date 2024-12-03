@@ -416,8 +416,8 @@ var MythicLegArmorTypes = [
   ["127", "Ghoul Skin Leg Covers", 4, "Description", "Mythic", "Unique", false]
 ];
 
-var MythicChestArmorTypes = [
-  ["128", "Gold encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false],
+var MythicBootArmorTypes = [
+  ["128", "Amber encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false],
   ["129", "Dragon Skin Shoes", 4, "Description", "Mythic", "Unique", false],
   ["130", "Rhodochrosite Boots", 4, "Description", "Mythic", "Exotic Gems", false],
   ["131", "Amber Boots", 4, "Description", "Mythic", "Exotic Gems", false],
