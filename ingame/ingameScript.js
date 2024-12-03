@@ -649,7 +649,7 @@ var ach_armors_UnommonAll = false; //   Unlocked all uncommon armors
 var ach_armors_RareAll = false; //      Unlocked all rare armors
 var ach_armors_EpicAll = false; //      Unlocked all epic armors
 var ach_armors_MyDESCRIPTIONalse; //    Unlocked all mythic armors
-var ach_armors_RelicFirst = false; //   Unlocked oneDESCRIPTIONrs
+var ach_armors_RelicFirst = false; //   Unlocked one relic
 
 //SEASON ONE ACHIEVEMENTS
 var ach_seasonOne_AllArmorDESCRIPTION//  Unlocked all season one armors
