@@ -699,17 +699,17 @@ var unsortedItems = [
   ["--", "Gray Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Gray     (Leaves SOME patches of old color)
   ["--", "White Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen White    (Leaves SOME patches of old color)
   //Good
-  ["--", "Red Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //         Colors the screen Red      (Leaves FEW patches of old color)
-  ["--", "Orange Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Orange   (Leaves FEW patches of old color)
-  ["--", "Yellow Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Yellow   (Leaves FEW patches of old color)
-  ["--", "Green Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Green    (Leaves FEW patches of old color)
-  ["--", "Blue Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //        Colors the screen Blue     (Leaves FEW patches of old color)
-  ["--", "Purple Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Purple   (Leaves FEW patches of old color)
-  ["--", "Pink Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //        Colors the screen Pink     (Leaves FEW patches of old color)
-  ["--", "Black Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Black    (Leaves FEW patches of old color)
-  ["--", "Brown Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Brown    (Leaves FEW patches of old color)
-  ["--", "Gray Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //        Colors the screen Gray     (Leaves FEW patches of old color)
-  ["--", "White Paint", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen White    (Leaves FEW patches of old color)
+  ["--", "Red Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //         Colors the screen Red      (Leaves FEW patches of old color)
+  ["--", "Orange Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Orange   (Leaves FEW patches of old color)
+  ["--", "Yellow Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Yellow   (Leaves FEW patches of old color)
+  ["--", "Green Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Green    (Leaves FEW patches of old color)
+  ["--", "Blue Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Blue     (Leaves FEW patches of old color)
+  ["--", "Purple Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Purple   (Leaves FEW patches of old color)
+  ["--", "Pink Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Pink     (Leaves FEW patches of old color)
+  ["--", "Black Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Black    (Leaves FEW patches of old color)
+  ["--", "Brown Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Brown    (Leaves FEW patches of old color)
+  ["--", "Gray Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Gray     (Leaves FEW patches of old color)
+  ["--", "White Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen White    (Leaves FEW patches of old color)
   // }
   //Jars ---------- {
   //Gross
