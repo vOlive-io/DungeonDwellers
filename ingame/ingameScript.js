@@ -302,7 +302,7 @@ var RareHeadArmorTypes = [
   ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic", false],
   ["51", "Iron Helmet", 6, "NOT A MINECRAFT KNOCKOFF (please don't report us).", "Rare", "Classic", false],
   ["52", "Feathered Mask", 6, "How many chickens did you slaughter?", "Rare", "Uniquie", false],
-  ["53", "Blessed Mud Helmet", 6, "Yum.", "Rare", "\"What the f***\"", false],
+  ["53", "Blessed Mud Mask", 6, "Blessed by Priests, this mud will keep you safe.", "Rare", "\"What the f***\"", false],
   ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity", false],
   ["55", "Medevil Helmet", 5, "Description", "Rare", "Unique", false]
 ];
