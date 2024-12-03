@@ -648,11 +648,11 @@ var ach_armors_CommonAll = false; //    Unlocked all common armors
 var ach_armors_UnommonAll = false; //   Unlocked all uncommon armors
 var ach_armors_RareAll = false; //      Unlocked all rare armors
 var ach_armors_EpicAll = false; //      Unlocked all epic armors
-var ach_armors_MyDESCRIPTIONalse; //    Unlocked all mythic armors
+var ach_armors_Mythic = false; //    Unlocked all mythic armors
 var ach_armors_RelicFirst = false; //   Unlocked one relic
 
 //SEASON ONE ACHIEVEMENTS
-var ach_seasonOne_AllArmorDESCRIPTION//  Unlocked all season one armors
+var ach_seasonOne_AllArmor//  Unlocked all season one armors
 
 if (ach_lvl_Five == true) {
   let image = document.getElementById("levelOneId");
@@ -1729,4 +1729,3 @@ function callSavedData_cookies() {
 
 
 window.gears = gears;
-
