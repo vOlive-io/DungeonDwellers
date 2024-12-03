@@ -713,35 +713,35 @@ var unsortedItems = [
   // }
   //Jars ---------- {
   //Gross
-  ["--", "Burp in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals one health to all     (Battels & Users)
-  ["--", "Barf In a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals five health to all    (Battels & Users)
-  ["--", "Fart in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals 10% health to all     (Battels & Users)
-  ["--", "Poop in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //                     Deals 50% health to all     (Battels & Users)
+  ["--", "Burp in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals one health to all     (Battels & Users)
+  ["--", "Barf In a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals five health to all    (Battels & Users)
+  ["--", "Fart in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals 10% health to all     (Battels & Users)
+  ["--", "Poop in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals 50% health to all     (Battels & Users)
   //Food
-  ["--", "Smelly Cheese in a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //             Deals one health to enemies  (Battels)
-  ["--", "Pickels In a jar", "DISCRIPTION", true, 1, "Common", "Food Objects", 0], //                   Deals five health to enemies (Battels)
-  ["--", "20 day old milkshake in a jar", "DISCRIPTION", true, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
-  ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
+  ["--", "Smelly Cheese in a jar", "DISCRIPTION", true, 1, 1, "Common", "Food Objects", 0], //             Deals one health to enemies  (Battels)
+  ["--", "Pickels In a jar", "DISCRIPTION", true, 1, 1, "Common", "Food Objects", 0], //                   Deals five health to enemies (Battels)
+  ["--", "20 day old milkshake in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
+  ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
   // }
 
   
   //Lipsticks  ------- {
   //Basic
-  ["--", "Basic Red Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
-  ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Health      (User)
-  ["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Sat         (User)
-  ["--", "Basic Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Luck        (User)
-  ["--", "Basic Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //            + 10 Protection  (User)
-  ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Water       (User)
-  ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Stealth     (User)
+  ["--", "Basic Red Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
+  ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //          + 10 Health      (User)
+  ["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //          + 10 Sat         (User)
+  ["--", "Basic Green Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //           + 10 Luck        (User)
+  ["--", "Basic Blue Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //            + 10 Protection  (User)
+  ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //          + 10 Water       (User)
+  ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //           + 10 Stealth     (User)
   //Deluxe lipstick
-  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, , "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
-  ["--", "Deluxe Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //         + 10 Health      (User)
-  ["--", "Deluxe Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //         + 10 Sat         (User)
-  ["--", "Deluxe Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Luck        (User)
-  ["--", "Deluxe Blue Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Protection  (User)
-  ["--", "Deluxe Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //         + 10 Water       (User)
-  ["--", "Deluxe Black Lipstick", "DISCRIPTION", true, , "Common", "Stylish Objects", 0], //          + 10 Stealth     (User)
+  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
+  ["--", "Deluxe Orange Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //         + 10 Health      (User)
+  ["--", "Deluxe Yellow Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //         + 10 Sat         (User)
+  ["--", "Deluxe Green Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //          + 10 Luck        (User)
+  ["--", "Deluxe Blue Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //           + 10 Protection  (User)
+  ["--", "Deluxe Purple Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //         + 10 Water       (User)
+  ["--", "Deluxe Black Lipstick", "DISCRIPTION", true, 1, 1, "Common", "Stylish Objects", 0], //          + 10 Stealth     (User)
   // }
   
   //Poitions ------ {
