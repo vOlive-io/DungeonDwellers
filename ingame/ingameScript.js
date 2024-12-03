@@ -347,7 +347,6 @@ var RareBootArmorTypes = [
 //Collections: DONE
 // NEEDS DESCRIPTIONS
 var EpicHeadArmorTypes = [
-  ["83", "Coral Helmet", 4, "Description", "Epic", "Unique", false],
   ["84", "Snakeskin Helmet", 4, "Description", "Epic", "Unique", false],
   ["85", "Cooled magma Helmet", 4, "Description", "Epic", "Unique", false],
   ["86", "Holy Bamboo Helmet", 4, "Description", "Epic", "Unique", false],
@@ -357,7 +356,6 @@ var EpicHeadArmorTypes = [
 ];
 
 var EpicChestArmorTypes = [
-  ["90", "Coral Chestplate", 4, "Description", "Epic", "Uniquie", false],
   ["91", "Snakeskin Chestplate", 4, "Description", "Epic", "Unique", false],
   ["92", "Cooled magma Chestplate", 4, "Description", "Epic", "Unique", false],
   ["93", "Holy Bamboo Chestplate", 4, "Description", "Epic", "Unique", false],
@@ -366,7 +364,6 @@ var EpicChestArmorTypes = [
 ];
 
 var EpicLegArmorTypes = [
-  ["96", "Coral Leggings", 4, "Description", "Epic", "Unique", false],
   ["97", "Snakeskin Leggings", 4, "Description", "Epic", "Unique", false],
   ["98", "Cooled magma Leggings", 4, "Description", "Epic", "Unique", false],
   ["99", "Holy Bamboo Leggings", 4, "Description", "Epic", "Unique", false],
@@ -376,7 +373,7 @@ var EpicLegArmorTypes = [
 ];
 
 var EpicBootArmorTypes = [
-  ["103", "Coral Boots", 4, "Description", "Epic", "Unique", false],
+
   ["104", "Snakeskin Boots", 4, "Description", "Epic", "Unique", false],
   ["105", "Cooled magma Boots", 4, "Description", "Epic", "Unique", false],
   ["106", "Holy Bamboo Boots", 4, "Description", "Epic", "Unique", false],
@@ -390,6 +387,7 @@ var EpicBootArmorTypes = [
 //Collections: DONE
 // NEEDS DESCRIPTIONS
 var MythicHeadArmorTypes = [
+  ["83", "Coral Helmet", 4, "Description", "Epic", "Unique", false],
   ["110", "Gold encrusted Silk Vail", 4, "Description", "Mythic", "Unique", false],
   ["111", "Dragon Skin Hood", 4, "Description", "Mythic", "Unique", false],
   ["112", "Rhodochrosite Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
@@ -401,6 +399,7 @@ var MythicHeadArmorTypes = [
 ];
 
 var MythicChestArmorTypes = [
+  ["90", "Coral Chestplate", 4, "Description", "Epic", "Uniquie", false],
   ["116", "Gold encrusted Silk Robe", 4, "Description", "Mythic", "Unique", false],
   ["117", "Dragon Skin Robe", 4, "Description", "Mythic", "Unique", false],
   ["118", "Rhodochrosite Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
@@ -412,6 +411,7 @@ var MythicChestArmorTypes = [
 ];
 
 var MythicLegArmorTypes = [
+  ["96", "Coral Leggings", 4, "Description", "Epic", "Unique", false],
   ["122", "Gold encrusted Silk Thermals", 4, "Description", "Mythic", "Unique", false],
   ["123", "Dragon Skin Thermals", 4, "Description", "Mythic", "Unique", false],
   ["124", "Rhodochrosite Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
@@ -423,6 +423,7 @@ var MythicLegArmorTypes = [
 ];
 
 var MythicBootArmorTypes = [
+  ["103", "Coral Boots", 4, "Description", "Epic", "Unique", false],
   ["128", "Amber encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false],
   ["129", "Dragon Skin Shoes", 4, "Description", "Mythic", "Unique", false],
   ["130", "Rhodochrosite Boots", 4, "Description", "Mythic", "Exotic Gems", false],
