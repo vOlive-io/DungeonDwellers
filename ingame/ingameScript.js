@@ -347,6 +347,7 @@ var RareBootArmorTypes = [
 // NEEDS DESCRIPTIONS
 var EpicHeadArmorTypes = [
   ["84", "Top Hat", 4, "Description", "Epic", "Fancy", false],
+  ["84", "Ice Helmet", 4, "Description", "Epic", "\"What the f***\"", false],
   ["84", "Invisible Helmet", 4, "Description", "Epic", "Unique", false],
   ["84", "Reinforced Glass Helmet", 4, "Description", "Epic", "\"What the f***\"", false],
   ["84", "Snakeskin Helmet", 4, "Description", "Epic", "Unique", false],
@@ -359,6 +360,7 @@ var EpicHeadArmorTypes = [
 
 var EpicChestArmorTypes = [
   ["91", "Suit Shirt", 4, "Description", "Epic", "Fancy", false],
+  ["91", "Ice Shirt", 4, "Description", "Epic", "\"What the f***\"", false],
   ["91", "Invisible Chestplate", 4, "Description", "Epic", "Unique", false],
   ["91", "Reinforced Glass Chestplate", 4, "Description", "Epic", "\"What the f***\"", false],
   ["91", "Snakeskin Chestplate", 4, "Description", "Epic", "Unique", false],
@@ -371,6 +373,7 @@ var EpicChestArmorTypes = [
 
 var EpicLegArmorTypes = [
   ["97", "Suit Pants", 4, "Description", "Epic", "Fancy", false],
+  ["97", "Ice Pants", 4, "Description", "Epic", "\"What the f***\"", false],
   ["97", "Invisible Leggings", 4, "Description", "Epic", "Unique", false],
   ["97", "Reinforced Glass Leggings", 4, "Description", "Epic", "\"What the f***\"", false],
   ["97", "Snakeskin Leggings", 4, "Description", "Epic", "Unique", false],
@@ -383,6 +386,7 @@ var EpicLegArmorTypes = [
 
 var EpicBootArmorTypes = [
   ["104", "Work Boots", 4, "Description", "Epic", "Fancy", false],
+  ["104", "Ice Boots", 4, "Description", "Epic", "\"What the f***\"", false],
   ["104", "Invisible Boots", 4, "Description", "Epic", "Unique", false],
   ["104", "Reinforced Glass Boots", 4, "Description", "Epic", "\"What the f***\"", false],
   ["104", "Snakeskin Boots", 4, "Description", "Epic", "Unique", false],
