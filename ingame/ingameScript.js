@@ -425,6 +425,17 @@ var MythicBootArmorTypes = [
   ["133", "Ghoul Skin Foot Covers", 4, "Description", "Mythic", "Unique", false]
 ];
 
+//FORGED
+
+var ForgedMythicHeadArmorTypes = [
+  ["110", "Amber encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["111", "Mythrill encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["112", "Rhodochrosite encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["113", "Coral encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["114", "Necromancer\'s encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["115", "Tsavorite encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false]
+];
+
 
 /////////////////////////////////////////////////////////////////////////////
 //////////////   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ DONE ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  //////////////
