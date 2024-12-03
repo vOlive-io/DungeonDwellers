@@ -445,6 +445,14 @@ var ForgedMythicChestArmorTypes = [
   ["121", "Tsavorite encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false]
 ];
 
+var ForgedMythicLegArmorTypes = [
+  ["122", "Amber encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["123", "Mythrill encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["124", "Rhodochrosite encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["125", "Coral encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["126", "Necromancer\'s encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["127", "Tsavorite encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false]
+];
 
 /////////////////////////////////////////////////////////////////////////////
 //////////////   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ DONE ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  //////////////
