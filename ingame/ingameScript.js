@@ -735,7 +735,7 @@ var unsortedItems = [
   ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Water       (User)
   ["--", "Basic Black Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Stealth     (User)
   //Deluxe lipstick
-  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, , "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
+  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, , "Common", "Stylish Objects", 0], //              + 10 Strenth     (User)
   ["--", "Deluxe Orange Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Health      (User)
   ["--", "Deluxe Yellow Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //          + 10 Sat         (User)
   ["--", "Deluxe Green Lipstick", "DISCRIPTION", true, 1, "Common", "Stylish Objects", 0], //           + 10 Luck        (User)
