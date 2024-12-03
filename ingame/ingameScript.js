@@ -727,32 +727,32 @@ var unsortedItems = [
   
   //Lipsticks  ------- {
   //Basic
-  ["--", "Basic Red Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //             + 10 Strenth     (User)
-  ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 10 Health      (User)
-  ["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 10 Sat         (User)
-  ["--", "Basic Green Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //           + 10 Luck        (User)
-  ["--", "Basic Blue Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //            + 10 Water       (User)
-  ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 10 Stall       (User)
-  ["--", "Basic Black Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //           + 10 Stealth     (User)
+  ["--", "Basic Red Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //             + 3 Strenth     (User)
+  ["--", "Basic Orange Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Health      (User)
+  ["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Sat         (User)
+  ["--", "Basic Green Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //           + 3 Luck        (User)
+  ["--", "Basic Blue Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //            + 3 Water       (User)
+  ["--", "Basic Purple Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Stall       (User)
+  ["--", "Basic Black Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //           + 3 Stealth     (User)
   //Deluxe lipstick
-  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //            + 10 Strenth     (User)
-  ["--", "Deluxe Orange Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 10 Health      (User)
-  ["--", "Deluxe Yellow Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 10 Sat         (User)
-  ["--", "Deluxe Green Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 10 Luck        (User)
-  ["--", "Deluxe Blue Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //           + 10 Water       (User)
-  ["--", "Deluxe Purple Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 10 Stall       (User)
-  ["--", "Deluxe Black Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 10 Stealth     (User)
+  ["--", "Deluxe Red Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //            + 5 Strenth     (User)
+  ["--", "Deluxe Orange Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Health      (User)
+  ["--", "Deluxe Yellow Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Sat         (User)
+  ["--", "Deluxe Green Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 5 Luck        (User)
+  ["--", "Deluxe Blue Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //           + 5 Water       (User)
+  ["--", "Deluxe Purple Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Stall       (User)
+  ["--", "Deluxe Black Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 5 Stealth     (User)
   // }
   
   //Poitions ------ {
   //Drink
-  ["--", "Strenth Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                 + 10 Strenth     (User)
-  ["--", "Health Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                  + 10 Health      (User)
-  ["--", "Saturation Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //              + 10 Sat         (User)
-  ["--", "Luck Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                    + 10 Luck        (User)
-  ["--", "Stall Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                   + 10 Stall       (User)
-  ["--", "Water Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                   + 10 Water       (User)
-  ["--", "Stealth Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                 + 10 Stealth     (User)
+  ["--", "Strenth Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Strenth     (User)
+  ["--", "Health Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                  + 10 Health      (User)
+  ["--", "Saturation Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //              + 10 Sat         (User)
+  ["--", "Luck Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                    + 10 Luck        (User)
+  ["--", "Stall Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                   + 10 Stall       (User)
+  ["--", "Water Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                   + 10 Water       (User)
+  ["--", "Stealth Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Stealth     (User)
   
   //Splash
   // }
