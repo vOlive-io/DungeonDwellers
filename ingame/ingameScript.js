@@ -621,22 +621,26 @@ var ach_total = 0; //                  Total Number of Achievements
 var achievements = [
   ["ID", "NAME", "DISCRIPTION", "ACH_ID", "ASSET", "TYPE", "UNLOCKED"],
   //Mech
-  ["--", "Started Game", "DISCRIPTION", "ach_mech_strtGame", "ASSET", "Mechanical", false], //     Started game
-  ["--", "Doner", "DISCRIPTION", "ach_mech_donor", "ASSET", "Mechanical", false], //               The player has given the devs money
-  ["--", "Giver", "DISCRIPTION", "ach_mech_giver", "ASSET", "Mechanical", false], //               The player has given the devs feedback that has been put in the game 
-  ["--", "Exterminator", "DISCRIPTION", "ach_mech_exterm", "ASSET", "Mechanical", false], //       The player has reported a bug in the game
-  ["--", "Alpha Tester", "DISCRIPTION", "ach_mech_alpha", "ASSET", "Mechanical", false], //        The player was a Alpha tester
-  ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "Mechanical", false],  //         The player was a Beta tester
+  ["--", "Started Game", "DISCRIPTION", "ach_mech_strtGame", "ASSET", "Mechanical", false], //             Started game
+  ["--", "Doner", "DISCRIPTION", "ach_mech_donor", "ASSET", "Mechanical", false], //                       The player has given the devs money
+  ["--", "Giver", "DISCRIPTION", "ach_mech_giver", "ASSET", "Mechanical", false], //                       The player has given the devs feedback that has been put in the game 
+  ["--", "Exterminator", "DISCRIPTION", "ach_mech_exterm", "ASSET", "Mechanical", false], //               The player has reported a bug in the game
+  ["--", "Alpha Tester", "DISCRIPTION", "ach_mech_alpha", "ASSET", "Mechanical", false], //                The player was a Alpha tester
+  ["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "Mechanical", false],  //                 The player was a Beta tester
   //Playing
-  ["--", "Level 5", "DISCRIPTION", "ach_lvl_Five", "ASSET", "Playing", false],  //                 Got to level 5
-  ["--", "Level 10", "DISCRIPTION", "ach_lvl_Ten", "ASSET", "Playing", false],  //                 Got to level 10
-  ["--", "Level 25", "DISCRIPTION", "ach_lvl_TwoFive", "ASSET", "Playing", false],  //             Got to level 25
-  ["--", "Level 50", "DISCRIPTION", "ach_lvl_Fifty", "ASSET", "Playing", false],  //               Got to level 50
-  ["--", "Level 100", "DISCRIPTION", "ach_lvl_OneHun", "ASSET", "Playing", false],  //             Got to level 100
-  ["--", "Level 250", "DISCRIPTION", "ach_lvl_TwoFiveHun", "ASSET", "Playing", false],  //         Got to level 250
-  ["--", "Level 500", "DISCRIPTION", "ach_lvl_FiveHun", "ASSET", "Playing", false],  //            Got to level 500
-  ["--", "Level 1000", "DISCRIPTION", "ach_lvl_OneT", "ASSET", "Playing", false] //                Got to level 1000
-  
+  ["--", "Level 5", "DISCRIPTION", "ach_lvl_Five", "ASSET", "Playing", false],  //                         Got to level 5
+  ["--", "Level 10", "DISCRIPTION", "ach_lvl_Ten", "ASSET", "Playing", false],  //                         Got to level 10
+  ["--", "Level 25", "DISCRIPTION", "ach_lvl_TwoFive", "ASSET", "Playing", false],  //                     Got to level 25
+  ["--", "Level 50", "DISCRIPTION", "ach_lvl_Fifty", "ASSET", "Playing", false],  //                       Got to level 50
+  ["--", "Level 100", "DISCRIPTION", "ach_lvl_OneHun", "ASSET", "Playing", false],  //                     Got to level 100
+  ["--", "Level 250", "DISCRIPTION", "ach_lvl_TwoFiveHun", "ASSET", "Playing", false],  //                 Got to level 250
+  ["--", "Level 500", "DISCRIPTION", "ach_lvl_FiveHun", "ASSET", "Playing", false],  //                    Got to level 500
+  ["--", "Level 1000", "DISCRIPTION", "ach_lvl_OneT", "ASSET", "Playing", false], //                       Got to level 1000
+  //Dumb
+  ["--", "You Asked", "DISCRIPTION", "ach_dumb_youAsked", "ASSET", "Playing", false],  //                  Clicked on this achivment
+  ["--", "More Than Fifty Fifty", "DISCRIPTION", "ach_dumb_plusFifty", "ASSET", "Playing", false],  //     Has more unlocked achievements than locked ones
+  ["--", "Taking after Zharria", "DISCRIPTION", "ach_dumb_takingAfterZ", "ASSET", "Playing", false],  //   Has Zharria's second hand setup (Peper Spray + Holy Bamboo + Panda)
+  ["--", "Taking after Olive", "DISCRIPTION", "ach_dumb_takingAfterO", "ASSET", "Playing", false],  //     Has Olive's second hand setup (Necromanserr Staff  + Necromancer's Encrusted Silk + Dog)
 ];
 //MECHANIC ACHIEVEMENTS
 var ach_mech_strtGame = false; //      Started game 
