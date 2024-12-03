@@ -663,7 +663,7 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 ///     6) ITEMS         ///
 ////////////////////////////
-// "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects"
+// "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects", "Magical Objects"
 var unsortedItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "STARTING USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   //Screen changer ------------ {
@@ -706,7 +706,6 @@ var unsortedItems = [
   ["--", "20 day old milkshake in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
   ["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
   // }
-
   
   //Lipsticks  ------- {
   //Basic
