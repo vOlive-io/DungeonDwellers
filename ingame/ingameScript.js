@@ -663,7 +663,7 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 ///     6) ITEMS         ///
 ////////////////////////////
-// "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects", "Magical Objects"
+// "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects", "Magical Objects", "Forging Objects"
 var unsortedItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "STARTING USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   //Screen changer ------------ {
@@ -743,7 +743,8 @@ var unsortedItems = [
   ["--", "Dryness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //          - 10 Water       (Battles)
   // }
 
-   //Recipes & Forge Stuff ------ {
+  //Recipes & Forge Stuff ------ {
+  ["--", "Scroll of Polar Opposites", "DISCRIPTION", true, 1, 1, "Common", "Forging Objects", 0], //          - 10 Water       (Battles)
 
   //}
 
