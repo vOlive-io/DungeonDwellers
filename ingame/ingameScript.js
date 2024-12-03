@@ -744,7 +744,10 @@ var unsortedItems = [
   // }
 
   //Recipes & Forge Stuff ------ {
-  ["--", "Scroll of Polar Opposites", "DISCRIPTION", true, 1, 1, "Common", "Forging Objects", 0], //          - 10 Water       (Battles)
+  ["--", "Scroll of Polar Opposites", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //          The recipe used to make the "Polar Opposite" Armor
+  ["--", "Scroll of Amber Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //         The recipe used to make the "Amber Encrusted Sick" Armor
+  ["--", "Scroll of Mythril Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //       The recipe used to make the "Mythril Encrusted Sick" Armor
+  ["--", "Scroll of Rhodochrosite Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], // The recipe used to make the "Rhodochrosite Encrusted Sick" Armor
 
   //}
 
