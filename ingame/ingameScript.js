@@ -436,6 +436,15 @@ var ForgedMythicHeadArmorTypes = [
   ["115", "Tsavorite encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false]
 ];
 
+var ForgedMythicChestArmorTypes = [
+  ["116", "Amber encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["117", "Mythrill encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["118", "Rhodochrosite encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["119", "Coral encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["120", "Necromancer\'s encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["121", "Tsavorite encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false]
+];
+
 
 /////////////////////////////////////////////////////////////////////////////
 //////////////   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ DONE ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  //////////////
