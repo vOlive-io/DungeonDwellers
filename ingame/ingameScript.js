@@ -500,6 +500,14 @@ var ForgedMythicChestArmorTypes = [
   --Achievements
   --Google form
 
+--Set up forge
+  --Recipes
+  --Assets
+
+--Achievements
+  --Array
+  --Assets
+  --Unlocking
 
 */
 /////////////////////////////////////////////////////////////////////////////
