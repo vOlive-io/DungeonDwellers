@@ -746,6 +746,14 @@ var unsortedItems = [
   
   //Poitions ------ {
   //Drink
+  ["--", "Strenth Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                 + 10 Strenth     (User)
+  ["--", "Health Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                  + 10 Health      (User)
+  ["--", "Saturation Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //              + 10 Sat         (User)
+  ["--", "Luck Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                    + 10 Luck        (User)
+  ["--", "Stall Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                   + 10 Stall       (User)
+  ["--", "Water Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                   + 10 Water       (User)
+  ["--", "Stealth Potion", "DISCRIPTION", true, 6, 6, "Common", "Magical Objects", 0], //                 + 10 Stealth     (User)
+  
   //Splash
   // }
 
