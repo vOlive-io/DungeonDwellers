@@ -642,23 +642,7 @@ var achievements = [
   ["--", "Taking after Zharria", "DISCRIPTION", "ach_dumb_takingAfterZ", "ASSET", "Playing", false],  //   Has Zharria's second hand setup (Peper Spray + Holy Bamboo + Panda)
   ["--", "Taking after Olive", "DISCRIPTION", "ach_dumb_takingAfterO", "ASSET", "Playing", false],  //     Has Olive's second hand setup (Necromanserr Staff  + Necromancer's Encrusted Silk + Dog)
 ];
-//MECHANIC ACHIEVEMENTS
-var ach_mech_strtGame = false; //      Started game 
-var ach_mech_donor = false; //         The player has given the devs money
-var ach_mech_giver = false; //         The player has given the devs feedback that has been put in the game 
-var ach_mech_exterm = false; //        The player has reported a bug in the game
-var ach_mech_alpha = false; //         The player was a Alpha tester
-var ach_mech_beta = false; //          The player was a Beta tester
 
-//PLAYING ACHIEVEMENTS
-var ach_lvl_Five = false; //           Got to level 5
-var ach_lvl_Ten = false; //            Got to level 10
-var ach_lvl_TwoFive = false; //        Got to level 25
-var ach_lvl_Fifty = false; //          Got to level 50
-var ach_lvl_OneHun = false; //         Got to level 100
-var ach_lvl_TwoFiveHun = false; //     Got to level 250
-var ach_lvl_FiveHun = false; //        Got to level 500
-var ach_lvl_OneT = false; //           Got to level 1000
 //ARMOR ACHIEVEMENTS
 var ach_armors_CommonAll = false; //    Unlocked all common armors
 var ach_armors_UnommonAll = false; //   Unlocked all uncommon armors
