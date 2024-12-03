@@ -395,6 +395,7 @@ var MythicHeadArmorTypes = [
   ["112", "Rhodochrosite Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
   ["113", "Amber Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
   ["114", "Mythrill Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["114", "Necrem Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
   ["115", "Ghoul Skin Head Cover", 4, "Description", "Mythic", "Unique", false]
 ];
 
@@ -404,6 +405,7 @@ var MythicChestArmorTypes = [
   ["118", "Rhodochrosite Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
   ["119", "Amber Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
   ["120", "Mythrill Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["120", "Necrem Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
   ["121", "Ghoul Skin Torso Cover", 4, "Description", "Mythic", "Unique", false]
 ];
 
@@ -413,6 +415,7 @@ var MythicLegArmorTypes = [
   ["124", "Rhodochrosite Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
   ["125", "Amber Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
   ["126", "Mythrill Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["126", "Necrem Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
   ["127", "Ghoul Skin Leg Covers", 4, "Description", "Mythic", "Unique", false]
 ];
 
@@ -422,6 +425,7 @@ var MythicBootArmorTypes = [
   ["130", "Rhodochrosite Boots", 4, "Description", "Mythic", "Exotic Gems", false],
   ["131", "Amber Boots", 4, "Description", "Mythic", "Exotic Gems", false],
   ["132", "Mythrill Boots", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["132", "Necrem Boots", 4, "Description", "Mythic", "Exotic Gems", false],
   ["133", "Ghoul Skin Foot Covers", 4, "Description", "Mythic", "Unique", false]
 ];
 
