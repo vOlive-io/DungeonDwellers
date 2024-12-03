@@ -218,7 +218,7 @@ var CommonLegArmorTypes = [
   ["15", "Wooden Leg Padding", 1, "you lunkhead now you can't move!!", "Common", "Classic", false],
   ["16", "Leather Leggings", 2, "cool very very cool you MURDERER OF HORSES!!!!", "Common", "Classic", false],
   ["17", "Painted on Leggings", 2, " Look Michelangelo what are you painting?", "Common", "\"What the f***?\"", false],
-  ["18", "Basic Explorers Leggings", 3, "How Many pockets Does it have?.", "Common", "Explorer\'s", false]
+  ["18", "Basic Explorers Leggings", 3, "How many pockets Does it have?.", "Common", "Explorer\'s", false]
 ];
 
 var CommonBootArmorTypes = [
@@ -485,7 +485,6 @@ var ForgedMythicChestArmorTypes = [
 /////////////////////////////////////////////////////////////////////////////
 //////////////   ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ DONE ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑  //////////////
 /////////////////////////////////////////////////////////////////////////////
-
 
 
 
