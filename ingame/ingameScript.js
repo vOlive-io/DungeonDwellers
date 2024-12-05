@@ -296,22 +296,22 @@ var UncommonBootArmorTypes = [
 // NEEDS DISCRIPTIONS
 var RareHeadArmorTypes = [
   ["47", "Steel Helmet", 5, "Knock on steel *try not to break you're fist*.", "Rare", "Classic", false],
-  ["47", "Snow Helmet", 5, "Description", "Rare", "Classic", false],
-  ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic", false],
+  ["47", "Snow Helmet", 5, "Brr it is cold but you have a hot head", "Rare", "Classic", false],
+  ["48", "Bronze Helmet", 5, "TUBA POWER!!!!!!!!!!", "Rare", "Classic", false],
   ["49", "Silver Helmet", 5, "Turn it into a ford! It will be like optimus prime :).", "Rare", "Classic", false],
   ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic", false],
   ["51", "Iron Helmet", 6, "NOT A MINECRAFT KNOCKOFF (please don't report us).", "Rare", "Classic", false],
   ["52", "Feathered Mask", 6, "How many chickens did you slaughter?", "Rare", "Uniquie", false],
   ["53", "Blessed Mud Mask", 6, "Blessed by Priests, this mud will keep you safe.", "Rare", "\"What the f***\"", false],
-  ["54", "Jungle Vine Helmet", 6, "Description.", "Rare", "Fruity", false],
-  ["55", "Medevil Helmet", 5, "Description", "Rare", "Unique", false]
+  ["54", "Jungle Vine Helmet", 6, "owch those are prickly vines.", "Rare", "Fruity", false],
+  ["55", "Medevil Helmet", 5, "Ur not a knight man", "Rare", "Unique", false]
 ];
 
 var RareChestArmorTypes = [
-  ["56", "Steel Chestplate", 5, "Description.", "Rare", "Classic", false],
-  ["56", "Snow Chestplate", 5, "Description.", "Rare", "Classic", false],
-  ["57", "Bronze Chestplate", 5, "Description.", "Rare", "Classic", false],
-  ["58", "Silver Chestplate", 5, "Description.", "Rare", "Classic", false],
+  ["56", "Steel Chestplate", 5, "not able to stop a bullet.", "Rare", "Classic", false],
+  ["56", "Snow Chestplate", 5, "Need some water?.", "Rare", "Classic", false],
+  ["57", "Bronze Chestplate", 5, "TUBA PREVAILS!!!!!!!!!!!", "Rare", "Classic", false],
+  ["58", "Silver Chestplate", 5, lif.", "Rare", "Classic", false],
   ["59", "Gold Chestplate", 6, "Description.", "Rare", "Classic", false],
   ["60", "Iron Chestplate", 6, "Description.", "Rare", "Classic", false],
   ["61", "Feathered Wings", 6, "Description.", "Rare", "Uniquie", false],
