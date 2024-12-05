@@ -296,6 +296,7 @@ var UncommonBootArmorTypes = [
 // NEEDS DISCRIPTIONS
 var RareHeadArmorTypes = [
   ["47", "Steel Helmet", 5, "Knock on steel *try not to break you're fist*.", "Rare", "Classic", false],
+  ["47", "Snow Helmet", 5, "Description", "Rare", "Classic", false],
   ["48", "Bronze Helmet", 5, "Description.", "Rare", "Classic", false],
   ["49", "Silver Helmet", 5, "Turn it into a ford! It will be like optimus prime :).", "Rare", "Classic", false],
   ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic", false],
@@ -308,6 +309,7 @@ var RareHeadArmorTypes = [
 
 var RareChestArmorTypes = [
   ["56", "Steel Chestplate", 5, "Description.", "Rare", "Classic", false],
+  ["56", "Snow Chestplate", 5, "Description.", "Rare", "Classic", false],
   ["57", "Bronze Chestplate", 5, "Description.", "Rare", "Classic", false],
   ["58", "Silver Chestplate", 5, "Description.", "Rare", "Classic", false],
   ["59", "Gold Chestplate", 6, "Description.", "Rare", "Classic", false],
@@ -320,6 +322,7 @@ var RareChestArmorTypes = [
 
 var RareLegArmorTypes = [
   ["65", "Steel Leggings", 5, "Description.", "Rare", "Classic", false],
+  ["65", "Snow Leggings", 5, "Description.", "Rare", "Classic", false],
   ["66", "Bronze Leggings", 5, "Description.", "Rare", "Classic", false],
   ["67", "Silver Leggings", 5, "Description.", "Rare", "Classic", false],
   ["68", "Gold Leggings", 6, "Description.", "Classic", false],
@@ -332,6 +335,7 @@ var RareLegArmorTypes = [
 
 var RareBootArmorTypes = [
   ["74", "Steel Boots", 5, "Description.", "Rare", "Classic", false],
+  ["74", "Snow Boots", 5, "Description.", "Rare", "Classic", false],
   ["75", "Bronze Boots", 5, "Description.", "Rare", "Classic", false],
   ["76", "Silver Boots", 5, "Description.", "Rare", "Classic", false],
   ["77", "Gold Boots", 6, "Description.", "Rare", "Classic", false],
