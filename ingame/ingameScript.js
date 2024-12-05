@@ -532,7 +532,7 @@ var FullRelicChestArmorTypes = [
   ["32", "Voistiene Entity", 50, "", "Full Relic", "", false],             //Ancient: The Void ------------ Color: Purple (Negaite) ---------- Liquid----------------(Unchosen)
   ["32", "Miezin Cloud", 50, "", "Full Relic", "", false],                 //Ancient: The Mist Forge  ----- Color: White (Mindbending) ------- Pepper Spray----------Zharria
   ["32", "Rosax Robes", 50, "", "Full Relic", "", false],                  //Ancient: The Nightmare ------- Color: Rose (Leach) -------------- Hands ----------------Olive
-  ["32", "HollowGhast Armor", 50, "", "Full Relic", "", false],            //Ancient: The HallowGhast  --- Color: Black (Damage) ------------- Scythe ---------------Armaan
+  ["32", "HollowGhast Armor", 50, "", "Full Relic", "", false],            //Ancient: The HallowGhast  ---- Color: Black (Damage) ------------ Scythe ---------------Armaan
 ];
 
 /////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
