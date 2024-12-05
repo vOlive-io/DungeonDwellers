@@ -1613,44 +1613,44 @@ function RandomPullUncommonBootArmor() {
   }  
 }
 
-//1-50
+//1-100
 function commonGearPrize() {
-  prize = Math.floor(Math.random() * 50) + 1;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
-}
-//50-100
-function uncommonGearPrize() {
-  prize = Math.floor(Math.random() * 50) + 50;
+  prize = Math.floor(Math.random() * 99) + 1;
   gears = gears + prize;
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
 }
 //100-300
-function rareGearPrize() {
+function uncommonGearPrize() {
   prize = Math.floor(Math.random() * 200) + 100;
   gears = gears + prize;
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
 }
-//300-1000
-function epicGearPrize() {
-  prize = Math.floor(Math.random() * 700) + 300;
+//500-1000
+function rareGearPrize() {
+  prize = Math.floor(Math.random() * 500) + 500;
   gears = gears + prize;
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
 }
 //1000-5000
-function mythicGearPrize() {
+function epicGearPrize() {
   prize = Math.floor(Math.random() * 4000) + 1000;
   gears = gears + prize;
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
 }
-//5000-20000
+//5000-10000
+function mythicGearPrize() {
+  prize = Math.floor(Math.random() * 5000) + 5000;
+  gears = gears + prize;
+  console.log("Reward granted, gear prize: " + prize)
+  prize = 0;
+}
+//10000-50000
 function relicGearPrize() {
-  prize = Math.floor(Math.random() * 15000) + 5000;
+  prize = Math.floor(Math.random() * 40000) + 10000;
   gears = gears + prize;
   console.log("Reward granted, gear prize: " + prize)
   prize = 0;
