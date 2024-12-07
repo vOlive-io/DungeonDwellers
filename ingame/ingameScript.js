@@ -311,7 +311,7 @@ var RareChestArmorTypes = [
   ["56", "Steel Chestplate", 5, "Very strong, but not able to stop a bullet.", "Rare", "Classic", false],
   ["56", "Snow Chestplate", 5, "Need some warm water?.", "Rare", "Classic", false],
   ["57", "Bronze Chestplate", 5, "TUBA POWER PREVAILS!!!!!!!!!!!", "Rare", "Classic", false],
-  ["58", "Silver Chestplate", 5, lif.", "Rare", "Classic", false],
+  ["58", "Silver Chestplate", 5, "Shiny!", "Rare", "Classic", false],
   ["59", "Gold Chestplate", 6, "Description.", "Rare", "Classic", false],
   ["60", "Iron Chestplate", 6, "Description.", "Rare", "Classic", false],
   ["61", "Feathered Wings", 6, "Description.", "Rare", "Uniquie", false],
