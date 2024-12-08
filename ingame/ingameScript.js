@@ -312,17 +312,17 @@ var RareChestArmorTypes = [
   ["56", "Snow Chestplate", 5, "Need some warm water?.", "Rare", "Classic", false],
   ["57", "Bronze Chestplate", 5, "TUBA POWER PREVAILS!!!!!!!!!!!", "Rare", "Classic", false],
   ["58", "Silver Chestplate", 5, "Shiny!", "Rare", "Classic", false],
-  ["59", "Gold Chestplate", 6, "Description.", "Rare", "Classic", false],
-  ["60", "Iron Chestplate", 6, "Description.", "Rare", "Classic", false],
-  ["61", "Feathered Wings", 6, "Description.", "Rare", "Uniquie", false],
-  ["62", "Blessed Mud Chestplate", 6, "Description.", "Rare",  "\"What the f***\"", false],
-  ["63", "Jungle Vine Chestplate", 6, "Description.", "Rare", "Fruity", false],
-  ["64", "Medevil Chestplate", 5, "Description", "Rare", "Unique", false]
+  ["59", "Gold Chestplate", 6, "MOOLAHHH.", "Rare", "Classic", false],
+  ["60", "Iron Chestplate", 6, "NOT A MINECRAFT KNOCKOFF (you can eat iron 🤯).", "Rare", "Classic", false],
+  ["61", "Feathered Wings", 6, "HUH?.", "Rare", "Uniquie", false],
+  ["62", "Blessed Mud Chestplate", 6, "Wow saying you are blessed to a big pile of wanabe poop.", "Rare",  "\"What the f***\"", false],
+  ["63", "Jungle Vine Chestplate", 6, "Try not to hurt yourself you clumsy person.", "Rare", "Fruity", false],
+  ["64", "Medieval Chestplate", 5, "Face it you wont be a knight", "Rare", "Unique", false]
 ];
 
 var RareLegArmorTypes = [
-  ["65", "Steel Leggings", 5, "Description.", "Rare", "Classic", false],
-  ["65", "Snow Leggings", 5, "Description.", "Rare", "Classic", false],
+  ["65", "Steel Leggings", 5, "nice panies.", "Rare", "Classic", false],
+  ["65", "Snow Leggings", 5, "You arent in colorado (if you are then  this insult doesnt work.", "Rare", "Classic", false],
   ["66", "Bronze Leggings", 5, "Description.", "Rare", "Classic", false],
   ["67", "Silver Leggings", 5, "Description.", "Rare", "Classic", false],
   ["68", "Gold Leggings", 6, "Description.", "Classic", false],
