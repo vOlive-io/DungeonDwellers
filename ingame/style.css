@@ -79,6 +79,9 @@
 /* --------------
    (OLD) ARMOR
 ---------------*/
+#uncommonHead, #uncommonChest, #uncommonLeg, #uncommonBoot, #rareHead, #rareChest, #rareLeg, #rareBoot {
+    display: none;
+}
 
 /* commonHead == #FigWreath, #WoodHelmet, #LeatherBandana, #PaintHelmet, #BasicExplorersHelmet */
 /* commonChest == #FigLeafBreastplate, #Woodplate, #LeatherChestplate, #PaintedArmor, #BasicExplorersChestplate */
