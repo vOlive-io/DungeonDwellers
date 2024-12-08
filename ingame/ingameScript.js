@@ -299,7 +299,7 @@ var RareHeadArmorTypes = [
   ["47", "Snow Helmet", 5, "Brr it is cold but you have a hot head", "Rare", "Classic", false],
   ["48", "Bronze Helmet", 5, "TUBA POWER!!!!!!!!!!", "Rare", "Classic", false],
   ["49", "Silver Helmet", 5, "Turn it into a ford! It will be like optimus prime :).", "Rare", "Classic", false],
-  ["50", "Gold Helmet", 6, "Description.", "Rare", "Classic", false],
+  ["50", "Gold Helmet", 6, "The only metal not made into a coin (maybe).", "Rare", "Classic", false],
   ["51", "Iron Helmet", 6, "NOT A MINECRAFT KNOCKOFF (THe real world has iron too!).", "Rare", "Classic", false],
   ["52", "Feathered Mask", 6, "How many chickens did you slaughter?", "Rare", "Uniquie", false],
   ["53", "Blessed Mud Mask", 6, "Blessed by Priests, this mud will keep you safe.", "Rare", "\"What the f***\"", false],
@@ -322,9 +322,9 @@ var RareChestArmorTypes = [
 
 var RareLegArmorTypes = [
   ["65", "Steel Leggings", 5, "nice panies.", "Rare", "Classic", false],
-  ["65", "Snow Leggings", 5, "You arent in colorado (if you are then  this insult doesnt work.", "Rare", "Classic", false],
-  ["66", "Bronze Leggings", 5, "Description.", "Rare", "Classic", false],
-  ["67", "Silver Leggings", 5, "Description.", "Rare", "Classic", false],
+  ["65", "Snow Leggings", 5, "You arent in colorado (if you are then  this insult doesnt work).", "Rare", "Classic", false],
+  ["66", "Bronze Leggings", 5, "FRIGGIN TUBA POWER NOOB.", "Rare", "Classic", false],
+  ["67", "Silver Leggings", 5, "Wow the coins morphed into knee shattering armor.", "Rare", "Classic", false],
   ["68", "Gold Leggings", 6, "Description.", "Classic", false],
   ["69", "Iron Leggings", 6, "Description.", "Rare", "Classic", false],
   ["70", "Feathered Leg Gliders", 6, "Description.", "Rare", "Uniquie", false],
