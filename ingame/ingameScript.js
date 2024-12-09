@@ -423,7 +423,14 @@ var ForgedEpicChestArmorTypes = [
   ["206", "Unicorn Suit Chest Piece", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
 ];
 
-
+var ForgedEpicLegArmorTypes = [
+  ["206", "Lab Pants", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["206", "Surgeon\'s Pant Scrubs and Tools", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["206", "Invisible Leggings", 4, "Description", "Epic (Forged)", "Unique", false],
+  ["206", "Racecar Pants", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["111", "Dragon Skin Termals", 4, "Description", "Epic (Forged)", "Unique", false],
+  ["206", "Unicorn Suit Leg Piece", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
+];
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
 //Collections: DONE
@@ -453,7 +460,6 @@ var MythicChestArmorTypes = [
 var MythicLegArmorTypes = [
   ["96", "Coral Leggings", 4, "Description", "Mythic", "Unique", false],
   ["122", "Gold encrusted Silk Thermals", 4, "Description", "Mythic", "Unique", false],
-  ["123", "Dragon Skin Thermals", 4, "Description", "Mythic", "Unique", false],
   ["124", "Rhodochrosite Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
   ["125", "Amber Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
   ["126", "Mythrill Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
