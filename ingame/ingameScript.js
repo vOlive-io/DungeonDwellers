@@ -464,7 +464,9 @@ var ForgedMythicHeadArmorTypes = [
   ["112", "Rhodochrosite encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
   ["113", "Coral encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
   ["114", "Necromancer\'s encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["115", "Tsavorite encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false]
+  ["115", "Tsavorite encrusted Silk Vail", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["115", "Polar Opposite Helmet", 4, "Description", "Mythic", "Fancy", false],
+  ["115", "Energy Opposite Helmet", 4, "Description", "Mythic", "Fancy", false]
 ];
 
 var ForgedMythicChestArmorTypes = [
@@ -473,7 +475,9 @@ var ForgedMythicChestArmorTypes = [
   ["118", "Rhodochrosite encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
   ["119", "Coral encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
   ["120", "Necromancer\'s encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["121", "Tsavorite encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false]
+  ["121", "Tsavorite encrusted Silk Robe", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["115", "Polar Opposite Chestplate", 4, "Description", "Mythic", "Fancy", false],
+  ["115", "Energy Opposite Chestplate", 4, "Description", "Mythic", "Fancy", false]
 ];
 
 var ForgedMythicLegArmorTypes = [
@@ -482,7 +486,9 @@ var ForgedMythicLegArmorTypes = [
   ["124", "Rhodochrosite encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
   ["125", "Coral encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
   ["126", "Necromancer\'s encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["127", "Tsavorite encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false]
+  ["127", "Tsavorite encrusted Silk Thermals", 4, "Description", "Mythic", "Exotic Gems", false],
+  ["115", "Polar Opposite Leggings", 4, "Description", "Mythic", "Fancy", false],
+  ["115", "Energy Opposite Leggings", 4, "Description", "Mythic", "Fancy", false]
 ];
 
 var ForgedMythicChestArmorTypes = [
@@ -491,7 +497,9 @@ var ForgedMythicChestArmorTypes = [
   ["130", "Rhodochrosite encrusted Silk Slipers", 4, "Description", "Mythic", "Exotic Gems", false],
   ["131", "Coral encrusted Silk Slipers", 4, "Description", "Mythic", "Exotic Gems", false],
   ["132", "Necromancer\'s encrusted Silk Slipers", 4, "Description", "Mythic", "Exotic Gems", false],
-  ["133", "Tsavorite encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false]
+  ["133", "Tsavorite encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false],
+  ["115", "Polar Opposite Boots", 4, "Description", "Mythic", "Fancy", false],
+  ["115", "Energy Opposite Boots", 4, "Description", "Mythic", "Fancy", false]
 ];
 
 /////////////////////////////////////////////////////////////////////////////
