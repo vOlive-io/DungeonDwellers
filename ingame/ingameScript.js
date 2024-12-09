@@ -403,14 +403,15 @@ var EpicBootArmorTypes = [
   ["108", "Emerald Boots", 4, "Description", "Epic", "Unique", false],
   ["109", "Chicken Suit Boot Piece", 4, "Description", "Epic", "\"What the f***\"", false]
 ];
+
 //FORGED
 var ForgedEpicHEadArmorTypes = [
   ["206", "Lab Googles", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["111", "Dragon Skin Hood", 4, "Description", "Epic (Forged)", "Unique", false],
   ["206", "Surgeon\'s Scrubs", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Invisible Helmet", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Racecar Helmet", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Unicorn Suit Head Peice", 4, "Description", "Epic (Forged)", "Fancy", false]
-  
 ];
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
@@ -419,7 +420,6 @@ var ForgedEpicHEadArmorTypes = [
 var MythicHeadArmorTypes = [
   ["83", "Coral Helmet", 4, "Description", "Mythic", "Unique", false],
   ["110", "Gold encrusted Silk Vail", 4, "Description", "Mythic", "Unique", false],
-  ["111", "Dragon Skin Hood", 4, "Description", "Mythic", "Unique", false],
   ["112", "Rhodochrosite Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
   ["113", "Amber Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
   ["114", "Mythrill Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
