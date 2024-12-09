@@ -411,9 +411,17 @@ var ForgedEpicHEadArmorTypes = [
   ["206", "Invisible Helmet", 4, "Description", "Epic (Forged)", "Unique", false],
   ["206", "Racecar Helmet", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["111", "Dragon Skin Hood", 4, "Description", "Epic (Forged)", "Unique", false],
-  ["206", "Unicorn Suit Head Peice", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
+  ["206", "Unicorn Suit Head Piece", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
 ];
 
+var ForgedEpicChestArmorTypes = [
+  ["206", "Lab Coat", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["206", "Surgeon\'s Scrubs and Stethoscope", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["206", "Invisible Chestplate", 4, "Description", "Epic (Forged)", "Unique", false],
+  ["206", "Racecar Suit", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["111", "Dragon Skin Robe", 4, "Description", "Epic (Forged)", "Unique", false],
+  ["206", "Unicorn Suit Chest Piece", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
+];
 
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
@@ -433,7 +441,6 @@ var MythicHeadArmorTypes = [
 var MythicChestArmorTypes = [
   ["90", "Coral Chestplate", 4, "Description", "Mythic", "Uniquie", false],
   ["116", "Gold encrusted Silk Robe", 4, "Description", "Mythic", "Unique", false],
-  ["117", "Dragon Skin Robe", 4, "Description", "Mythic", "Unique", false],
   ["118", "Rhodochrosite Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
   ["119", "Amber Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
   ["120", "Mythrill Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
