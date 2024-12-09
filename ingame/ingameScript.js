@@ -1243,9 +1243,7 @@ function updateOwnedBootArmors() {
     document.getElementById("PaintedOnBoots").classList.remove('lockedArmor');
   } if (CommonBootArmorTypes[5][6] == true) {
     document.getElementById("BasicExplorersBoots").classList.add('unlockedArmor');
-    document.getElementById("BasicExplorersBoots").classList.remove('lockedArmor');
-
-    
+    document.getElementById("BasicExplorersBoots").classList.remove('lockedArmor'); 
 //UNCOMMON
   } if (UncommonBootArmorTypes[0][6] == true) {
     document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
