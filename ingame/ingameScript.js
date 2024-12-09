@@ -312,9 +312,9 @@ var RareChestArmorTypes = [
   ["56", "Snow Chestplate", 5, "Need some warm water?.", "Rare", "Classic", false],
   ["57", "Bronze Chestplate", 5, "TUBA POWER PREVAILS!!!!!!!!!!!", "Rare", "Classic", false],
   ["58", "Silver Chestplate", 5, "Shiny!", "Rare", "Classic", false],
-  ["59", "Gold Chestplate", 6, "MOOLAHHH.", "Rare", "Classic", false],
-  ["60", "Iron Chestplate", 6, "NOT A MINECRAFT KNOCKOFF (you can eat iron 🤯).", "Rare", "Classic", false],
-  ["61", "Feathered Wings", 6, "HUH?.", "Rare", "Uniquie", false],
+  ["59", "Gold Chestplate", 6, "You am rich, you are rich!!.", "Rare", "Classic", false],
+  ["60", "Iron Chestplate", 6, "You can eat iron 🤯.", "Rare", "Classic", false],
+  ["61", "Feathered Wings", 6, "Wait? You can fly!?!", "Rare", "Uniquie", false],
   ["62", "Blessed Mud Chestplate", 6, "Wow saying you are blessed to a big pile of wanabe poop.", "Rare",  "\"What the f***\"", false],
   ["63", "Jungle Vine Chestplate", 6, "Try not to hurt yourself you clumsy person.", "Rare", "Fruity", false],
   ["64", "Medieval Chestplate", 5, "Face it you wont be a knight", "Rare", "Unique", false]
@@ -349,6 +349,9 @@ var RareBootArmorTypes = [
 /////////////////////////////////////////////EPIC/////////////////////////////////////////////
 //Collections: DONE
 // NEEDS DESCRIPTIONS
+
+//NOTE TO ARMAAN:
+//ALL DISCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
 var EpicHeadArmorTypes = [
   ["84", "Top Hat", 4, "Description", "Epic", "Fancy", false],
   ["84", "Ice Helmet", 4, "Description", "Epic", "\"What the f***\"", false],
