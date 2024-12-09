@@ -405,7 +405,7 @@ var EpicBootArmorTypes = [
 ];
 
 //FORGED
-var ForgedEpicHEadArmorTypes = [
+var ForgedEpicHeadArmorTypes = [
   ["206", "Lab Googles", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Surgeon\'s Head Cover and Mask", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Invisible Helmet", 4, "Description", "Epic (Forged)", "Unique", false],
@@ -422,6 +422,7 @@ var ForgedEpicChestArmorTypes = [
   ["111", "Dragon Skin Robe", 4, "Description", "Epic (Forged)", "Unique", false],
   ["206", "Unicorn Suit Chest Piece", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
 ];
+
 
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
