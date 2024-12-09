@@ -848,6 +848,9 @@ var unsortedItems = [
   ["--", "Scroll of Necro Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Necromancer's Encrusted Sick" Armor
   ["--", "Scroll of Tsavorite Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //        The recipe used to make the "Tsavorite Encrusted Sick" Armor
   ["--", "Scroll of Tsavor Coral Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //     The recipe used to make the "Coral Encrusted Sick" Armor
+
+  ["--", "Gem of Polar Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The gem used to make the "Polar Opposite" Armor
+  ["--", "Gem of Energy Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //              The gem used to make the "Energy Opposite" Armor
   //}
 
 
