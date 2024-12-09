@@ -432,6 +432,14 @@ var ForgedEpicLegArmorTypes = [
   ["206", "Unicorn Suit Leg Piece", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
 ];
 
+var ForgedEpicBootArmorTypes = [
+  ["206", "Lab Shoes", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["206", "Surgeon\'s Work Boots", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["206", "Invisible Boots", 4, "Description", "Epic (Forged)", "Unique", false],
+  ["206", "Racecar Shoes", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["111", "Dragon Skin Sheos", 4, "Description", "Epic (Forged)", "Unique", false],
+  ["206", "Unicorn Suit Boot Piece", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
+];
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
 //Collections: DONE
 // NEEDS DESCRIPTIONS
@@ -471,7 +479,6 @@ var MythicLegArmorTypes = [
 var MythicBootArmorTypes = [
   ["103", "Coral Boots", 4, "Description", "Mythic", "Unique", false],
   ["128", "Amber encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false],
-  ["129", "Dragon Skin Shoes", 4, "Description", "Mythic", "Unique", false],
   ["130", "Rhodochrosite Boots", 4, "Description", "Mythic", "Exotic Gems", false],
   ["131", "Amber Boots", 4, "Description", "Mythic", "Exotic Gems", false],
   ["132", "Mythrill Boots", 4, "Description", "Mythic", "Exotic Gems", false],
