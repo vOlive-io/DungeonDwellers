@@ -408,11 +408,13 @@ var EpicBootArmorTypes = [
 var ForgedEpicHEadArmorTypes = [
   ["206", "Lab Googles", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["111", "Dragon Skin Hood", 4, "Description", "Epic (Forged)", "Unique", false],
-  ["206", "Surgeon\'s Scrubs", 4, "Description", "Epic (Forged)", "Fancy", false],
+  ["206", "Surgeon\'s Head Cover and Mask", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Invisible Helmet", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Racecar Helmet", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Unicorn Suit Head Peice", 4, "Description", "Epic (Forged)", "Fancy", false]
 ];
+
+
 
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
 //Collections: DONE
