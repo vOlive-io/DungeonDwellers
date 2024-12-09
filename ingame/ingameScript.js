@@ -516,10 +516,17 @@ var ForgedMythicChestArmorTypes = [
   --Recipes
   --Assets
 
+armor + item + scroll
+
+
+
+
 --Achievements
   --Array
   --Assets
   --Unlocking
+
+
 
 */
 /////////////////////////////////////////////////////////////////////////////
