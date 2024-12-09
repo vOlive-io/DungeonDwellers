@@ -403,7 +403,7 @@ var EpicBootArmorTypes = [
   ["108", "Emerald Boots", 4, "Description", "Epic", "Unique", false],
   ["109", "Chicken Suit Boot Piece", 4, "Description", "Epic", "\"What the f***\"", false]
 ];
-
+//FORGED
 var ForgedEpicHEadArmorTypes = [
   ["206", "Lab Googles", 4, "Description", "Epic (Forged)", "Fancy", false],
   ["206", "Surgeon\'s Scrubs", 4, "Description", "Epic (Forged)", "Fancy", false],
