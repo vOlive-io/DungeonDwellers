@@ -515,8 +515,12 @@ var ForgedMythicChestArmorTypes = [
 --Set up forge
   --Recipes
   --Assets
+  
+//armor
+armor + item + scroll = _______
 
-armor + item + scroll
+//item
+item + item = ______
 
 
 
