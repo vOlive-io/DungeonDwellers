@@ -855,7 +855,6 @@ var unsortedItems = [
   ["--", "Necro Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Necromancer's Encrusted Silk" Armor
   ["--", "Tsavorite Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                        The gem used to make the "Tsavorite Encrusted Silk" Armor + to make "Gem of Energy Opposites"
   ["--", "Coral Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Coral Encrusted Silk" Armor + to make "Gem of Energy Opposites"
-  
   ["--", "Gem of Polar Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The gem used to make the "Polar Opposite" Armor
   ["--", "Gem of Energy Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //              The gem used to make the "Energy Opposite" Armor
   //}
