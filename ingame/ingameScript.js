@@ -1289,8 +1289,8 @@ function updateOwnedLegArmors() {
 
 function updateOwnedBootArmors() {
   if (CommonBootArmorTypes[1][6] == true) {
-    document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
-    document.getElementById("FigLeafFeet").classList.remove('lockedArmor');
+    document.getElementById("FigLeafCovers").classList.add('unlockedArmor');
+    document.getElementById("FigLeafCovers").classList.remove('lockedArmor');
   } if (CommonBootArmorTypes[2][6] == true) {
     document.getElementById("WoodSandals").classList.add('unlockedArmor');
     document.getElementById("WoodSandals").classList.remove('lockedArmor');
@@ -1466,7 +1466,7 @@ function updateBootDiscription() {
 function updateLegDiscription() {
   //COMMON
   if (document.getElementById("Shoes").selected == true) {bootSlot = CommonBootArmorTypes[0]; }
-  if (document.getElementById("FigLeafFeet").selected == true) {bootSlot = CommonBootArmorTypes[1]; }
+  if (document.getElementById("FigLeafCovers").selected == true) {bootSlot = CommonBootArmorTypes[1]; }
   if (document.getElementById("WoodSandals").selected == true) {bootSlot = CommonBootArmorTypes[2]; }
   if (document.getElementById("LeatherBoots").selected == true) {bootSlot = CommonBootArmorTypes[3]; }
   if (document.getElementById("PaintedOnBoots").selected == true) {bootSlot = CommonBootArmorTypes[4]; }
