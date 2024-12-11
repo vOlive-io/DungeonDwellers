@@ -223,7 +223,7 @@ var CommonLegArmorTypes = [
 
 var CommonBootArmorTypes = [
   ["19", "Shoes", 0, "Why are they untied?.", "Common", "Starter", true],
-  ["20", "Fig Leaf Feet Covers", 1, "Rocks can easily poke through and cause you pain.", "Common", "Fruity", true],
+  ["20", "Fig Leaf Feet Covers", 1, "Rocks can easily poke through and cause you pain.", "Common", "Fruity", false],
   ["21", "Wood Sandals", 1, "Forget to bring tweezers?", "Common", "Classic", false],
   ["22", "Leather Boots", 2, "Like Minecraft I assume.", "Common", "Classic", false],
   ["23", "Painted on Boots", 2, "Da Vinci who are you painting?", "Common", "\"What the hell?\"", false],
