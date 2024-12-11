@@ -1305,8 +1305,8 @@ function updateOwnedBootArmors() {
     document.getElementById("BasicExplorersBoots").classList.remove('lockedArmor'); 
 //UNCOMMON
   } if (UncommonBootArmorTypes[0][6] == true) {
-    document.getElementById("FigLeafFeet").classList.add('unlockedArmor');
-    document.getElementById("FigLeafFeet").classList.remove('lockedArmor');
+    document.getElementById("FruitPeelShoes").classList.add('unlockedArmor');
+    document.getElementById("FruitPeelShoes").classList.remove('lockedArmor');
     uncommonBootOwned = true;
   } if (UncommonBootArmorTypes[1][6] == true) {
     document.getElementById("SafariBoots").classList.add('unlockedArmor');
