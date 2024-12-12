@@ -788,7 +788,7 @@ if (ach_lvl_Five == true) {
 ////////////////////////////
 ///     6) ITEMS         ///
 ////////////////////////////
-// "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects", "Magical Objects", "Forging Objects"
+// "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects", "Magical Objects", "Forging Objects", "Inventory Objects"
 var unsortedItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "STARTING USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   //Screen changer ------------ {
@@ -869,6 +869,16 @@ var unsortedItems = [
   ["--", "Dryness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //          - 10 Water       (Battles)
   // }
 
+  //MANAGEMENT ITEMS  ------------ {
+  ["--", "Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                          + 1 Slot
+  ["--", "Large Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //          + 4 Slots
+  ["--", "XL Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //            + 10 Slots
+  ["--", "Super Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //          + 30 Slots
+  ["--", "Mega Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //          + 70 Slots
+  ["--", "Industrial Sized Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //          + 150 Slots
+  
+  //}
+  
   //Recipes & Forge Stuff ------ {
   
   //Opposites
