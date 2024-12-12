@@ -870,12 +870,12 @@ var unsortedItems = [
   // }
 
   //MANAGEMENT ITEMS  ------------ {
-  ["--", "Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                         + 1 Slot
-  ["--", "Large Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 4 Slots
-  ["--", "XL Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                      + 10 Slots
-  ["--", "Super Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 30 Slots
-  ["--", "Mega Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                    + 70 Slots
-  ["--", "------------- Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //           + 150 Slots
+  ["--", "Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                         + 1 Slot
+  ["--", "Large Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 4 Slots
+  ["--", "XL Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                      + 10 Slots
+  ["--", "Super Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 30 Slots
+  ["--", "Mega Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                    + 70 Slots
+  ["--", "Ancient\'s Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //           + 150 Slots
   
   //}
   
