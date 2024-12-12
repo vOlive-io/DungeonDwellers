@@ -890,11 +890,14 @@ var unsortedItems = [
   ["--", "Gem of Polar Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The gem used to make the "Polar Opposite" Armor
   ["--", "Gem of Energy Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //              The gem used to make the "Energy Opposite" Armor
   //epics
+  ["--", "Lab Kit ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                              The item used to make the "Lab" Armor
+  ["--", "Hospital Tools ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                       The item used to make the "Surgeon's Scrubs" Armor
   ["--", "Elixir of Invisibility ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The item used to make the "Invisibility Armor" Armor
   ["--", "Dragon Hide ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The item used to make the "Dragon Armor" Armor
   ["--", "Unicorn Horn ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                         The item used to make the "Unicorn Suit" Armor
   //}
 
+  ["--", "Potion Bottle ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                        The item used to make the "EVERY POTION IN THE GAME" Armor
 
 
 
