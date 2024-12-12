@@ -907,6 +907,9 @@ var unsortedItems = [
   ["--", "Elixir of Invisibility ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The item used to make the "Invisibility Armor" Armor
   ["--", "Dragon Hide ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The item used to make the "Dragon Armor" Armor
   ["--", "Unicorn Horn ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                         The item used to make the "Unicorn Suit" Armor
+
+  //dies and colorings
+  
   //}
   
   
