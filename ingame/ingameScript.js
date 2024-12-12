@@ -852,6 +852,7 @@ var unsortedItems = [
   // }
   
   //Poitions ------ {
+  ["--", "Potion Bottle ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                The item used to make the "EVERY POTION IN THE GAME" 
   //Drink
   ["--", "Strenth Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Strenth     (User)
   ["--", "Health Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                  + 10 Health      (User)
@@ -896,9 +897,8 @@ var unsortedItems = [
   ["--", "Dragon Hide ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The item used to make the "Dragon Armor" Armor
   ["--", "Unicorn Horn ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                         The item used to make the "Unicorn Suit" Armor
   //}
-
-  ["--", "Potion Bottle ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                        The item used to make the "EVERY POTION IN THE GAME" Armor
-
+  
+  
 
 
   
