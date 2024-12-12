@@ -869,6 +869,7 @@ var unsortedItems = [
   // }
 
   //Recipes & Forge Stuff ------ {
+  
   //Opposites
   ["--", "Scroll of Polar Opposites", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //             The recipe used to make the "Polar Opposite" Armor ---- Rhodochrosite + Mythril
   ["--", "Scroll of Energy Opposites", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Energy Opposite" Armor --- Amber + Coral
@@ -879,7 +880,7 @@ var unsortedItems = [
   ["--", "Scroll of Necro Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Necromancer's Encrusted Silk" Armor
   ["--", "Scroll of Tsavorite Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //        The recipe used to make the "Tsavorite Encrusted Silk" Armor
   ["--", "Scroll of Coral Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Coral Encrusted Silk" Armor
-
+//mythics
   ["--", "Amber Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Amber Encrusted Silk" Armor
   ["--", "Mythril Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The gem used to make the "Mythril Encrusted Silk" Armor + to make "Gem of Polar Opposites"
   ["--", "Rhodochrosite Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                    The gem used to make the "Rhodochrosite Encrusted Silk" Armor + to make "Gem of Polar Opposites"
@@ -888,6 +889,10 @@ var unsortedItems = [
   ["--", "Coral Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Coral Encrusted Silk" Armor + to make "Gem of Energy Opposites"
   ["--", "Gem of Polar Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The gem used to make the "Polar Opposite" Armor
   ["--", "Gem of Energy Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //              The gem used to make the "Energy Opposite" Armor
+  //epics
+  ["--", "Elixir of Invisibility ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The item used to make the "Invisibility Armor" Armor
+  ["--", "Dragon Hide ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The item used to make the "Dragon Armor" Armor
+  ["--", "Unicorn Horn ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                         The item used to make the "Unicorn Suit" Armor
   //}
 
 
