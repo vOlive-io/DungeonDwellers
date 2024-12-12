@@ -875,7 +875,7 @@ var unsortedItems = [
   ["--", "XL Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //            + 10 Slots
   ["--", "Super Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //          + 30 Slots
   ["--", "Mega Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //          + 70 Slots
-  ["--", "Industrial Sized Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //          + 150 Slots
+  ["--", "------------- Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //          + 150 Slots
   
   //}
   
