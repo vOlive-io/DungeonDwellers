@@ -1267,8 +1267,6 @@ function updateOwnedLegArmors() {
     uncommonLegOwned = true;
   } if (uncommonLegOwned == true) {
     uncommonLeg.style.display = "block";
-
-    
     //RARE
   } if (RareLegArmorTypes[0][6] == true) {
     document.getElementById("SteelLeggings").classList.add('unlockedArmor');
@@ -1891,3 +1889,13 @@ function callSavedData_cookies() {
 
 
 window.gears = gears;
+
+
+//story
+
+function inputStory() {
+  storySlot.innerHTML = story
+  choiceOne.innerHTML = opt1
+  choiceTwo.innerHTML = opt2
+  choiceThr.innerHTML = opt3
+}
