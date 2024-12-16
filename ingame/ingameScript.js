@@ -1899,3 +1899,32 @@ function inputStory() {
   choiceTwo.innerHTML = opt2
   choiceThr.innerHTML = opt3
 }
+
+knShop = [
+  //opt 1 path (shop)
+  ["Shop",
+    ["Go to aisle 1, (Crates & Seasonal Drops)"],
+    ["Go to aisle 2, (Weapons & Armors)"],
+    ["Go to aisle 3, (Rare Collectables & Items)"]
+  ],
+  //opt 2 path (talk (quest))
+  ["Talk",
+    [],
+    [],
+    []
+  ],
+  //op3 path (dungeon)
+  ["Go to Dungeon",
+    [],
+    [],
+    []
+  ]
+];
+
+function loadStory() {
+  dungeon = knShop
+  story = knShop[]
+  opt1
+  opt2
+  opt3
+}
