@@ -1902,7 +1902,7 @@ function inputStory() {
 
 knShop = [
   //opt 1 path (shop)
-  ["Shop",
+  ["Shop", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice."
     ["Go to aisle 1, (Crates & Seasonal Drops)"],
     ["Go to aisle 2, (Weapons & Armors)"],
     ["Go to aisle 3, (Rare Collectables & Items)"]
