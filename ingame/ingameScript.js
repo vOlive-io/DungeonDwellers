@@ -1915,9 +1915,9 @@ knShop = [
   ],
   //op3 path (dungeon)
   ["Go to Dungeon",
-    [],
-    [],
-    []
+    ["Random Dungeon (Basic Dungeon)"],
+    ["Special Dungeon (Special Key Required)"],
+    ["Seasonal Dungeon (Season Key Required)"]
   ]
 ];
 
