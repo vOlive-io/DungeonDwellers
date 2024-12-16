@@ -1914,10 +1914,10 @@ knShop = [
     []
   ],
   //op3 path (dungeon)
-  ["Go to Dungeon",
-    ["Random Dungeon (Basic Dungeon)"],
-    ["Special Dungeon (Special Key Required)"],
-    ["Seasonal Dungeon (Season Key Required)"]
+  ["Go to Dungeon", "You walk over to the dungeon box and tap the box and it cranks to life. Gear inside churn and whirl, it goes quite. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow reveal your dungeon options, pick one."
+    ["Random Dungeon (Basic Dungeon, Free)"],
+    ["Special Dungeon (Special Key Required, 100 Gears)"],
+    ["Seasonal Dungeon (Season Key Required + 500 Gears)"]
   ]
 ];
 
