@@ -851,16 +851,17 @@ var unsortedItems = [
   ["--", "Deluxe Black Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 5 Stealth     (User)
   // }
   
-  //Poitions ------ {
+  //Poitions ------ { 
   ["--", "Potion Bottle ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                The item used to make the "EVERY POTION IN THE GAME" 
-  ["--", "Ranged Potion Bottle ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //         The item used to make the "EVERY RANGED POTION IN THE GAME" 
+  ["--", "Ranged Potion Bottle ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //         The item used to make the "EVERY RANGED POTION IN THE GAME"
+  //items for potions
+  ["--", "Bunch of Metal Twigs ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                The item used to make the "Strenth" Potion
   //Drink
   ["--", "Strenth Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Strenth     (User)
   ["--", "Health Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                  + 10 Health      (User)
   ["--", "Saturation Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //              + 10 Sat         (User)
   ["--", "Luck Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                    + 10 Luck        (User)
   ["--", "Stall Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                   + 10 Stall       (User)
-  ["--", "Water Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                   + 10 Water       (User)
   ["--", "Stealth Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Stealth     (User)
   //Splash
   ["--", "Weakness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //         - 10 Strenth     (Battles)
@@ -877,7 +878,6 @@ var unsortedItems = [
   ["--", "Super Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 30 Slots
   ["--", "Mega Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                    + 70 Slots
   ["--", "Ancient\'s Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //              + 150 Slots
-  
   //}
   
   //Recipes & Forge Stuff ------ {
