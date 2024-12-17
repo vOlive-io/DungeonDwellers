@@ -1907,7 +1907,7 @@ knShop = [
     ],
     ["Go to aisle 2, (Weapons & Armors)", "none", "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops.  You then look at the prices and you know the weapons are legitimate.",
     ],
-    ["Go to aisle 3, (Rare Collectables & Items)", "none", ""
+    ["Go to aisle 3, (Rare Collectables & Items)", "none", "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
     ]
   ],
   //opt 2 path (talk (quest))
