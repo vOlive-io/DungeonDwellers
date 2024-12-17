@@ -1905,6 +1905,13 @@ function chooseItemsAndCrates() {
   slotTwoPrice = Math.floor(Math.random() * 500) + 500;
   slotTwoPick = rareItems[Math.floor(Math.random() * rareItems.length)];
 
+  //price is anywere between 1000 - 2500
+  slotTwoPrice = Math.floor(Math.random() * 1000) + 1500;
+  slotTwoPick = epicItems[Math.floor(Math.random() * epicItems.length)];
+
+  //price is anywere between 2500 - 5000
+  slotTwoPrice = Math.floor(Math.random() * 2500) + 2500;
+  slotTwoPick = mythicItems[Math.floor(Math.random() * mythicItems.length)];
 
 }
 
