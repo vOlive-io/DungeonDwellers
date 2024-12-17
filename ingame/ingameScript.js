@@ -1893,29 +1893,26 @@ window.gears = gears;
 
 //story
 function chooseItemsAndCrates() {
+  //ITEMS
   //price is anywere between 50 - 100
   slotOnePrice = Math.floor(Math.random() * 50) + 50;
   slotOnePick = commonItems[Math.floor(Math.random() * commonItems.length)];
-  
   //price is anywere between 250 - 500
   slotTwoPrice = Math.floor(Math.random() * 250) + 250;
   slotTwoPick = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
-
   //price is anywere between 500 - 1000
   slotThreePrice = Math.floor(Math.random() * 500) + 500;
   slotThreePick = rareItems[Math.floor(Math.random() * rareItems.length)];
-
   //price is anywere between 1000 - 2500
   slotFourPrice = Math.floor(Math.random() * 1000) + 1500;
   slotFourPick = epicItems[Math.floor(Math.random() * epicItems.length)];
-
   //price is anywere between 2500 - 5000
   slotFivePrice = Math.floor(Math.random() * 2500) + 2500;
   slotFivePick = mythicItems[Math.floor(Math.random() * mythicItems.length)];
-
   //price is anywere between 2500 - 5000
   slotSixPrice = Math.floor(Math.random() * 2500) + 2500;
   slotSixPick = seasonalItems[Math.floor(Math.random() * seasonalItems.length)];
+  //CRATES
 }
 
 function inputStory() {
