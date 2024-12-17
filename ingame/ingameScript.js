@@ -1901,6 +1901,10 @@ function chooseItemsAndCrates() {
   slotTwoPrice = Math.floor(Math.random() * 250) + 250;
   slotTwoPick = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
 
+  //price is anywere between 500 - 1000
+  slotTwoPrice = Math.floor(Math.random() * 500) + 500;
+  slotTwoPick = rareItems[Math.floor(Math.random() * rareItems.length)];
+
 
 }
 
