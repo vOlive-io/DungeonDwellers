@@ -789,11 +789,15 @@ if (ach_lvl_Five == true) {
 ///     6) ITEMS         ///
 ////////////////////////////
 // "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects", "Magical Objects", "Forging Objects", "Inventory Objects"
+
+var commonItems = [
+  ["--", "Pencil", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
+  ["--", "Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                         + 1 Slot
+
+];
 var unsortedItems = [
   ["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "STARTING USES", "RARITY", "COLLECTIONS", "AMOUNT"],
   //Screen changer ------------ {
-  //Weak
-  ["--", "Pencil", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
   //Mid
   ["--", "Red Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //        Colors the screen Red      (Leaves SOME patches of old color)
   ["--", "Orange Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Orange   (Leaves SOME patches of old color)
@@ -872,7 +876,6 @@ var unsortedItems = [
   // }
 
   //MANAGEMENT ITEMS  ------------ {
-  ["--", "Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                         + 1 Slot
   ["--", "Large Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 4 Slots
   ["--", "XL Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                      + 10 Slots
   ["--", "Super Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 30 Slots
