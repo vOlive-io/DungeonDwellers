@@ -1902,7 +1902,7 @@ function inputStory() {
 
 knShop = [
   //opt 1 path (shop)
-  ["Shop", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice.", "none",
+  ["Shop", "none", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice.",
     ["Go to aisle 1, (Crates & Seasonal Drops)"
     ],
     ["Go to aisle 2, (Weapons & Armors)"
@@ -1917,7 +1917,7 @@ knShop = [
     []
   ],
   //op3 path (dungeon)
-  ["Go to Dungeon", "You walk over to the dungeon box and tap the box and it cranks to life. Gear inside churn and whirl, it goes quite. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow reveal your dungeon options, pick one.", "none",
+  ["Go to Dungeon", "none", "You walk over to the dungeon box and tap the box and it cranks to life. Gear inside churn and whirl, it goes quite. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow reveal your dungeon options, pick one.",
     ["Random Dungeon (Basic Dungeon, Free)"
     ],
     ["Special Dungeon (Special Key Required, 100 Gears)"
