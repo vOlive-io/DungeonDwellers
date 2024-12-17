@@ -1892,6 +1892,17 @@ window.gears = gears;
 
 
 //story
+function chooseItemsAndCrates() {
+  //price is anywere between 50 - 100
+  slotOnePrice = Math.floor(Math.random() * 50) + 50;
+  slotOnePick = commonItems[Math.floor(Math.random() * commonItems.length)];
+  
+  //price is anywere between 250 - 500
+  slotTwoPrice = Math.floor(Math.random() * 250) + 250;
+  slotTwoPick = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
+
+
+}
 
 function inputStory() {
   storySlot.innerHTML = story
