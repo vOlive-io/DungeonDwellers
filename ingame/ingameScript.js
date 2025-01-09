@@ -1939,12 +1939,12 @@ function loadStory() {
 }
 
 function choiceOnePicked() {
-  if (story[2] == "none") {
+story = story[3];
+  if (story[1] == "none") {
     postStory = story;
-    story = story[3][0];
     loadStory();
   } else {
-    story[2].reSend();
+    story[1].reSend();
   }
  }
 
