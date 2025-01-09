@@ -1934,7 +1934,7 @@ function loadStory() {
   if (storyLoadProg == "fail") {
     setupStoryStart();
   } else {
-    dungeonSetStore();
+    dungeonSet(knShop);
   }
   dungeon = knShop
   story = knShop[]
