@@ -1931,6 +1931,11 @@ var funcs = [{ reSend: function(){ test(); }}, { reSend: function(){ test2(); }}
 funcs[0].reSend();
 
 function loadStory() {
+  if (storyLoadProg == "fail") {
+    setupStoryStart();
+  } else {
+    dungeonSetStore();
+  }
   dungeon = knShop
   story = knShop[]
   opt1
@@ -1949,30 +1954,32 @@ story = story[3];
  }
 
 knShop = [
+  ["The Store", "none", "blah blah blah.", 
   //opt 1 path (shop)
-  ["Shop", "none", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice.",
-   [
-    ["Go to aisle 1, (Crates & Seasonal Drops)", {reSend: function(){test(); }}, "You walk over to the aisle and look at all the crates, seasonal drops, and loot boxes. They are all very expensive but ether way you will get something.",
+    ["Shop", "none", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice.",
+     [
+      ["Go to aisle 1, (Crates & Seasonal Drops)", {reSend: function(){test(); }}, "You walk over to the aisle and look at all the crates, seasonal drops, and loot boxes. They are all very expensive but ether way you will get something.",
+      ],
+      ["Go to aisle 2, (Weapons & Armors)",  {reSend: function(){test(); }}, "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops.  You then look at the prices and you know the weapons are legitimate.",
+      ],
+      ["Go to aisle 3, (Rare Collectables & Items)",  {reSend: function(){test(); }}, "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
+      ]
+     ]
     ],
-    ["Go to aisle 2, (Weapons & Armors)",  {reSend: function(){test(); }}, "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops.  You then look at the prices and you know the weapons are legitimate.",
+    //opt 2 path (talk (quest))
+    ["Talk",
+      [],
+      [],
+      []
     ],
-    ["Go to aisle 3, (Rare Collectables & Items)",  {reSend: function(){test(); }}, "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
-    ]
-   ]
-  ],
-  //opt 2 path (talk (quest))
-  ["Talk",
-    [],
-    [],
-    []
-  ],
-  //op3 path (dungeon)
-  ["Go to Dungeon", "none", "You walk over to the dungeon box and tap the box and it cranks to life. Gear inside churn and whirl, it goes quite. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow reveal your dungeon options, pick one.",
-    ["Random Dungeon (Basic Dungeon, Free)"
-    ],
-    ["Special Dungeon (Special Key Required, 100 Gears)"
-    ],
-    ["Seasonal Dungeon (Season Key Required + 500 Gears)"
+    //op3 path (dungeon)
+    ["Go to Dungeon", "none", "You walk over to the dungeon box and tap the box and it cranks to life. Gear inside churn and whirl, it goes quite. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow reveal your dungeon options, pick one.",
+      ["Random Dungeon (Basic Dungeon, Free)"
+      ],
+      ["Special Dungeon (Special Key Required, 100 Gears)"
+      ],
+      ["Seasonal Dungeon (Season Key Required + 500 Gears)"
+      ]
     ]
   ]
 ];
