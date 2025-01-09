@@ -1952,7 +1952,9 @@ story = story[3];
     story[1].reSend();
   }
  }
-
+//story
+//story[0] = name of choice/were u r at
+//story[1] = resend
 knShop = [
   ["The Store", "none", "blah blah blah.", 
   //opt 1 path (shop)
@@ -1962,7 +1964,7 @@ knShop = [
       ],
       ["Go to aisle 2, (Weapons & Armors)",  {reSend: function(){test(); }}, "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops.  You then look at the prices and you know the weapons are legitimate.",
       ],
-      ["Go to aisle 3, (Rare Collectables & Items)",  {reSend: function(){test(); }}, "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
+      ["Go to aisle 3, (Rare Collectables & Items)",  {resend: function(){test(); }}, "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
       ]
      ]
     ],
