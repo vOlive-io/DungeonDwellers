@@ -1960,11 +1960,11 @@ knShop = [
   //opt 1 path (shop)
     ["Shop", "none", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice.",
      [
-      ["Go to aisle 1, (Crates & Seasonal Drops)", {reSend: function(){test(); }}, "You walk over to the aisle and look at all the crates, seasonal drops, and loot boxes. They are all very expensive but ether way you will get something.",
+      ["Go to aisle 1, (Crates & Seasonal Drops)", {reSend: function(){test(); }}, // "You walk over to the aisle and look at all the crates, seasonal drops, and loot boxes. They are all very expensive but ether way you will get something.",
       ],
-      ["Go to aisle 2, (Weapons & Armors)",  {reSend: function(){test(); }}, "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops.  You then look at the prices and you know the weapons are legitimate.",
+      ["Go to aisle 2, (Weapons & Armors)",  {reSend: function(){test(); }}, // "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops.  You then look at the prices and you know the weapons are legitimate.",
       ],
-      ["Go to aisle 3, (Rare Collectables & Items)",  {resend: function(){test(); }}, "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
+      ["Go to aisle 3, (Rare Collectables & Items)",  {resend: function(){test(); }}, // "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
       ]
      ]
     ],
