@@ -1955,6 +1955,11 @@ story = story[3];
 //story
 //story[0] = name of choice/were u r at
 //story[1] = resend
+//story[2] = story context
+//story[3] = option 1
+//story[4] = option 2
+//story[5] = option 3
+
 knShop = [
   ["The Store", "none", "blah blah blah.", 
   //opt 1 path (shop)
