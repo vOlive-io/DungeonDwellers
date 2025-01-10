@@ -1930,6 +1930,11 @@ function inputStory() {
 var funcs = [{ reSend: function(){ test(); }}, { reSend: function(){ test2(); }}];
 funcs[0].reSend();
 
+function dungeonSet(dungeonToSend) {
+  potionEffects = [];
+  dungeon = dungeonToSend;
+}
+
 function loadStory() {
   if (storyLoadProg == "fail") {
     setupStoryStart();
