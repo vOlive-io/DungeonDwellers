@@ -1918,19 +1918,16 @@ function chooseItemsAndCrates() {
   //CRATES
 }
 
+//////////////////////////// 
+///  4) STORY MANIGMENT  ///
+////////////////////////////
+
 function inputStory() {
   storySlot.innerHTML = story
   choiceOne.innerHTML = opt1
   choiceTwo.innerHTML = opt2
   choiceThr.innerHTML = opt3
 }
-
-
-//RESEND FUNCTION
-//var funcs = [{ reSend: function(){ test(); }}, { reSend: function(){ test2(); }}];
-//funcs[0].reSend();
-//THANK YOU STACK OVERFLOW!!
-
 
 function dungeonSet(dungeonToSend) {
   potionEffects = [];
@@ -1948,6 +1945,10 @@ function loadStory() {
   }
 }
 
+
+//////////////////////////////////
+//    STORY PLAYOT MAGIGMENT    //
+//////////////////////////////////
 function choiceOnePicked() {
 story = story[3];
   if (story[1] == "none") {
@@ -1978,6 +1979,10 @@ story = story[5];
   }
  }
 
+//RESEND FUNCTION
+//var funcs = [{ reSend: function(){ test(); }}, { reSend: function(){ test2(); }}];
+//funcs[0].reSend();
+//THANK YOU STACK OVERFLOW!!
 
 //story
 //story[0] = name of choice/were u r at
