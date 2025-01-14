@@ -1933,6 +1933,9 @@ funcs[0].reSend();
 function dungeonSet(dungeonToSend) {
   potionEffects = [];
   dungeon = dungeonToSend;
+	story = dungeon;
+	dungeon = dungeon[0];
+	inputStory();
 }
 
 function loadStory() {
