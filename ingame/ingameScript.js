@@ -1968,6 +1968,16 @@ story = story[4];
   }
  }
 
+function choiceThreePicked() {
+story = story[5];
+  if (story[1] == "none") {
+    postStory = story;
+    inputStory();
+  } else {
+    story[1].reSend();
+  }
+ }
+
 
 //story
 //story[0] = name of choice/were u r at
