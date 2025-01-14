@@ -1927,8 +1927,10 @@ function inputStory() {
 
 
 //RESEND FUNCTION
-var funcs = [{ reSend: function(){ test(); }}, { reSend: function(){ test2(); }}];
-funcs[0].reSend();
+//var funcs = [{ reSend: function(){ test(); }}, { reSend: function(){ test2(); }}];
+//funcs[0].reSend();
+//THANK YOU STACK OVERFLOW!!
+
 
 function dungeonSet(dungeonToSend) {
   potionEffects = [];
@@ -1939,16 +1941,11 @@ function dungeonSet(dungeonToSend) {
 }
 
 function loadStory() {
-  if (storyLoadProg == "fail") {
+  if (statLoadProg == "fail") {
     setupStoryStart();
   } else {
     dungeonSet(knShop);
   }
-  dungeon = knShop
-  story = knShop[]
-  opt1
-  opt2
-  opt3
 }
 
 function choiceOnePicked() {
@@ -1960,6 +1957,7 @@ story = story[3];
     story[1].reSend();
   }
  }
+
 //story
 //story[0] = name of choice/were u r at
 //story[1] = resend
