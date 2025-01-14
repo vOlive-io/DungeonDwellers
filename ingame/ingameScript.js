@@ -1952,11 +1952,22 @@ function choiceOnePicked() {
 story = story[3];
   if (story[1] == "none") {
     postStory = story;
-    loadStory();
+    inputStory();
   } else {
     story[1].reSend();
   }
  }
+
+function choiceTwoPicked() {
+story = story[4];
+  if (story[1] == "none") {
+    postStory = story;
+    inputStory();
+  } else {
+    story[1].reSend();
+  }
+ }
+
 
 //story
 //story[0] = name of choice/were u r at
