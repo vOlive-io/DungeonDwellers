@@ -1910,7 +1910,7 @@ window.gears = gears;
 
 
 //story
-function chooseItemsAndCrates() {
+function refreshStore() {
   //ITEMS
   //price is anywere between 50 - 100
   slotOnePrice = Math.floor(Math.random() * 50) + 50;
