@@ -75,6 +75,20 @@ function timer() {
   timeA++;
 }
 
+var secondTime = 1;
+var mineuteTime = secondTime * 60;
+var hourTime = mineuteTime * 60;
+var storeTimeStart = hourTime;
+var storeTimeLeft = storeTimeStart;
+setInterval(shopTimer, 1000);
+function shopTimer() {
+     if (storeTimeLeft>0) {
+        storeTimeLeft--;
+     } else {
+	storeTimeStart = hourTime;
+	refreshShop();
+     }
+}
 
 ///////////////////////////////////////////
 ///              VARIABLES              ///
