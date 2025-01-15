@@ -51,29 +51,30 @@ function setRandomName() {
 function startTime() {
   setInterval(timer, 1000);
 }
-var timeA = 0;
-var timeB = 0;
-var timeC = 0;
-var timeD = 0;
+var secs = 0;
+var mins = 0;
+var hous = 0;
+var days = 0;
 
 function timer() {
-  //mili to sec
-  if (timeA >= 1000) {
-    timeA = timeA - 1000
-    timeB++
-  }
   //sec to min
-  if (timeB >= 60) {
-    timeB = timeB - 60
-    timeC++ 
+  if (secs = 60) {
+    secs = secs - 60
+    mins++
   }
   //min to hour
-  if (timeC >= 60) {
-    timeC = timeC - 60
-    timeD++ 
+  if (mins >= 60) {
+    mins = mins - 60
+    hous++ 
+  }
+  //hour to day
+  if (hous >= 60) {
+    hous = hous - 60
+    days++ 
   }
   timeA++;
 }
+
 
 ///////////////////////////////////////////
 ///              VARIABLES              ///
