@@ -202,12 +202,11 @@ var relicBootOwned = false;
 
 
 var classes = [
-  ["CLASS-ID", "NAME", "DISCRIPTION", "COLOR", "POWER", "SKILL LEVEL"],
-	["c-1", "Root", "Masters of nature, Roots can munipule plants and the earth to poison their options make swift getaways and trap thier enimes in place. Their Ancient in The Seed.", "Green", ""],
-	["c-2", "Cloak", "Quick wittet thives and sages, Cloaks and move thugh shadows as if they were portals, gain extra heath in battle and can avoid taking damage  when thire mana is above 75%. Their Ancient in The HollowGhast.", "Black", ""],
-	["c-3", "Tongue", "Evil sirons and demons, Tongues can get in thier oponits mind, torching them with thier thoughts, stealing their mana and potion effects and leeching their health for the fun of it. Their Ancient in The Scream", "Red", ""],
-	["c-4", "Sword", "Srongest warriors and brarbainers in the land, Swords can charge up thier weopons with fire, water and electricity alowing for devstion combos and attacks. Their Ancient is The Fist.", "Yellow", ""]
-
+  ["CLASS-ID", "NAME", "DISCRIPTION", "COLOR", "PLAYER SKILL LEVEL"],
+  ["c-1", "Root", "Masters of nature, Roots can munipule plants and the earth to poison their options make swift getaways and trap thier enimes in place. Their Ancient in The Seed.", "Green", ""],
+  ["c-2", "Cloak", "Quick wittet thives and sages, Cloaks and move thugh shadows as if they were portals, gain extra heath in battle and can avoid taking damage  when thire mana is above 75%. Their Ancient in The HollowGhast.", "Black", ""],
+  ["c-3", "Tongue", "Evil sirons and demons, Tongues can get in thier oponits mind, torching them with thier thoughts, stealing their mana and potion effects and leeching their health for the fun of it. Their Ancient in The Scream", "Red", ""],
+  ["c-4", "Sword", "Srongest warriors and brarbainers in the land, Swords can charge up thier weopons with fire, water and electricity alowing for devstion combos and attacks. Their Ancient is The Fist.", "Yellow", ""]
 ]
 
 ////////////////////////////
