@@ -603,8 +603,8 @@ item + item = ______
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 //Collections: NOT DONE
 var FullRelicChestArmorTypes = [
-  ["32", "Living Gown", 50, "", "Full Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green  ---- Branch-------- Root -------- (empty)
-  ["32", "Fighing Robes", 50, "", "Full Relic", "", false],                //Ancient: The Fist  ----------- Color: Yellow ---- Sword--------- Sword ------- Zharria 
+  ["32", "Living Gown", 50, "", "Full Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green  ---- Branch -------- Root ------- (empty)
+  ["32", "Fighing Robes", 50, "", "Full Relic", "", false],                //Ancient: The Fist  ----------- Color: Yellow ---- Hands --------- Sword ------ Zharria 
   ["32", "Scaled Garments, 50, "", "Full Relic", "", false],               //Ancient: The Scream ------- ---Color: Red  ------ Trident ------ Tounge------- Olive 
   ["32", "HollowGhast Cloak", 50, "", "Full Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black ----- Scythe ------- Cloak-------- Armaan 
 ];
@@ -635,13 +635,13 @@ var CommonHeadWeaponTypes = [
   ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!!", "Common", "Dumb", false],
   ["-", "Rusty Horseshoes", 2, "Slow, but reliable!", "Common", "Unique", false],
   ["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow!", "Common", "\"What the f***?\"", false],
+  ["-", "Water", 3, "They slip!!!!", "Common", false],
+  ["-", "Old Pepper Spray", 3, "AHH, a bare!!!", "Common", false],
   //Sets
   ["-", "Twig", 3, "LOOK ITS A TWIG!!!!.", "Common", false],
   ["-", "Ruler", 3, "12 inches, or 1 foot!!", "Common", false],
-  ["-", "Water", 3, "They slip!!!!", "Common", false],
-  ["-", "Old Pepper Spray", 3, "AHH, a bare!!!", "Common", false],
   ["-", "Taped up hands", 3, "Slow, but reliable!", "Common", false],
-  ["-", "Wooden Sword", 3, "The stuff of warriors.", "Common", false],
+  ["-", "Wooden Scythe", 3, "The stuff of warriors.", "Common", false],
   //Explorers
   ["-", "Basic Explores Knife", 4, "The stuff of legends!!!", "Common", false]
 ];
