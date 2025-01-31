@@ -603,10 +603,10 @@ item + item = ______
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 //Collections: NOT DONE
 var FullRelicChestArmorTypes = [
-  ["32", "Living Gown", 50, "", "Full Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green (Poison) ------------ Measurement Stick-----(empty) --Root
-  ["32", "Fighing Robes", 50, "", "Full Relic", "", false],                //Ancient: The Fist  ----- Color: White (Money) ------------- Pepper Spray----------Zharria ---
-  ["32", "Scaled Garments, 50, "", "Full Relic", "", false],               //Ancient: The Scream ------- Color: Red (Leach) -------- Hands ----------------Olive -----Voice
-  ["32", "HollowGhast Cloak", 50, "", "Full Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black (Negaite/Stall) ----- Scythe ---------------Armaan ----Cloak
+  ["32", "Living Gown", 50, "", "Full Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green  ---- Branch-------- Root -------- (empty)
+  ["32", "Fighing Robes", 50, "", "Full Relic", "", false],                //Ancient: The Fist  ----------- Color: Yellow ---- Sword--------- Sword ------- Zharria 
+  ["32", "Scaled Garments, 50, "", "Full Relic", "", false],               //Ancient: The Scream ------- ---Color: Red  ------ Trident ------ Tounge------- Olive 
+  ["32", "HollowGhast Cloak", 50, "", "Full Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black ----- Scythe ------- Cloak-------- Armaan 
 ];
 
 /////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
