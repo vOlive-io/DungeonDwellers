@@ -639,7 +639,7 @@ var CommonHeadWeaponTypes = [
   ["-", "Old Pepper Spray", 3, "AHH, a bare!!!", "Common", false],
   //Sets
   ["-", "Twig", 3, "LOOK ITS A TWIG!!!!.", "Common", false],
-  ["-", "Ruler", 3, "12 inches, or 1 foot!!", "Common", false],
+  ["-", "Pole", 3, "Great for long distance fighting!!", "Common", false],
   ["-", "Taped up hands", 3, "Slow, but reliable!", "Common", false],
   ["-", "Wooden Scythe", 3, "The stuff of warriors.", "Common", false],
   //Explorers
@@ -653,11 +653,11 @@ var UncommonHeadWeaponTypes = [
   ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", "Dumb", false],
   ["-", "Sharpened Rocks", 6, "Very close range, but excellent damage.", "Uncommon", "Dumb", false],
   ["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", "Classic", false],
-  //Sets
-  ["-", "Stick", 6, "LOOK IT'S A STICK!!", "Uncommon", false],
-  ["-", "Yard Stick", 6, "36 inches or 3 feet or 1 yard!!!", "Uncommon", false],
   ["-", "Hot Water", 6, "They slip and fall!!", "Uncommon", false],
   ["-", "New Pepper Spray", 6, "AHH, it's a bear!!!", "Uncommon", false],
+  //Sets
+  ["-", "Stick", 6, "LOOK IT'S A STICK!!", "Uncommon", false],
+  ["-", "Matal Pole", 6, "Packs a larger punch!", "Uncommon", false],
   ["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt.", "Uncommon", false],
   ["-", "Stone Sword", 6, "The stuff of warriors!!!", "Uncommon", false],
   //Explorers
