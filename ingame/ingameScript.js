@@ -200,6 +200,16 @@ var seasonOneBootOwned = false;
 var relicBootOwned = false;
 
 
+
+var classes = [
+  ["CLASS-ID", "NAME", "DISCRIPTION", "COLOR", "POWER", "SKILL LEVEL"],
+	["c-1", "Root", "Masters of nature, Roots can munipule plants and the earth to poison their options make swift getaways and trap thier enimes in place. Their Ancient in The Seed.", "Green", ""],
+	["c-2", "Cloak", "Quick wittet thives and sages, Cloaks and move thugh shadows as if they were portals, gain extra heath in battle and can avoid taking damage  when thire mana is above 75%. Their Ancient in The HollowGhast.", "Black", ""],
+	["c-3", "Tongue", "Evil sirons and demons, Tongues can get in thier oponits mind, torching them with thier thoughts, stealing their mana and potion effects and leeching their health for the fun of it. Their Ancient in The Scream", "Red", ""],
+	["c-4", "Sword", "Srongest warriors and brarbainers in the land, Swords can charge up thier weopons with fire, water and electricity alowing for devstion combos and attacks. Their Ancient is The Fist.", "Yellow", ""]
+
+]
+
 ////////////////////////////
 ///      2) ARMORS       ///
 ////////////////////////////
@@ -210,12 +220,12 @@ var rarities = ["Common", "Uncommon", "Rare", "Epic", "Mythic", "Relic", "Dungeo
 /////////////////////////////////////////////COMMON/////////////////////////////////////////////
 //Collections: DONE
 var CommonHeadArmorTypes = [
-  ["1", "Bead Head", 0, "Get a Comb lunkhead.", "Common", "Starter", true],
-  ["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*.", "Common", "Fruity",  false],
-  ["3", "Wood Helmet", 1, "Knock on wood.", "Common", "Classic", false],
-  ["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head.", "Common", "Classic", false],
-  ["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*.", "Common", "\"What the f***?\"", false],
-  ["6", "Explorers Helmet", 3, "dum dum dum du dum dum dum da dum dum dum du dum.", "Common", "Explorer\'s", false]
+	["1", "Bead Head", 0, "Get a Comb lunkhead.", "Common", "Starter", true],
+	["2", "Fig Leaf Wreath", 1, "Wow a leaf you look very cool *sarcasm*.", "Common", "Fruity",  false],
+	["3", "Wood Helmet", 1, "Knock on wood.", "Common", "Classic", false],
+	["4", "Leather Bandana", 2, "You look like someone trick or treating with a bracelet around their head.", "Common", "Classic", false],
+	["5", "Painted on Helmet", 2, "Did Vincent van Goh paint it on it looks so pretty *sarcasm*.", "Common", "\"What the f***?\"", false],
+	["6", "Explorers Helmet", 3, "dum dum dum du dum dum dum da dum dum dum du dum.", "Common", "Explorer\'s", false]
 ];
 
 var CommonChestArmorTypes = [
@@ -591,21 +601,13 @@ item + item = ______
 //////////////   ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ COMING SOON ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓  //////////////
 /////////////////////////////////////////////////////////////////////////////
 
-var classes = [
-  ["ID", "NAME", "COLOR", "POWER", "SKILL LEVEL"],
-	[],
-	[],
-  [],
-	[]
-
-]
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 //Collections: NOT DONE
 var FullRelicChestArmorTypes = [
   ["32", "Living Gown", 50, "", "Full Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green (Poison) ------------ Measurement Stick-----(empty) --Root
-  ["32", "Miezin Cloud", 50, "", "Full Relic", "", false],                 //Ancient: The Mist Forge  ----- Color: White (Money) ------------- Pepper Spray----------Zharria ---
-  ["32", "Rosax Robes", 50, "", "Full Relic", "", false],                  //Ancient: The Scream ------- Color: Red (Leach) -------- Hands ----------------Olive -----Voice
-  ["32", "HollowGhast Armor", 50, "", "Full Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black (Negaite/Stall) ----- Scythe ---------------Armaan ----Cloak
+  ["32", "Fighing Robes", 50, "", "Full Relic", "", false],                //Ancient: The Fist  ----- Color: White (Money) ------------- Pepper Spray----------Zharria ---
+  ["32", "Scaled Garments, 50, "", "Full Relic", "", false],               //Ancient: The Scream ------- Color: Red (Leach) -------- Hands ----------------Olive -----Voice
+  ["32", "HollowGhast Cloak", 50, "", "Full Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black (Negaite/Stall) ----- Scythe ---------------Armaan ----Cloak
 ];
 
 /////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
