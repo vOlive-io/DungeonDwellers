@@ -17,10 +17,10 @@ function startUp() {
 	setInterval(updateOwnedLegArmors, 2500);
 	setInterval(updateOwnedBootArmors, 2500);
 	//Armor Descriptions
-	setInterval(updateHeadDiscription, 250); 
-	setInterval(updateChestDiscription, 250);
-	setInterval(updateLegDiscription, 250);
-	setInterval(updateBootDiscription, 250);
+	setInterval(updateHeadDESCRIPTION, 250); 
+	setInterval(updateChestDESCRIPTION, 250);
+	setInterval(updateLegDESCRIPTION, 250);
+	setInterval(updateBootDESCRIPTION, 250);
 }
 
 ////////////////////////////////
@@ -202,11 +202,11 @@ var relicBootOwned = false;
 
 
 var classes = [
-	["CLASS-ID", "NAME", "DISCRIPTION", "COLOR", "PLAYER SKILL LEVEL"],
-	["c-1", "Root", "Masters of nature, Roots can munipule plants and the earth to poison their options make swift getaways and trap thier enimes in place. Their Ancient in The Seed.", "Green", ""],
-	["c-2", "Cloak", "Quick wittet thives and sages, Cloaks and move thugh shadows as if they were portals, gain extra heath in battle and can avoid taking damage  when thire mana is above 75%. Their Ancient in The HollowGhast.", "Black", ""],
-	["c-3", "Tongue", "Evil sirons and demons, Tongues can get in thier oponits mind, torching them with thier thoughts, stealing their mana and potion effects and leeching their health for the fun of it. Their Ancient in The Scream", "Red", ""],
-	["c-4", "Sword", "Srongest warriors and brarbainers in the land, Swords can charge up thier weopons with fire, water and electricity alowing for devstion combos and attacks. Their Ancient is The Fist.", "Yellow", ""]
+	["CLASS-ID", "NAME", "DESCRIPTION", "COLOR", "PLAYER SKILL LEVEL"],
+	["c-1", "Root", "Masters of nature, Roots can manipulate plants and the earth to poison their options make swift getaways and trap their enemies in place. Their Ancient in The Seed.", "Green", ""],
+	["c-2", "Cloak", "Quick-witted thieves and sages, Cloaks and move through shadows as if they were portals, gain extra heath in battle, and can avoid taking damage  when their mana is above 75%. They're Ancient in The HollowGhast.", "Black", ""],
+	["c-3", "Tongue", "Evil sirens and demons, Tongues can get in their opponent's mind, torching them with their thoughts, stealing their mana and potion effects and leeching their health for the fun of it. Their Ancient in The Scream", "Red", "],
+	["c-4", "Sword", "Strongest warriors and barbarians in the land, Swords can charge up their weapons with fire, water, and electricity alowing for devastating combos and attacks. Their Ancient is The Fist.", "Yellow", ""]
 ]
 
 ////////////////////////////
@@ -317,7 +317,7 @@ var UncommonBootArmorTypes = [
 
 /////////////////////////////////////////////RARE/////////////////////////////////////////////
 //Collections: DONE
-// NEEDS DISCRIPTIONS
+// NEEDS DESCRIPTIONS
 var RareHeadArmorTypes = [
 	["47", "Steel Helmet", 5, "Knock on steel *try not to break you're fist*.", "Rare", "Classic", false],
 	["47", "Snow Helmet", 5, "Brr it is cold but you have a hot head", "Rare", "Classic", false],
@@ -375,7 +375,7 @@ var RareBootArmorTypes = [
 // NEEDS DESCRIPTIONS
 
 //NOTE TO ARMAAN:
-//ALL DISCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
+//ALL DESCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
 var EpicHeadArmorTypes = [
 	["84", "Top Hat", 4, "Description", "Epic", "Fancy", false],
 	["84", "Ice Helmet", 4, "Description", "Epic", "\"What the f***\"", false],
@@ -429,7 +429,7 @@ var EpicBootArmorTypes = [
 ];
 
 //NOTE TO ARMAAN:
-//ALL DISCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
+//ALL DESCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
 //FORGED
 var ForgedEpicHeadArmorTypes = [
 	["206", "Lab Googles", 4, "Description", "Epic (Forged)", "Fancy", false],
@@ -471,24 +471,24 @@ var ForgedEpicBootArmorTypes = [
 // NEEDS DESCRIPTIONS
 
 //NOTE TO ARMAAN:
-//ALL DISCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
+//ALL DESCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
 var MythicHeadArmorTypes = [
 	["83", "Coral Helmet", 4, "Description", "Mythic", "Unique", false],
 	["110", "Gold encrusted Silk Vail", 4, "Description", "Mythic", "Unique", false],
 	["112", "Rhodochrosite Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
 	["113", "Amber Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
-	["114", "Mythrill Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
+	["114", "Mythril Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
 	["114", "Necrem Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
 	["114", "Tsavorite Helmet", 4, "Description", "Mythic", "Exotic Gems", false],
 	["115", "Ghoul Skin Head Cover", 4, "Description", "Mythic", "Unique", false]
 ];
 
 var MythicChestArmorTypes = [
-	["90", "Coral Chestplate", 4, "Description", "Mythic", "Uniquie", false],
+	["90", "Coral Chestplate", 4, "Description", "Mythic", "Unique", false],
 	["116", "Gold encrusted Silk Robe", 4, "Description", "Mythic", "Unique", false],
 	["118", "Rhodochrosite Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
 	["119", "Amber Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
-	["120", "Mythrill Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
+	["120", "Mythril Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
 	["120", "Necrem Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
 	["120", "Tsavorite Chestplate", 4, "Description", "Mythic", "Exotic Gems", false],
 	["121", "Ghoul Skin Torso Cover", 4, "Description", "Mythic", "Unique", false]
@@ -499,7 +499,7 @@ var MythicLegArmorTypes = [
 	["122", "Gold encrusted Silk Thermals", 4, "Description", "Mythic", "Unique", false],
 	["124", "Rhodochrosite Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
 	["125", "Amber Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
-	["126", "Mythrill Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
+	["126", "Mythril Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
 	["126", "Necrem Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
 	["126", "Tsavorite Leggings", 4, "Description", "Mythic", "Exotic Gems", false],
 	["127", "Ghoul Skin Leg Covers", 4, "Description", "Mythic", "Unique", false]
@@ -510,7 +510,7 @@ var MythicBootArmorTypes = [
 	["128", "Amber encrusted Silk Slipers", 4, "Description", "Mythic", "Unique", false],
 	["130", "Rhodochrosite Boots", 4, "Description", "Mythic", "Exotic Gems", false],
 	["131", "Amber Boots", 4, "Description", "Mythic", "Exotic Gems", false],
-	["132", "Mythrill Boots", 4, "Description", "Mythic", "Exotic Gems", false],
+	["132", "Mythril Boots", 4, "Description", "Mythic", "Exotic Gems", false],
 	["132", "Necrem Boots", 4, "Description", "Mythic", "Exotic Gems", false],
 	["132", "Tsavorite Boots", 4, "Description", "Mythic", "Exotic Gems", false],
 	["133", "Ghoul Skin Foot Covers", 4, "Description", "Mythic", "Unique", false]
@@ -519,10 +519,10 @@ var MythicBootArmorTypes = [
 //FORGED
 
 //NOTE TO ARMAAN:
-//ALL DISCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
+//ALL DESCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
 var ForgedMythicHeadArmorTypes = [
 	["110", "Amber encrusted Silk Vail", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
-	["111", "Mythrill encrusted Silk Vail", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
+	["111", "Mythril encrusted Silk Vail", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["112", "Rhodochrosite encrusted Silk Vail", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["113", "Coral encrusted Silk Vail", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["114", "Necromancer\'s encrusted Silk Vail", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
@@ -533,7 +533,7 @@ var ForgedMythicHeadArmorTypes = [
 
 var ForgedMythicChestArmorTypes = [
 	["116", "Amber encrusted Silk Robe", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
-	["117", "Mythrill encrusted Silk Robe", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
+	["117", "Mythril encrusted Silk Robe", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["118", "Rhodochrosite encrusted Silk Robe", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["119", "Coral encrusted Silk Robe", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["120", "Necromancer\'s encrusted Silk Robe", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
@@ -544,7 +544,7 @@ var ForgedMythicChestArmorTypes = [
 
 var ForgedMythicLegArmorTypes = [
 	["122", "Amber encrusted Silk Thermals", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
-	["123", "Mythrill encrusted Silk Thermals", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
+	["123", "Mythril encrusted Silk Thermals", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["124", "Rhodochrosite encrusted Silk Thermals", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["125", "Coral encrusted Silk Thermals", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["126", "Necromancer\'s encrusted Silk Thermals", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
@@ -555,7 +555,7 @@ var ForgedMythicLegArmorTypes = [
 
 var ForgedMythicChestArmorTypes = [
 	["128", "Amber encrusted Silk Slipers", 4, "Description", "Mythic (Forged)", "Unique", false],
-	["129", "Mythrill encrusted Silk Slipers", 4, "Description", "Mythic (Forged)", "Unique", false],
+	["129", "Mythril encrusted Silk Slipers", 4, "Description", "Mythic (Forged)", "Unique", false],
 	["130", "Rhodochrosite encrusted Silk Slipers", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["131", "Coral encrusted Silk Slipers", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
 	["132", "Necromancer\'s encrusted Silk Slipers", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
@@ -702,7 +702,7 @@ var EpicHeadWeaponTypes = [
 	["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", "Classic", false],
 	//Sets
 	["-", "Alive Tree Branch", 10, "LOOK IT'S AN ALIVE TREE BRANCH!!", "Epic", false],
-	["-", "Two pointed spear", 10, "With two points it hurts twice as mutch!!", "Epic", false],
+	["-", "Two pointed spear", 10, "With two points it hurts twice as much!!", "Epic", false],
 	["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals whose name real remains unknown and have been dubbed maulers.", "Epic", false],
 	["-", "Golden Scythe", 10, "The stuff of warriors!!!.", "Epic", false],
   	//Explorers
@@ -740,27 +740,27 @@ var totalBunBerries = 0; //      Total Number of Bun Berries Owned
 var totalEaten = 0; //           Total Number of Bun Berries Eaten
 //BASIC BUN BERRIES
 var bunberries = [
-	["ID", "NAME", "DISCRIPTION", "ASSET", "TYPE", "AMOUNT"],
+	["ID", "NAME", "DESCRIPTION", "ASSET", "TYPE", "AMOUNT"],
 	//BASIC
-	["--", "Luck Bun Berry", "DISCRIPTION", "----", "Basic", 0],   //           +5 Luck
-	["--", "Strenth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Strength
-	["--", "Stealth Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //         +5 Stealth
-	["--", "Water Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //           +5 Water 
-	["--", "Saturation Bun Berry", "DISCRIPTION", "----", "Basic", 0],  //      +10 Saturation
+	["--", "Luck Bun Berry", "DESCRIPTION", "----", "Basic", 0],   //           +5 Luck
+	["--", "Strength Bun Berry", "DESCRIPTION", "----", "Basic", 0],  //         +5 Strength
+	["--", "Stealth Bun Berry", "DESCRIPTION", "----", "Basic", 0],  //         +5 Stealth
+	["--", "Water Bun Berry", "DESCRIPTION", "----", "Basic", 0],  //           +5 Water 
+	["--", "Saturation Bun Berry", "DESCRIPTION", "----", "Basic", 0],  //      +10 Saturation
 	//HEALTH
 	["--", "Heath Bun Berry (Lv 1)", "DESCRIPTION", "----", "Heath", 0],  //    restores 5% of Heath
 	["--", "Heath Bun Berry (Lv 2)", "DESCRIPTION", "----", "Heath", 0],  //    restores 10% of Heath
 	["--", "Heath Bun Berry (Lv 3)", "DESCRIPTION", "----", "Heath", 0],  //    restores 25% of Heath
 	["--", "Heath Bun Berry (Lv 4)", "DESCRIPTION", "----", "Heath", 0],  //    restores 50% of Heath
-	["--", "Heath Bun Berry (Lv 5)", "DISCRIPTION", "----", "Heath", 0],  //    restores 100% of Heath
+	["--", "Heath Bun Berry (Lv 5)", "DESCRIPTION", "----", "Heath", 0],  //    restores 100% of Heath
 	//XP
-	["--", "XP Bun Berry (Lv 1)", "DISCRIPTION", "----", "XP", 0],  //          +100 xp
-	["--", "XP Bun Berry (Lv 2)", "DISCRIPTION", "----", "XP", 0],  //          +500 xp
+	["--", "XP Bun Berry (Lv 1)", "DESCRIPTION", "----", "XP", 0],  //          +100 xp
+	["--", "XP Bun Berry (Lv 2)", "DESCRIPTION", "----", "XP", 0],  //          +500 xp
 	//SPECIAL
-	["--", "Shadow Bun Berry", "DISCRIPTION", "----", "Special", 0],  //        +10 Stealth, +5 Heath, +3 Luck
-	["--", "Lava Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Strength, +5 Stealth, +3 Heath
-	["--", "Aqua Bun Berry", "DISCRIPTION", "----", "Special", 0],  //          +10 Water, +5 Strength, +3 Heath
-	["--", "Jester Bun Berry", "DISCRIPTION", "----", "Special", 0]  //        +10 Luck, +5 Stealth, +3 Heath
+	["--", "Shadow Bun Berry", "DESCRIPTION", "----", "Special", 0],  //        +10 Stealth, +5 Heath, +3 Luck
+	["--", "Lava Bun Berry", "DESCRIPTION", "----", "Special", 0],  //          +10 Strength, +5 Stealth, +3 Heath
+	["--", "Aqua Bun Berry", "DESCRIPTION", "----", "Special", 0],  //          +10 Water, +5 Strength, +3 Heath
+	["--", "Jester Bun Berry", "DESCRIPTION", "----", "Special", 0]  //        +10 Luck, +5 Stealth, +3 Heath
 ];
 
 
@@ -771,28 +771,28 @@ var bunberries = [
 //TOTALS
 var ach_total = 0; //                  Total Number of Achievements
 var achievements = [
-	["ID", "NAME", "DISCRIPTION", "ACH_ID", "ASSET", "TYPE", "UNLOCKED"],
+	["ID", "NAME", "DESCRIPTION", "ACH_ID", "ASSET", "TYPE", "UNLOCKED"],
 	//Mech
-	["--", "Started Game", "DISCRIPTION", "ach_mech_strtGame", "ASSET", "Mechanical", false], //             Started game
-	["--", "Doner", "DISCRIPTION", "ach_mech_donor", "ASSET", "Mechanical", false], //                       The player has given the devs money
-	["--", "Giver", "DISCRIPTION", "ach_mech_giver", "ASSET", "Mechanical", false], //                       The player has given the devs feedback that has been put in the game 
-	["--", "Exterminator", "DISCRIPTION", "ach_mech_exterm", "ASSET", "Mechanical", false], //               The player has reported a bug in the game
-	["--", "Alpha Tester", "DISCRIPTION", "ach_mech_alpha", "ASSET", "Mechanical", false], //                The player was a Alpha tester
-	["--", "Beta Tester", "DISCRIPTION", "ach_mech_beta", "ASSET", "Mechanical", false],  //                 The player was a Beta tester
+	["--", "Started Game", "DESCRIPTION", "ach_mech_strtGame", "ASSET", "Mechanical", false], //             Started game
+	["--", "Doner", "DESCRIPTION", "ach_mech_donor", "ASSET", "Mechanical", false], //                       The player has given the devs money
+	["--", "Giver", "DESCRIPTION", "ach_mech_giver", "ASSET", "Mechanical", false], //                       The player has given the devs feedback that has been put in the game 
+	["--", "Exterminator", "DESCRIPTION", "ach_mech_exterm", "ASSET", "Mechanical", false], //               The player has reported a bug in the game
+	["--", "Alpha Tester", "DESCRIPTION", "ach_mech_alpha", "ASSET", "Mechanical", false], //                The player was a Alpha tester
+	["--", "Beta Tester", "DESCRIPTION", "ach_mech_beta", "ASSET", "Mechanical", false],  //                 The player was a Beta tester
 	//Playing
-	["--", "Level 5", "DISCRIPTION", "ach_lvl_Five", "ASSET", "Playing", false],  //                         Got to level 5
-	["--", "Level 10", "DISCRIPTION", "ach_lvl_Ten", "ASSET", "Playing", false],  //                         Got to level 10
-	["--", "Level 25", "DISCRIPTION", "ach_lvl_TwoFive", "ASSET", "Playing", false],  //                     Got to level 25
-	["--", "Level 50", "DISCRIPTION", "ach_lvl_Fifty", "ASSET", "Playing", false],  //                       Got to level 50
-	["--", "Level 100", "DISCRIPTION", "ach_lvl_OneHun", "ASSET", "Playing", false],  //                     Got to level 100
-	["--", "Level 250", "DISCRIPTION", "ach_lvl_TwoFiveHun", "ASSET", "Playing", false],  //                 Got to level 250
-	["--", "Level 500", "DISCRIPTION", "ach_lvl_FiveHun", "ASSET", "Playing", false],  //                    Got to level 500
-	["--", "Level 1000", "DISCRIPTION", "ach_lvl_OneT", "ASSET", "Playing", false], //                       Got to level 1000
+	["--", "Level 5", "DESCRIPTION", "ach_lvl_Five", "ASSET", "Playing", false],  //                         Got to level 5
+	["--", "Level 10", "DESCRIPTION", "ach_lvl_Ten", "ASSET", "Playing", false],  //                         Got to level 10
+	["--", "Level 25", "DESCRIPTION", "ach_lvl_TwoFive", "ASSET", "Playing", false],  //                     Got to level 25
+	["--", "Level 50", "DESCRIPTION", "ach_lvl_Fifty", "ASSET", "Playing", false],  //                       Got to level 50
+	["--", "Level 100", "DESCRIPTION", "ach_lvl_OneHun", "ASSET", "Playing", false],  //                     Got to level 100
+	["--", "Level 250", "DESCRIPTION", "ach_lvl_TwoFiveHun", "ASSET", "Playing", false],  //                 Got to level 250
+	["--", "Level 500", "DESCRIPTION", "ach_lvl_FiveHun", "ASSET", "Playing", false],  //                    Got to level 500
+	["--", "Level 1000", "DESCRIPTION", "ach_lvl_OneT", "ASSET", "Playing", false], //                       Got to level 1000
 	//Dumb
-	["--", "You Asked", "DISCRIPTION", "ach_dumb_youAsked", "ASSET", "Playing", false],  //                  Clicked on this achivment
-	["--", "More Than Fifty Fifty", "DISCRIPTION", "ach_dumb_plusFifty", "ASSET", "Playing", false],  //     Has more unlocked achievements than locked ones
-	["--", "Taking after Zharria", "DISCRIPTION", "ach_dumb_takingAfterZ", "ASSET", "Playing", false],  //   Has Zharria's second hand setup (Peper Spray + Holy Bamboo + Panda)
-	["--", "Taking after Olive", "DISCRIPTION", "ach_dumb_takingAfterO", "ASSET", "Playing", false],  //     Has Olive's second hand setup (Necromanserr Staff  + Necromancer's Encrusted Silk + Dog)
+	["--", "You Asked", "DESCRIPTION", "ach_dumb_youAsked", "ASSET", "Playing", false],  //                  Clicked on this achivment
+	["--", "More Than Fifty Fifty", "DESCRIPTION", "ach_dumb_plusFifty", "ASSET", "Playing", false],  //     Has more unlocked achievements than locked ones
+	["--", "Taking after Zharria", "DESCRIPTION", "ach_dumb_takingAfterZ", "ASSET", "Playing", false],  //   Has Zharria's second hand setup (Peper Spray + Holy Bamboo + Panda)
+	["--", "Taking after Olive", "DESCRIPTION", "ach_dumb_takingAfterO", "ASSET", "Playing", false],  //     Has Olive's second hand setup (Necromanserr Staff  + Necromancer's Encrusted Silk + Dog)
 ];
 
 //ARMOR ACHIEVEMENTS
@@ -818,125 +818,125 @@ if (ach_lvl_Five == true) {
 // "Customization Objects", "Gross Objects", "Tactical Objects", "Food Objects", "Stylish Objects", "Magical Objects", "Forging Objects", "Inventory Objects"
 
 var commonItems = [
-	["--", "Pencil", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
-	["--", "Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                         + 1 Slot
+	["--", "Pencil", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //            Colors the screen Gray     (Leaves LOTS patches of old color)
+	["--", "Item Sack", "DESCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                         + 1 Slot
 
 ];
 var unsortedItems = [
-	["ID", "NAME", "DISCRIPTION", "USABLE", "USES", "STARTING USES", "RARITY", "COLLECTIONS", "AMOUNT"],
+	["ID", "NAME", "DESCRIPTION", "USABLE", "USES", "STARTING USES", "RARITY", "COLLECTIONS", "AMOUNT"],
 	//Screen changer ------------ {
 	//Mid
-	["--", "Red Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //        Colors the screen Red      (Leaves SOME patches of old color)
-	["--", "Orange Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Orange   (Leaves SOME patches of old color)
-	["--", "Yellow Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Yellow   (Leaves SOME patches of old color)
-	["--", "Green Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Green    (Leaves SOME patches of old color)
-	["--", "Blue Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Blue     (Leaves SOME patches of old color)
-	["--", "Purple Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Purple   (Leaves SOME patches of old color)
-	["--", "Pink Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Pink     (Leaves SOME patches of old color)
-	["--", "Black Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Black    (Leaves SOME patches of old color)
-	["--", "Brown Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Brown    (Leaves SOME patches of old color)
-	["--", "Gray Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Gray     (Leaves SOME patches of old color)
-	["--", "White Marker", "DISCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen White    (Leaves SOME patches of old color)
+	["--", "Red Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //        Colors the screen Red      (Leaves SOME patches of old color)
+	["--", "Orange Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Orange   (Leaves SOME patches of old color)
+	["--", "Yellow Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Yellow   (Leaves SOME patches of old color)
+	["--", "Green Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Green    (Leaves SOME patches of old color)
+	["--", "Blue Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Blue     (Leaves SOME patches of old color)
+	["--", "Purple Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //     Colors the screen Purple   (Leaves SOME patches of old color)
+	["--", "Pink Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Pink     (Leaves SOME patches of old color)
+	["--", "Black Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Black    (Leaves SOME patches of old color)
+	["--", "Brown Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen Brown    (Leaves SOME patches of old color)
+	["--", "Gray Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //       Colors the screen Gray     (Leaves SOME patches of old color)
+	["--", "White Marker", "DESCRIPTION", true, 1, 1, "Common", "Customization Objects", 0], //      Colors the screen White    (Leaves SOME patches of old color)
 	//Good
-	["--", "Red Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //         Colors the screen Red      (Leaves FEW patches of old color)
-	["--", "Orange Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Orange   (Leaves FEW patches of old color)
-	["--", "Yellow Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Yellow   (Leaves FEW patches of old color)
-	["--", "Green Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Green    (Leaves FEW patches of old color)
-	["--", "Blue Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Blue     (Leaves FEW patches of old color)
-	["--", "Purple Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Purple   (Leaves FEW patches of old color)
-	["--", "Pink Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Pink     (Leaves FEW patches of old color)
-	["--", "Black Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Black    (Leaves FEW patches of old color)
-	["--", "Brown Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Brown    (Leaves FEW patches of old color)
-	["--", "Gray Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Gray     (Leaves FEW patches of old color)
-	["--", "White Paint", "DISCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen White    (Leaves FEW patches of old color)
+	["--", "Red Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //         Colors the screen Red      (Leaves FEW patches of old color)
+	["--", "Orange Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Orange   (Leaves FEW patches of old color)
+	["--", "Yellow Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Yellow   (Leaves FEW patches of old color)
+	["--", "Green Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Green    (Leaves FEW patches of old color)
+	["--", "Blue Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Blue     (Leaves FEW patches of old color)
+	["--", "Purple Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //      Colors the screen Purple   (Leaves FEW patches of old color)
+	["--", "Pink Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Pink     (Leaves FEW patches of old color)
+	["--", "Black Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Black    (Leaves FEW patches of old color)
+	["--", "Brown Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen Brown    (Leaves FEW patches of old color)
+	["--", "Gray Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //        Colors the screen Gray     (Leaves FEW patches of old color)
+	["--", "White Paint", "DESCRIPTION", true, 2, 2, "Common", "Customization Objects", 0], //       Colors the screen White    (Leaves FEW patches of old color)
 	// }
 	//Jars ---------- {
 	//Gross
-	["--", "Burp in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals one health to all     (Battels & Users)
-	["--", "Barf In a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals five health to all    (Battels & Users)
-	["--", "Fart in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals 10% health to all     (Battels & Users)
-	["--", "Poop in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals 50% health to all     (Battels & Users)
+	["--", "Burp in a jar", "DESCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals one health to all     (Battels & Users)
+	["--", "Barf In a jar", "DESCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals five health to all    (Battels & Users)
+	["--", "Fart in a jar", "DESCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals 10% health to all     (Battels & Users)
+	["--", "Poop in a jar", "DESCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //                     Deals 50% health to all     (Battels & Users)
 	//Food
-	["--", "Smelly Cheese in a jar", "DISCRIPTION", true, 1, 1, "Common", "Food Objects", 0], //             Deals one health to enemies  (Battels)
-	["--", "Pickels In a jar", "DISCRIPTION", true, 1, 1, "Common", "Food Objects", 0], //                   Deals five health to enemies (Battels)
-	["--", "20 day old milkshake in a jar", "DISCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
-	["--", "Tactical Gas in a jar", "DISCRIPTION", true, 1, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
+	["--", "Smelly Cheese in a jar", "DESCRIPTION", true, 1, 1, "Common", "Food Objects", 0], //             Deals one health to enemies  (Battels)
+	["--", "Pickels In a jar", "DESCRIPTION", true, 1, 1, "Common", "Food Objects", 0], //                   Deals five health to enemies (Battels)
+	["--", "20 day old milkshake in a jar", "DESCRIPTION", true, 1, 1, "Common", "Gross Objects", 0], //     Deals 10% health to enemies  (Battels)
+	["--", "Tactical Gas in a jar", "DESCRIPTION", true, 1, 1, "Common", "Tactical Objects", 0], //          Deals 50% health to enemies  (Battels)
 	// }
   
 	//Lipsticks  ------- {
 	//Basic
-	["--", "Basic Red Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //             + 3 Strenth     (User)
-	["--", "Basic Orange Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Health      (User)
-	["--", "Basic Yellow Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Sat         (User)
-	["--", "Basic Green Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //           + 3 Luck        (User)
-	["--", "Basic Blue Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //            + 3 Water       (User)
-	["--", "Basic Purple Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Stall       (User)
-	["--", "Basic Black Lipstick", "DISCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //           + 3 Stealth     (User)
+	["--", "Basic Red Lipstick", "DESCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //             + 3 Strenth     (User)
+	["--", "Basic Orange Lipstick", "DESCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Health      (User)
+	["--", "Basic Yellow Lipstick", "DESCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Sat         (User)
+	["--", "Basic Green Lipstick", "DESCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //           + 3 Luck        (User)
+	["--", "Basic Blue Lipstick", "DESCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //            + 3 Water       (User)
+	["--", "Basic Purple Lipstick", "DESCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //          + 3 Stall       (User)
+	["--", "Basic Black Lipstick", "DESCRIPTION", true, 3, 3, "Common", "Stylish Objects", 0], //           + 3 Stealth     (User)
 	//Deluxe lipstick
-	["--", "Deluxe Red Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //            + 5 Strenth     (User)
-	["--", "Deluxe Orange Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Health      (User)
-	["--", "Deluxe Yellow Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Sat         (User)
-	["--", "Deluxe Green Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 5 Luck        (User)
-	["--", "Deluxe Blue Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //           + 5 Water       (User)
-	["--", "Deluxe Purple Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Stall       (User)
-	["--", "Deluxe Black Lipstick", "DISCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 5 Stealth     (User)
+	["--", "Deluxe Red Lipstick", "DESCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //            + 5 Strenth     (User)
+	["--", "Deluxe Orange Lipstick", "DESCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Health      (User)
+	["--", "Deluxe Yellow Lipstick", "DESCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Sat         (User)
+	["--", "Deluxe Green Lipstick", "DESCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 5 Luck        (User)
+	["--", "Deluxe Blue Lipstick", "DESCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //           + 5 Water       (User)
+	["--", "Deluxe Purple Lipstick", "DESCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //         + 5 Stall       (User)
+	["--", "Deluxe Black Lipstick", "DESCRIPTION", true, 6, 6, "Common", "Stylish Objects", 0], //          + 5 Stealth     (User)
 	// }
   
 	//Poitions ------ { 
-	["--", "Potion Bottle ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                The item used to make the "EVERY POTION IN THE GAME" 
-	["--", "Ranged Potion Bottle ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //         The item used to make the "EVERY RANGED POTION IN THE GAME"
+	["--", "Potion Bottle ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                The item used to make the "EVERY POTION IN THE GAME" 
+	["--", "Ranged Potion Bottle ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //         The item used to make the "EVERY RANGED POTION IN THE GAME"
 	//items for potions
-	["--", "Bunch of Metal Twigs ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                The item used to make the "Strenth" Potion
+	["--", "Bunch of Metal Twigs ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                The item used to make the "Strenth" Potion
 	//Drink
-	["--", "Strenth Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Strenth     (User)
-	["--", "Health Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                  + 10 Health      (User)
-	["--", "Saturation Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //              + 10 Sat         (User)
-	["--", "Luck Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                    + 10 Luck        (User)
-	["--", "Stall Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                   + 10 Stall       (User)
-	["--", "Stealth Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Stealth     (User)
+	["--", "Strenth Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Strenth     (User)
+	["--", "Health Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                  + 10 Health      (User)
+	["--", "Saturation Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //              + 10 Sat         (User)
+	["--", "Luck Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                    + 10 Luck        (User)
+	["--", "Stall Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                   + 10 Stall       (User)
+	["--", "Stealth Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //                 + 10 Stealth     (User)
 	//Splash
-	["--", "Weakness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //         - 10 Strenth     (Battles)
-	["--", "Pain Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //             - 10 Health      (Battles)
-	["--", "Emptyness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //        - 10 Sat         (Battles)
-	["--", "Anti-Stall Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //       - 10 Stall       (Battles)
-	["--", "Dryness Splash Potion", "DISCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //          - 10 Water       (Battles)
+	["--", "Weakness Splash Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //         - 10 Strenth     (Battles)
+	["--", "Pain Splash Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //             - 10 Health      (Battles)
+	["--", "Emptyness Splash Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //        - 10 Sat         (Battles)
+	["--", "Anti-Stall Splash Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //       - 10 Stall       (Battles)
+	["--", "Dryness Splash Potion", "DESCRIPTION", true, 3, 3, "Common", "Magical Objects", 0], //          - 10 Water       (Battles)
 	// }
 
 	//MANAGEMENT ITEMS  ------------ {
-	["--", "Large Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 4 Slots
-	["--", "XL Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                      + 10 Slots
-	["--", "Super Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 30 Slots
-	["--", "Mega Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                    + 70 Slots
-	["--", "Ancient\'s Item Sack", "DISCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //              + 150 Slots
+	["--", "Large Item Sack", "DESCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 4 Slots
+	["--", "XL Item Sack", "DESCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                      + 10 Slots
+	["--", "Super Item Sack", "DESCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                   + 30 Slots
+	["--", "Mega Item Sack", "DESCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //                    + 70 Slots
+	["--", "Ancient\'s Item Sack", "DESCRIPTION", true, 1, 1, "Common", "Inventory Objects", 0], //              + 150 Slots
 	//}
   
 	//Recipes & Forge Stuff ------ {
   
 	//Opposites
-	["--", "Scroll of Polar Opposites", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //             The recipe used to make the "Polar Opposite" Armor ---- Rhodochrosite + Mythril
-	["--", "Scroll of Energy Opposites", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Energy Opposite" Armor --- Amber + Coral
+	["--", "Scroll of Polar Opposites", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //             The recipe used to make the "Polar Opposite" Armor ---- Rhodochrosite + Mythril
+	["--", "Scroll of Energy Opposites", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Energy Opposite" Armor --- Amber + Coral
 	//Silk
-	["--", "Scroll of Amber Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Amber Encrusted Silk" Armor
-	["--", "Scroll of Mythril Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //          The recipe used to make the "Mythril Encrusted Silk" Armor
-	["--", "Scroll of Rhodochrosite Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //    The recipe used to make the "Rhodochrosite Encrusted Silk" Armor
-	["--", "Scroll of Necro Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Necromancer's Encrusted Silk" Armor
-	["--", "Scroll of Tsavorite Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //        The recipe used to make the "Tsavorite Encrusted Silk" Armor
-	["--", "Scroll of Coral Engravings", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Coral Encrusted Silk" Armor
+	["--", "Scroll of Amber Engravings", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Amber Encrusted Silk" Armor
+	["--", "Scroll of Mythril Engravings", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //          The recipe used to make the "Mythril Encrusted Silk" Armor
+	["--", "Scroll of Rhodochrosite Engravings", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //    The recipe used to make the "Rhodochrosite Encrusted Silk" Armor
+	["--", "Scroll of Necro Engravings", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Necromancer's Encrusted Silk" Armor
+	["--", "Scroll of Tsavorite Engravings", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //        The recipe used to make the "Tsavorite Encrusted Silk" Armor
+	["--", "Scroll of Coral Engravings", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //            The recipe used to make the "Coral Encrusted Silk" Armor
 	//mythics
-	["--", "Amber Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Amber Encrusted Silk" Armor
-	["--", "Mythril Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The gem used to make the "Mythril Encrusted Silk" Armor + to make "Gem of Polar Opposites"
-	["--", "Rhodochrosite Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                    The gem used to make the "Rhodochrosite Encrusted Silk" Armor + to make "Gem of Polar Opposites"
-	["--", "Necro Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Necromancer's Encrusted Silk" Armor
-	["--", "Tsavorite Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                        The gem used to make the "Tsavorite Encrusted Silk" Armor + to make "Gem of Energy Opposites"
-	["--", "Coral Gem ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Coral Encrusted Silk" Armor + to make "Gem of Energy Opposites"
-	["--", "Gem of Polar Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The gem used to make the "Polar Opposite" Armor
-	["--", "Gem of Energy Opposites ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //              The gem used to make the "Energy Opposite" Armor
+	["--", "Amber Gem ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Amber Encrusted Silk" Armor
+	["--", "Mythril Gem ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The gem used to make the "Mythril Encrusted Silk" Armor + to make "Gem of Polar Opposites"
+	["--", "Rhodochrosite Gem ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                    The gem used to make the "Rhodochrosite Encrusted Silk" Armor + to make "Gem of Polar Opposites"
+	["--", "Necro Gem ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Necromancer's Encrusted Silk" Armor
+	["--", "Tsavorite Gem ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                        The gem used to make the "Tsavorite Encrusted Silk" Armor + to make "Gem of Energy Opposites"
+	["--", "Coral Gem ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                            The gem used to make the "Coral Encrusted Silk" Armor + to make "Gem of Energy Opposites"
+	["--", "Gem of Polar Opposites ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The gem used to make the "Polar Opposite" Armor
+	["--", "Gem of Energy Opposites ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //              The gem used to make the "Energy Opposite" Armor
 	//epics
-	["--", "Lab Kit ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                              The item used to make the "Lab" Armor
-	["--", "Hospital Tools ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                       The item used to make the "Surgeon's Scrubs" Armor
-	["--", "Elixir of Invisibility ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The item used to make the "Invisibility Armor" Armor
-	["--", "Dragon Hide ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The item used to make the "Dragon Armor" Armor
-	["--", "Unicorn Horn ", "DISCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                         The item used to make the "Unicorn Suit" Armor
+	["--", "Lab Kit ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                              The item used to make the "Lab" Armor
+	["--", "Hospital Tools ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                       The item used to make the "Surgeon's Scrubs" Armor
+	["--", "Elixir of Invisibility ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //               The item used to make the "Invisibility Armor" Armor
+	["--", "Dragon Hide ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                          The item used to make the "Dragon Armor" Armor
+	["--", "Unicorn Horn ", "DESCRIPTION", false, 0, 0, "Common", "Forging Objects", 0], //                         The item used to make the "Unicorn Suit" Armor
 	//dies and colorings
 	//}  
 	//Tokens & Totems ---- {
@@ -1428,7 +1428,7 @@ function updateOwnedBootArmors() {
 ///////////////////////////////////////////
 ///      1.5) Description updates       ///
 ///////////////////////////////////////////
-function updateHeadDiscription() {
+function updateHeadDESCRIPTION() {
 	//COMMON
 	if (document.getElementById("bedHead").selected == true) {headSlot = CommonHeadArmorTypes[0];}
 	if (document.getElementById("FigWreath").selected == true) {headSlot = CommonHeadArmorTypes[1];}
@@ -1453,7 +1453,7 @@ function updateHeadDiscription() {
 	HeadDescription.innerHTML = headSlot[3] + "<br>" + "Part of the " + headSlot[5] + " Armor & Weapons collection." + "<br>" + headSlot[4] + " +" + headSlot[2] + " Protection";
 }
 
-function updateChestDiscription() {
+function updateChestDESCRIPTION() {
 	//COMMON
 	if (document.getElementById("Shirt").selected == true) {chestSlot = CommonChestArmorTypes[0];}
 	if (document.getElementById("FigLeafBreastplate").selected == true) {chestSlot = CommonChestArmorTypes[1];}
@@ -1478,7 +1478,7 @@ function updateChestDiscription() {
 	ChestDescription.innerHTML = chestSlot[3] + "<br>" + "Part of the " + chestSlot[5] + " Armor & Weapons collection." + "<br>" + chestSlot[4] + " +" + chestSlot[2] + " Protection";
 }
 
-function updateBootDiscription() {
+function updateBootDESCRIPTION() {
 	//COMMON
 	if (document.getElementById("Jeans").selected == true) { legSlot = CommonLegArmorTypes[0]; }
 	if (document.getElementById("TheFigLeaf").selected == true) { legSlot = CommonLegArmorTypes[1]; }
@@ -1503,7 +1503,7 @@ function updateBootDiscription() {
 	LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " Armor & Weapons collection." + "<br>" + legSlot[4] + " +" + legSlot[2] + " Protection";
 }
 
-function updateLegDiscription() {
+function updateLegDESCRIPTION() {
 	//COMMON
 	if (document.getElementById("Shoes").selected == true) {bootSlot = CommonBootArmorTypes[0]; }
 	if (document.getElementById("FigLeafCovers").selected == true) {bootSlot = CommonBootArmorTypes[1]; }
