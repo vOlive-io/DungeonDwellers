@@ -228,12 +228,12 @@ var CommonHeadArmorTypes = [
 ];
 
 var CommonChestArmorTypes = [
-  ["7", "T-shirt", 0, "Everyone has to start somewhere.", "Common", "Starter", true],
-  ["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko.", "Common", "Fruity", false],
-  ["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!", "Common", "Classic", false],
-  ["10", "Leather Chestplate", 2, "Found some cow patties I see.", "Common", "Classic", false],
-  ["11", "Painted on Armor", 2, "Wow look at you, Picasso.", "Common", "\"What the f***?\"", false],
-  ["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*.", "Common", "Explorer\'s", false]
+	["7", "T-shirt", 0, "Everyone has to start somewhere.", "Common", "Starter", true],
+	["8", "Fig Leaf Breastplate", 1, "Stop murdering the trees you sicko.", "Common", "Fruity", false],
+	["9", "Woodplate", 1, "STOP MURDERING THE TREES IT ISN\'T GOOD FOR THEIR HEALTH!!!!!!!!!!!!", "Common", "Classic", false],
+	["10", "Leather Chestplate", 2, "Found some cow patties I see.", "Common", "Classic", false],
+	["11", "Painted on Armor", 2, "Wow look at you, Picasso.", "Common", "\"What the f***?\"", false],
+	["12", "Basic Explorers Chestplate", 3, "Indiana Jones is nothing compared to you *sarcasm*.", "Common", "Explorer\'s", false]
 ];
 
 var CommonLegArmorTypes = [
@@ -428,6 +428,8 @@ var EpicBootArmorTypes = [
   ["109", "Chicken Suit Boot Piece", 4, "Description", "Epic", "\"What the f***\"", false]
 ];
 
+//NOTE TO ARMAAN:
+//ALL DISCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
 //FORGED
 var ForgedEpicHeadArmorTypes = [
   ["206", "Lab Googles", 4, "Description", "Epic (Forged)", "Fancy", false],
@@ -467,6 +469,9 @@ var ForgedEpicBootArmorTypes = [
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
 //Collections: DONE
 // NEEDS DESCRIPTIONS
+
+//NOTE TO ARMAAN:
+//ALL DISCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
 var MythicHeadArmorTypes = [
   ["83", "Coral Helmet", 4, "Description", "Mythic", "Unique", false],
   ["110", "Gold encrusted Silk Vail", 4, "Description", "Mythic", "Unique", false],
@@ -513,6 +518,8 @@ var MythicBootArmorTypes = [
 
 //FORGED
 
+//NOTE TO ARMAAN:
+//ALL DISCRIPTIONS HERE MUST BE NICE!!! BECAUSE THESE ARE GOOD ARMORS!
 var ForgedMythicHeadArmorTypes = [
   ["110", "Amber encrusted Silk Vail", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
   ["111", "Mythrill encrusted Silk Vail", 4, "Description", "Mythic (Forged)", "Exotic Gems", false],
@@ -603,10 +610,10 @@ item + item = ______
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 //Collections: NOT DONE
 var FullRelicChestArmorTypes = [
-  ["32", "Living Gown", 50, "", "Full Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green  ---- Branch ------- Root ------- (empty)
-  ["32", "Fighing Robes", 50, "", "Full Relic", "", false],                //Ancient: The Fist  ----------- Color: Yellow ---- Hands -------- Sword ------ Zharria 
-  ["32", "Scaled Garments, 50, "", "Full Relic", "", false],               //Ancient: The Scream ------- ---Color: Red  ------ Trident ------ Tounge------- Olive 
-  ["32", "HollowGhast Cloak", 50, "", "Full Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black ----- Scythe ------- Cloak-------- Armaan 
+  ["32", "Living Gown", 50, "", "Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green  ---- Branch ------- Root ------- (empty)
+  ["32", "Fighing Robes", 50, "", "Relic", "", false],                //Ancient: The Fist  ----------- Color: Yellow ---- Hands -------- Sword ------ Zharria 
+  ["32", "Scaled Garments, 50, "", "Relic", "", false],               //Ancient: The Scream ------- ---Color: Red  ------ Trident ------ Tounge------- Olive 
+  ["32", "HollowGhast Cloak", 50, "", "Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black ----- Scythe ------- Cloak-------- Armaan 
 ];
 
 /////////////////////////////////////////////SEASONAL/////////////////////////////////////////////
@@ -615,13 +622,13 @@ var SeasonalChestArmorTypes = [
 
 /////////////////////////////////////////////DUNGEON/////////////////////////////////////////////
 var DungeonChestArmorTypes = [
-  ["36", "Red Explorers", "2", ""], // from red Basilisc (d1)
-  ["37", "Blue Explorers", "2", ""], // from roaming shark
-  ["38", "Black Explorers", "2", ""], // from speedy blur
-  ["39", "Green Explorers", "2", ""],  // from overly angry troll
-  ["40", "Yellow Explorers", "2", ""],  // from the skydiver
-  ["41", "Clan Style", "2", ""],  // from warrior squad
-  ["42", " ----- ----- ", "2", ""]  // ----- driver
+	["36", "Red Explorers", "2", ""], // from red Basilisc (d1)
+	["37", "Blue Explorers", "2", ""], // from roaming shark
+	["38", "Black Explorers", "2", ""], // from speedy blur
+	["39", "Green Explorers", "2", ""],  // from overly angry troll
+	["40", "Yellow Explorers", "2", ""],  // from the skydiver
+	["41", "Clan Style", "2", ""],  // from warrior squad
+	["42", " ----- ----- ", "2", ""]  // ----- driver
 ];
 
 
@@ -631,77 +638,76 @@ var DungeonChestArmorTypes = [
 //Collections: NOT DONE
 
 var CommonHeadWeaponTypes = [
-  ["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", "Starter", true],
-  ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!!", "Common", "Dumb", false],
-  ["-", "Rusty Horseshoes", 2, "Slow, but reliable!", "Common", "Unique", false],
-  ["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow!", "Common", "\"What the f***?\"", false],
+	["-", "Fists", 1, "Wow, your so strong! *sarcasm*", "Common", "Starter", true],
+	["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!!", "Common", "Dumb", false],["-", "Rusty Horseshoes", 2, "Slow, but reliable!", "Common", "Unique", false],
+	["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow!", "Common", "\"What the f***?\"", false],
 	//Sets
-  ["-", "Twig", 3, "LOOK ITS A TWIG!!!!.", "Common", false],
-  ["-", "Wooden Pole", 3, "Great for long distance fighting!!", "Common", false],
-  ["-", "Taped up hands", 3, "Slow, but reliable!", "Common", false],
-  ["-", "Wooden Scythe", 3, "The stuff of warriors.", "Common", false],
-  //Explorers
-  ["-", "Basic Explores Knife", 4, "The stuff of legends!!!", "Common", false],
+	["-", "Twig", 3, "LOOK ITS A TWIG!!!!.", "Common", false],
+	["-", "Wooden Pole", 3, "Great for long distance fighting!!", "Common", false],
+	["-", "Taped up hands", 3, "Slow, but reliable!", "Common", false],
+	["-", "Wooden Scythe", 3, "The stuff of warriors.", "Common", false],
+	//Explorers
+	["-", "Basic Explores Knife", 4, "The stuff of legends!!!", "Common", false],
 	["-", "Water", 3, "They slip!!!!", "Common", false],
-  ["-", "Basic Explores Pepper Spray", 3, "AHH, a bare!!!", "Common", false]
+	["-", "Basic Explores Pepper Spray", 3, "AHH, a bare!!!", "Common", false]
 ];
 
 //Collections: NOT DONE
 var UncommonHeadWeaponTypes = [
-  ["-", "Pen", 5, "Write your enemies to death!", "Uncommon", "Dumb", false],
-  ["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!",  "Uncommon", "\"What the f***?\"", false],
-  ["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", "Dumb", false],
-  ["-", "Sharpened Rocks", 6, "Very close range, but excellent damage.", "Uncommon", "Dumb", false],
-  ["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", "Classic", false],
-  ["-", "Hot Water", 6, "They slip and fall!!", "Uncommon", false],
-  //Sets
-  ["-", "Stick", 6, "LOOK IT'S A STICK!!", "Uncommon", false],
-  ["-", "Matal Pole", 6, "Packs a larger punch!", "Uncommon", false],
-  ["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt.", "Uncommon", false],
-  ["-", "Stone Scythe", 6, "The stuff of warriors!!!", "Uncommon", false],
-  //Explorers
-  ["-", "New Explores Knife", 7, "The stuff of new legends!!!", "Uncommon", false],
+	["-", "Pen", 5, "Write your enemies to death!", "Uncommon", "Dumb", false],
+	["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!",  "Uncommon", "\"What the f***?\"", false],
+	["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", "Dumb", false],
+	["-", "Sharpened Rocks", 6, "Very close range, but excellent damage.", "Uncommon", "Dumb", false],
+	["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", "Classic", false],
+	["-", "Hot Water", 6, "They slip and fall!!", "Uncommon", false],
+	//Sets
+	["-", "Stick", 6, "LOOK IT'S A STICK!!", "Uncommon", false],
+	["-", "Matal Pole", 6, "Packs a larger punch!", "Uncommon", false],
+	["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt.", "Uncommon", false],
+	["-", "Stone Scythe", 6, "The stuff of warriors!!!", "Uncommon", false],
+	//Explorers
+	["-", "New Explores Knife", 7, "The stuff of new legends!!!", "Uncommon", false],
 	["-", "New Pepper Spray", 6, "AHH, it's a bear!!!", "Uncommon", false],
-  ["-", "New Explores Pepper Spray", 6, "AHH, it's a bear!!!", "Uncommon", false]
+	["-", "New Explores Pepper Spray", 6, "AHH, it's a bear!!!", "Uncommon", false]
 ];
 
 //Collections: NOT DONE
 var RareHeadWeaponTypes = [
-  ["-", "Rusty Katana", 6, "STABY STAB STAB!", "Rare", "\"What the f***?\"", false],
-  ["-", "Battle Staff", 6, "Why is it warm???", "Rare", "Unique", false],
-  ["-", "Living snake", 7, "It bites people, even you!!", "Rare", "\"What the f***?\"", false],
-  ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart!", "Rare", "Up Close & Personal", false],
-  ["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers!", "Rare", "Up Close & Personal", false],
-  ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies.", "Rare", "Up Close & Personal", false],
-  ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!", "Rare", "Up Close & Personal", false],  //Sets
-  ["-", "Dead Tree Branch", 8, "LOOK IT'S A DEAD TREE BRANCH!!", "Rare", false],
-  ["-", "Sprear", 8, "Very long and has a point on the end!!!", "Rare", false]
-  ["-", "Fighters Bindings", 8, "Even stronger gauntlets, with more pressure pads, reduces pain to a minimum.", "Rare", false],
-  ["-", "Iron Scythe", 8, "The stuff of warriors!!!", "Rare", false],
-  //Explorers
-  ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!", "Rare", false],
-  ["-", "Oil", 8, "They slip and fall, and break their heads!", "Rare", false],
-  ["-", "Extra Concentrated Explores Pepper Spray", 8, "AHH, its a monster!!!", "Rare", false]
+	["-", "Rusty Katana", 6, "STABY STAB STAB!", "Rare", "\"What the f***?\"", false],
+	["-", "Battle Staff", 6, "Why is it warm???", "Rare", "Unique", false],
+	["-", "Living snake", 7, "It bites people, even you!!", "Rare", "\"What the f***?\"", false],
+	["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart!", "Rare", "Up Close & Personal", false],
+	["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers!", "Rare", "Up Close & Personal", false],
+	["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies.", "Rare", "Up Close & Personal", false],
+	["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!", "Rare", "Up Close & Personal", false],  //Sets
+	["-", "Dead Tree Branch", 8, "LOOK IT'S A DEAD TREE BRANCH!!", "Rare", false],
+	["-", "Sprear", 8, "Very long and has a point on the end!!!", "Rare", false]
+	["-", "Fighters Bindings", 8, "Even stronger gauntlets, with more pressure pads, reduces pain to a minimum.", "Rare", false],
+	["-", "Iron Scythe", 8, "The stuff of warriors!!!", "Rare", false],
+	//Explorers
+	["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!", "Rare", false],
+	["-", "Oil", 8, "They slip and fall, and break their heads!", "Rare", false],
+	["-", "Extra Concentrated Explores Pepper Spray", 8, "AHH, its a monster!!!", "Rare", false]
 ];
 
 //Collections: NOT DONE
 
 var EpicHeadWeaponTypes = [
-  ["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!!", "\"What the f***?\"", "Epic", false],
-  ["-", "Reinforced Battle Staff", 8, "Why is it hot???", "Epic", "Unique", false],
-  ["-", "Wild Living snake", 9, "It bites people, 20 at once!!", "Epic", "\"What the f***?\"", false],
-  ["-", "Mace", 9, "SlAM DUNK!!", "Epic", "Classic", false],
-  ["-", "Fire Extinguisher", 9, "Spray them to death!!", "Epic", "\"What the f***?\"", false],
-  ["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", "Classic", false],
-  //Sets
-  ["-", "Alive Tree Branch", 10, "LOOK IT'S AN ALIVE TREE BRANCH!!", "Epic", false],
-  ["-", "Two pointed spear", 10, "With two points it hurts twice as mutch!!", "Epic", false],
-  ["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals whose name real remains unknown and have been dubbed maulers.", "Epic", false],
-  ["-", "Golden Scythe", 10, "The stuff of warriors!!!.", "Epic", false],
-  //Explorers
-  ["-", "Duplex Explores Knife", 11, "The stuff of duplex legends!!!", "Epic", false]
+	["-", "Sharp Katana", 8, "STABY STAB STAB!!! KILLY KILL KILL!!!", "\"What the f***?\"", "Epic", false],
+	["-", "Reinforced Battle Staff", 8, "Why is it hot???", "Epic", "Unique", false],
+	["-", "Wild Living snake", 9, "It bites people, 20 at once!!", "Epic", "\"What the f***?\"", false],
+	["-", "Mace", 9, "SlAM DUNK!!", "Epic", "Classic", false],
+	["-", "Fire Extinguisher", 9, "Spray them to death!!", "Epic", "\"What the f***?\"", false],
+	["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", "Classic", false],
+	//Sets
+	["-", "Alive Tree Branch", 10, "LOOK IT'S AN ALIVE TREE BRANCH!!", "Epic", false],
+	["-", "Two pointed spear", 10, "With two points it hurts twice as mutch!!", "Epic", false],
+	["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals whose name real remains unknown and have been dubbed maulers.", "Epic", false],
+	["-", "Golden Scythe", 10, "The stuff of warriors!!!.", "Epic", false],
+  	//Explorers
+	["-", "Duplex Explores Knife", 11, "The stuff of duplex legends!!!", "Epic", false]
 	["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire!", "Epic", false],
-  ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!!", "Epic", false],
+	["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!!", "Epic", false],
 ];
 
 //Collections: NOT DONE
