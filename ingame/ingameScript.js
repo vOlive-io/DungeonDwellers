@@ -603,8 +603,8 @@ item + item = ______
 /////////////////////////////////////////////RELIC/////////////////////////////////////////////
 //Collections: NOT DONE
 var FullRelicChestArmorTypes = [
-  ["32", "Living Gown", 50, "", "Full Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green  ---- Branch -------- Root ------- (empty)
-  ["32", "Fighing Robes", 50, "", "Full Relic", "", false],                //Ancient: The Fist  ----------- Color: Yellow ---- Hands --------- Sword ------ Zharria 
+  ["32", "Living Gown", 50, "", "Full Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green  ---- Branch ------- Root ------- (empty)
+  ["32", "Fighing Robes", 50, "", "Full Relic", "", false],                //Ancient: The Fist  ----------- Color: Yellow ---- Hands -------- Sword ------ Zharria 
   ["32", "Scaled Garments, 50, "", "Full Relic", "", false],               //Ancient: The Scream ------- ---Color: Red  ------ Trident ------ Tounge------- Olive 
   ["32", "HollowGhast Cloak", 50, "", "Full Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black ----- Scythe ------- Cloak-------- Armaan 
 ];
@@ -635,15 +635,15 @@ var CommonHeadWeaponTypes = [
   ["-", "Styrofoam Sword", 2, "Wow so daring and bold a sword made of styrofoam!!!", "Common", "Dumb", false],
   ["-", "Rusty Horseshoes", 2, "Slow, but reliable!", "Common", "Unique", false],
   ["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow!", "Common", "\"What the f***?\"", false],
-  ["-", "Water", 3, "They slip!!!!", "Common", false],
-  ["-", "Old Pepper Spray", 3, "AHH, a bare!!!", "Common", false],
-  //Sets
+	//Sets
   ["-", "Twig", 3, "LOOK ITS A TWIG!!!!.", "Common", false],
-  ["-", "Pole", 3, "Great for long distance fighting!!", "Common", false],
+  ["-", "Wooden Pole", 3, "Great for long distance fighting!!", "Common", false],
   ["-", "Taped up hands", 3, "Slow, but reliable!", "Common", false],
   ["-", "Wooden Scythe", 3, "The stuff of warriors.", "Common", false],
   //Explorers
-  ["-", "Basic Explores Knife", 4, "The stuff of legends!!!", "Common", false]
+  ["-", "Basic Explores Knife", 4, "The stuff of legends!!!", "Common", false],
+	["-", "Water", 3, "They slip!!!!", "Common", false],
+  ["-", "Basic Explores Pepper Spray", 3, "AHH, a bare!!!", "Common", false]
 ];
 
 //Collections: NOT DONE
@@ -654,14 +654,15 @@ var UncommonHeadWeaponTypes = [
   ["-", "Sharpened Rocks", 6, "Very close range, but excellent damage.", "Uncommon", "Dumb", false],
   ["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", "Classic", false],
   ["-", "Hot Water", 6, "They slip and fall!!", "Uncommon", false],
-  ["-", "New Pepper Spray", 6, "AHH, it's a bear!!!", "Uncommon", false],
   //Sets
   ["-", "Stick", 6, "LOOK IT'S A STICK!!", "Uncommon", false],
   ["-", "Matal Pole", 6, "Packs a larger punch!", "Uncommon", false],
   ["-", "Gaunlets", 6, "The Classic style of fighting... but it does hurt.", "Uncommon", false],
-  ["-", "Stone Sword", 6, "The stuff of warriors!!!", "Uncommon", false],
+  ["-", "Stone Scythe", 6, "The stuff of warriors!!!", "Uncommon", false],
   //Explorers
-  ["-", "New Explores Knife", 7, "The stuff of new legends!!!", "Uncommon", false]
+  ["-", "New Explores Knife", 7, "The stuff of new legends!!!", "Uncommon", false],
+	["-", "New Pepper Spray", 6, "AHH, it's a bear!!!", "Uncommon", false],
+  ["-", "New Explores Pepper Spray", 6, "AHH, it's a bear!!!", "Uncommon", false]
 ];
 
 //Collections: NOT DONE
@@ -672,17 +673,15 @@ var RareHeadWeaponTypes = [
   ["-", "Daggers", 8, "Its new and sharp and stabs harder than a dart!", "Rare", "Up Close & Personal", false],
   ["-", "Curved Daggers", 9, "The new curved blade enhances the strength and effect of these daggers!", "Rare", "Up Close & Personal", false],
   ["-", "Sickels", 9, "What used to be for the harvesting of wheat is now for the harvesting of enemies.", "Rare", "Up Close & Personal", false],
-  ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!", "Rare", "Up Close & Personal", false],
-  //Sets
+  ["-", "Scissors", 9, "Split them like chopsticks for inescapable PAIN AND TORTURE!!!!", "Rare", "Up Close & Personal", false],  //Sets
   ["-", "Dead Tree Branch", 8, "LOOK IT'S A DEAD TREE BRANCH!!", "Rare", false],
-  ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!", "Rare", false],
-  ["-", "Oil", 8, "They slip and fall, and break their heads!", "Rare", false],
-  ["-", "Extra Concentrated Pepper Spray", 8, "AHH, its a monster!!!", "Rare", false],
-  ["-", "Meter Stick", 8, "40ish inches or 3.5ish feet or a little over 1 yard or 1 meter!!!", "Rare", false],
+  ["-", "Sprear", 8, "Very long and has a point on the end!!!", "Rare", false]
   ["-", "Fighters Bindings", 8, "Even stronger gauntlets, with more pressure pads, reduces pain to a minimum.", "Rare", false],
-  ["-", "Iron Sword", 8, "The stuff of warriors!!!", "Rare", false],
+  ["-", "Iron Scythe", 8, "The stuff of warriors!!!", "Rare", false],
   //Explorers
-  ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!", "Rare", false]
+  ["-", "Industrial Explores Knife", 9, "The stuff of industrial legends!!!", "Rare", false],
+  ["-", "Oil", 8, "They slip and fall, and break their heads!", "Rare", false],
+  ["-", "Extra Concentrated Explores Pepper Spray", 8, "AHH, its a monster!!!", "Rare", false]
 ];
 
 //Collections: NOT DONE
@@ -696,13 +695,13 @@ var EpicHeadWeaponTypes = [
   ["-", "Hammer", 9, "BAMM, it hits hard!!", "Epic", "Classic", false],
   //Sets
   ["-", "Alive Tree Branch", 10, "LOOK IT'S AN ALIVE TREE BRANCH!!", "Epic", false],
-  ["-", "Mile Stick", 10, "63360 inches or 5280 feet, 1760 yards, 1609ish meters or one mile!!", "Epic", false],
-  ["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire!", "Epic", false],
-  ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!!", "Epic", false],
+  ["-", "Two pointed spear", 10, "With two points it hurts twice as mutch!!", "Epic", false],
   ["-", "Mualer's Bindings", 10, "Even stronger bindings, made out of claws of animals whose name real remains unknown and have been dubbed maulers.", "Epic", false],
-  ["-", "Golden Sword", 10, "The stuff of warriors!!!.", "Epic", false],
+  ["-", "Golden Scythe", 10, "The stuff of warriors!!!.", "Epic", false],
   //Explorers
   ["-", "Duplex Explores Knife", 11, "The stuff of duplex legends!!!", "Epic", false]
+	["-", "Gasoline and Matches", 9, "They slip and fall, break their heads and get lit on fire!", "Epic", false],
+  ["-", "Industrial Strength Pepper Spray", 10, "AHH, its bear monster!!!", "Epic", false],
 ];
 
 //Collections: NOT DONE
@@ -715,13 +714,13 @@ var MythicHeadWeaponTypes = [
   ["-", "Runic Hammer", 12, "Just a better version of a hammer!!", "Mythic", false],
   //Sets
   ["-", "Thriving Tree Branch", 10, "LOOK IT'S A THRIVING TREE BRANCH!!", "Mythic", false],
-  ["-", "Retractable Mile Stick", 10, "It's kind of hard to carry around a mile of wood, this with make it so your arms don\'t tire out as much!", "Mythic", false],
-  ["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive!", "Mythic", false],
-  ["-", "Aquatex Spray", 10, "AHH, its dev!", "Mythic", false],
-  ["-", "Mauler's soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches.", "Mythic", false],
-  ["-", "Mythril Sword", 10, "The stuff of warriors!!!", "Mythic", false],
+  ["-", "Amateur Trident", 10, "Great for throwing and it does 3 times more damage than last time!", "Mythic", false],
+  ["-", "Mauler's Soul bindings", 10, "The Mauler's paws sewen into the bindings that have  a strong magic radiating from them, causing powerful attacks and scratches.", "Mythic", false],
+  ["-", "Mythril Scythe", 10, "The stuff of warriors!!!", "Mythic", false],
   //Explorers
-  ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!", "Mythic", false]
+  ["-", "Blessed Explores Knife", 11, "The stuff of real legends!!!", "Mythic", false],
+	["-", "Nuclear Acid", 9, "They slip and fall, break their heads, get lit on fire and become radioactive!", "Mythic", false],
+	["-", "Blessed Spray", 10, "AHH, its dev!", "Mythic", false]
 ];
 
 
