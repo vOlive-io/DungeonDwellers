@@ -1,237 +1,242 @@
 <head>
-    <title> In Game » DungeonDwellers </title>
-    <link rel="shortcut icon" href="assets/headIcon.png" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="ingameScript.js"></script>
+	<title> In Game » DungeonDwellers </title>
+	<link rel="shortcut icon" href="assets/headIcon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="ingameScript.js"></script>
 </head>
 <body id="fullBody">
-    <h1 id="headerText"> ------ </h1>
-    <p id="storyBody"></p>
-    <div id="stats">
-        <h1>Stats</h1>
-        <ul>
-            <li>Level = <b id="levelSlot">Level</b></li>
-            <li>Xp = <b id="xpSlot">Xp/xpTop</b></li>
-            <li>Heath = <b id="hpt">Heath/MaxHeath</b></li>
-            <li>Water = <b id="wtr">Water/MaxWater</b></li>
-            <li>Saturation = <b id="sat">Saturation/MaxSaturation</b></li>
-            <li>Strenth = <b id="str">Strenth</b></li>
-            <li>Stealth = <b id="stl">Stealth</b></li>
-            <li>Protection = <b id="pro">Protection</b></li>
-            <li>Luck = <b id="lck">Luck</b></li>
-        </ul>
-    </div>
-    <button id="invetoryToggleOn" onclick="toggleInvOff()">Hide Inventory</button>
-    <button id="invetoryToggleOff" onclick="toggleInvOn()">Show Inventory</button>
-    <div id="inventory">
-        <div id="slots">
-            <h1>Inventory</h1>
-            <ul>
-                 <div id="armors">
-                <li>Gears = <b id="gearSlot">Gears</b></li>
-                <!-- HEAD GEAR -->
-                    <li>Head Gear = <select id="headSlot">
-                        <!-- COMMON HEAD GEAR -->
-                        <option id="commonHead" disabled><b>----COMMON----</b></option>
-                        <option class="unlockedArmor" id="bedHead">Bed Head</option>
-                        <option class="lockedArmor" id="FigWreath">Fig Leaf Wreath</option>
-                        <option class="lockedArmor" id="WoodHelmet">Wood Helmet</option>
-                        <option class="lockedArmor" id="LeatherBandana">Leather Bandana</option>
-                        <option class="lockedArmor" id="PaintHelmet">Painted on Helmet</option>
-                        <option class="lockedArmor" id="BasicExplorersHelmet">Basic Explorers Helmet</option>
-                        <!-- UNCOMMON HEAD GEAR -->
-                        <option id="uncommonHead" disabled><b>----UNCOMMON----</b></option>
-                        <option class="lockedArmor" id="FruitHat">Fruit Hat</option>
-                        <option class="lockedArmor" id="SafariHat">Safari Hat</option>
-                        <option class="lockedArmor" id="RubberMask">Rubber Mask</option>
-                        <option class="lockedArmor" id="MudMask">Mud Mask</option>
-                        <option class="lockedArmor" id="TinHead">Tin Head</option>
-                        <option class="lockedArmor" id="StoneHelmet">Stone Helmet</option>
-                        <option class="lockedArmor" id="GlassHelmet">Glass Helmet</option>
-                        <option class="lockedArmor" id="NickleHelmet">Nickle Helmet</option>
-                        <option class="lockedArmor" id="ChainHelmet">Chain Mail Helmet</option>
-                        <option class="lockedArmor" id="CopperHelmet">Copper Helmet</option>
-                        <option class="lockedArmor" id="BrassHelmet">Brass Helmet</option>
-                        <!-- RARE HEAD GEAR -->
-                        <option id="rareHead" disabled><b>----RARE----</b></option>
-                        <option class="lockedArmor" id="SteelHelmet">Steel Helmet</option>
-                        <option class="lockedArmor" id="BronzeHelmet">Bronze Helmet</option>
-                        <option class="lockedArmor" id="SilverHelmet">Silver Helmet</option>
-                        <option class="lockedArmor" id="GoldHelmet">Gold Helmet</option>
-                        <option class="lockedArmor" id="IronHelmet">Iron Helmet</option>
-                        <option class="lockedArmor" id="FeatheredMask">Feathered Mask</option>
-                        <option class="lockedArmor" id="BlessedMudHelmet">Blessed Mud Helmet</option>
-                        <option class="lockedArmor" id="JungleVineHelmet">Jungle Vine Helmet</option>
-                    </select>
-                    <p id="HeadDescription">Description goes here</p></li>
-                    <!-- CHEST GEAR -->
-                    <li>Chest Gear = <select id="chestSlot">
-                        <!-- COMMON CHEST GEAR -->
-                        <option id="commonChest" disabled><b>----COMMON----</b></option>
-                        <option class="unlockedArmor" id="Shirt">T-shirt</option>
-                        <option class="lockedArmor" id="FigLeafBreastplate">Fig Leaf Breastplate</option>
-                        <option class="lockedArmor" id="Woodplate">Wooden Chestplate</option>
-                        <option class="lockedArmor" id="LeatherChestplate">Leather Chestplate</option>
-                        <option class="lockedArmor" id="PaintedArmor">Painted on Armor</option>
-                        <option class="lockedArmor" id="BasicExplorersChestplate">Basic Explorers Chestplate</option>
-                        <!-- UNCOMMON HEAD GEAR -->
-                        <option id="uncommonChest" disabled><b>----UNCOMMON----</b></option>
-                        <option class="lockedArmor" id="CoconutShellBrestPlate">CoconutShell Brest Plate</option>
-                        <option class="lockedArmor" id="SafariVest">Safari Vest</option>
-                        <option class="lockedArmor" id="RubberChestplate">Rubber Chestplate</option>
-                        <option class="lockedArmor" id="MudChestplate">Mud Chestplate</option>
-                        <option class="lockedArmor" id="TinChestplate">Tin Chestplate</option>
-                        <option class="lockedArmor" id="StoneChestplate">Stone Chestplate</option>
-                        <option class="lockedArmor" id="GlassChestplate">Glass Chestplate</option>
-                        <option class="lockedArmor" id="NickleChestplate">Nickle Chestplate</option>
-                        <option class="lockedArmor" id="ChainChestplate">Chain Mail Chestplate</option>
-                        <option class="lockedArmor" id="CopperChestplate">Copper Chestplate</option>
-                        <option class="lockedArmor" id="BrassChestplate">Brass Chestplate</option>
-                        <!-- RARE CHEST GEAR -->
-                        <option id="rareChest" disabled><b>----RARE----</b></option>
-                        <option class="lockedArmor" id="SteelChestplate">Steel Chestplate</option>
-                        <option class="lockedArmor" id="BronzeChestplate">Bronze Chestplate</option>
-                        <option class="lockedArmor" id="SilverChestplate">Silver Chestplate</option>
-                        <option class="lockedArmor" id="GoldChestplate">Gold Chestplate</option>
-                        <option class="lockedArmor" id="IronChestplate">Iron Chestplate</option>
-                        <option class="lockedArmor" id="FeatheredChestplate">Feathered Wings</option>
-                        <option class="lockedArmor" id="BlessedMudChestplate">Blessed Mud Chestplate</option>
-                        <option class="lockedArmor" id="JungleVineChestplate">Jungle Vine Chestplate</option>
-                    </select>
-                    <p id="ChestDescription">Description goes here</p></li>
-                    <!-- LEG GEAR -->
-                    <li>Leg Gear = <select id="legSlot">
-                        <!-- COMMON LEG GEAR -->
-                        <option id="commonLeg" disabled><b>----COMMON----</b></option>
-                        <option class="unlockedArmor" id="Jeans">Jeans</option>
-                        <option class="lockedArmor" id="TheFigLeaf">The Fig Leaf</option>
-                        <option class="lockedArmor" id="WoodenLegPadding">Wooden Leg Padding</option>
-                        <option class="lockedArmor" id="LeatherLeggings">Leather Leggings</option>
-                        <option class="lockedArmor" id="PaintedOnLeggings">Painted on Leggings</option>
-                        <option class="lockedArmor" id="BasicExplorersLeggings">Basic Explorers Leggings</option>
-                        <!-- UNCOMMON LEG GEAR -->
-                        <option id="uncommonLeg" disabled><b>----UNCOMMON----</b></option>
-                        <option class="lockedArmor" id="BananaLeavesSkirt">Banana Leaves Skirt</option>
-                        <option class="lockedArmor" id="SafariPants">Safari Pants</option>
-                        <option class="lockedArmor" id="RubberLeggings">Rubber Leggings</option>
-                        <option class="lockedArmor" id="MudLeggings">Mud Leggings</option>
-                        <option class="lockedArmor" id="TinLeggings">Tin Leggings</option>
-                        <option class="lockedArmor" id="StoneLeggings">Stone Leggings</option>
-                        <option class="lockedArmor" id="GlassLeggings">Glass Leggings</option>
-                        <option class="lockedArmor" id="NickleLeggings">Nickle Leggings</option>
-                        <option class="lockedArmor" id="ChainLeggings">Chain Mail Leggings</option>
-                        <option class="lockedArmor" id="CopperLeggings">Copper Leggings</option>
-                        <option class="lockedArmor" id="BrassLeggings">Brass Leggings</option>
-                        <!-- RARE LEG GEAR -->
-                        <option id="rareLeg" disabled><b>----RARE----</b></option>
-                        <option class="lockedArmor" id="SteelLeggings">Steel Leggings</option>
-                        <option class="lockedArmor" id="BronzeLeggings">Bronze Leggings</option>
-                        <option class="lockedArmor" id="SilverLeggings">Silver Leggings</option>
-                        <option class="lockedArmor" id="GoldLeggings">Gold Leggings</option>
-                        <option class="lockedArmor" id="IronLeggings">Iron Leggings</option>
-                        <option class="lockedArmor" id="FeatheredLeggings">Feathered Leg Gliders</option>
-                        <option class="lockedArmor" id="BlessedMudLeggings">Blessed Mud Leggings</option>
-                        <option class="lockedArmor" id="JungleVineLeggings">Jungle Vine Leggings</option>
-                    </select>
-                        <p id="LegDescription">Description goes here</p></li>
-                    </li>
-                    <!-- BOOT GEAR -->
-                    <li>Leg Gear = <select id="bootSlot">
-                        <!-- COMMON BOOT GEAR -->
-                        <option id="commonBoot" disabled><b>----COMMON----</b></option>
-                        <option class="unlockedArmor" id="Shoes">Shoes</option>
-                        <option class="lockedArmor" id="FigLeafCovers">Fig Leaf Feet Covers</option>
-                        <option class="lockedArmor" id="WoodSandals">Wood Sandals</option>
-                        <option class="lockedArmor" id="LeatherBoots">Leather Boots</option>
-                        <option class="lockedArmor" id="PaintedOnBoots">Painted on Boots</option>
-                        <option class="lockedArmor" id="BasicExplorersBoots">Basic Explorers Boots</option>
-                    
-                        <!-- UNCOMMON BOOT GEAR -->
-                        <option id="uncommonBoot" disabled><b>----UNCOMMON----</b></option>
-                        <option class="lockedArmor" id="FruitPeelShoes">Fruit Peel Shoes</option>
-                        <option class="lockedArmor" id="SafariBoots">Safari Boots</option>
-                        <option class="lockedArmor" id="RubberBoots">Rubber Boots</option>
-                        <option class="lockedArmor" id="MudBoots">Mud Boots</option>
-                        <option class="lockedArmor" id="TinBoots">Tin Boots</option>
-                        <option class="lockedArmor" id="StoneBoots">Stone Boots</option>
-                        <option class="lockedArmor" id="GlassBoots">Glass Boots</option>
-                        <option class="lockedArmor" id="NickleBoots">Nickle Boots</option>
-                        <option class="lockedArmor" id="ChainBoots">Chain Mail Boots</option>
-                        <option class="lockedArmor" id="CopperBoots">Copper Boots</option>
-                        <option class="lockedArmor" id="BrassBoots">Brass Boots</option>
-                        <!-- RARE BOOT GEAR -->
-                        <option id="rareBoot" disabled><b>----RARE----</b></option>
-                        <option class="lockedArmor" id="SteelBoots">Steel Boots</option>
-                        <option class="lockedArmor" id="BronzeBoots">Bronze Boots</option>
-                        <option class="lockedArmor" id="SilverBoots">Silver Boots</option>
-                        <option class="lockedArmor" id="GoldBoots">Gold Boots</option>
-                        <option class="lockedArmor" id="IronBoots">Iron Boots</option>
-                        <option class="lockedArmor" id="FeatheredFootWings">Feathered Foot Wings</option>
-                        <option class="lockedArmor" id="BlessedMudBoots">Blessed Mud Boots</option>
-                        <option class="lockedArmor" id="JungleVineBoots">Jungle Vine Boots</option>
-                    </select>
-                        <p id="BootDescription">Description goes here</p></li>
-                    </li>
-                </div>
-                <!-- END OF ARMORS -->
-                <!-- NEW STUFF GOES HERE -->
-                <div id="bunberries">
-                    <ul>
-                        <li class="unOwnedItem" id="heathHealOneTag">Health Bun Berries: <b id="heathHealOneNum">0</b></li>
-                        <li class="unOwnedItem" id="waterTag">Water Bun Berries: <b id="waterNum">0</b></li>
-                        <li class="unOwnedItem" id="satTag">Saturation Bun Berries: <b id="satNum">0</b></li>
-                        <li class="unOwnedItem" id="strenthTag">Strenth Bun Berries: <b id="strenthNum">0</b></li>
-                        <li class="unOwnedItem" id="stealthTag">Stealth Bun Berries: <b id="stealthNum">0</b></li>
-                        <li class="unOwnedItem" id="luckTag">Luck Bun Berries: <b id="luckNum">0</b></li>
-                    </ul>
-                </div>
-                <div id="items">
-                    <!-- Il do this soon -->
-                </div>
-            </ul>
-        </div>
-    </div>
-    <button id="achievementToggleOn" onclick="toggleAchOff()">Hide Achievements</button>
-    <button id="achievementToggleOff" onclick="toggleAchOn()">Show Achievements</button>
-    <div id="AchievementsGallery">
-        <h1>Achievement Gallery</h1>
-        <ul>
-            <li class="unlockedAch" id="startedGame">
-                <img src="assets/ach/ach_startedGame.png" alt="Started playing the game!" width="50" height="50" class="achImage" id="startedGameImg">
-                <p class="lockachText" id="startedGameText">Started Game</p></img></li>
-            
-            <li class="lockedAch" id="lvlOne">
-                <div id="levelOneImg">
-                    <img src="assets/ach/ach_Locked.png" alt="???" width="50" height="50" class="lockAchImage" id="levelOne">
-                </div>
-                <p class="lockAchText">???</p></img></li>
-
-            
-            
-            <li class="lockedAchs" id="lvlFive"></li>
-            <li class="lockedAchs" id="randomAch"></li>
-            <li class="lockedAchs" id="hereYouGo"></li>
-        </ul>
-    </div>
-    <button id="creditsToggleOn" onclick="toggleCreditsOff()">Hide Credits</button>
-    <button id="creditsToggleOff" onclick="toggleCreditsOn()">Show Credits</button>
-    <div id="credits">
-        <h1>Game Credits</h1>
-        <h2 class="creditHeader">Code:</h2><ul>
-            <li class="creditText">Olive A</li>
-            <li class="creditText">Armaan R</li>
-        </ul>
-        <h2 class="creditHeader">Lore:</h2><ul>
-            <li class="creditText">Olive A</li>
-            <li class="creditText">Armaan R</li>
-        </ul>
-        <h2 class="creditHeader">Game Testing:</h2><ul>
-            <li class="creditText">Olive A</li>
-            <li class="creditText">Armaan R</li>
-        </ul>
-        <h2 class="creditHeader">Other Noteworthy Mentions:</h2>
-        <ul>
-            <li class="creditText">Zharria A</li>
-        </ul>
-    </div>
+	<h1 id="headerText"> ------ </h1>
+	<p id="storyBody"></p>
+	<div id="stats">
+		<h1>Stats</h1>
+		<ul>
+			<li>Level = <b id="levelSlot">Level</b></li>
+			<li>Xp = <b id="xpSlot">Xp/xpTop</b></li>
+			<li>Heath = <b id="hpt">Heath/MaxHeath</b></li>
+			<li>Water = <b id="wtr">Water/MaxWater</b></li>
+			<li>Saturation = <b id="sat">Saturation/MaxSaturation</b></li>
+			<li>Strenth = <b id="str">Strenth</b></li>
+			<li>Stealth = <b id="stl">Stealth</b></li>
+			<li>Protection = <b id="pro">Protection</b></li>
+			<li>Luck = <b id="lck">Luck</b></li>
+		</ul>
+	</div>
+	<button id="invetoryToggleOn" onclick="toggleInvOff()">Hide Inventory</button>
+	<button id="invetoryToggleOff" onclick="toggleInvOn()">Show Inventory</button>
+	<div id="inventory">
+		<div id="slots">
+			<h1>Inventory</h1>
+			<ul>
+				<div id="armors">
+			 		<li>Gears = <b id="gearSlot">Gears</b></li>
+			 		<!-- HEAD GEAR -->
+					<li>Head Gear = 
+						<select id="headSlot">
+							<!-- COMMON HEAD GEAR -->
+							<option id="commonHead" disabled><b>----COMMON----</b></option>
+							<option class="unlockedArmor" id="bedHead">Bed Head</option>
+							<option class="lockedArmor" id="FigWreath">Fig Leaf Wreath</option>
+							<option class="lockedArmor" id="WoodHelmet">Wood Helmet</option>
+							<option class="lockedArmor" id="LeatherBandana">Leather Bandana</option>
+							<option class="lockedArmor" id="PaintHelmet">Painted on Helmet</option>
+							<option class="lockedArmor" id="BasicExplorersHelmet">Basic Explorers Helmet</option>
+							<!-- UNCOMMON HEAD GEAR -->
+							<option id="uncommonHead" disabled><b>----UNCOMMON----</b></option>
+							<option class="lockedArmor" id="FruitHat">Fruit Hat</option>
+							<option class="lockedArmor" id="SafariHat">Safari Hat</option>
+							<option class="lockedArmor" id="RubberMask">Rubber Mask</option>
+							<option class="lockedArmor" id="MudMask">Mud Mask</option>
+							<option class="lockedArmor" id="TinHead">Tin Head</option>
+							<option class="lockedArmor" id="StoneHelmet">Stone Helmet</option>
+							<option class="lockedArmor" id="GlassHelmet">Glass Helmet</option>
+							<option class="lockedArmor" id="NickleHelmet">Nickle Helmet</option>
+							<option class="lockedArmor" id="ChainHelmet">Chain Mail Helmet</option>
+							<option class="lockedArmor" id="CopperHelmet">Copper Helmet</option>
+							<option class="lockedArmor" id="BrassHelmet">Brass Helmet</option>
+							<!-- RARE HEAD GEAR -->
+							<option id="rareHead" disabled><b>----RARE----</b></option>
+							<option class="lockedArmor" id="SteelHelmet">Steel Helmet</option>
+							<option class="lockedArmor" id="BronzeHelmet">Bronze Helmet</option>
+							<option class="lockedArmor" id="SilverHelmet">Silver Helmet</option>
+							<option class="lockedArmor" id="GoldHelmet">Gold Helmet</option>
+							<option class="lockedArmor" id="IronHelmet">Iron Helmet</option>
+							<option class="lockedArmor" id="FeatheredMask">Feathered Mask</option>
+							<option class="lockedArmor" id="BlessedMudHelmet">Blessed Mud Helmet</option>
+							<option class="lockedArmor" id="JungleVineHelmet">Jungle Vine Helmet</option>
+						</select>
+						<p id="HeadDescription">Description goes here</p>
+					</li>
+					<!-- CHEST GEAR -->
+					<li>Chest Gear = 
+						<select id="chestSlot">
+							<!-- COMMON CHEST GEAR -->
+							<option id="commonChest" disabled><b>----COMMON----</b></option>
+							<option class="unlockedArmor" id="Shirt">T-shirt</option>
+							<option class="lockedArmor" id="FigLeafBreastplate">Fig Leaf Breastplate</option>
+							<option class="lockedArmor" id="Woodplate">Wooden Chestplate</option>
+							<option class="lockedArmor" id="LeatherChestplate">Leather Chestplate</option>
+							<option class="lockedArmor" id="PaintedArmor">Painted on Armor</option>
+							<option class="lockedArmor" id="BasicExplorersChestplate">Basic Explorers Chestplate</option>
+							<!-- UNCOMMON HEAD GEAR -->
+							<option id="uncommonChest" disabled><b>----UNCOMMON----</b></option>
+							<option class="lockedArmor" id="CoconutShellBrestPlate">CoconutShell Brest Plate</option>
+							<option class="lockedArmor" id="SafariVest">Safari Vest</option>
+							<option class="lockedArmor" id="RubberChestplate">Rubber Chestplate</option>
+							<option class="lockedArmor" id="MudChestplate">Mud Chestplate</option>
+							<option class="lockedArmor" id="TinChestplate">Tin Chestplate</option>
+							<option class="lockedArmor" id="StoneChestplate">Stone Chestplate</option>
+							<option class="lockedArmor" id="GlassChestplate">Glass Chestplate</option>
+							<option class="lockedArmor" id="NickleChestplate">Nickle Chestplate</option>
+							<option class="lockedArmor" id="ChainChestplate">Chain Mail Chestplate</option>
+							<option class="lockedArmor" id="CopperChestplate">Copper Chestplate</option>
+							<option class="lockedArmor" id="BrassChestplate">Brass Chestplate</option>
+							<!-- RARE CHEST GEAR -->
+							<option id="rareChest" disabled><b>----RARE----</b></option>
+							<option class="lockedArmor" id="SteelChestplate">Steel Chestplate</option>
+							<option class="lockedArmor" id="BronzeChestplate">Bronze Chestplate</option>
+							<option class="lockedArmor" id="SilverChestplate">Silver Chestplate</option>
+							<option class="lockedArmor" id="GoldChestplate">Gold Chestplate</option>
+							<option class="lockedArmor" id="IronChestplate">Iron Chestplate</option>
+							<option class="lockedArmor" id="FeatheredChestplate">Feathered Wings</option>
+							<option class="lockedArmor" id="BlessedMudChestplate">Blessed Mud Chestplate</option>
+							<option class="lockedArmor" id="JungleVineChestplate">Jungle Vine Chestplate</option>
+						</select>
+					<p id="ChestDescription">Description goes here</p></li>
+					<!-- LEG GEAR -->
+					<li>Leg Gear = 
+						<select id="legSlot">
+							<!-- COMMON LEG GEAR -->
+							<option id="commonLeg" disabled><b>----COMMON----</b></option>
+							<option class="unlockedArmor" id="Jeans">Jeans</option>
+							<option class="lockedArmor" id="TheFigLeaf">The Fig Leaf</option>
+							<option class="lockedArmor" id="WoodenLegPadding">Wooden Leg Padding</option>
+							<option class="lockedArmor" id="LeatherLeggings">Leather Leggings</option>
+							<option class="lockedArmor" id="PaintedOnLeggings">Painted on Leggings</option>
+							<option class="lockedArmor" id="BasicExplorersLeggings">Basic Explorers Leggings</option>
+							<!-- UNCOMMON LEG GEAR -->
+							<option id="uncommonLeg" disabled><b>----UNCOMMON----</b></option>
+							<option class="lockedArmor" id="BananaLeavesSkirt">Banana Leaves Skirt</option>
+							<option class="lockedArmor" id="SafariPants">Safari Pants</option>
+							<option class="lockedArmor" id="RubberLeggings">Rubber Leggings</option>
+							<option class="lockedArmor" id="MudLeggings">Mud Leggings</option>
+							<option class="lockedArmor" id="TinLeggings">Tin Leggings</option>
+							<option class="lockedArmor" id="StoneLeggings">Stone Leggings</option>
+							<option class="lockedArmor" id="GlassLeggings">Glass Leggings</option>
+							<option class="lockedArmor" id="NickleLeggings">Nickle Leggings</option>
+							<option class="lockedArmor" id="ChainLeggings">Chain Mail Leggings</option>
+							<option class="lockedArmor" id="CopperLeggings">Copper Leggings</option>
+							<option class="lockedArmor" id="BrassLeggings">Brass Leggings</option>
+							<!-- RARE LEG GEAR -->
+							<option id="rareLeg" disabled><b>----RARE----</b></option>
+							<option class="lockedArmor" id="SteelLeggings">Steel Leggings</option>
+							<option class="lockedArmor" id="BronzeLeggings">Bronze Leggings</option>
+							<option class="lockedArmor" id="SilverLeggings">Silver Leggings</option>
+							<option class="lockedArmor" id="GoldLeggings">Gold Leggings</option>
+							<option class="lockedArmor" id="IronLeggings">Iron Leggings</option>
+							<option class="lockedArmor" id="FeatheredLeggings">Feathered Leg Gliders</option>
+							<option class="lockedArmor" id="BlessedMudLeggings">Blessed Mud Leggings</option>
+							<option class="lockedArmor" id="JungleVineLeggings">Jungle Vine Leggings</option>
+						</select>
+					<p id="LegDescription">Description goes here</p></li>
+					</li>
+					<!-- BOOT GEAR -->
+					<li>Leg Gear = 
+						<select id="bootSlot">
+							<!-- COMMON BOOT GEAR -->
+							<option id="commonBoot" disabled><b>----COMMON----</b></option>
+							<option class="unlockedArmor" id="Shoes">Shoes</option>
+							<option class="lockedArmor" id="FigLeafCovers">Fig Leaf Feet Covers</option>
+							<option class="lockedArmor" id="WoodSandals">Wood Sandals</option>
+							<option class="lockedArmor" id="LeatherBoots">Leather Boots</option>
+							<option class="lockedArmor" id="PaintedOnBoots">Painted on Boots</option>
+							<option class="lockedArmor" id="BasicExplorersBoots">Basic Explorers Boots</option>
+				
+							<!-- UNCOMMON BOOT GEAR -->
+							<option id="uncommonBoot" disabled><b>----UNCOMMON----</b></option>
+							<option class="lockedArmor" id="FruitPeelShoes">Fruit Peel Shoes</option>
+							<option class="lockedArmor" id="SafariBoots">Safari Boots</option>
+							<option class="lockedArmor" id="RubberBoots">Rubber Boots</option>
+							<option class="lockedArmor" id="MudBoots">Mud Boots</option>
+							<option class="lockedArmor" id="TinBoots">Tin Boots</option>
+							<option class="lockedArmor" id="StoneBoots">Stone Boots</option>
+							<option class="lockedArmor" id="GlassBoots">Glass Boots</option>
+							<option class="lockedArmor" id="NickleBoots">Nickle Boots</option>
+							<option class="lockedArmor" id="ChainBoots">Chain Mail Boots</option>
+							<option class="lockedArmor" id="CopperBoots">Copper Boots</option>
+							<option class="lockedArmor" id="BrassBoots">Brass Boots</option>
+							<!-- RARE BOOT GEAR -->
+							<option id="rareBoot" disabled><b>----RARE----</b></option>
+							<option class="lockedArmor" id="SteelBoots">Steel Boots</option>
+							<option class="lockedArmor" id="BronzeBoots">Bronze Boots</option>
+							<option class="lockedArmor" id="SilverBoots">Silver Boots</option>
+							<option class="lockedArmor" id="GoldBoots">Gold Boots</option>
+							<option class="lockedArmor" id="IronBoots">Iron Boots</option>
+							<option class="lockedArmor" id="FeatheredFootWings">Feathered Foot Wings</option>
+							<option class="lockedArmor" id="BlessedMudBoots">Blessed Mud Boots</option>
+							<option class="lockedArmor" id="JungleVineBoots">Jungle Vine Boots</option>
+						</select>
+					<p id="BootDescription">Description goes here</p></li>
+				 </div>
+				 <!-- END OF ARMORS -->
+				 <!-- NEW STUFF GOES HERE -->
+				 <div id="bunberries">
+				 	<ul>
+						<li class="unOwnedItem" id="heathHealOneTag">Health Bun Berries: <b id="heathHealOneNum">0</b></li>
+						<li class="unOwnedItem" id="waterTag">Water Bun Berries: <b id="waterNum">0</b></li>
+						<li class="unOwnedItem" id="satTag">Saturation Bun Berries: <b id="satNum">0</b></li>
+						<li class="unOwnedItem" id="strenthTag">Strenth Bun Berries: <b id="strenthNum">0</b></li>
+						<li class="unOwnedItem" id="stealthTag">Stealth Bun Berries: <b id="stealthNum">0</b></li>
+						<li class="unOwnedItem" id="luckTag">Luck Bun Berries: <b id="luckNum">0</b></li>
+					</ul>
+				</div>
+				<div id="items">
+					<!-- Il do this soon -->
+		 		</div>
+			</ul>
+		</div>
+	</div>
+	<button id="achievementToggleOn" onclick="toggleAchOff()">Hide Achievements</button>
+	<button id="achievementToggleOff" onclick="toggleAchOn()">Show Achievements</button>
+	<div id="AchievementsGallery">
+	<h1>Achievement Gallery</h1>
+		<ul>
+			<li class="unlockedAch" id="startedGame">
+				<img src="assets/ach/ach_startedGame.png" alt="Started playing the game!" width="50" height="50" class="achImage" id="startedGameImg">
+				<p class="lockachText" id="startedGameText">Started Game</p></img>
+			</li>
+			<li class="lockedAch" id="lvlOne">
+				<div id="levelOneImg">
+					<img src="assets/ach/ach_Locked.png" alt="???" width="50" height="50" class="lockAchImage" id="levelOne">
+				</div>
+			 	<p class="lockAchText">???</p></img>
+			</li>
+			<li class="lockedAchs" id="lvlFive"></li>
+			<li class="lockedAchs" id="randomAch"></li>
+			<li class="lockedAchs" id="hereYouGo"></li>
+<!-- NEED SPACING -->
+<!-- NEED SPACING -->
+<!-- NEED SPACING -->
+		</ul>
+		</div>
+		<button id="creditsToggleOn" onclick="toggleCreditsOff()">Hide Credits</button>
+		<button id="creditsToggleOff" onclick="toggleCreditsOn()">Show Credits</button>
+		<div id="credits">
+		 <h1>Game Credits</h1>
+		 <h2 class="creditHeader">Code:</h2><ul>
+			<li class="creditText">Olive A</li>
+			<li class="creditText">Armaan R</li>
+		 </ul>
+		 <h2 class="creditHeader">Lore:</h2><ul>
+			<li class="creditText">Olive A</li>
+			<li class="creditText">Armaan R</li>
+		 </ul>
+		 <h2 class="creditHeader">Game Testing:</h2><ul>
+			<li class="creditText">Olive A</li>
+			<li class="creditText">Armaan R</li>
+		 </ul>
+		 <h2 class="creditHeader">Other Noteworthy Mentions:</h2>
+		 <ul>
+			<li class="creditText">Zharria A</li>
+		 </ul>
+		</div>
 </body>
