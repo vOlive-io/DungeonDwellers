@@ -3,53 +3,53 @@
 ////////////////////////////////
 startUp();
 function startUp() {
-  callSavedData_cookies();
-  startTime();
-  testNew();
-  setInterval(makeSavedData_cookies, 1);
-  //basic inv
-  setInterval(updateVitals, 250);
-  setInterval(updateMain, 250);
-  setInterval(updateSlots, 250);
-  //Armors
-  setInterval(updateOwnedHeadArmors, 250);
-  setInterval(updateOwnedChestArmors, 2500);
-  setInterval(updateOwnedLegArmors, 2500);
-  setInterval(updateOwnedBootArmors, 2500);
-  //Armor Descriptions
-  setInterval(updateHeadDiscription, 250); 
-  setInterval(updateChestDiscription, 250);
-  setInterval(updateLegDiscription, 250);
-  setInterval(updateBootDiscription, 250);
+	callSavedData_cookies();
+	startTime();
+	testNew();
+	setInterval(makeSavedData_cookies, 1);
+	//basic inv
+	setInterval(updateVitals, 250);
+	setInterval(updateMain, 250);
+	setInterval(updateSlots, 250);
+	//Armors
+	setInterval(updateOwnedHeadArmors, 250);
+	setInterval(updateOwnedChestArmors, 2500);
+	setInterval(updateOwnedLegArmors, 2500);
+	setInterval(updateOwnedBootArmors, 2500);
+	//Armor Descriptions
+	setInterval(updateHeadDiscription, 250); 
+	setInterval(updateChestDiscription, 250);
+	setInterval(updateLegDiscription, 250);
+	setInterval(updateBootDiscription, 250);
 }
 
 ////////////////////////////////
 ///     NEW USER SET UP      ///
 ////////////////////////////////
 function testNew() {
-  if (user != true) {
-    setRandomName();
-  } else {
-    alert("Welcome back " + username + "!");
-  }
+	if (user != true) {
+		setRandomName();
+	} else {
+		alert("Welcome back " + username + "!");
+	}
 }
 
 function setRandomName() {
-  let adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
-  let animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hippo'];
-  adj = adjectives[Math.floor(Math.random() * adjectives.length)];
-  ani = animals[Math.floor(Math.random() * animals.length)];
-  num = Math.floor(Math.random() * 999) + 1;
-  username = (adj + ani + num)
-  console.log(username)
-  alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this you will be known as " + username + "!")
-  user = true;   
-  makeSavedData_cookies();
-  timeA = 0;
+	let adjectives = ['Silly', 'Funny', 'Smart', 'Weird', 'Cool', 'Difficult', 'Dumb', 'Short', 'Tall', 'Expensive', 'Interesting', 'Ugly', 'Pretty'];
+	let animals = ['Dog', 'Cat', 'Panda', 'Pig', 'Cow', 'Parot', 'Snake', 'Eel', 'Pangolin', 'Giraffe', 'Monster', 'Crocodile', 'Hippo'];
+	adj = adjectives[Math.floor(Math.random() * adjectives.length)];
+	ani = animals[Math.floor(Math.random() * animals.length)];
+	num = Math.floor(Math.random() * 999) + 1;
+	username = (adj + ani + num)
+	console.log(username)
+	alert("Hello! We do not have accounts set up yet, sorry for the inconvenience. Becuase of this you will be known as " + username + "!")
+	user = true;	 
+	makeSavedData_cookies();
+	timeA = 0;
 }
 
 function startTime() {
-  setInterval(timer, 1000);
+	setInterval(timer, 1000);
 }
 var secs = 0;
 var mins = 0;
@@ -57,22 +57,22 @@ var hous = 0;
 var days = 0;
 
 function timer() {
-  //sec to min
-  if (secs = 60) {
-    secs = secs - 60
-    mins++
-  }
-  //min to hour
-  if (mins >= 60) {
-    mins = mins - 60
-    hous++ 
-  }
-  //hour to day
-  if (hous >= 60) {
-    hous = hous - 60
-    days++ 
-  }
-  timeA++;
+	//sec to min
+	if (secs = 60) {
+		secs = secs - 60
+		mins++
+	}
+	//min to hour
+	if (mins >= 60) {
+		mins = mins - 60
+		hous++ 
+	}
+	//hour to day
+	if (hous >= 60) {
+		hous = hous - 60
+		days++ 
+	}
+	timeA++;
 }
 
 var secondTime = 1;
@@ -82,12 +82,12 @@ var storeTimeStart = hourTime;
 var storeTimeLeft = storeTimeStart;
 setInterval(shopTimer, 1000);
 function shopTimer() {
-     if (storeTimeLeft>0) {
-        storeTimeLeft--;
-     } else {
+		 if (storeTimeLeft>0) {
+				storeTimeLeft--;
+		 } else {
 	storeTimeStart = hourTime;
 	refreshShop();
-     }
+		 }
 }
 
 ///////////////////////////////////////////
@@ -106,21 +106,21 @@ function shopTimer() {
 ///       1) STATS       ///
 ////////////////////////////
 function checkLevelUp() {
-  if (xp >= xpTop) {
-    xp = xp - xpTop;
-    xpTop = Math.round(xpTop * 1.2);
-    level++;
-    levelSlot.innerHTML = "Level: " + level + ", Xp: " + xp + "/" + xpTop;
-    xpSlot.innerHTML = xp + "/" + xpTop;
-    levelUpRewards();
-  }
+	if (xp >= xpTop) {
+		xp = xp - xpTop;
+		xpTop = Math.round(xpTop * 1.2);
+		level++;
+		levelSlot.innerHTML = "Level: " + level + ", Xp: " + xp + "/" + xpTop;
+		xpSlot.innerHTML = xp + "/" + xpTop;
+		levelUpRewards();
+	}
 }
 
 function levelUpRewards() {
-  //prize = Math.floor(Math.random() * 1500) + 1000;
-  //maxWater
-  //maxSat
-  //maxHealth
+	//prize = Math.floor(Math.random() * 1500) + 1000;
+	//maxWater
+	//maxSat
+	//maxHealth
 }
  
 //stats 
@@ -264,7 +264,7 @@ var UncommonHeadArmorTypes = [
 	["29", "Tin Head", 4, "Be the Tin Man from the Wizard of OZ.", "Uncommon", "Classic", false],
 	["30", "Stone Helmet", 4, "Rocks, Stone, and Tuff! Don't move you're head or It will roll like a stone :).", "Uncommon", "Classic", false], 
 	["31", "Glass Helmet", 4, "Dang! you can see you're hair..... GET A FRIGGIN COMB LUNKHEAD!", "Uncommon", "Dumb", false],
-	["32", "Nickle Helmet", 5, "Get the new nickel helmet  now being sold for 999.99!", "Uncommon", "Classic", false],
+	["32", "Nickle Helmet", 5, "Get the new nickel helmet now being sold for 999.99!", "Uncommon", "Classic", false],
 	["33", "Chain Mail Helmet", 5, "You look so ancient.", "Uncommon", "Classic", false],
 	["34", "Copper Helmet", 5, "Don a torch and book and you can be the Statue of Liberty!", "Uncommon", "Classic", false],
 	["35", "Brass Helmet", 5, "You look so shiny.", "Uncommon", "Classic", false]
@@ -274,7 +274,7 @@ var UncommonChestArmorTypes = [
 	["36", "CoconutShell Brest Plate", 3, "Wow, you look ready for the beach, just not the dungeons!", "Uncommon", "Fruity", false],
 	["37", "Safari Vest", 3, "You look so dorky.", "Uncommon", "Unique", false],
 	["38", "Rubber Chestplate", 3, "I am Inevitable!! (Marvel fans please don't airstrike me).", "Uncommon", "Dumb", false],
-	["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\".",  "Uncommon", "\"What the f***?\"", false],
+	["39", "Mud Chestplate", 3, "\"You can grow plants so well, please miss the fact it is made of almost entirely poop\".", "Uncommon", "\"What the f***?\"", false],
 	["40", "Tin Chestplate", 4, "You look like one of those coke ads.", "Uncommon", "Classic", false],
 	["41", "Stone Chestplate", 4, "Try not to run too much, broken backs aren't fun.", "Uncommon", "Classic", false],
 	["42", "Glass Chestplate", 4, "Why did you keep the same shirt on!", "Uncommon", "Dumb", false],
@@ -287,9 +287,9 @@ var UncommonChestArmorTypes = [
 var UncommonLegArmorTypes = [
 	["36", "Banana Leaves Skirt", 3, "BANANA!!!!!!!!!!!!!!!!!", "Uncommon", "Fruity", false],
 	["37", "Safari Pants", 3, "Bro you don't need 43 pants.", "Uncommon", "Unique", false],
-	["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ.",  "Uncommon", "Dumb", false],
+	["38", "Rubber Leggings", 3, "私は海賊の王になるつもりだ.", "Uncommon", "Dumb", false],
 	["39", "Mud Leggings", 3, "You need more Fertilizer.", "Uncommon", "\"What the f***?\"", false],
-	["40", "Tin Leggings", 4, "dang you're knees are poking out.",  "Uncommon", "Classic", false],
+	["40", "Tin Leggings", 4, "dang you're knees are poking out.", "Uncommon", "Classic", false],
 	["41", "Stone Leggings", 4, "You have the one thing different from Minecraft.", "Uncommon", "Classic", false],
 	["42", "Glass Leggings", 4, "Try not to fall or you are paying me like $1,252 for your medical bill.", "Uncommon", "Dumb", false],
 	["43", "Nickle Leggings", 5, "Buy the even more costly nickel leggings for $13,232!", "Uncommon", "Classic", false],
@@ -304,13 +304,13 @@ var UncommonBootArmorTypes = [
 	["37", "Safari Boots", 3, "Caked with dirt and sand from wandering in the safari.", "Uncommon", "Unique", false],
 	["38", "Rubber Boots", 3, "Gomu Gomu No Gatling.", "Uncommon", "Dumb", false],
 	["39", "Mud Boots", 3, "Now these are real crappy boots literally!!", "Uncommon", "\"What the f***?\"", false],
-	["40", "Tin Boots", 4, "Your toes are bleeding....",  "Uncommon", "Classic", false],
+	["40", "Tin Boots", 4, "Your toes are bleeding....", "Uncommon", "Classic", false],
 	["41", "Stone Boots", 4, "fee fie foe fum, I can hear you from like 2 miles away.", "Uncommon", "Classic", false],
 	["42", "Glass Boots", 4, "You can see your feet underneath, how cool!", "Uncommon", "Dumb", false],
 	["43", "Nickle Boots", 5, "Buy NOW! Please, I'm poor!.", "Uncommon", "Classic", false],
 	["44", "Chain Mail Boots", 5, "Neat foot pattern.", "Uncommon", "Classic", false],
 	["45", "Copper Boots", 5, "No more moving your ankle....", "Uncommon", "Classic", false],
-	["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!",  "Uncommon", "Classic", false]
+	["46", "Brass Boots", 5, "Play the clarinet, not the brass boot!", "Uncommon", "Classic", false]
 ];
 
 
@@ -339,14 +339,14 @@ var RareChestArmorTypes = [
 	["59", "Gold Chestplate", 6, "You am rich, you are rich!!.", "Rare", "Classic", false],
 	["60", "Iron Chestplate", 6, "You can eat iron 🤯.", "Rare", "Classic", false],
 	["61", "Feathered Wings", 6, "Wait? You can fly!?!", "Rare", "Uniquie", false],
-	["62", "Blessed Mud Chestplate", 6, "Wow saying you are blessed to a big pile of wanabe poop.", "Rare",  "\"What the f***\"", false],
+	["62", "Blessed Mud Chestplate", 6, "Wow saying you are blessed to a big pile of wanabe poop.", "Rare", "\"What the f***\"", false],
 	["63", "Jungle Vine Chestplate", 6, "Try not to hurt yourself you clumsy person.", "Rare", "Fruity", false],
 	["64", "Medieval Chestplate", 5, "Face it you wont be a knight", "Rare", "Unique", false]
 ];
 
 var RareLegArmorTypes = [
 	["65", "Steel Leggings", 5, "nice panies.", "Rare", "Classic", false],
-	["65", "Snow Leggings", 5, "You arent in colorado (if you are then  this insult doesnt work).", "Rare", "Classic", false],
+	["65", "Snow Leggings", 5, "You arent in colorado (if you are then this insult doesnt work).", "Rare", "Classic", false],
 	["66", "Bronze Leggings", 5, "FRIGGIN TUBA POWER NOOB.", "Rare", "Classic", false],
 	["67", "Silver Leggings", 5, "Wow the coins morphed into knee shattering armor.", "Rare", "Classic", false],
 	["68", "Gold Leggings", 6, "Description.", "Classic", false],
@@ -575,17 +575,17 @@ var ForgedMythicChestArmorTypes = [
 ////////////////////////////////////////////////////////////////////////////
 /*
 --Set up gear giver
-  --Wiki
-  --Credits
-  --Inventory
-  --Forge
-  --Achievements
-  --Google form
+	--Wiki
+	--Credits
+	--Inventory
+	--Forge
+	--Achievements
+	--Google form
 
 --Set up forge
-  --Recipes
-  --Assets
-  
+	--Recipes
+	--Assets
+	
 //armor
 armor + item + scroll = _______
 
@@ -596,9 +596,9 @@ item + item = ______
 
 
 --Achievements
-  --Array
-  --Assets
-  --Unlocking
+	--Array
+	--Assets
+	--Unlocking
 
 
 
@@ -655,7 +655,7 @@ var CommonHeadWeaponTypes = [
 //Collections: NOT DONE
 var UncommonHeadWeaponTypes = [
 	["-", "Pen", 5, "Write your enemies to death!", "Uncommon", "Dumb", false],
-	["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!",  "Uncommon", "\"What the f***?\"", false],
+	["-", "Fishing Pole", 5, "WAIT! IT BRINGS THEM CLOSER???!???!?!", "Uncommon", "\"What the f***?\"", false],
 	["-", "Role of Tape", 5, "You wrap them up so fast that it hurts...", "Uncommon", "Dumb", false],
 	["-", "Sharpened Rocks", 6, "Very close range, but excellent damage.", "Uncommon", "Dumb", false],
 	["-", "Crow Bar", 6, "It is good for hitting them on the head.", "Uncommon", "Classic", false],
@@ -1429,103 +1429,103 @@ function updateOwnedBootArmors() {
 ///      1.5) Description updates       ///
 ///////////////////////////////////////////
 function updateHeadDiscription() {
-  //COMMON
-  if (document.getElementById("bedHead").selected == true) {headSlot = CommonHeadArmorTypes[0];}
-  if (document.getElementById("FigWreath").selected == true) {headSlot = CommonHeadArmorTypes[1];}
-  if (document.getElementById("WoodHelmet").selected == true) {headSlot = CommonHeadArmorTypes[2];}
-  if (document.getElementById("LeatherBandana").selected == true) {headSlot = CommonHeadArmorTypes[3];}
-  if (document.getElementById("PaintHelmet").selected == true) {headSlot = CommonHeadArmorTypes[4];}
-  if (document.getElementById("BasicExplorersHelmet").selected == true) {headSlot = CommonHeadArmorTypes[5];} 
-  // UNCOMMON
-  if (document.getElementById("FruitHat").selected == true) {headSlot = UncommonHeadArmorTypes[0];}
-  if (document.getElementById("SafariHat").selected == true) {headSlot = UncommonHeadArmorTypes[1];}
-  if (document.getElementById("RubberMask").selected == true) {headSlot = UncommonHeadArmorTypes[2];}
-  if (document.getElementById("MudMask").selected == true) {headSlot = UncommonHeadArmorTypes[3];}
-  if (document.getElementById("TinHead").selected == true) {headSlot = UncommonHeadArmorTypes[4];}
-  if (document.getElementById("StoneHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[5];}
-  if (document.getElementById("GlassHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[6];}
-  if (document.getElementById("NickleHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[7];}
-  if (document.getElementById("ChainHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[8];}
-  if (document.getElementById("CopperHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[9];}
-  if (document.getElementById("BrassHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[10];}
-  //SET PROPERTIES
-  HeadProtection = headSlot[2];
-  HeadDescription.innerHTML = headSlot[3] + "<br>" + "Part of the " + headSlot[5] + " Armor & Weapons collection." + "<br>" +  headSlot[4] + " +" + headSlot[2] + " Protection";
+	//COMMON
+	if (document.getElementById("bedHead").selected == true) {headSlot = CommonHeadArmorTypes[0];}
+	if (document.getElementById("FigWreath").selected == true) {headSlot = CommonHeadArmorTypes[1];}
+	if (document.getElementById("WoodHelmet").selected == true) {headSlot = CommonHeadArmorTypes[2];}
+	if (document.getElementById("LeatherBandana").selected == true) {headSlot = CommonHeadArmorTypes[3];}
+	if (document.getElementById("PaintHelmet").selected == true) {headSlot = CommonHeadArmorTypes[4];}
+	if (document.getElementById("BasicExplorersHelmet").selected == true) {headSlot = CommonHeadArmorTypes[5];} 
+	// UNCOMMON
+	if (document.getElementById("FruitHat").selected == true) {headSlot = UncommonHeadArmorTypes[0];}
+	if (document.getElementById("SafariHat").selected == true) {headSlot = UncommonHeadArmorTypes[1];}
+	if (document.getElementById("RubberMask").selected == true) {headSlot = UncommonHeadArmorTypes[2];}
+	if (document.getElementById("MudMask").selected == true) {headSlot = UncommonHeadArmorTypes[3];}
+	if (document.getElementById("TinHead").selected == true) {headSlot = UncommonHeadArmorTypes[4];}
+	if (document.getElementById("StoneHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[5];}
+	if (document.getElementById("GlassHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[6];}
+	if (document.getElementById("NickleHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[7];}
+	if (document.getElementById("ChainHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[8];}
+	if (document.getElementById("CopperHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[9];}
+	if (document.getElementById("BrassHelmet").selected == true) {headSlot = UncommonHeadArmorTypes[10];}
+	//SET PROPERTIES
+	HeadProtection = headSlot[2];
+	HeadDescription.innerHTML = headSlot[3] + "<br>" + "Part of the " + headSlot[5] + " Armor & Weapons collection." + "<br>" + headSlot[4] + " +" + headSlot[2] + " Protection";
 }
 
 function updateChestDiscription() {
-  //COMMON
-  if (document.getElementById("Shirt").selected == true) {chestSlot = CommonChestArmorTypes[0];}
-  if (document.getElementById("FigLeafBreastplate").selected == true) {chestSlot = CommonChestArmorTypes[1];}
-  if (document.getElementById("Woodplate").selected == true) {chestSlot = CommonChestArmorTypes[2];}
-  if (document.getElementById("LeatherChestplate").selected == true) {chestSlot = CommonChestArmorTypes[3];}
-  if (document.getElementById("PaintedArmor").selected == true) {chestSlot = CommonChestArmorTypes[4];}
-  if (document.getElementById("BasicExplorersChestplate").selected == true) {chestSlot = CommonChestArmorTypes[5];} 
-  // UNCOMMON
-  if (document.getElementById("CoconutShellBrestPlate").selected == true) {chestSlot = UncommonChestArmorTypes[0];}
-  if (document.getElementById("SafariVest").selected == true) {chestSlot = UncommonChestArmorTypes[1];}
-  if (document.getElementById("RubberChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[2];}
-  if (document.getElementById("MudChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[3];}
-  if (document.getElementById("TinChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[4];}
-  if (document.getElementById("StoneChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[5];}
-  if (document.getElementById("GlassChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[6];}
-  if (document.getElementById("NickleChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[7];}
-  if (document.getElementById("ChainChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[8];}
-  if (document.getElementById("CopperChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[9];}
-  if (document.getElementById("BrassChestplate").selected == true) { chestSlot = UncommonChestArmorTypes[10];}
-  //SET PROPERTIES
-  ChestProtection = chestSlot[2];
-  ChestDescription.innerHTML = chestSlot[3] + "<br>" + "Part of the " + chestSlot[5] + " Armor & Weapons collection." + "<br>" +  chestSlot[4] + " +" + chestSlot[2] + " Protection";
+	//COMMON
+	if (document.getElementById("Shirt").selected == true) {chestSlot = CommonChestArmorTypes[0];}
+	if (document.getElementById("FigLeafBreastplate").selected == true) {chestSlot = CommonChestArmorTypes[1];}
+	if (document.getElementById("Woodplate").selected == true) {chestSlot = CommonChestArmorTypes[2];}
+	if (document.getElementById("LeatherChestplate").selected == true) {chestSlot = CommonChestArmorTypes[3];}
+	if (document.getElementById("PaintedArmor").selected == true) {chestSlot = CommonChestArmorTypes[4];}
+	if (document.getElementById("BasicExplorersChestplate").selected == true) {chestSlot = CommonChestArmorTypes[5];} 
+	// UNCOMMON
+	if (document.getElementById("CoconutShellBrestPlate").selected == true) {chestSlot = UncommonChestArmorTypes[0];}
+	if (document.getElementById("SafariVest").selected == true) {chestSlot = UncommonChestArmorTypes[1];}
+	if (document.getElementById("RubberChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[2];}
+	if (document.getElementById("MudChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[3];}
+	if (document.getElementById("TinChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[4];}
+	if (document.getElementById("StoneChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[5];}
+	if (document.getElementById("GlassChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[6];}
+	if (document.getElementById("NickleChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[7];}
+	if (document.getElementById("ChainChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[8];}
+	if (document.getElementById("CopperChestplate").selected == true) {chestSlot = UncommonChestArmorTypes[9];}
+	if (document.getElementById("BrassChestplate").selected == true) { chestSlot = UncommonChestArmorTypes[10];}
+	//SET PROPERTIES
+	ChestProtection = chestSlot[2];
+	ChestDescription.innerHTML = chestSlot[3] + "<br>" + "Part of the " + chestSlot[5] + " Armor & Weapons collection." + "<br>" + chestSlot[4] + " +" + chestSlot[2] + " Protection";
 }
 
 function updateBootDiscription() {
-  //COMMON
-  if (document.getElementById("Jeans").selected == true) { legSlot = CommonLegArmorTypes[0]; }
-  if (document.getElementById("TheFigLeaf").selected == true) { legSlot = CommonLegArmorTypes[1]; }
-  if (document.getElementById("WoodenLegPadding").selected == true) { legSlot = CommonLegArmorTypes[2]; }
-  if (document.getElementById("LeatherLeggings").selected == true) { legSlot = CommonLegArmorTypes[3]; }
-  if (document.getElementById("PaintedOnLeggings").selected == true) { legSlot = CommonLegArmorTypes[4]; }
-  if (document.getElementById("BasicExplorersLeggings").selected == true) { legSlot = CommonLegArmorTypes[5]; } 
-  // UNCOMMON
-  if (document.getElementById("BananaLeavesSkirt").selected == true) { legSlot = UncommonLegArmorTypes[0]; }
-  if (document.getElementById("SafariPants").selected == true) { legSlot = UncommonLegArmorTypes[1]; }
-  if (document.getElementById("RubberLeggings").selected == true) { legSlot = UncommonLegArmorTypes[2]; }
-  if (document.getElementById("MudLeggings").selected == true) { legSlot = UncommonLegArmorTypes[3]; }
-  if (document.getElementById("TinLeggings").selected == true) { legSlot = UncommonLegArmorTypes[4]; }
-  if (document.getElementById("StoneLeggings").selected == true) { legSlot = UncommonLegArmorTypes[5]; }
-  if (document.getElementById("GlassLeggings").selected == true) { legSlot = UncommonLegArmorTypes[6]; }
-  if (document.getElementById("NickleLeggings").selected == true) { legSlot = UncommonLegArmorTypes[7]; }
-  if (document.getElementById("ChainLeggings").selected == true) { legSlot = UncommonLegArmorTypes[8]; }
-  if (document.getElementById("CopperLeggings").selected == true) { legSlot = UncommonLegArmorTypes[9]; } 
-  if (document.getElementById("BrassLeggings").selected == true) { legSlot = UncommonLegArmorTypes[10]; }
-  //SET PROPERTIES
-  legProtection = legSlot[2]
-  LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " Armor & Weapons collection." + "<br>" +  legSlot[4] + " +" + legSlot[2] + " Protection";
+	//COMMON
+	if (document.getElementById("Jeans").selected == true) { legSlot = CommonLegArmorTypes[0]; }
+	if (document.getElementById("TheFigLeaf").selected == true) { legSlot = CommonLegArmorTypes[1]; }
+	if (document.getElementById("WoodenLegPadding").selected == true) { legSlot = CommonLegArmorTypes[2]; }
+	if (document.getElementById("LeatherLeggings").selected == true) { legSlot = CommonLegArmorTypes[3]; }
+	if (document.getElementById("PaintedOnLeggings").selected == true) { legSlot = CommonLegArmorTypes[4]; }
+	if (document.getElementById("BasicExplorersLeggings").selected == true) { legSlot = CommonLegArmorTypes[5]; } 
+	// UNCOMMON
+	if (document.getElementById("BananaLeavesSkirt").selected == true) { legSlot = UncommonLegArmorTypes[0]; }
+	if (document.getElementById("SafariPants").selected == true) { legSlot = UncommonLegArmorTypes[1]; }
+	if (document.getElementById("RubberLeggings").selected == true) { legSlot = UncommonLegArmorTypes[2]; }
+	if (document.getElementById("MudLeggings").selected == true) { legSlot = UncommonLegArmorTypes[3]; }
+	if (document.getElementById("TinLeggings").selected == true) { legSlot = UncommonLegArmorTypes[4]; }
+	if (document.getElementById("StoneLeggings").selected == true) { legSlot = UncommonLegArmorTypes[5]; }
+	if (document.getElementById("GlassLeggings").selected == true) { legSlot = UncommonLegArmorTypes[6]; }
+	if (document.getElementById("NickleLeggings").selected == true) { legSlot = UncommonLegArmorTypes[7]; }
+	if (document.getElementById("ChainLeggings").selected == true) { legSlot = UncommonLegArmorTypes[8]; }
+	if (document.getElementById("CopperLeggings").selected == true) { legSlot = UncommonLegArmorTypes[9]; } 
+	if (document.getElementById("BrassLeggings").selected == true) { legSlot = UncommonLegArmorTypes[10]; }
+	//SET PROPERTIES
+	legProtection = legSlot[2]
+	LegDescription.innerHTML = legSlot[3] + "<br>" + "Part of the " + legSlot[5] + " Armor & Weapons collection." + "<br>" + legSlot[4] + " +" + legSlot[2] + " Protection";
 }
 
 function updateLegDiscription() {
-  //COMMON
-  if (document.getElementById("Shoes").selected == true) {bootSlot = CommonBootArmorTypes[0]; }
-  if (document.getElementById("FigLeafCovers").selected == true) {bootSlot = CommonBootArmorTypes[1]; }
-  if (document.getElementById("WoodSandals").selected == true) {bootSlot = CommonBootArmorTypes[2]; }
-  if (document.getElementById("LeatherBoots").selected == true) {bootSlot = CommonBootArmorTypes[3]; }
-  if (document.getElementById("PaintedOnBoots").selected == true) {bootSlot = CommonBootArmorTypes[4]; }
-  if (document.getElementById("BasicExplorersBoots").selected == true) {bootSlot = CommonBootArmorTypes[5]; } 
-  // UNCOMMON
-  if (document.getElementById("FruitPeelShoes").selected == true) {bootSlot = UncommonBootArmorTypes[0]; }
-  if (document.getElementById("SafariBoots").selected == true) {bootSlot = UncommonBootArmorTypes[1]; }
-  if (document.getElementById("RubberBoots").selected == true) {bootSlot = UncommonBootArmorTypes[2]; }
-  if (document.getElementById("MudBoots").selected == true) {bootSlot = UncommonBootArmorTypes[3]; }
-  if (document.getElementById("TinBoots").selected == true) {bootSlot = UncommonBootArmorTypes[4]; }
-  if (document.getElementById("StoneBoots").selected == true) {bootSlot = UncommonBootArmorTypes[5]; }
-  if (document.getElementById("GlassBoots").selected == true) {bootSlot = UncommonBootArmorTypes[6]; }
-  if (document.getElementById("NickleBoots").selected == true) {bootSlot = UncommonBootArmorTypes[7]; }
-  if (document.getElementById("ChainBoots").selected == true) {bootSlot = UncommonBootArmorTypes[8]; }
-  if (document.getElementById("CopperBoots").selected == true) {bootSlot = UncommonBootArmorTypes[9]; } 
-  if (document.getElementById("BrassBoots").selected == true) {bootSlot = UncommonBootArmorTypes[10]; }
-  //SET PROPERTIES
-  bootProtection = bootSlot[2]
-  BootDescription.innerHTML = bootSlot[3] + "<br>" + "Part of the " + bootSlot[5] + " Armor & Weapons collection." + "<br>" +  bootSlot[4] + " +" + bootSlot[2] + " Protection";
+	//COMMON
+	if (document.getElementById("Shoes").selected == true) {bootSlot = CommonBootArmorTypes[0]; }
+	if (document.getElementById("FigLeafCovers").selected == true) {bootSlot = CommonBootArmorTypes[1]; }
+	if (document.getElementById("WoodSandals").selected == true) {bootSlot = CommonBootArmorTypes[2]; }
+	if (document.getElementById("LeatherBoots").selected == true) {bootSlot = CommonBootArmorTypes[3]; }
+	if (document.getElementById("PaintedOnBoots").selected == true) {bootSlot = CommonBootArmorTypes[4]; }
+	if (document.getElementById("BasicExplorersBoots").selected == true) {bootSlot = CommonBootArmorTypes[5]; } 
+	// UNCOMMON
+	if (document.getElementById("FruitPeelShoes").selected == true) {bootSlot = UncommonBootArmorTypes[0]; }
+	if (document.getElementById("SafariBoots").selected == true) {bootSlot = UncommonBootArmorTypes[1]; }
+	if (document.getElementById("RubberBoots").selected == true) {bootSlot = UncommonBootArmorTypes[2]; }
+	if (document.getElementById("MudBoots").selected == true) {bootSlot = UncommonBootArmorTypes[3]; }
+	if (document.getElementById("TinBoots").selected == true) {bootSlot = UncommonBootArmorTypes[4]; }
+	if (document.getElementById("StoneBoots").selected == true) {bootSlot = UncommonBootArmorTypes[5]; }
+	if (document.getElementById("GlassBoots").selected == true) {bootSlot = UncommonBootArmorTypes[6]; }
+	if (document.getElementById("NickleBoots").selected == true) {bootSlot = UncommonBootArmorTypes[7]; }
+	if (document.getElementById("ChainBoots").selected == true) {bootSlot = UncommonBootArmorTypes[8]; }
+	if (document.getElementById("CopperBoots").selected == true) {bootSlot = UncommonBootArmorTypes[9]; } 
+	if (document.getElementById("BrassBoots").selected == true) {bootSlot = UncommonBootArmorTypes[10]; }
+	//SET PROPERTIES
+	bootProtection = bootSlot[2]
+	BootDescription.innerHTML = bootSlot[3] + "<br>" + "Part of the " + bootSlot[5] + " Armor & Weapons collection." + "<br>" + bootSlot[4] + " +" + bootSlot[2] + " Protection";
 }
 
 
@@ -1541,236 +1541,236 @@ function updateLegDiscription() {
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
 function RandomPullCommonHeadArmor() {
-  if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
-    commonGearPrize();
-    trys = 0;
-  } else {
-    drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
-    owned = CommonHeadArmorTypes[drop][6];
-    if (owned == true) {
-      trys++;
-      RandomPullCommonHeadArmor();
-    } else { 
-      id = CommonHeadArmorTypes[drop] [0];
-      name = CommonHeadArmorTypes[drop] [1];
-      protection = CommonHeadArmorTypes[drop] [2];
-      description = CommonHeadArmorTypes[drop] [3];
-      CommonHeadArmorTypes[drop] [6] = true;
-      trys = 0;     
-    }
-  }  
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
+		commonGearPrize();
+		trys = 0;
+	} else {
+		drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
+		owned = CommonHeadArmorTypes[drop][6];
+		if (owned == true) {
+			trys++;
+			RandomPullCommonHeadArmor();
+		} else { 
+			id = CommonHeadArmorTypes[drop] [0];
+			name = CommonHeadArmorTypes[drop] [1];
+			protection = CommonHeadArmorTypes[drop] [2];
+			description = CommonHeadArmorTypes[drop] [3];
+			CommonHeadArmorTypes[drop] [6] = true;
+			trys = 0;		 
+		}
+	}	
 }
 
 function RandomPullCommonChestArmor() {
-  if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
-    commonGearPrize();
-    trys = 0;
-  } else {
-    drop = Math.floor(Math.random() * CommonChestArmorTypes.length);
-    owned = CommonChestArmorTypes[drop][6];
-    if (owned == true) {
-      trys++;
-      RandomPullCommonChestArmor();
-    } else {
-      id = CommonChestArmorTypes[drop] [0];
-      name = CommonChestArmorTypes[drop] [1];
-      protection = CommonChestArmorTypes[drop] [2];
-      description = CommonChestArmorTypes[drop] [3];
-      CommonChestArmorTypes[drop] [6] = true;
-      trys = 0;      
-    }
-  }  
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
+		commonGearPrize();
+		trys = 0;
+	} else {
+		drop = Math.floor(Math.random() * CommonChestArmorTypes.length);
+		owned = CommonChestArmorTypes[drop][6];
+		if (owned == true) {
+			trys++;
+			RandomPullCommonChestArmor();
+		} else {
+			id = CommonChestArmorTypes[drop] [0];
+			name = CommonChestArmorTypes[drop] [1];
+			protection = CommonChestArmorTypes[drop] [2];
+			description = CommonChestArmorTypes[drop] [3];
+			CommonChestArmorTypes[drop] [6] = true;
+			trys = 0;			
+		}
+	}	
 }
 
 function RandomPullCommonLegArmor() {
-  if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
-    commonGearPrize();
-    trys = 0;
-  } else {
-    drop = Math.floor(Math.random() * CommonLegArmorTypes.length);
-    owned = CommonLegArmorTypes[drop][6];
-    if (owned == true) {
-      trys++;
-      RandomPullCommonLegArmor();
-    } else {
-      id = CommonLegArmorTypes[drop] [0];
-      name = CommonLegArmorTypes[drop] [1];
-      protection = CommonLegArmorTypes[drop] [2];
-      description = CommonLegArmorTypes[drop] [3];
-      CommonLegArmorTypes[drop] [6] = true;
-      trys = 0;      
-    }
-  }  
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
+		commonGearPrize();
+		trys = 0;
+	} else {
+		drop = Math.floor(Math.random() * CommonLegArmorTypes.length);
+		owned = CommonLegArmorTypes[drop][6];
+		if (owned == true) {
+			trys++;
+			RandomPullCommonLegArmor();
+		} else {
+			id = CommonLegArmorTypes[drop] [0];
+			name = CommonLegArmorTypes[drop] [1];
+			protection = CommonLegArmorTypes[drop] [2];
+			description = CommonLegArmorTypes[drop] [3];
+			CommonLegArmorTypes[drop] [6] = true;
+			trys = 0;			
+		}
+	}	
 }
 
 function RandomPullCommonBootArmor() {
-  if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
-    commonGearPrize();
-    trys = 0;
-  } else {
-    drop = Math.floor(Math.random() * CommonBootArmorTypes.length);
-    owned = CommonBootArmorTypes[drop][6];
-    if (owned == true) {
-      trys++;
-      RandomPullCommonBootArmor();
-    } else {
-      id = CommonBootArmorTypes[drop] [0];
-      name = CommonBootArmorTypes[drop] [1];
-      protection = CommonBootArmorTypes[drop] [2];
-      description = CommonBootArmorTypes[drop] [3];
-      CommonBootArmorTypes[drop] [6] = true;
-      trys = 0;
-    }
-  }  
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
+		commonGearPrize();
+		trys = 0;
+	} else {
+		drop = Math.floor(Math.random() * CommonBootArmorTypes.length);
+		owned = CommonBootArmorTypes[drop][6];
+		if (owned == true) {
+			trys++;
+			RandomPullCommonBootArmor();
+		} else {
+			id = CommonBootArmorTypes[drop] [0];
+			name = CommonBootArmorTypes[drop] [1];
+			protection = CommonBootArmorTypes[drop] [2];
+			description = CommonBootArmorTypes[drop] [3];
+			CommonBootArmorTypes[drop] [6] = true;
+			trys = 0;
+		}
+	}	
 }
  
 function RandomPullUncommonHeadArmor() {
-  if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize.(50-100)");
-    uncommonGearPrize();
-    trys = 0;
-  } else {
-    drop = Math.floor(Math.random() * UncommonHeadArmorTypes.length);
-    owned = UncommonHeadArmorTypes[drop][6];
-    if (owned == true) {
-      trys++;
-      RandomPullUncommonHeadArmor();
-    } else {
-      id = UncommonHeadArmorTypes[drop] [0];
-      name = UncommonHeadArmorTypes[drop] [1];
-      protection = UncommonHeadArmorTypes[drop] [2];
-      description = UncommonHeadArmorTypes[drop] [3];
-      UncommonHeadArmorTypes[drop] [6] = true;
-      trys = 0;
-    }
-  }
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize.(50-100)");
+		uncommonGearPrize();
+		trys = 0;
+	} else {
+		drop = Math.floor(Math.random() * UncommonHeadArmorTypes.length);
+		owned = UncommonHeadArmorTypes[drop][6];
+		if (owned == true) {
+			trys++;
+			RandomPullUncommonHeadArmor();
+		} else {
+			id = UncommonHeadArmorTypes[drop] [0];
+			name = UncommonHeadArmorTypes[drop] [1];
+			protection = UncommonHeadArmorTypes[drop] [2];
+			description = UncommonHeadArmorTypes[drop] [3];
+			UncommonHeadArmorTypes[drop] [6] = true;
+			trys = 0;
+		}
+	}
 }
 
 function RandomPullUncommonChestArmor() {
-  if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
-    commonGearPrize();
-    trys = 0;
-  } else {
-    drop = Math.floor(Math.random() * UncommonChestArmorTypes.length);
-    owned = UncommonChestArmorTypes[drop][6];
-    if (owned == true) {
-      trys++;
-      RandomPullUncommonChestArmor();
-    } else {
-      id = UncommonChestArmorTypes[drop] [0];
-      name = UncommonChestArmorTypes[drop] [1];
-      protection = UncommonChestArmorTypes[drop] [2];
-      description = UncommonChestArmorTypes[drop] [3];
-      UncommonChestArmorTypes[drop] [6] = true;
-      trys = 0;
-    }
-  }  
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
+		commonGearPrize();
+		trys = 0;
+	} else {
+		drop = Math.floor(Math.random() * UncommonChestArmorTypes.length);
+		owned = UncommonChestArmorTypes[drop][6];
+		if (owned == true) {
+			trys++;
+			RandomPullUncommonChestArmor();
+		} else {
+			id = UncommonChestArmorTypes[drop] [0];
+			name = UncommonChestArmorTypes[drop] [1];
+			protection = UncommonChestArmorTypes[drop] [2];
+			description = UncommonChestArmorTypes[drop] [3];
+			UncommonChestArmorTypes[drop] [6] = true;
+			trys = 0;
+		}
+	}	
 }
 
 function RandomPullUncommonLegArmor() {
-  if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
-    commonGearPrize();
-    trys = 0;
-  } else {
-    drop = Math.floor(Math.random() * UncommonLegArmorTypes.length);
-    owned = UncommonLegArmorTypes[drop][6];
-    if (owned == true) {
-      trys++;
-      RandomPullUncommonLegArmor();
-    } else {
-      id = UncommonLegArmorTypes[drop] [0];
-      name = UncommonLegArmorTypes[drop] [1];
-      protection = UncommonLegArmorTypes[drop] [2];
-      description = UncommonLegArmorTypes[drop] [3];
-      UncommonLegArmorTypes[drop] [6] = true;
-      trys = 0;
-    }
-  }  
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
+		commonGearPrize();
+		trys = 0;
+	} else {
+		drop = Math.floor(Math.random() * UncommonLegArmorTypes.length);
+		owned = UncommonLegArmorTypes[drop][6];
+		if (owned == true) {
+			trys++;
+			RandomPullUncommonLegArmor();
+		} else {
+			id = UncommonLegArmorTypes[drop] [0];
+			name = UncommonLegArmorTypes[drop] [1];
+			protection = UncommonLegArmorTypes[drop] [2];
+			description = UncommonLegArmorTypes[drop] [3];
+			UncommonLegArmorTypes[drop] [6] = true;
+			trys = 0;
+		}
+	}	
 }
 
 function RandomPullUncommonBootArmor() {
-  if (trys > 100) {
-    console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
-    commonGearPrize();
-    trys = 0;
-  } else {
-    drop = Math.floor(Math.random() * UncommonBootArmorTypes.length);
-    owned = UncommonBootArmorTypes[drop][6];
-    if (owned == true) {
-      trys++;
-      RandomPullUncommonBootArmor();
-    } else {
-      id = UncommonBootArmorTypes[drop] [0];
-      name = UncommonBootArmorTypes[drop] [1];
-      protection = UncommonBootArmorTypes[drop] [2];
-      description = UncommonBootArmorTypes[drop] [3];
-      UncommonBootArmorTypes[drop] [6] = true;
-      trys = 0;
-    }
-  }  
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
+		commonGearPrize();
+		trys = 0;
+	} else {
+		drop = Math.floor(Math.random() * UncommonBootArmorTypes.length);
+		owned = UncommonBootArmorTypes[drop][6];
+		if (owned == true) {
+			trys++;
+			RandomPullUncommonBootArmor();
+		} else {
+			id = UncommonBootArmorTypes[drop] [0];
+			name = UncommonBootArmorTypes[drop] [1];
+			protection = UncommonBootArmorTypes[drop] [2];
+			description = UncommonBootArmorTypes[drop] [3];
+			UncommonBootArmorTypes[drop] [6] = true;
+			trys = 0;
+		}
+	}	
 }
 
 //1-100
 function commonGearPrize() {
-  prize = Math.floor(Math.random() * 99) + 1;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
+	prize = Math.floor(Math.random() * 99) + 1;
+	gears = gears + prize;
+	console.log("Reward granted, gear prize: " + prize)
+	prize = 0;
 }
 //100-300
 function uncommonGearPrize() {
-  prize = Math.floor(Math.random() * 200) + 100;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
+	prize = Math.floor(Math.random() * 200) + 100;
+	gears = gears + prize;
+	console.log("Reward granted, gear prize: " + prize)
+	prize = 0;
 }
 //500-1000
 function rareGearPrize() {
-  prize = Math.floor(Math.random() * 500) + 500;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
+	prize = Math.floor(Math.random() * 500) + 500;
+	gears = gears + prize;
+	console.log("Reward granted, gear prize: " + prize)
+	prize = 0;
 }
 //1000-5000
 function epicGearPrize() {
-  prize = Math.floor(Math.random() * 4000) + 1000;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
+	prize = Math.floor(Math.random() * 4000) + 1000;
+	gears = gears + prize;
+	console.log("Reward granted, gear prize: " + prize)
+	prize = 0;
 }
 //5000-10000
 function mythicGearPrize() {
-  prize = Math.floor(Math.random() * 5000) + 5000;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
+	prize = Math.floor(Math.random() * 5000) + 5000;
+	gears = gears + prize;
+	console.log("Reward granted, gear prize: " + prize)
+	prize = 0;
 }
 //10000-50000
 function relicGearPrize() {
-  prize = Math.floor(Math.random() * 40000) + 10000;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
+	prize = Math.floor(Math.random() * 40000) + 10000;
+	gears = gears + prize;
+	console.log("Reward granted, gear prize: " + prize)
+	prize = 0;
 }
 //1000-2500
 function dungeonGearPrize() {
-  prize = Math.floor(Math.random() * 1500) + 1000;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
+	prize = Math.floor(Math.random() * 1500) + 1000;
+	gears = gears + prize;
+	console.log("Reward granted, gear prize: " + prize)
+	prize = 0;
 }
 //1000-2500
 function seasonOneGearPrize() {
-  prize = Math.floor(Math.random() * 1500) + 1000;
-  gears = gears + prize;
-  console.log("Reward granted, gear prize: " + prize)
-  prize = 0;
+	prize = Math.floor(Math.random() * 1500) + 1000;
+	gears = gears + prize;
+	console.log("Reward granted, gear prize: " + prize)
+	prize = 0;
 }
 
 
@@ -1779,39 +1779,39 @@ function seasonOneGearPrize() {
 ///     8) TOGGELS       ///
 ////////////////////////////
 function toggleInvOff() {
-    inventory.style.display = "none";
-    invetoryToggleOff.style.display = "block";
-    invetoryToggleOn.style.display = "none";
+	inventory.style.display = "none";
+	invetoryToggleOff.style.display = "block";
+	invetoryToggleOn.style.display = "none";
 }
 
 function toggleInvOn() {
-    inventory.style.display = "block";
-    invetoryToggleOn.style.display = "block";
-    invetoryToggleOff.style.display = "none";
+	inventory.style.display = "block";
+	invetoryToggleOn.style.display = "block";
+	invetoryToggleOff.style.display = "none";
 }
 
 function toggleAchOff() {
-    AchievementsGallery.style.display = "none";
-    achievementToggleOff.style.display = "block";
-    achievementToggleOn.style.display = "none";
+	AchievementsGallery.style.display = "none";
+	achievementToggleOff.style.display = "block";
+	achievementToggleOn.style.display = "none";
 }
 
 function toggleAchOn() {
-    AchievementsGallery.style.display = "block";
-    achievementToggleOn.style.display = "block";
-    achievementToggleOff.style.display = "none";
+	AchievementsGallery.style.display = "block";
+	achievementToggleOn.style.display = "block";
+	achievementToggleOff.style.display = "none";
 }
 
 function toggleCreditsOff() {
-    credits.style.display = "none";
-    creditsToggleOff.style.display = "block";
-    creditsToggleOn.style.display = "none";
+	credits.style.display = "none";
+	creditsToggleOff.style.display = "block";
+	creditsToggleOn.style.display = "none";
 }
 
 function toggleCreditsOn() {
-    credits.style.display = "block";
-    creditsToggleOn.style.display = "block";
-    creditsToggleOff.style.display = "none";
+	credits.style.display = "block";
+	creditsToggleOn.style.display = "block";
+	creditsToggleOff.style.display = "none";
 }
 
 
@@ -1820,91 +1820,91 @@ function toggleCreditsOn() {
 ///             9) COOKIES              ///
 ///////////////////////////////////////////
 function makeSavedData_cookies() {
-  const data = {
-    //User Cookies
-    user: user,
-    username: username,
-    atTag: atTag,
-    //Ach cookies
-    //Total Ach
-    ach_total: ach_total,
-    mili: mili,
-    //Mech Ach
-    ach_mech_strtGame: ach_mech_strtGame,
-    ach_mech_donor: ach_mech_donor,
-    ach_mech_giver: ach_mech_giver,
-    ach_mech_exterm: ach_mech_exterm,
-    ach_mech_alpha: ach_mech_alpha,
-    ach_mech_beta: ach_mech_beta,
-    //Playing Ach
-    ach_lvl_Five: ach_lvl_Five,
-    ach_lvl_Ten: ach_lvl_Ten,
-    ach_lvl_TwoFive: ach_lvl_TwoFive,
-    ach_lvl_Fifty: ach_lvl_Fifty,
-    ach_lvl_OneHun: ach_lvl_OneHun,
-    ach_lvl_TwoFiveHun: ach_lvl_TwoFiveHun,
-    ach_lvl_FiveHun: ach_lvl_FiveHun,
-    ach_lvl_OneT: ach_lvl_OneT,
-    //Armor Ach
-    ach_armors_CommonAll: ach_armors_CommonAll,
-    ach_armors_UnommonAll: ach_armors_UnommonAll,
-    ach_armors_RareAll: ach_armors_RareAll,
-    ach_armors_EpicAll: ach_armors_EpicAll,
-    ach_armors_MythicAll: ach_armors_MythicAll,
-    ach_armors_RelicFirst: ach_armors_RelicFirst,
-     //Dumb Ach
-    ach_dumb_youAsked: ach_dumb_youAsked,
-    ach_dumb_plusFifty: ach_dumb_plusFifty,
-    //Season 1 Ach
-    ach_seasonOne_AllArmor: ach_seasonOne_AllArmor,
-  };
-  localStorage.setItem('savedData', JSON.stringify(data));
+	const data = {
+		//User Cookies
+		user: user,
+		username: username,
+		atTag: atTag,
+		//Ach cookies
+		//Total Ach
+		ach_total: ach_total,
+		mili: mili,
+		//Mech Ach
+		ach_mech_strtGame: ach_mech_strtGame,
+		ach_mech_donor: ach_mech_donor,
+		ach_mech_giver: ach_mech_giver,
+		ach_mech_exterm: ach_mech_exterm,
+		ach_mech_alpha: ach_mech_alpha,
+		ach_mech_beta: ach_mech_beta,
+		//Playing Ach
+		ach_lvl_Five: ach_lvl_Five,
+		ach_lvl_Ten: ach_lvl_Ten,
+		ach_lvl_TwoFive: ach_lvl_TwoFive,
+		ach_lvl_Fifty: ach_lvl_Fifty,
+		ach_lvl_OneHun: ach_lvl_OneHun,
+		ach_lvl_TwoFiveHun: ach_lvl_TwoFiveHun,
+		ach_lvl_FiveHun: ach_lvl_FiveHun,
+		ach_lvl_OneT: ach_lvl_OneT,
+		//Armor Ach
+		ach_armors_CommonAll: ach_armors_CommonAll,
+		ach_armors_UnommonAll: ach_armors_UnommonAll,
+		ach_armors_RareAll: ach_armors_RareAll,
+		ach_armors_EpicAll: ach_armors_EpicAll,
+		ach_armors_MythicAll: ach_armors_MythicAll,
+		ach_armors_RelicFirst: ach_armors_RelicFirst,
+		 //Dumb Ach
+		ach_dumb_youAsked: ach_dumb_youAsked,
+		ach_dumb_plusFifty: ach_dumb_plusFifty,
+		//Season 1 Ach
+		ach_seasonOne_AllArmor: ach_seasonOne_AllArmor,
+	};
+	localStorage.setItem('savedData', JSON.stringify(data));
 }
 
 
 function callSavedData_cookies() {
-  //const
-  savedData = JSON.parse(localStorage.getItem('savedData'));
-  if (savedData) {
-    //User Cookies
-    user = savedData.user || false;
-    username = savedData.username || "guest";
-    atTag = savedData.atTag || "@guest";
-    //Ach Cookies
-    //Total Ach
-    ach_total = savedData.ach_total || "false";
-    mili = savedData.mili || 0;
-    //Mech Ach
-    ach_mech_strtGame = savedData.ach_mech_strtGame || false;
-    ach_mech_donor = savedData.ach_mech_donor || false;
-    ach_mech_giver = savedData.ach_mech_giver || false;
-    ach_mech_exterm = savedData.ach_mech_exterm || false;
-    ach_mech_alpha = savedData.ach_mech_alpha || false;
-    ach_mech_beta = savedData.ach_mech_beta || false;
-    //PLaying Ach
-    ach_lvl_Five = savedData.ach_lvl_Five || false;
-    ach_lvl_Ten = savedData.ach_lvl_Ten || false;
-    ach_lvl_TwoFive = savedData.ach_lvl_TwoFive || false;
-    ach_lvl_Fifty = savedData.ach_lvl_Fifty || false;
-    ach_lvl_OneHun = savedData.ach_lvl_OneHun || false;
-    ach_lvl_TwoFiveHun = savedData.ach_lvl_TwoFiveHun || false;
-    ach_lvl_FiveHun = savedData.ach_lvl_FiveHun || false;
-    ach_lvl_OneT = savedData.ach_lvl_OneT || false;
-    //Armors Ach
-    ach_armors_CommonAll = savedData.ach_armors_CommonAll || false;
-    ach_armors_UnommonAll = savedData.ach_armors_UnommonAll || false;
-    ach_armors_RareAll = savedData.ach_armors_RareAll || false;
-    ach_armors_EpicAll = savedData.ach_armors_EpicAll || false;
-    ach_armors_MythicAll = savedData.ach_armors_MythicAll || false;
-    ach_armors_RelicFirst = savedData.ach_armors_RelicFirst || false;
-    //Dumb Ach
-    ach_dumb_youAsked = savedData.ach_dumb_youAsked || false;
-    ach_dumb_plusFifty = savedData.ach_dumb_plusFifty || false;
-    ach_dumb_takingAfterZ = savedData.ach_dumb_takingAfterZ || false; 
-    ach_dumb_takingAfterO = savedData.ach_dumb_takingAfterO || false; 
-    //Season 1 Ach
-    ach_seasonOne_AllArmor = savedData.ach_seasonOne_AllArmor || false;
-  }
+	//const
+	savedData = JSON.parse(localStorage.getItem('savedData'));
+	if (savedData) {
+		//User Cookies
+		user = savedData.user || false;
+		username = savedData.username || "guest";
+		atTag = savedData.atTag || "@guest";
+		//Ach Cookies
+		//Total Ach
+		ach_total = savedData.ach_total || "false";
+		mili = savedData.mili || 0;
+		//Mech Ach
+		ach_mech_strtGame = savedData.ach_mech_strtGame || false;
+		ach_mech_donor = savedData.ach_mech_donor || false;
+		ach_mech_giver = savedData.ach_mech_giver || false;
+		ach_mech_exterm = savedData.ach_mech_exterm || false;
+		ach_mech_alpha = savedData.ach_mech_alpha || false;
+		ach_mech_beta = savedData.ach_mech_beta || false;
+		//PLaying Ach
+		ach_lvl_Five = savedData.ach_lvl_Five || false;
+		ach_lvl_Ten = savedData.ach_lvl_Ten || false;
+		ach_lvl_TwoFive = savedData.ach_lvl_TwoFive || false;
+		ach_lvl_Fifty = savedData.ach_lvl_Fifty || false;
+		ach_lvl_OneHun = savedData.ach_lvl_OneHun || false;
+		ach_lvl_TwoFiveHun = savedData.ach_lvl_TwoFiveHun || false;
+		ach_lvl_FiveHun = savedData.ach_lvl_FiveHun || false;
+		ach_lvl_OneT = savedData.ach_lvl_OneT || false;
+		//Armors Ach
+		ach_armors_CommonAll = savedData.ach_armors_CommonAll || false;
+		ach_armors_UnommonAll = savedData.ach_armors_UnommonAll || false;
+		ach_armors_RareAll = savedData.ach_armors_RareAll || false;
+		ach_armors_EpicAll = savedData.ach_armors_EpicAll || false;
+		ach_armors_MythicAll = savedData.ach_armors_MythicAll || false;
+		ach_armors_RelicFirst = savedData.ach_armors_RelicFirst || false;
+		//Dumb Ach
+		ach_dumb_youAsked = savedData.ach_dumb_youAsked || false;
+		ach_dumb_plusFifty = savedData.ach_dumb_plusFifty || false;
+		ach_dumb_takingAfterZ = savedData.ach_dumb_takingAfterZ || false; 
+		ach_dumb_takingAfterO = savedData.ach_dumb_takingAfterO || false; 
+		//Season 1 Ach
+		ach_seasonOne_AllArmor = savedData.ach_seasonOne_AllArmor || false;
+	}
 }
 
 
@@ -1913,26 +1913,26 @@ window.gears = gears;
 
 //story
 function refreshStore() {
-  //ITEMS
-  //price is anywere between 50 - 100
-  slotOnePrice = Math.floor(Math.random() * 50) + 50;
-  slotOnePick = commonItems[Math.floor(Math.random() * commonItems.length)];
-  //price is anywere between 250 - 500
-  slotTwoPrice = Math.floor(Math.random() * 250) + 250;
-  slotTwoPick = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
-  //price is anywere between 500 - 1000
-  slotThreePrice = Math.floor(Math.random() * 500) + 500;
-  slotThreePick = rareItems[Math.floor(Math.random() * rareItems.length)];
-  //price is anywere between 1000 - 2500
-  slotFourPrice = Math.floor(Math.random() * 1000) + 1500;
-  slotFourPick = epicItems[Math.floor(Math.random() * epicItems.length)];
-  //price is anywere between 2500 - 5000
-  slotFivePrice = Math.floor(Math.random() * 2500) + 2500;
-  slotFivePick = mythicItems[Math.floor(Math.random() * mythicItems.length)];
-  //price is anywere between 2500 - 5000
-  slotSixPrice = Math.floor(Math.random() * 2500) + 2500;
-  slotSixPick = seasonalItems[Math.floor(Math.random() * seasonalItems.length)];
-  //CRATES
+	//ITEMS
+	//price is anywere between 50 - 100
+	slotOnePrice = Math.floor(Math.random() * 50) + 50;
+	slotOnePick = commonItems[Math.floor(Math.random() * commonItems.length)];
+	//price is anywere between 250 - 500
+	slotTwoPrice = Math.floor(Math.random() * 250) + 250;
+	slotTwoPick = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
+	//price is anywere between 500 - 1000
+	slotThreePrice = Math.floor(Math.random() * 500) + 500;
+	slotThreePick = rareItems[Math.floor(Math.random() * rareItems.length)];
+	//price is anywere between 1000 - 2500
+	slotFourPrice = Math.floor(Math.random() * 1000) + 1500;
+	slotFourPick = epicItems[Math.floor(Math.random() * epicItems.length)];
+	//price is anywere between 2500 - 5000
+	slotFivePrice = Math.floor(Math.random() * 2500) + 2500;
+	slotFivePick = mythicItems[Math.floor(Math.random() * mythicItems.length)];
+	//price is anywere between 2500 - 5000
+	slotSixPrice = Math.floor(Math.random() * 2500) + 2500;
+	slotSixPick = seasonalItems[Math.floor(Math.random() * seasonalItems.length)];
+	//CRATES
 }
 
 //////////////////////////// 
@@ -1940,26 +1940,26 @@ function refreshStore() {
 ////////////////////////////
 
 function inputStory() {
-  storySlot.innerHTML = story
-  choiceOne.innerHTML = opt1
-  choiceTwo.innerHTML = opt2
-  choiceThr.innerHTML = opt3
+	storySlot.innerHTML = story
+	choiceOne.innerHTML = opt1
+	choiceTwo.innerHTML = opt2
+	choiceThr.innerHTML = opt3
 }
 
 function dungeonSet(dungeonToSend) {
-  potionEffects = [];
-  dungeon = dungeonToSend;
+	potionEffects = [];
+	dungeon = dungeonToSend;
 	story = dungeon;
 	dungeon = dungeon[0];
 	inputStory();
 }
 
 function loadStory() {
-  if (statLoadProg == "fail") {
-    setupStoryStart();
-  } else {
-    dungeonSet(knShop);
-  }
+	if (statLoadProg == "fail") {
+		setupStoryStart();
+	} else {
+		dungeonSet(knShop);
+	}
 }
 
 
@@ -1968,32 +1968,32 @@ function loadStory() {
 //////////////////////////////////
 function choiceOnePicked() {
 story = story[3];
-  if (story[1] == "none") {
-    postStory = story;
-    inputStory();
-  } else {
-    story[1].reSend();
-  }
+	if (story[1] == "none") {
+		postStory = story;
+		inputStory();
+	} else {
+		story[1].reSend();
+	}
  }
 
 function choiceTwoPicked() {
 story = story[4];
-  if (story[1] == "none") {
-    postStory = story;
-    inputStory();
-  } else {
-    story[1].reSend();
-  }
+	if (story[1] == "none") {
+		postStory = story;
+		inputStory();
+	} else {
+		story[1].reSend();
+	}
  }
 
 function choiceThreePicked() {
 story = story[5];
-  if (story[1] == "none") {
-    postStory = story;
-    inputStory();
-  } else {
-    story[1].reSend();
-  }
+	if (story[1] == "none") {
+		postStory = story;
+		inputStory();
+	} else {
+		story[1].reSend();
+	}
  }
 
 //RESEND FUNCTION
@@ -2012,32 +2012,32 @@ story = story[5];
 
 knShop = [
 	["The Store", "none", "blah blah blah.", 
-  //opt 1 path (shop)
-  	["Shop", "none", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice.",
-   	[
-    	["Go to aisle 1, (Crates & Seasonal Drops)", {reSend: function(){crateShop(); }} // "You walk over to the aisle and look at all the crates, seasonal drops, and loot boxes. They are all very expensive but ether way you will get something.",
-      ],
-    	["Go to aisle 2, (Weapons & Armors)",  {reSend: function(){weaponShop(); }} // "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops.  You then look at the prices and you know the weapons are legitimate.",
-      ],
-    	["Go to aisle 3, (Rare Collectables & Items)",  {resend: function(){itemShop(); }} // "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
-      ]
-     ]
-    ],
-    //opt 2 path (talk (quest))
-  	["Talk",
-    	[],
-    	[],
-    	[]
-    ],
-    //op3 path (dungeon)
-  	["Go to Dungeon", "none", "You walk over to the dungeon box and tap the box and it cranks to life. Gear inside churn and whirl, it goes quite. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow reveal your dungeon options, pick one.",
-    	["Random Dungeon (Basic Dungeon, Free)"
-      ],
-    	["Special Dungeon (Special Key Required, 100 Gears)"
-      ],
-    	["Seasonal Dungeon (Season Key Required + 500 Gears)"
-      ]
-    ]
-  ]
+	//opt 1 path (shop)
+		["Shop", "none", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice.",
+	 	[
+			["Go to aisle 1, (Crates & Seasonal Drops)", {reSend: function(){crateShop(); }} // "You walk over to the aisle and look at all the crates, seasonal drops, and loot boxes. They are all very expensive but ether way you will get something.",
+			],
+			["Go to aisle 2, (Weapons & Armors)", {reSend: function(){weaponShop(); }} // "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops. You then look at the prices and you know the weapons are legitimate.",
+			],
+			["Go to aisle 3, (Rare Collectables & Items)", {resend: function(){itemShop(); }} // "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
+			]
+		 ]
+		],
+		//opt 2 path (talk (quest))
+		["Talk",
+			[],
+			[],
+			[]
+		],
+		//op3 path (dungeon)
+		["Go to Dungeon", "none", "You walk over to the dungeon box and tap the box and it cranks to life. Gear inside churn and whirl, it goes quite. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow reveal your dungeon options, pick one.",
+			["Random Dungeon (Basic Dungeon, Free)"
+			],
+			["Special Dungeon (Special Key Required, 100 Gears)"
+			],
+			["Seasonal Dungeon (Season Key Required + 500 Gears)"
+			]
+		]
+	]
 ];
 
