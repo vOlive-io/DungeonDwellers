@@ -1,6 +1,6 @@
-****Welcome to DUNGEON DWELLERS****
+# Welcome to _DUNGEON DWELLERS_
 
-This is a fun game that is still under development. If you want to help out look at the following options, if not then we hope to see you soon.
+This is a fun game that is **still under development**. If you want to help out look at the following options, if not then we hope to see you soon.
 
 ---
 
