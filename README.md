@@ -5,7 +5,7 @@ This is a fun game that is **still under development**. If you want to help out 
 ---
 
 If you have any ideas for in-game content please fill out the _feedback form_:
-`coming soon`
+[Click Here](https://forms.gle/nDJtVQMSriiP34dk7)
 
 If you would like to help create in-game content please fill out the _help form_:
 [Click Here](https://forms.gle/72nzM8MeAUeRBdj77)
