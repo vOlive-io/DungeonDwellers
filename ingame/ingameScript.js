@@ -82,12 +82,12 @@ var storeTimeStart = hourTime;
 var storeTimeLeft = storeTimeStart;
 setInterval(shopTimer, 1000);
 function shopTimer() {
-		 if (storeTimeLeft>0) {
-				storeTimeLeft--;
-		 } else {
-	storeTimeStart = hourTime;
-	refreshShop();
-		 }
+	if (storeTimeLeft>0) {
+		storeTimeLeft--;
+	} else {
+		storeTimeStart = hourTime;
+		refreshShop();
+	}
 }
 
 ///////////////////////////////////////////
@@ -2013,13 +2013,13 @@ story = story[5];
 knShop = [
 	["The Store", "none", "blah blah blah.", 
 	//opt 1 path (shop)
-		["Shop", "none", "You walk down to the shoping area and look at the aisles they are decoraed with cute design and trinkets. You peer inside them and see that they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t sand there forever, you need to make a choice.",
+		["Shop", "none", "You walk down to the shopping area and look at the aisles they are decorated with cute designs and trinkets. You peer inside them and see they are packed with the latest tools, trinkets, and loot drops. You look at the signs above the aisle and see what each aisle holds. You know that you can get some good loot, but you also know that you can\'t stand there forever, you need to make a choice.",
 	 	[
-			["Go to aisle 1, (Crates & Seasonal Drops)", {reSend: function(){crateShop(); }} // "You walk over to the aisle and look at all the crates, seasonal drops, and loot boxes. They are all very expensive but ether way you will get something.",
+			["Go to aisle 1, (Crates & Seasonal Drops)", {reSend: function(){crateShop(); }} // "You walk over to the aisle and look at all the crates, seasonal drops, and loot boxes. They are all very expensive but either way you will get something.",
 			],
-			["Go to aisle 2, (Weapons & Armors)", {reSend: function(){weaponShop(); }} // "You see the shelf racks setup with weapons of all raritys and colors. You look at the armors and see the exclusive drops. You then look at the prices and you know the weapons are legitimate.",
+			["Go to aisle 2, (Weapons & Armors)", {reSend: function(){weaponShop(); }} // "You see the shelf racks set up with weapons of all rarities and colors. You look at the armors and see the exclusive drops. You then look at the prices and you know the weapons are legitimate.",
 			],
-			["Go to aisle 3, (Rare Collectables & Items)", {resend: function(){itemShop(); }} // "Walking over to the aisle you smell what you think is cinnamon, and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; exlixers, gems, scrolls, powers even a few seasonal ones. Seeing the selecton gives you a hard choise. There is so much you could get.",
+			["Go to aisle 3, (Rare Collectables & Items)", {resend: function(){itemShop(); }} // "Walking over to the aisle you smell what you think is cinnamon and crystal salt. You walk into the aisle and look at all the items, there are so many to choose from; elixirs, gems, scrolls, powers even a few seasonal ones. Seeing the selection gives you a hard choice. There is so much you could get.",
 			]
 		 ]
 		],
@@ -2030,7 +2030,7 @@ knShop = [
 			[]
 		],
 		//op3 path (dungeon)
-		["Go to Dungeon", "none", "You walk over to the dungeon box and tap the box and it cranks to life. Gear inside churn and whirl, it goes quite. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow reveal your dungeon options, pick one.",
+		["Go to Dungeon", "none", "You walk over to the dungeon box and tap the box and it cranks to life. The gear inside churns and whirls, it goes quiet. The stone door behind it shakes and then stops. The machine is ready to send you to a dungeon, small lights around slots glow to reveal your dungeon options, pick one.",
 			["Random Dungeon (Basic Dungeon, Free)"
 			],
 			["Special Dungeon (Special Key Required, 100 Gears)"
