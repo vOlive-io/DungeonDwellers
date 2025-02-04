@@ -206,7 +206,7 @@ var classes = [
 	["c-1", "Root", "Masters of nature, Roots can manipulate plants and the earth to poison their options make swift getaways and trap their enemies in place. Their Ancient in The Seed.", "Green", ""],
 	["c-2", "Cloak", "Quick-witted thieves and sages, Cloaks and move through shadows as if they were portals, gain extra heath in battle, and can avoid taking damage  when their mana is above 75%. They're Ancient in The HollowGhast.", "Black", ""],
 	["c-3", "Tongue", "Evil sirens and demons, Tongues can get in their opponent's mind, torching them with their thoughts, stealing their mana and potion effects and leeching their health for the fun of it. Their Ancient in The Scream", "Red", "],
-	["c-4", "Sword", "Strongest warriors and barbarians in the land, Swords can charge up their weapons with fire, water, and electricity alowing for devastating combos and attacks. Their Ancient is The Fist.", "Yellow", ""]
+	["c-4", "Sword", "Strongest warriors and barbarians in the land, Swords can charge up their weapons with fire, water, and electricity allowing for devastating combos and attacks. Their Ancient is The Fist.", "Yellow", ""]
 ]
 
 ////////////////////////////
