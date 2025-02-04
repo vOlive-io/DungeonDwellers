@@ -339,14 +339,14 @@ var RareChestArmorTypes = [
 	["59", "Gold Chestplate", 6, "You am rich, you are rich!!.", "Rare", "Classic", false],
 	["60", "Iron Chestplate", 6, "You can eat iron 🤯.", "Rare", "Classic", false],
 	["61", "Feathered Wings", 6, "Wait? You can fly!?!", "Rare", "Uniquie", false],
-	["62", "Blessed Mud Chestplate", 6, "Wow saying you are blessed to a big pile of wanabe poop.", "Rare", "\"What the f***\"", false],
-	["63", "Jungle Vine Chestplate", 6, "Try not to hurt yourself you clumsy person.", "Rare", "Fruity", false],
-	["64", "Medieval Chestplate", 5, "Face it you wont be a knight", "Rare", "Unique", false]
+	["62", "Blessed Mud Chestplate", 6, "Wow saying you are blessed to a big pile of wannabe poop.", "Rare", "\"What the f***\"", false],
+	["63", "Jungle Vine Chestplate", 6, "Try not to hurt yourself, you clumsy person.", "Rare", "Fruity", false],
+	["64", "Medieval Chestplate", 5, "Face it you won't be a knight", "Rare", "Unique", false]
 ];
 
 var RareLegArmorTypes = [
-	["65", "Steel Leggings", 5, "nice panies.", "Rare", "Classic", false],
-	["65", "Snow Leggings", 5, "You arent in colorado (if you are then this insult doesnt work).", "Rare", "Classic", false],
+	["65", "Steel Leggings", 5, "nice panties.", "Rare", "Classic", false],
+	["65", "Snow Leggings", 5, "You aren't in Colorado (if you are then this insult doesn't work).", "Rare", "Classic", false],
 	["66", "Bronze Leggings", 5, "FRIGGIN TUBA POWER NOOB.", "Rare", "Classic", false],
 	["67", "Silver Leggings", 5, "Wow the coins morphed into knee shattering armor.", "Rare", "Classic", false],
 	["68", "Gold Leggings", 6, "Description.", "Classic", false],
@@ -463,7 +463,7 @@ var ForgedEpicBootArmorTypes = [
 	["206", "Surgeon\'s Work Boots", 4, "Description", "Epic (Forged)", "Fancy", false],
 	["206", "Invisible Boots", 4, "Description", "Epic (Forged)", "Unique", false],
 	["206", "Racecar Shoes", 4, "Description", "Epic (Forged)", "Fancy", false],
-	["111", "Dragon Skin Sheos", 4, "Description", "Epic (Forged)", "Unique", false],
+	["111", "Dragon Skin Shoes", 4, "Description", "Epic (Forged)", "Unique", false],
 	["206", "Unicorn Suit Boot Piece", 4, "Description", "Epic (Forged)", "\"What the f***\"", false]
 ];
 /////////////////////////////////////////////MYTHIC/////////////////////////////////////////////
@@ -643,7 +643,7 @@ var CommonHeadWeaponTypes = [
 	["-", "Pillow", 2, "It\'s kinda gross to think that you beat them up and still sleep with the pillow!", "Common", "\"What the f***?\"", false],
 	//Sets
 	["-", "Twig", 3, "LOOK ITS A TWIG!!!!.", "Common", false],
-	["-", "Wooden Pole", 3, "Great for long distance fighting!!", "Common", false],
+	["-", "Wooden Pole", 3, "Great for long-distance fighting!!", "Common", false],
 	["-", "Taped up hands", 3, "Slow, but reliable!", "Common", false],
 	["-", "Wooden Scythe", 3, "The stuff of warriors.", "Common", false],
 	//Explorers
