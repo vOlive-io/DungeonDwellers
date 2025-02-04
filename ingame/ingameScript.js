@@ -1540,6 +1540,34 @@ function updateLegDESCRIPTION() {
 ///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
+function PullArmor(type, rarity) {
+	if (trys > 100) {
+		console.log("Sorry armor could not be found... Instead you will get a gear prize.");
+		commonGearPrize();
+		trys = 0;
+	} else {
+		if (rarity == "common") {
+			if (type == "head") {selec = CommonHeadArmorTypes;}
+			if (type == "chest") {selec = CommonChestArmorTypes;}
+			if (type == "leg") {selec = CommonLegArmorTypes;}
+			if (type == "boot") {selec = CommonBootArmorTypes;}
+		}
+		drop = Math.floor(Math.random() * selec.length);
+		owned = selec[drop][6];
+		if (owned == true) {
+			trys++;
+			PullArmor(type, rarity);
+		} else { 
+			id = selec[drop] [0];
+			name = selec[drop] [1];
+			protection = selec[drop] [2];
+			description = selec[drop] [3];
+			selec[drop] [6] = true;
+			trys = 0;		 
+		}
+	}	
+}
+
 function RandomPullCommonHeadArmor() {
 	if (trys > 100) {
 		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
