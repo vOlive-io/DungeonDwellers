@@ -1546,12 +1546,20 @@ function PullArmor(type, rarity) {
 		commonGearPrize();
 		trys = 0;
 	} else {
+		//find array
 		if (rarity == "common") {
 			if (type == "head") {selec = CommonHeadArmorTypes;}
 			if (type == "chest") {selec = CommonChestArmorTypes;}
 			if (type == "leg") {selec = CommonLegArmorTypes;}
 			if (type == "boot") {selec = CommonBootArmorTypes;}
 		}
+		if (rarity == "uncommon") {
+			if (type == "head") {selec = UncommonHeadArmorTypes;}
+			if (type == "chest") {selec = UncommonChestArmorTypes;}
+			if (type == "leg") {selec = UncommonLegArmorTypes;}
+			if (type == "boot") {selec = UncommonBootArmorTypes;}
+		}
+		//use array
 		drop = Math.floor(Math.random() * selec.length);
 		owned = selec[drop][6];
 		if (owned == true) {
@@ -1568,181 +1576,6 @@ function PullArmor(type, rarity) {
 	}	
 }
 
-function RandomPullCommonHeadArmor() {
-	if (trys > 100) {
-		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
-		commonGearPrize();
-		trys = 0;
-	} else {
-		drop = Math.floor(Math.random() * CommonHeadArmorTypes.length);
-		owned = CommonHeadArmorTypes[drop][6];
-		if (owned == true) {
-			trys++;
-			RandomPullCommonHeadArmor();
-		} else { 
-			id = CommonHeadArmorTypes[drop] [0];
-			name = CommonHeadArmorTypes[drop] [1];
-			protection = CommonHeadArmorTypes[drop] [2];
-			description = CommonHeadArmorTypes[drop] [3];
-			CommonHeadArmorTypes[drop] [6] = true;
-			trys = 0;		 
-		}
-	}	
-}
-
-function RandomPullCommonChestArmor() {
-	if (trys > 100) {
-		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
-		commonGearPrize();
-		trys = 0;
-	} else {
-		drop = Math.floor(Math.random() * CommonChestArmorTypes.length);
-		owned = CommonChestArmorTypes[drop][6];
-		if (owned == true) {
-			trys++;
-			RandomPullCommonChestArmor();
-		} else {
-			id = CommonChestArmorTypes[drop] [0];
-			name = CommonChestArmorTypes[drop] [1];
-			protection = CommonChestArmorTypes[drop] [2];
-			description = CommonChestArmorTypes[drop] [3];
-			CommonChestArmorTypes[drop] [6] = true;
-			trys = 0;			
-		}
-	}	
-}
-
-function RandomPullCommonLegArmor() {
-	if (trys > 100) {
-		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
-		commonGearPrize();
-		trys = 0;
-	} else {
-		drop = Math.floor(Math.random() * CommonLegArmorTypes.length);
-		owned = CommonLegArmorTypes[drop][6];
-		if (owned == true) {
-			trys++;
-			RandomPullCommonLegArmor();
-		} else {
-			id = CommonLegArmorTypes[drop] [0];
-			name = CommonLegArmorTypes[drop] [1];
-			protection = CommonLegArmorTypes[drop] [2];
-			description = CommonLegArmorTypes[drop] [3];
-			CommonLegArmorTypes[drop] [6] = true;
-			trys = 0;			
-		}
-	}	
-}
-
-function RandomPullCommonBootArmor() {
-	if (trys > 100) {
-		console.log("Sorry armor could not be found... Instead you will get a gear prize. (1-50)");
-		commonGearPrize();
-		trys = 0;
-	} else {
-		drop = Math.floor(Math.random() * CommonBootArmorTypes.length);
-		owned = CommonBootArmorTypes[drop][6];
-		if (owned == true) {
-			trys++;
-			RandomPullCommonBootArmor();
-		} else {
-			id = CommonBootArmorTypes[drop] [0];
-			name = CommonBootArmorTypes[drop] [1];
-			protection = CommonBootArmorTypes[drop] [2];
-			description = CommonBootArmorTypes[drop] [3];
-			CommonBootArmorTypes[drop] [6] = true;
-			trys = 0;
-		}
-	}	
-}
- 
-function RandomPullUncommonHeadArmor() {
-	if (trys > 100) {
-		console.log("Sorry armor could not be found... Instead you will get a gear prize.(50-100)");
-		uncommonGearPrize();
-		trys = 0;
-	} else {
-		drop = Math.floor(Math.random() * UncommonHeadArmorTypes.length);
-		owned = UncommonHeadArmorTypes[drop][6];
-		if (owned == true) {
-			trys++;
-			RandomPullUncommonHeadArmor();
-		} else {
-			id = UncommonHeadArmorTypes[drop] [0];
-			name = UncommonHeadArmorTypes[drop] [1];
-			protection = UncommonHeadArmorTypes[drop] [2];
-			description = UncommonHeadArmorTypes[drop] [3];
-			UncommonHeadArmorTypes[drop] [6] = true;
-			trys = 0;
-		}
-	}
-}
-
-function RandomPullUncommonChestArmor() {
-	if (trys > 100) {
-		console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
-		commonGearPrize();
-		trys = 0;
-	} else {
-		drop = Math.floor(Math.random() * UncommonChestArmorTypes.length);
-		owned = UncommonChestArmorTypes[drop][6];
-		if (owned == true) {
-			trys++;
-			RandomPullUncommonChestArmor();
-		} else {
-			id = UncommonChestArmorTypes[drop] [0];
-			name = UncommonChestArmorTypes[drop] [1];
-			protection = UncommonChestArmorTypes[drop] [2];
-			description = UncommonChestArmorTypes[drop] [3];
-			UncommonChestArmorTypes[drop] [6] = true;
-			trys = 0;
-		}
-	}	
-}
-
-function RandomPullUncommonLegArmor() {
-	if (trys > 100) {
-		console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
-		commonGearPrize();
-		trys = 0;
-	} else {
-		drop = Math.floor(Math.random() * UncommonLegArmorTypes.length);
-		owned = UncommonLegArmorTypes[drop][6];
-		if (owned == true) {
-			trys++;
-			RandomPullUncommonLegArmor();
-		} else {
-			id = UncommonLegArmorTypes[drop] [0];
-			name = UncommonLegArmorTypes[drop] [1];
-			protection = UncommonLegArmorTypes[drop] [2];
-			description = UncommonLegArmorTypes[drop] [3];
-			UncommonLegArmorTypes[drop] [6] = true;
-			trys = 0;
-		}
-	}	
-}
-
-function RandomPullUncommonBootArmor() {
-	if (trys > 100) {
-		console.log("Sorry armor could not be found... Instead you will get a gear prize. (50-100)");
-		commonGearPrize();
-		trys = 0;
-	} else {
-		drop = Math.floor(Math.random() * UncommonBootArmorTypes.length);
-		owned = UncommonBootArmorTypes[drop][6];
-		if (owned == true) {
-			trys++;
-			RandomPullUncommonBootArmor();
-		} else {
-			id = UncommonBootArmorTypes[drop] [0];
-			name = UncommonBootArmorTypes[drop] [1];
-			protection = UncommonBootArmorTypes[drop] [2];
-			description = UncommonBootArmorTypes[drop] [3];
-			UncommonBootArmorTypes[drop] [6] = true;
-			trys = 0;
-		}
-	}	
-}
 
 //1-100
 function commonGearPrize() {
