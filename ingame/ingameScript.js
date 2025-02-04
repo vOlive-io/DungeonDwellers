@@ -1559,6 +1559,24 @@ function PullArmor(type, rarity) {
 			if (type == "leg") {selec = UncommonLegArmorTypes;}
 			if (type == "boot") {selec = UncommonBootArmorTypes;}
 		}
+		if (rarity == "rare") {
+			if (type == "head") {selec = RareHeadArmorTypes;}
+			if (type == "chest") {selec = RareChestArmorTypes;}
+			if (type == "leg") {selec = RareLegArmorTypes;}
+			if (type == "boot") {selec = RareBootArmorTypes;}
+		}
+		if (rarity == "epic") {
+			if (type == "head") {selec = EpicHeadArmorTypes;}
+			if (type == "chest") {selec = EpicChestArmorTypes;}
+			if (type == "leg") {selec = EpicLegArmorTypes;}
+			if (type == "boot") {selec = EpicBootArmorTypes;}
+		}
+		if (rarity == "mythic") {
+			if (type == "head") {selec = MythicHeadArmorTypes;}
+			if (type == "chest") {selec = MythicChestArmorTypes;}
+			if (type == "leg") {selec = MythicLegArmorTypes;}
+			if (type == "boot") {selec = MythicBootArmorTypes;}
+		}
 		//use array
 		drop = Math.floor(Math.random() * selec.length);
 		owned = selec[drop][6];
