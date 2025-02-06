@@ -1575,6 +1575,7 @@ function PullArmor(type, rarity) {
 		if (type == "leg") {selec = MythicLegArmorTypes;}
 		if (type == "boot") {selec = MythicBootArmorTypes;}
 		var refund = [{ reSend: function(){ mythicGearPrize(); }}];
+	}
 	if (trys > 100) {
 		console.log("Sorry armor could not be found... Instead you will get a gear prize.");
 		refund[0].reSend();
@@ -1592,9 +1593,9 @@ function PullArmor(type, rarity) {
 			protection = selec[drop] [2];
 			description = selec[drop] [3];
 			selec[drop] [6] = true;
-			trys = 0;		 
+			trys = 0;	
 		}
-	}	
+	}
 }
 
 
