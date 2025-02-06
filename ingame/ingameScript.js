@@ -612,7 +612,7 @@ item + item = ______
 var FullRelicChestArmorTypes = [
 	["32", "Living Gown", 50, "", "Relic", "", false],                  //Ancient: The Seed  ----------- Color: Green  ---- Branch ------- Root ------- (empty)
 	["32", "Fighing Robes", 50, "", "Relic", "", false],                //Ancient: The Fist  ----------- Color: Yellow ---- Hands -------- Sword ------ Zharria 
-	["32", "Scaled Garments, 50, "", "Relic", "", false],               //Ancient: The Scream ------- ---Color: Red  ------ Trident ------ Tounge------- Olive 
+	["32", "Scaled Garments", 50, "", "Relic", "", false],               //Ancient: The Scream ------- ---Color: Red  ------ Trident ------ Tounge------- Olive 
 	["32", "HollowGhast Cloak", 50, "", "Relic", "", false]             //Ancient: The HallowGhast  ---- Color: Black ----- Scythe ------- Cloak-------- Armaan 
 ];
 
