@@ -1541,47 +1541,45 @@ function updateLegDESCRIPTION() {
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
 function PullArmor(type, rarity) {
+	if (rarity == "common") {
+		if (type == "head") {selec = CommonHeadArmorTypes;}
+		if (type == "chest") {selec = CommonChestArmorTypes;}
+		if (type == "leg") {selec = CommonLegArmorTypes;}
+		if (type == "boot") {selec = CommonBootArmorTypes;}
+		var refund = [{ reSend: function(){ commonGearPrize(); }}];
+	}
+	if (rarity == "uncommon") {
+		if (type == "head") {selec = UncommonHeadArmorTypes;}
+		if (type == "chest") {selec = UncommonChestArmorTypes;}
+		if (type == "leg") {selec = UncommonLegArmorTypes;}
+		if (type == "boot") {selec = UncommonBootArmorTypes;}
+		var refund = [{ reSend: function(){ uncommonGearPrize(); }}];
+	}
+	if (rarity == "rare") {
+		if (type == "head") {selec = RareHeadArmorTypes;}
+		if (type == "chest") {selec = RareChestArmorTypes;}
+		if (type == "leg") {selec = RareLegArmorTypes;}
+		if (type == "boot") {selec = RareBootArmorTypes;}
+		var refund = [{ reSend: function(){ rareGearPrize(); }}];
+	}
+	if (rarity == "epic") {
+		if (type == "head") {selec = EpicHeadArmorTypes;}
+		if (type == "chest") {selec = EpicChestArmorTypes;}
+		if (type == "leg") {selec = EpicLegArmorTypes;}
+		if (type == "boot") {selec = EpicBootArmorTypes;}
+		var refund = [{ reSend: function(){ epicGearPrize(); }}];
+	}
+	if (rarity == "mythic") {
+		if (type == "head") {selec = MythicHeadArmorTypes;}
+		if (type == "chest") {selec = MythicChestArmorTypes;}
+		if (type == "leg") {selec = MythicLegArmorTypes;}
+		if (type == "boot") {selec = MythicBootArmorTypes;}
+		var refund = [{ reSend: function(){ mythicGearPrize(); }}];
 	if (trys > 100) {
 		console.log("Sorry armor could not be found... Instead you will get a gear prize.");
-		commonGearPrize();
+		refund[0].reSend();
 		trys = 0;
 	} else {
-		//find array
-		if (rarity == "common") {
-			if (type == "head") {selec = CommonHeadArmorTypes;}
-			if (type == "chest") {selec = CommonChestArmorTypes;}
-			if (type == "leg") {selec = CommonLegArmorTypes;}
-			if (type == "boot") {selec = CommonBootArmorTypes;}
-			let refund = commonGearPrize();
-		}
-		if (rarity == "uncommon") {
-			if (type == "head") {selec = UncommonHeadArmorTypes;}
-			if (type == "chest") {selec = UncommonChestArmorTypes;}
-			if (type == "leg") {selec = UncommonLegArmorTypes;}
-			if (type == "boot") {selec = UncommonBootArmorTypes;}
-			let refund = uncommonGearPrize();
-		}
-		if (rarity == "rare") {
-			if (type == "head") {selec = RareHeadArmorTypes;}
-			if (type == "chest") {selec = RareChestArmorTypes;}
-			if (type == "leg") {selec = RareLegArmorTypes;}
-			if (type == "boot") {selec = RareBootArmorTypes;}
-			let refund = rareGearPrize();
-		}
-		if (rarity == "epic") {
-			if (type == "head") {selec = EpicHeadArmorTypes;}
-			if (type == "chest") {selec = EpicChestArmorTypes;}
-			if (type == "leg") {selec = EpicLegArmorTypes;}
-			if (type == "boot") {selec = EpicBootArmorTypes;}
-			let refund = epicGearPrize();
-		}
-		if (rarity == "mythic") {
-			if (type == "head") {selec = MythicHeadArmorTypes;}
-			if (type == "chest") {selec = MythicChestArmorTypes;}
-			if (type == "leg") {selec = MythicLegArmorTypes;}
-			if (type == "boot") {selec = MythicBootArmorTypes;}
-			let refund = mythicGearPrize();
-		}
 		//use array
 		drop = Math.floor(Math.random() * selec.length);
 		owned = selec[drop][6];
