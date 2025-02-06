@@ -72,7 +72,7 @@ function timer() {
 		hous = hous - 60
 		days++ 
 	}
-	timeA++;
+	secs++;
 }
 
 var secondTime = 1;
