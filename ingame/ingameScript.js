@@ -1798,24 +1798,26 @@ window.gears = gears;
 function refreshStore() {
 	//ITEMS
 	//price is anywere between 50 - 250
-	slotOnePrice = Math.floor(Math.random() * 50) + 50;
-	slotOnePick = commonItems[Math.floor(Math.random() * commonItems.length)];
+	item_slotOnePrice = Math.floor(Math.random() * 50) + 50;
+	item_slotOnePick = commonItems[Math.floor(Math.random() * commonItems.length)];
 	//price is anywere between 250 - 1000
-	slotTwoPrice = Math.floor(Math.random() * 750) + 250;
-	slotTwoPick = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
+	item_slotTwoPrice = Math.floor(Math.random() * 750) + 250;
+	item_slotTwoPick = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
 	//price is anywere between 1000 - 2500
-	slotThreePrice = Math.floor(Math.random() * 1500) + 1000;
-	slotThreePick = rareItems[Math.floor(Math.random() * rareItems.length)];
+	item_slotThreePrice = Math.floor(Math.random() * 1500) + 1000;
+	item_slotThreePick = rareItems[Math.floor(Math.random() * rareItems.length)];
 	//price is anywere between 2500 - 10000
-	slotFourPrice = Math.floor(Math.random() * 7500) + 2500;
-	slotFourPick = epicItems[Math.floor(Math.random() * epicItems.length)];
+	item_slotFourPrice = Math.floor(Math.random() * 7500) + 2500;
+	item_slotFourPick = epicItems[Math.floor(Math.random() * epicItems.length)];
 	//price is anywere between 10000 - 250000
-	slotFivePrice = Math.floor(Math.random() * 15000) + 20000;
-	slotFivePick = mythicItems[Math.floor(Math.random() * mythicItems.length)];
+	item_slotFivePrice = Math.floor(Math.random() * 15000) + 20000;
+	item_slotFivePick = mythicItems[Math.floor(Math.random() * mythicItems.length)];
 	//price is anywere between 5000 - 10000
-	slotSixPrice = Math.floor(Math.random() * 5000) + 5000;
-	slotSixPick = seasonalItems[Math.floor(Math.random() * seasonalItems.length)];
+	item_slotSixPrice = Math.floor(Math.random() * 5000) + 5000;
+	item_slotSixPick = seasonalItems[Math.floor(Math.random() * seasonalItems.length)];
 	//CRATES
+	
+	
 }
 
 //////////////////////////// 
