@@ -1529,14 +1529,6 @@ function updateLegDESCRIPTION() {
 }
 
 
-
-
-
-
-
-
-
-
 ///////////////////////////////////////////
 ///     2) GEAR PRIZES & LOOT BOXES     ///
 ///////////////////////////////////////////
@@ -1655,8 +1647,6 @@ function seasonOneGearPrize() {
 	console.log("Reward granted, gear prize: " + prize)
 	prize = 0;
 }
-
-
 
 //////////////////////////// 
 ///     8) TOGGELS       ///
